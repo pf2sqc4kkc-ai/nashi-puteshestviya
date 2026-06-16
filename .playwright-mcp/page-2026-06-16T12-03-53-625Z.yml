@@ -1,0 +1,428 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+        - generic:
+          - img
+      - generic [ref=e7]:
+        - generic [ref=e8] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e10] [cursor=pointer]:
+          - generic [ref=e11]:
+            - generic [ref=e12]: Нижний парк
+            - generic [ref=e14]:
+              - img [ref=e15]
+              - text: "5"
+          - generic [ref=e18]: Городской парк
+    - generic:
+      - generic:
+        - banner
+      - generic:
+        - complementary [ref=e19]:
+          - generic [ref=e22]:
+            - generic [ref=e23]:
+              - generic [ref=e24]:
+                - generic [ref=e26]:
+                  - button "Назад" [ref=e27] [cursor=pointer]:
+                    - img [ref=e28]
+                  - generic [ref=e30]:
+                    - button "Яндекс Карты" [ref=e31] [cursor=pointer]:
+                      - img [ref=e32]
+                    - generic [ref=e40]:
+                      - link "Поиск" [ref=e41] [cursor=pointer]:
+                        - img [ref=e43]
+                        - generic [ref=e45]: Поиск
+                      - link "Маршруты" [ref=e46] [cursor=pointer]:
+                        - /url: /maps/98546/peterhof/routes/
+                        - img [ref=e48]
+                        - generic [ref=e52]: Маршруты
+                  - button "Закрыть" [ref=e53] [cursor=pointer]:
+                    - img [ref=e55]
+                - generic [ref=e58]:
+                  - heading "Нижний парк Петергофа" [level=1] [ref=e61]
+                  - generic [ref=e64]:
+                    - tablist [ref=e69]:
+                      - tab "Обзор," [selected] [ref=e71]:
+                        - link:
+                          - /url: /maps/org/nizhniy_park_petergofa/166341572960/
+                          - text: Обзор
+                      - tab "Фото, 499" [ref=e73]:
+                        - link:
+                          - /url: /maps/org/nizhniy_park_petergofa/166341572960/gallery/
+                          - text: Фото
+                        - generic: "499"
+                      - tab "Отзывы," [ref=e75]:
+                        - link:
+                          - /url: /maps/org/nizhniy_park_petergofa/166341572960/reviews/
+                          - text: Отзывы
+                      - tab "Филиалы," [ref=e77]:
+                        - link:
+                          - /url: /maps/org/nizhniy_park_petergofa/166341572960/?tab=chain
+                          - text: Филиалы
+                      - tab "Особенности," [ref=e79]:
+                        - link:
+                          - /url: /maps/org/nizhniy_park_petergofa/166341572960/?tab=features
+                          - text: Особенности
+                      - iframe [ref=e80]:
+                        
+                    - generic [ref=e84]:
+                      - generic [ref=e85]:
+                        - generic [ref=e89]:
+                          - heading "Витрина" [level=2] [ref=e92]
+                          - generic [ref=e93]:
+                            - list [ref=e94]:
+                              - listitem [ref=e95]:
+                                - link "Скидки на развлечения до 15%" [ref=e96] [cursor=pointer]:
+                                  - /url: https://russpass.ru/mesta-i-sobytiya?popular=691d9d3df802b8df7b86aaa5&utm_source=yandex-maps&utm_medium=cpm&utm_campaign=_A10000000000000000000179_vitrina-sale-leto2026_yandex-maps_/UIDg1qrz0&erid=3MtFQRkqfB2huzBcHHttRszeHJ5EJK
+                                  - button [ref=e98]:
+                                    - img [ref=e100]
+                                  - generic [ref=e102]: Скидки на развлечения до 15%
+                              - listitem [ref=e103]:
+                                - link "Билеты по ценам как в кассах!" [ref=e104] [cursor=pointer]:
+                                  - /url: https://russpass.ru/mesta-i-sobytiya?utm_source=yandex-maps&utm_medium=cpm&utm_campaign=_A10000000000000000000125_vitrina-muzei-i-vistavki_yandex-maps_/UIDg1qrz0&erid=3MtFQRkqfB2huzBcHHttGUwTy1Vv9K
+                                  - button [ref=e106]:
+                                    - img [ref=e108]
+                                  - generic [ref=e110]: Билеты по ценам как в кассах!
+                              - listitem [ref=e111]:
+                                - link "Маршруты по Москве" [ref=e112] [cursor=pointer]:
+                                  - /url: https://russpass.ru/marshruty-i-ekskursii?kind=5ec3f1249bee8c001946a9e1&cityId=5d08e36dad3a9a001701b95b&regionTitle=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&regionType=REGION&utm_source=yandex-maps&utm_medium=cpm&utm_campaign=_A10000000000000000000128_vitrina-marshruti_yandex-maps_/UIDg1qrz0&erid=3MtFQRkqfB2huzBcHHttGUwTy1Vvbr
+                                  - button [ref=e114]:
+                                    - img [ref=e116]
+                                  - generic [ref=e118]: Маршруты по Москве
+                              - listitem [ref=e119]:
+                                - link "Аккредитованные гиды" [ref=e120] [cursor=pointer]:
+                                  - /url: https://russpass.ru/marshruty-i-ekskursii?cityId=5d08e36dad3a9a001701b95b&regionTitle=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&regionType=REGION&kind=5ec3ee40bfdeb400197cbe8e&utm_source=yandex-maps&utm_medium=cpm&utm_campaign=_A10000000000000000000129_vitrina-ekskursii_yandex-maps_/UIDg1qrz0&erid=3MtFQRkqfB2huzBcHHttGUwTy1VvgG
+                                  - button [ref=e122]:
+                                    - img [ref=e124]
+                                  - generic [ref=e126]: Аккредитованные гиды
+                              - listitem [ref=e127]:
+                                - link "Большой выбор отелей и квартир" [ref=e128] [cursor=pointer]:
+                                  - /url: https://russpass.ru/housing-catalog?cityId=5d08e36dad3a9a001701b95b&utm_source=yandex-maps&utm_medium=cpm&utm_campaign=_A10000000000000000000130_vitrina-oteli-i-kvartiri_yandex-maps_/UIDg1qrz0&erid=3MtFQRkqfB2huzBcHHttGUwTy1WFmz
+                                  - button [ref=e130]:
+                                    - img [ref=e132]
+                                  - generic [ref=e134]: Большой выбор отелей и квартир
+                              - listitem [ref=e135]:
+                                - link "Забронируйте столик заранее" [ref=e136] [cursor=pointer]:
+                                  - /url: https://russpass.ru/restorany?utm_source=yandex-maps&utm_medium=cpm&utm_campaign=_A10000000000000000000131_vitrina-restorani-i-kafe_yandex-maps_/UIDg1qrz0&erid=3MtFQRkqfB2huzBcHHttGUwTy1WFrS
+                                  - button [ref=e138]
+                                  - generic [ref=e141]: Забронируйте столик заранее
+                              - listitem [ref=e142]:
+                                - link "Подарки и скидки в музеи до 30%" [ref=e143] [cursor=pointer]:
+                                  - /url: https://russpass.ru/loyalty?utm_source=yandex-maps&utm_medium=cpm&utm_campaign=_A10000000000000000000132_vitrina-bonusi-i-skidki_yandex-maps_/UIDg1qrz0&erid=3MtFQRkqfB2huzBcHHttGUwTy1WG1H
+                                  - button [ref=e145]
+                                  - generic [ref=e148]: Подарки и скидки в музеи до 30%
+                              - listitem [ref=e149]:
+                                - link "Все путешествия в одном месте" [ref=e150] [cursor=pointer]:
+                                  - /url: https://russpass.ru/portal?tab=event&utm_source=yandex-maps&utm_medium=cpm&utm_campaign=_A10000000000000000000133_vitrina-planner_yandex-maps_/UIDg1qrz0&erid=3MtFQRkqfB2huzBcHHttGUwTy1WG5e
+                                  - button [ref=e152]
+                                  - generic [ref=e155]: Все путешествия в одном месте
+                              - iframe [ref=e156]:
+                                
+                            - img [ref=e159] [cursor=pointer]
+                        - generic [ref=e162]:
+                          - generic [ref=e163]:
+                            - generic [ref=e164]:
+                              - img [ref=e167]
+                              - heading "Адрес" [level=3] [ref=e170]
+                            - generic [ref=e176]:
+                              - link "Санкт-Петербург, Петергоф, Нижний парк" [ref=e178]:
+                                - /url: /maps/98546/peterhof/geo/nizhniy_park/123259574/
+                              - button "Маршрут" [ref=e180] [cursor=pointer]
+                          - generic [ref=e181]:
+                            - generic [ref=e182]:
+                              - img [ref=e185]
+                              - heading "Контакты" [level=3] [ref=e188]
+                            - generic [ref=e196]:
+                              - generic [ref=e197]: Экскурсионный отдел
+                              - generic [ref=e201]:
+                                - text: +7 (812) 450-58-06
+                                - button "Показать телефон" [ref=e202] [cursor=pointer]:
+                                  - generic [ref=e203]: Показать телефон
+                            - link "peterhofmuseum.ru" [ref=e214] [cursor=pointer]:
+                              - /url: https://peterhofmuseum.ru/
+                            - generic [ref=e220]:
+                              - button "Соцсети, ok" [ref=e222] [cursor=pointer]:
+                                - img [ref=e225]
+                              - button "Соцсети, telegram" [ref=e228] [cursor=pointer]:
+                                - img [ref=e231]
+                              - button "Соцсети, vkontakte" [ref=e234] [cursor=pointer]:
+                                - img [ref=e237]
+                          - generic [ref=e239]:
+                            - generic [ref=e240]:
+                              - img [ref=e243]
+                              - heading "Время работы" [level=3] [ref=e246]
+                            - button "Открыто до 18:00" [ref=e250] [cursor=pointer]:
+                              - generic [ref=e251]:
+                                - generic "Открыто до 18:00" [ref=e257]
+                                - generic [ref=e258]:
+                                  - generic [ref=e259]: График
+                                  - img [ref=e262]
+                          - button "Все филиалы сети" [ref=e264] [cursor=pointer]:
+                            - generic [ref=e266]:
+                              - img [ref=e269]
+                              - link "Все филиалы сети" [ref=e278]:
+                                - /url: /maps/98546/peterhof/chain/gosudarstvennyj_muzej_zapovednik_petergof/195202262111/
+                          - button "Исправить неточность" [ref=e280] [cursor=pointer]:
+                            - img [ref=e283]
+                            - generic [ref=e285]: Исправить неточность
+                        - generic "Как добраться" [ref=e288]:
+                          - heading "Как добраться" [level=2] [ref=e290]
+                          - button [ref=e291] [cursor=pointer]:
+                            - generic [ref=e293]:
+                              - img [ref=e296]
+                              - generic [ref=e300]: Показать парковки
+                        - generic [ref=e303]:
+                          - heading "Особенности" [level=2] [ref=e305]
+                          - generic [ref=e306]:
+                            - link "Городской парк" [ref=e307] [cursor=pointer]:
+                              - /url: /maps/98546/peterhof/category/park/184106346/
+                              - button [ref=e309]:
+                                - generic [ref=e310]: Городской парк
+                            - link "музей" [ref=e311] [cursor=pointer]:
+                              - /url: /maps/98546/peterhof/category/museum/184105894/
+                              - button [ref=e313]:
+                                - generic [ref=e314]: Музей
+                          - generic [ref=e315]:
+                            - generic [ref=e317]:
+                              - img [ref=e320]
+                              - generic [ref=e323]: Оплата картой
+                            - generic [ref=e325]:
+                              - img [ref=e328]
+                              - generic [ref=e331]: Парковка
+                            - generic [ref=e333]:
+                              - img [ref=e336]
+                              - generic [ref=e338]: Wi-Fi
+                            - generic [ref=e340]:
+                              - img [ref=e343]
+                              - generic [ref=e345]: Предварительная запись
+                            - generic [ref=e347]:
+                              - img [ref=e350]
+                              - generic [ref=e352]: Аудиогид
+                            - generic [ref=e354]:
+                              - img [ref=e357]
+                              - generic [ref=e359]: Велопарковка
+                            - generic [ref=e361]:
+                              - img [ref=e364]
+                              - generic [ref=e366]: Льготные билеты
+                          - generic [ref=e367]:
+                            - generic [ref=e369]:
+                              - generic [ref=e370]: "Посещение с животными:"
+                              - text: запрещено с животными
+                            - generic [ref=e372]:
+                              - generic [ref=e373]: "Способ оплаты:"
+                              - text: скидки на услуги льготным категориям, наличными, оплата картой, онлайн
+                            - generic [ref=e375]:
+                              - generic [ref=e376]: "Музей:"
+                              - text: дворцово-парковый ансамбль, скульптура, ботанический сад, парк
+                            - generic [ref=e378]:
+                              - generic [ref=e379]: "Форма собственности:"
+                              - text: государственная
+                          - generic [ref=e381]:
+                            - generic [ref=e383]:
+                              - img [ref=e386]
+                              - generic [ref=e389]: Туалет для людей с инвалидностью
+                            - generic [ref=e391]:
+                              - img [ref=e394]
+                              - generic [ref=e396]: Парковка для людей с инвалидностью
+                            - generic [ref=e398]:
+                              - img [ref=e401]
+                              - generic [ref=e403]: Пандус
+                          - generic [ref=e404]:
+                            - generic [ref=e406]:
+                              - generic [ref=e407]: "Доступность входа на инвалидной коляске:"
+                              - text: доступно
+                            - generic [ref=e409]:
+                              - generic [ref=e410]: "Доступность помещения на инвалидной коляске:"
+                              - text: доступно
+                          - button "Подробнее об организации" [ref=e411] [cursor=pointer]:
+                            - generic [ref=e413]:
+                              - img [ref=e416]
+                              - link [ref=e420]:
+                                - /url: /maps/org/nizhniy_park_petergofa/166341572960/?tab=features
+                                - text: Подробнее об организации
+                        - button "Вы владелец этой организации?" [ref=e426] [cursor=pointer]:
+                          - generic [ref=e428]:
+                            - img [ref=e431]
+                            - link "Вы владелец этой организации?" [ref=e436]:
+                              - /url: https://yandex.ru/business/priority-promo/web-maps-company?permalink=166341572960
+                        - generic [ref=e476]:
+                          - heading "Похожие места рядом" [level=2] [ref=e478]:
+                            - generic [ref=e479]: Похожие места рядом
+                          - list [ref=e481]:
+                            - listitem [ref=e482]:
+                              - link "Эрарта" [ref=e483] [cursor=pointer]:
+                                - /url: /maps/org/erarta/1002014829/
+                                - generic [ref=e484]:
+                                  - button [ref=e486]
+                                  - generic [ref=e489]:
+                                    - generic [ref=e490]: Эрарта
+                                    - img [ref=e493]
+                                    - generic [ref=e498]:
+                                      - generic "Оценка 4.9 Из 5" [ref=e499]:
+                                        - img [ref=e501]
+                                        - img [ref=e504]
+                                        - img [ref=e507]
+                                        - img [ref=e510]
+                                        - img [ref=e513]
+                                      - generic [ref=e515]:
+                                        - generic [ref=e516]: Рейтинг
+                                        - text: 4,9
+                            - listitem [ref=e517]:
+                              - link "Дом маяков" [ref=e518] [cursor=pointer]:
+                                - /url: /maps/org/dom_mayakov/32356281367/
+                                - generic [ref=e519]:
+                                  - button [ref=e521]
+                                  - generic [ref=e524]:
+                                    - generic [ref=e525]: Дом маяков
+                                    - img [ref=e528]
+                                    - generic [ref=e533]:
+                                      - generic "Оценка 5 Из 5" [ref=e534]:
+                                        - img [ref=e536]
+                                        - img [ref=e539]
+                                        - img [ref=e542]
+                                        - img [ref=e545]
+                                        - img [ref=e548]
+                                      - generic [ref=e550]:
+                                        - generic [ref=e551]: Рейтинг
+                                        - text: 5,0
+                            - iframe [ref=e552]:
+                              
+                        - generic [ref=e565]:
+                          - generic [ref=e566]: Оцените это место
+                          - generic [ref=e567]:
+                            - button "1 звезда" [ref=e568] [cursor=pointer]:
+                              - img [ref=e569]
+                            - button "2 звезды" [ref=e570] [cursor=pointer]:
+                              - img [ref=e571]
+                            - button "3 звезды" [ref=e572] [cursor=pointer]:
+                              - img [ref=e573]
+                            - button "4 звезды" [ref=e574] [cursor=pointer]:
+                              - img [ref=e575]
+                            - button "5 звезд" [ref=e576] [cursor=pointer]:
+                              - img [ref=e577]
+                      - link "Разместить рекламу" [ref=e579] [cursor=pointer]:
+                        - /url: https://yandex.ru/business/priority-promo/web-maps-promo?utm_source=webmaps&utm_medium=org_card_link&utm_campaign=webmaps_org_card&permalink=166341572960
+              - iframe [ref=e596]:
+                
+            - iframe [ref=e597]:
+              
+        - img [ref=e603] [cursor=pointer]
+      - navigation:
+        - generic [ref=e606]:
+          - button "Пробки в Петергофе" [ref=e609] [cursor=pointer]:
+            - generic [ref=e610]:
+              - generic:
+                - img
+          - button "Панорамы улиц и фотографии" [ref=e614] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Зеркала" [ref=e617] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Движущийся транспорт" [ref=e620] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Слои" [ref=e623] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e625]:
+          - button "Линейка и планиметр" [ref=e628] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Детали" [ref=e631] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - button "Профиль" [ref=e634] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e638]:
+                - button "Приблизить" [ref=e640] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                - button "Отдалить" [ref=e642] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+              - button "Моё местоположение" [ref=e646] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+              - button "Наклон карты" [ref=e653] [cursor=pointer]: 3D
+      - contentinfo:
+        - generic [ref=e655]:
+          - generic [ref=e656]: © Яндекс
+          - link "Справка" [ref=e657] [cursor=pointer]:
+            - /url: //yandex.ru/support/maps/?lang=ru
+          - link "Условия использования" [ref=e658] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+        - link "Яндекс" [ref=e661] [cursor=pointer]:
+          - /url: https://ya.ru
+          - img [ref=e663]
+        - generic:
+          - generic:
+            - generic:
+              - generic: 700 м
+      - iframe [ref=e664]:
+        
+    - iframe [ref=e665]:
+      
+  - iframe [ref=e666]:
+    
+  - generic [ref=e669]:
+    - generic [ref=e670]:
+      - generic [ref=e671]: Нижний парк
+      - generic [ref=e673]:
+        - img [ref=e674]
+        - text: "5"
+    - generic [ref=e677]: Городской парк

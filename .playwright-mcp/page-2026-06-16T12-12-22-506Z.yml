@@ -1,0 +1,313 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - alert
+    - link "К дополнительным результатам" [ref=e3] [cursor=pointer]:
+      - /url: "#search-result-aside"
+    - link "К основным результатам" [ref=e4] [cursor=pointer]:
+      - /url: "#search-result"
+    - link "Обратная связь о специальных возможностях" [ref=e5] [cursor=pointer]:
+      - /url: //yandex.ru/support/search/troubleshooting/accessibility.html
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - search "Поиск в интернете" [ref=e9]:
+        - generic [ref=e10]:
+          - link "Яндекс" [ref=e11] [cursor=pointer]:
+            - /url: //ya.ru
+            - img [ref=e12]
+          - textbox [ref=e16]: Эрмитаж повышение цен апрель 2026
+          - button [ref=e17] [cursor=pointer]:
+            - img [ref=e18]
+      - generic [ref=e20]:
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Поиск по картинке" [ref=e25] [cursor=pointer]:
+          - img [ref=e26]
+        - button "Расширенный поиск" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+        - link "Маркет" [ref=e32] [cursor=pointer]:
+          - /url: https://market.yandex.ru/my/cart?utm_source=serp_header_cart&clid=957&purchase-referrer=serp_cart
+          - img [ref=e33]
+        - button "Избранное" [ref=e35] [cursor=pointer]:
+          - img [ref=e36]
+        - link "Заказы" [ref=e38] [cursor=pointer]:
+          - /url: https://yandex.ru/products/my/orders?lr=47
+          - img [ref=e39]
+      - generic [ref=e41]:
+        - link "Войти" [ref=e42] [cursor=pointer]:
+          - /url: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fyandex.ru%2Fsearch%2F%3Ftext%3D%25D0%25AD%25D1%2580%25D0%25BC%25D0%25B8%25D1%2582%25D0%25B0%25D0%25B6%2520%25D0%25BF%25D0%25BE%25D0%25B2%25D1%258B%25D1%2588%25D0%25B5%25D0%25BD%25D0%25B8%25D0%25B5%2520%25D1%2586%25D0%25B5%25D0%25BD%2520%25D0%25B0%25D0%25BF%25D1%2580%25D0%25B5%25D0%25BB%25D1%258C%25202026%26ncrnd%3D30898%26ncrnd%3D400&origin=serp_desktop_auth_new
+        - button "Меню" [ref=e43] [cursor=pointer]:
+          - img [ref=e44]
+    - navigation [ref=e46]:
+      - generic [ref=e47]:
+        - link "Поиск" [ref=e48] [cursor=pointer]:
+          - /url: //ya.ru?source=tabbar
+          - generic [ref=e49]: Поиск
+          - text: Поиск
+        - link "Алиса AI" [ref=e50] [cursor=pointer]:
+          - /url: //yandex.ru/alice?reqid=1781611941750770-1282079561479182590-balancer-l7leveler-kubr-yp-vla-43-BAL&utm_source=yandex&utm_campaign=serp_alicetab_chat&utm_medium=interface&alice_deeplink=%7B%22text%22%3A%22%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026%22%7D&source_query=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&theme=serp
+        - link "Картинки" [ref=e51] [cursor=pointer]:
+          - /url: //yandex.ru/images/search?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&parent-reqid=1781611941750770-1282079561479182590-balancer-l7leveler-kubr-yp-vla-43-BAL&from=tabbar
+        - link "Видео" [ref=e52] [cursor=pointer]:
+          - /url: //yandex.ru/video/search?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&parent-reqid=1781611941750770-1282079561479182590-balancer-l7leveler-kubr-yp-vla-43-BAL&from=tabbar
+        - link "Карты" [ref=e53] [cursor=pointer]:
+          - /url: //yandex.ru/maps/?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&source=serp_navig
+        - link "Товары" [ref=e54] [cursor=pointer]:
+          - /url: //yandex.ru/search?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&products_mode=1&from=tabbar&serp-reload-from=tab
+        - link "Финансы" [ref=e55] [cursor=pointer]:
+          - /url: //yandex.ru/finance?lr=47&from=tabbar
+        - link "Квартиры" [ref=e56] [cursor=pointer]:
+          - /url: //yandex.ru/realty?lr=47&from=tabbar
+        - link "Переводчик" [ref=e57] [cursor=pointer]:
+          - /url: //translate.yandex.ru?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&from=tabbar
+      - link "Все" [ref=e59] [cursor=pointer]:
+        - /url: //yandex.ru/all?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&from=tabbar
+  - main [ref=e61]:
+    - generic [ref=e66]:
+      - list "Результаты поиска" [ref=e67]:
+        - listitem [ref=e68]:
+          - link "Быстрый ответ Алисы AI" [ref=e73] [cursor=pointer]:
+            - /url: https://yandex.ru/alice/?utm_source=yandex&utm_medium=interface&utm_campaign=serp_aliseicon_chat&reqid=1781611941750770-1282079561479182590-balancer-l7leveler-kubr-yp-vla-43-BAL&theme=serp&source_query=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5+%D1%86%D0%B5%D0%BD+%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C+2026&alice_deeplink=%7B%22text%22%3A%22%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5+%D1%86%D0%B5%D0%BD+%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C+2026%22%7D
+            - generic [ref=e74]:
+              - img [ref=e77]
+              - heading "Быстрый ответ Алисы AI" [level=3] [ref=e81]
+        - listitem [ref=e82]:
+          - generic [ref=e83]:
+            - link "Эрмитаж повысил стоимость входных билетов" [ref=e85] [cursor=pointer]:
+              - /url: https://travel.yandex.ru/journal/ermitazh-izmenil-stoimost-vhodnyh-biletov/
+              - heading "Эрмитаж повысил стоимость входных билетов" [level=2] [ref=e87]:
+                - generic [ref=e88]: Эрмитаж повысил стоимость входных билетов
+            - link "travel.yandex.rujournal/ermitazh-izmenil-…" [ref=e91] [cursor=pointer]:
+              - /url: https://travel.yandex.ru/journal/ermitazh-izmenil-stoimost-vhodnyh-biletov/
+              - text: travel.yandex.ru›journal/ermitazh-izmenil-…
+            - button "Действия" [ref=e92] [cursor=pointer]:
+              - img [ref=e94]
+            - generic [ref=e100]: При этом прежняя цена сохранится до 31 марта 2026 года для вечерних сеансов в 17:00, 17:30 и 18:00 по вторникам, пятницам и субботам. Восемь дней в году вход в Эрмитаж по-прежнему останется свободным.
+        - listitem [ref=e101]:
+          - generic [ref=e102]:
+            - link "Сколько стоят билеты в самые популярные музеи и парки..." [ref=e104] [cursor=pointer]:
+              - /url: https://dzen.ru/a/agXjgPuzlCw_BHiq
+              - heading "Сколько стоят билеты в самые популярные музеи и парки..." [level=2] [ref=e106]
+            - link "dzen.rua/agXjgPuzlCw_BHiq" [ref=e109] [cursor=pointer]:
+              - /url: https://dzen.ru/a/agXjgPuzlCw_BHiq
+              - text: dzen.ru›a/agXjgPuzlCw_BHiq
+            - button "Действия" [ref=e110] [cursor=pointer]:
+              - img [ref=e112]
+            - generic [ref=e116]:
+              - generic [ref=e118]: Просто в 2026 году они уровняли стоимость посещения колоннады днем и вечером. Билеты...
+              - generic [ref=e119]:
+                - text: "Не найдено:"
+                - link "повышение" [ref=e120] [cursor=pointer]:
+                  - /url: /search/?text=%D1%8D%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%2B%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&lr=47&missword=1
+        - listitem [ref=e121]:
+          - generic [ref=e122]:
+            - link "Повышаем цены, но расширяем льготы. Зачем Эрмитаж..." [ref=e124] [cursor=pointer]:
+              - /url: https://rg.ru/2025/11/18/reg-szfo/lgoty-ostaiutsia.html
+              - heading "Повышаем цены, но расширяем льготы. Зачем Эрмитаж..." [level=2] [ref=e126]:
+                - generic [ref=e127]: Повышаем цены, но расширяем льготы. Зачем Эрмитаж...
+            - link "rg.ru2025/11/18/reg-szfo/lgoty-ostaiutsia.html" [ref=e130] [cursor=pointer]:
+              - /url: https://rg.ru/2025/11/18/reg-szfo/lgoty-ostaiutsia.html
+              - text: rg.ru›2025/11/18/reg-szfo/lgoty-ostaiutsia.html
+            - button "Действия" [ref=e131] [cursor=pointer]:
+              - img [ref=e133]
+            - generic [ref=e139]: Цена входного билета в Государственный Эрмитаж с 1 декабря вырастет почти на 40 процентов - с 500 до 700 рублей. ... Зачем Эрмитаж увеличил стоимость билетов. В Эрмитаже прокомментировали повышение цен на билеты.
+        - listitem [ref=e140]:
+          - generic [ref=e141]:
+            - link "В Эрмитаже с 1 декабря повысятся цены на билеты до..." [ref=e143] [cursor=pointer]:
+              - /url: https://www.kommersant.ru/doc/8210975
+              - heading "В Эрмитаже с 1 декабря повысятся цены на билеты до..." [level=2] [ref=e145]:
+                - generic [ref=e146]: В Эрмитаже с 1 декабря повысятся цены на билеты до...
+            - link "kommersant.rudoc/8210975" [ref=e149] [cursor=pointer]:
+              - /url: https://www.kommersant.ru/doc/8210975
+              - text: kommersant.ru›doc/8210975
+            - button "Действия" [ref=e150] [cursor=pointer]:
+              - img [ref=e152]
+            - generic [ref=e158]: С 1 декабря 2025 года стоимость входного билета в Государственный Эрмитаж составит 700 рублей. Музей объясняет повышение необходимостью усиления безопасности и развития инфраструктуры, сохранив льготы и...
+        - listitem [ref=e159]:
+          - generic [ref=e160]:
+            - link "Покупка билетов онлайн" [ref=e162] [cursor=pointer]:
+              - /url: https://www.hermitagemuseum.org/tickets
+              - heading "Покупка билетов онлайн" [level=2] [ref=e164]
+            - link "hermitagemuseum.orgtickets" [ref=e167] [cursor=pointer]:
+              - /url: https://www.hermitagemuseum.org/tickets
+              - text: hermitagemuseum.org›tickets
+            - button "Действия" [ref=e168] [cursor=pointer]:
+              - img [ref=e170]
+            - generic [ref=e174]:
+              - generic [ref=e176]: Эрмитаж – Старая Деревня – 700 рублей. Музей Императорского фарфорового завода – 300 рублей. О других билетах, льготах и социальных программах Государственного Эрмитажа можно узнать в разделе «О посещении».
+              - generic [ref=e177]:
+                - text: "Не найдено:"
+                - link "повышение" [ref=e178] [cursor=pointer]:
+                  - /url: /search/?text=%D1%8D%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%2B%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&lr=47&missword=1
+        - listitem [ref=e179]:
+          - generic [ref=e180]:
+            - link "Эрмитаж повышает стоимость входных билетов" [ref=e182] [cursor=pointer]:
+              - /url: https://ria.ru/20251117/ermitazh-2055512130.html
+              - heading "Эрмитаж повышает стоимость входных билетов" [level=2] [ref=e184]:
+                - generic [ref=e185]: Эрмитаж повышает стоимость входных билетов
+            - link "ria.ru20251117/ermitazh-2055512130.html" [ref=e188] [cursor=pointer]:
+              - /url: https://ria.ru/20251117/ermitazh-2055512130.html
+              - text: ria.ru›20251117/ermitazh-2055512130.html
+            - button "Действия" [ref=e189] [cursor=pointer]:
+              - img [ref=e191]
+            - generic [ref=e197]: Стоимость входных билетов в Эрмитаж повысится до 700 руб с 1 декабря 2025 года. ... « "С 1 декабря базовая стоимость билета в Эрмитаж составит 700 рублей и будет сопоставима с ценами в крупных российских музеях.
+        - listitem [ref=e198]:
+          - generic [ref=e199]:
+            - link "Эрмитаж поднимет цену на билеты с 1 декабря 2025 года" [ref=e201] [cursor=pointer]:
+              - /url: https://t-j.ru/news/ermitazh-bilety-podorozhayut/
+              - heading "Эрмитаж поднимет цену на билеты с 1 декабря 2025 года" [level=2] [ref=e203]:
+                - generic [ref=e204]: Эрмитаж поднимет цену на билеты с 1 декабря 2025 года
+            - link "t-j.runews/ermitazh-bilety-podorozhayut/" [ref=e207] [cursor=pointer]:
+              - /url: https://t-j.ru/news/ermitazh-bilety-podorozhayut/
+              - text: t-j.ru›news/ermitazh-bilety-podorozhayut/
+            - button "Действия" [ref=e208] [cursor=pointer]:
+              - img [ref=e210]
+            - generic [ref=e216]: С 1 декабря Эрмитаж повысит цены на билеты — с 500 до 700 ₽. Фотография — Александр Щепин / Фотобанк Лори. ... Но по 31 марта 2026 года билеты на 17:00 и 18:00 по вторникам, пятницам и субботам будут стоить как раньше.
+        - listitem [ref=e217]:
+          - generic [ref=e218]:
+            - link "Почему Эрмитаж повышает цены? | Аргументы и Факты" [ref=e220] [cursor=pointer]:
+              - /url: https://aif.ru/culture/freeway/pochemu-ermitazh-povyshaet-ceny
+              - heading "Почему Эрмитаж повышает цены? | Аргументы и Факты" [level=2] [ref=e222]:
+                - generic [ref=e223]: Почему Эрмитаж повышает цены? | Аргументы и Факты
+            - link "aif.ruКуда пойтиПочему Эрмитаж повышает цены?" [ref=e226] [cursor=pointer]:
+              - /url: https://aif.ru/culture/freeway/pochemu-ermitazh-povyshaet-ceny
+              - text: aif.ru›Куда пойти›Почему Эрмитаж повышает цены?
+            - button "Действия" [ref=e227] [cursor=pointer]:
+              - img [ref=e229]
+            - generic [ref=e235]: Говорят, что Эрмитаж повышает цены на билеты с открытой датой. То есть посетить его станет дороже? ... 2026 АО «Аргументы и Факты» Генеральный директор Руслан Новиков.
+        - listitem [ref=e236]:
+          - generic [ref=e237]:
+            - link "Эрмитаж повышает стоимость единого билета для..." [ref=e239] [cursor=pointer]:
+              - /url: https://portal-kultura.ru/articles/news/314997-ermitazh-povyshaet-stoimost-edinogo-bileta-dlya-inostrantsev/
+              - heading "Эрмитаж повышает стоимость единого билета для..." [level=2] [ref=e241]:
+                - generic [ref=e242]: Эрмитаж повышает стоимость единого билета для...
+            - link "portal-kultura.ruarticles/news/314997-ermitazh-…" [ref=e245] [cursor=pointer]:
+              - /url: https://portal-kultura.ru/articles/news/314997-ermitazh-povyshaet-stoimost-edinogo-bileta-dlya-inostrantsev/
+              - text: portal-kultura.ru›articles/news/314997-ermitazh-…
+            - button "Действия" [ref=e246] [cursor=pointer]:
+              - img [ref=e248]
+            - generic [ref=e254]: Для граждан России и Белоруссии сохраняется спецпредложение музея. О повышении полной стоимости единого билета Государственный Эрмитаж сообщил на своем официальном сайте.
+        - listitem [ref=e255]:
+          - generic [ref=e256]:
+            - link "Эрмитаж вновь поднял цены на билеты - Газета СПБ РУ..." [ref=e258] [cursor=pointer]:
+              - /url: https://gazeta.spb.ru/1426825-0/
+              - heading "Эрмитаж вновь поднял цены на билеты - Газета СПБ РУ..." [level=2] [ref=e260]:
+                - generic [ref=e261]: Эрмитаж вновь поднял цены на билеты - Газета СПБ РУ...
+            - link "gazeta.spb.ru1426825-0/" [ref=e264] [cursor=pointer]:
+              - /url: https://gazeta.spb.ru/1426825-0/
+              - text: gazeta.spb.ru›1426825-0/
+            - button "Действия" [ref=e265] [cursor=pointer]:
+              - img [ref=e267]
+            - generic [ref=e273]: Государственный Эрмитаж повысил стоимость входных билетов с 250 рублей до 300, сообщает официальный твиттер музея. Новые цены вступили в силу с 1 октября.
+        - listitem [ref=e274]:
+          - generic [ref=e275]:
+            - link "Эрмитаж объявил о повышении стоимости единого..." [ref=e277] [cursor=pointer]:
+              - /url: https://www.sobaka.ru/city/city/102729
+              - heading "Эрмитаж объявил о повышении стоимости единого..." [level=2] [ref=e279]:
+                - generic [ref=e280]: Эрмитаж объявил о повышении стоимости единого...
+            - link "sobaka.rucity/city/102729" [ref=e283] [cursor=pointer]:
+              - /url: https://www.sobaka.ru/city/city/102729
+              - text: sobaka.ru›city/city/102729
+            - button "Действия" [ref=e284] [cursor=pointer]:
+              - img [ref=e286]
+            - generic [ref=e292]: Государственный Эрмитаж повысил стоимость своего единого входного билета. Теперь для того, чтобы в течение одного дня посетить Основной музейный комплекс, Зимний дворец Петра I, Восточное крыло Главного штаба...
+        - listitem [ref=e293]:
+          - generic [ref=e294]:
+            - link "Эрмитаж повысит цены на билеты с 1 декабря" [ref=e296] [cursor=pointer]:
+              - /url: https://daily.afisha.ru/news/104017-ermitazh-povysit-ceny-na-bilety-s-1-dekabrya/
+              - heading "Эрмитаж повысит цены на билеты с 1 декабря" [level=2] [ref=e298]:
+                - generic [ref=e299]: Эрмитаж повысит цены на билеты с 1 декабря
+            - link "daily.afisha.runews/104017-ermitazh-povysit-ceny…" [ref=e302] [cursor=pointer]:
+              - /url: https://daily.afisha.ru/news/104017-ermitazh-povysit-ceny-na-bilety-s-1-dekabrya/
+              - text: daily.afisha.ru›news/104017-ermitazh-povysit-ceny…
+            - button "Действия" [ref=e303] [cursor=pointer]:
+              - img [ref=e305]
+            - generic [ref=e311]: Эрмитаж объявил о повышении цен на входные билеты, которое вступит в силу 1 декабря 2025 года. Базовая стоимость для взрослых посетителей вырастет до 700 рублей.
+        - listitem [ref=e312]:
+          - generic [ref=e313]:
+            - link "Эрмитаж поднимает цены для иностранцев — Радио..." [ref=e315] [cursor=pointer]:
+              - /url: https://radio.orpheus.ru/news/news/412/ermitazh-podnimaet-tseny-dlya-inostrantsev
+              - heading "Эрмитаж поднимает цены для иностранцев — Радио..." [level=2] [ref=e317]:
+                - generic [ref=e318]: Эрмитаж поднимает цены для иностранцев — Радио...
+            - link "radio.orpheus.runews/news/412/ermitazh-podnimaet…" [ref=e321] [cursor=pointer]:
+              - /url: https://radio.orpheus.ru/news/news/412/ermitazh-podnimaet-tseny-dlya-inostrantsev
+              - text: radio.orpheus.ru›news/news/412/ermitazh-podnimaet…
+            - button "Действия" [ref=e322] [cursor=pointer]:
+              - img [ref=e324]
+            - generic [ref=e330]: Эрмитаж повышает цены на билеты для иностранцев. С 4 февраля стоимость посещения для гостей из-за границы станет в два раза больше, чем для россиян. Причины руководство главного музея Петербурга не поясняет.
+        - listitem [ref=e331]:
+          - generic [ref=e332]:
+            - 'link "Дворцовая площадь в Санкт-Петербурге: билеты в Эрмитаж" [ref=e334] [cursor=pointer]':
+              - /url: https://yabs.yandex.ru/count/WdiejI_zOoVX2LaQ0cqJ0FDZYXPq_ILWJg2AJu3h3HFGctvuNiOGy7e4z116reGG2WaxV39W2tq-bpjxjj-vyuOxNx_ZzOOxt2Ma4KfM6a52IbOPL2KX8YIhpGwOild20q76wH6biYac9s64WK77yOwvWnVGX2uW_85U0LogNbK1MgeULG5QgXwF0hHKlQa2j5GzgGAqrBiX1MYfTsm5Q45uabU05eGdHmhGWl04hm0j24-C5A05uSbT0LeGdXGfG0l24t01MX1q9ZbV4zxcZhbR0sfEb-uR2oRUU4qTgk6SGf-vFPNYTXGwbJgV-TEkdLAf4ogryQbjH-rSQak0W_LPoeeyuiaz-I5ruvL2vwC4dXFdymsJZVS3czq70cu01x21Y--BZ8KyhFpKV6Wrx4tn5YojXYqzLLFsHSBT7ZLY3eDIrEQmGnWXQRXDcksQbISFtmiM0_W2uGbU0DiUhDOB0fMuN0JncmLiOMl2xQwgWmEs6B6mWmwhKBwv0gPWRl88KzXw2ZhCXBA5RnTL3BcfOvanEWrZXlcEyC360qPAJJ480vn0WKELW_rlp42e_t04unuVx1a5_tT5tVUkgFlS3gR-3bEcvMjfxkFFqjn7ffdea5ccaOGnnxkkwpfjdXaRlZ7YD7wxw1sdyTj5RvTulkp5GRhOFFa3ATmnvSUq1oEWnGs8rd-zpWNrOyzlQLrdqhcWVknvxPzawi4OBdCXTy6gtSTZ27Q9CJj6nx2yKNuX6G0LYiqaImWK_8IGyyTPNtgMiKUmz2ugqTn5IxkhWX8UnpXjNIKwRhVAEFAz0gKPnw0mPQf516cgs3AW-8Erg6Jro7Lr0E9i0G00~2?etext=2202.H-A9o-jwOGN1ZERhiNAcnEEfg7NXWZHmtNFSmEnbGsNlMq2-EXEAX7754hFivjSkTWlzMsKWr_GajEQQk2lVr25va2ZzZW5ybGV0ZHBwY3o.004a742d677cc3413ff0cd05e3e3e7e8346fcc5f&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%8D%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5+%D1%86%D0%B5%D0%BD+%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C+2026
+              - 'heading "Дворцовая площадь в Санкт-Петербурге: билеты в Эрмитаж" [level=2] [ref=e336]':
+                - generic [ref=e337]: "Дворцовая площадь в Санкт-Петербурге: билеты в Эрмитаж"
+            - 'link "ermitageticket.ruДворцовая площадь в Санкт-Петербурге: билеты в Эрмитаж…" [ref=e340] [cursor=pointer]':
+              - /url: https://yabs.yandex.ru/count/WdiejI_zOoVX2LaQ0cqJ0FDZYXPq_ILWJg2AJu3h3HFGctvuNiOGy7e4z116reGG2WaxV39W2tq-bpjxjj-vyuOxNx_ZzOOxt2Ma4KfM6a52IbOPL2KX8YIhpGwOild20q76wH6biYac9s64WK77yOwvWnVGX2uW_85U0LogNbK1MgeULG5QgXwF0hHKlQa2j5GzgGAqrBiX1MYfTsm5Q45uabU05eGdHmhGWl04hm0j24-C5A05uSbT0LeGdXGfG0l24t01MX1q9ZbV4zxcZhbR0sfEb-uR2oRUU4qTgk6SGf-vFPNYTXGwbJgV-TEkdLAf4ogryQbjH-rSQak0W_LPoeeyuiaz-I5ruvL2vwC4dXFdymsJZVS3czq70cu01x21Y--BZ8KyhFpKV6Wrx4tn5YojXYqzLLFsHSBT7ZLY3eDIrEQmGnWXQRXDcksQbISFtmiM0_W2uGbU0DiUhDOB0fMuN0JncmLiOMl2xQwgWmEs6B6mWmwhKBwv0gPWRl88KzXw2ZhCXBA5RnTL3BcfOvanEWrZXlcEyC360qPAJJ480vn0WKELW_rlp42e_t04unuVx1a5_tT5tVUkgFlS3gR-3bEcvMjfxkFFqjn7ffdea5ccaOGnnxkkwpfjdXaRlZ7YD7wxw1sdyTj5RvTulkp5GRhOFFa3ATmnvSUq1oEWnGs8rd-zpWNrOyzlQLrdqhcWVknvxPzawi4OBdCXTy6gtSTZ27Q9CJj6nx2yKNuX6G0LYiqaImWK_8IGyyTPNtgMiKUmz2ugqTn5IxkhWX8UnpXjNIKwRhVAEFAz0gKPnw0mPQf516cgs3AW-8Erg6Jro7Lr0E9i0G00~2?etext=2202.H-A9o-jwOGN1ZERhiNAcnEEfg7NXWZHmtNFSmEnbGsNlMq2-EXEAX7754hFivjSkTWlzMsKWr_GajEQQk2lVr25va2ZzZW5ybGV0ZHBwY3o.004a742d677cc3413ff0cd05e3e3e7e8346fcc5f&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%8D%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5+%D1%86%D0%B5%D0%BD+%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C+2026
+              - text: "ermitageticket.ru›Дворцовая площадь в Санкт-Петербурге: билеты в Эрмитаж…"
+            - button "Действия" [ref=e341] [cursor=pointer]:
+              - img [ref=e343]
+            - generic [ref=e347]:
+              - generic [ref=e348]: Бронирование билетов онлайн. Без очереди. Гарантия подлинности&
+              - generic [ref=e349]:
+                - link "О нас" [ref=e351] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WeOejI_zOoVX2Laa0iKJ09CaZHPq_ILWJg2AJu3h3HFGctvuNiOGy7e4z116reGG2WaxV39W2tq-bpjxjj-vyuOxNx_ZzOOxN199IpzAIqP0L19BI2EKh3I2X9IiCgXAGaH8LfqTC6NpXGU2ZDCZIcLJJ4x220E3ZkCTSmSle0bTGFW3lGAuLBsg0hHKFQe2j5Gz7WLegNfJ1MYfUb85QAbtGmhGKk_O2j22y2Il02q8JuuKe0NX2Lu1MX2U62b02yAJkmAq83mfKe0MX2VW0hGWw4nolYQypHrpjmRKd2xTDnPClF6QEbJ3EOK-StignUqeT2frFlEdNJkbKYTKQkDJsuxQkTIM00VhivGLUSIJU_93wiOhXSv72JmdpkSR9Xll1pQx3mJS00vW0nVV5naBULZvgVdGQjYRuYrOMWrRUggcx8k4kprgn1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02sFLYj5mGgSRa8uZSBsCBMXDjTLGS7R35YOGSTLg5ySmLCmTpa4QQmzHHqc0bb2zykgXXoKySoOtGQnWpp7U61ZGUCb9fY40OuWGA7AWVxtvY1KF_X2COzFjWp2lxlYhhlNL7tkHrC_HscJClNqjp7dwMvZqmpqI6pJ2C9OuvtNTTrsZmpDdnZn6dyTj4xJkEtYzukyNpPYuDqiNdo1rAuOygFAtWm0bhSW6Zzr-jSK3_s_9RMTIQT2-h7djV-IQOUZE4o5t8NhDfzF8PWbnYpOtGContbfv520pIncMG90HJy3fFpnrbVUfQnHx3qBYhHt4LBkwk24Xx7E6rT9Jfkjyeuyhq2fHd7e31bgaK4QQhOCg3uWxMePFN8TNK0ucm1~2?etext=2202.H-A9o-jwOGN1ZERhiNAcnEEfg7NXWZHmtNFSmEnbGsNlMq2-EXEAX7754hFivjSkTWlzMsKWr_GajEQQk2lVr25va2ZzZW5ybGV0ZHBwY3o.004a742d677cc3413ff0cd05e3e3e7e8346fcc5f&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%8D%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5+%D1%86%D0%B5%D0%BD+%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C+2026
+                - link "О музее" [ref=e353] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WeSejI_zOoVX2Lah0iqJ08FaZ1Pq_ILWJg2AJu3h3HFGctvuNiOGy7e4z116reGG2WaxV39W2tq-bpjxjj-vyuOxNx_ZzOOxN18pVfIMZ82e99QGHYXPQGG9ALbbK9M4Y92i2Uo0APilF11ad1vHAfjYSX9661Xq7E-OEtW1JUW2mX_e5S2bwbKLeANgKHMWfUhnA41BrPigG4lLaof0IxqRKe2MUiTMW1Q49ta5Q45uSgG0BGXFy0hGWl34I05Q49xS5Q05uKcH0hGWF04Ne0L1PvBpDU5jxfYxDQ3cTEc-iM3YZTVKeHhEAVIPsrCfRaUXKwdpcJ_jsYcLEg5I6v_QTjJEfRO4E5YVfQp88vxSanzIDrufT3vAu3bnFjymsNW_iDbz8E06S00RkFY-o5Z8myfFpOTMmzuKRy7IQjZIKpLbNoJSxL4ZvZ0eHMqEEuGHaeRRfDckMNdoyBrWCO0l49xW1R3jmMgz8529oqKGlrd05hOctEwgEZXWYn4BE-Ym2kMRAs0AvYQFC8Mjfw33J2XR-7PHnP2REfOPezCmPfZl20ziF62ar1I3CC0953XKETZ_nWo4-Wz7CExnmPvHy7zNr7tlYhhFxM3gxp1bMhwMvZx-BCrzP9g93fbb6aaOSxphkgxJvfcnuHiZJkEtYzvn6hzTz7Q9vyjU7AIBpPC_aC8TKtwCmOCHqE86HEk_NkU2-h7djxIkC-bSK3_slFPFClLW39UvaBjWrUxZCGIxn9WTesDOAg3yMdbU812RIPOG5VmqvS0dvajojhtEChOGBDUE9pTtqQRkIbX2f5YMhGj773T4P1mvNg0qks9GE81g4OMPAhP-w6om5jNLpR2k9aeCCG00~2?etext=2202.H-A9o-jwOGN1ZERhiNAcnEEfg7NXWZHmtNFSmEnbGsNlMq2-EXEAX7754hFivjSkTWlzMsKWr_GajEQQk2lVr25va2ZzZW5ybGV0ZHBwY3o.004a742d677cc3413ff0cd05e3e3e7e8346fcc5f&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%8D%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5+%D1%86%D0%B5%D0%BD+%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C+2026
+                - link "Контакты" [ref=e355] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WdiejI_zOoVX2Laa0cqJ0CEZYHPq_ILWJg2AJu3h3HFGctvuNiOGy7e4z116reGG2WaxV39W2tq-bpjxjj-vyuOxNx_ZzOOxN2KhZI0X9QiCgf8G4P9LPmTCsNpXWI3Zz8XIsHIJap32mA3ZUCVSmGjeGXSG_a2l02vLhwe0BLMFgW0jLOz70LggtbG1MggUL05QwjsG0hJKExO2j20yoIj02yAJ8mLeGNY2Lu0MX2T62j22yEIk02q8JueKe0NX2RW0BGWwavol2Mzpnzoj0JMdI_UD1HDllAOErN1EeS_SdafnEmgTIftF_6dNJgdK2PNQ-DIsetOkjIN0mVeiPKKUyUIU_92wyKgXyr42pudp-OR9nlk1pUu30JU00zZ0nVT5na8ULdvgFhGQzgPu2vPMmvQUgYdx8k5kZnenXq4fQdFO8OoGDDmcpNRDofE7xmMB0No1y0GlW6qFLki5WKfSBeBupGAsi3NXTbVLmG5RZ5ZOGOTLADzS0LCmDtc4AMmz1HrcGjd2juigXjpKiSmOdOOnmtn7U63Z0IEbfXY40KwWmA7AmVutPY3KVpY2SOyFzeo2_xkYxdjNr7rk1rD_XodJyhKqz_5dQUuZqqnqo2pJICAOurtNTPqspumDtnXn6hzTz8xJ-EsYjqiyN_RY85ridlo15EwOykCQ3qP0YniGhVzwdGlgnvxVqhhEf7D1_TZpsZ_9r8CnNEP2xe9Lku_74EmIOtQCZc6ve_nHhe2O49j9bX0L_CFaFj3hyGbdbwopZ0E2xMzASdCNEEjE2almgE2oDIY8uto9Z6EU5oZbLWoA4b0jBc2cYZqFemtMeYFw1woh0w113000~2?etext=2202.H-A9o-jwOGN1ZERhiNAcnEEfg7NXWZHmtNFSmEnbGsNlMq2-EXEAX7754hFivjSkTWlzMsKWr_GajEQQk2lVr25va2ZzZW5ybGV0ZHBwY3o.004a742d677cc3413ff0cd05e3e3e7e8346fcc5f&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%8D%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5+%D1%86%D0%B5%D0%BD+%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C+2026
+                - link "Время работы" [ref=e357] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WfKejI_zOoVX2Lav0ZqK06Dba1Pq_ILWJg2AJu3h3HFGctvuNiOGy7e4z116reGG2WaxV39W2tq-bpjxjj-vyuOxNx_ZzOOxN199I4j6Ctva50dHG3AoGMB6ZzAI4H2Ln1BI22KhZI0X9QiCgf8G4P8rtm5JDbzu8CWuFQ9KDiNa98mmCEWutZ5ty0AQq0M4Fz0hW4lLgof0IzMZAa1BrUDHW9QgDrM0bgedLO2MUZUa02trZgq0BGXFyWhGWl3aI05Q49xW5Q05uOcH0hGWFBahG0l2ao85Q45u0Yv02uBE9EThmjlSCNThGCtfqdrZmSGRhwb3DPnJw3EtfrBSZaAdKkSpVzgrKofrGgKsFhNjg9rBRGbmi3vBMP57FBadFwHkl5BeV9J0S-9ylc6oyNvWi_j0m0tW03PmyNsHiP27bP-Q3ws6lIdUWgNLiAMdQig-IBZReqRCOL2AsXns22Ca3RT9irspykJXUy5Y05yWFC4BODk3rNf1e1ANYo1-iu0jR4sutLLrSC0M8nPsq64LoZTNm1JCJHvX2bjFGOUPKBRmxQAA8JTrB3D6fs7CCDyH7jXum4YfAGPXW1CeSAXoiF-D6GZr7uvWtEE3FQFW_wwe-zuLTP_RmTJVOSgqV2tDVVnPcll8D1CTCiiqaZ3cUDTrNQVDCsF3DqQSncyNlUCqVhlexHBFbxquI1UR9tyWXJkc_DY31oEWnGs8rd-zpWNrOyzlQLrdqhcWVknvxPzawi4OBdCXTy6gtSTZ27Q9CJj6nx2SAl-W8mP9OZF94W8L_4AO0_-OBydPzZhBs4AmN3kUtDn5cxehOGcHObcsBXnnt12HSUHuWTBiYa7X0Af556QgsFgXiy5QL5StmxgQA374~2?etext=2202.H-A9o-jwOGN1ZERhiNAcnEEfg7NXWZHmtNFSmEnbGsNlMq2-EXEAX7754hFivjSkTWlzMsKWr_GajEQQk2lVr25va2ZzZW5ybGV0ZHBwY3o.004a742d677cc3413ff0cd05e3e3e7e8346fcc5f&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%8D%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6+%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5+%D1%86%D0%B5%D0%BD+%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C+2026
+            - generic [ref=e358]: Промо
+      - navigation "Страницы результатов поиска" [ref=e359]:
+        - heading "Страницы результатов поиска" [level=2] [ref=e360]
+        - list [ref=e361]:
+          - listitem [ref=e362]:
+            - button "Текущая страница 1" [ref=e363]:
+              - generic: "1"
+          - listitem [ref=e364]:
+            - link "Страница 2" [ref=e365] [cursor=pointer]:
+              - /url: /search/?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&lr=47&p=1
+              - generic: "2"
+          - listitem [ref=e366]:
+            - link "Страница 3" [ref=e367] [cursor=pointer]:
+              - /url: /search/?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&lr=47&p=2
+              - generic: "3"
+          - listitem [ref=e368]:
+            - link "Страница 4" [ref=e369] [cursor=pointer]:
+              - /url: /search/?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&lr=47&p=3
+              - generic: "4"
+          - listitem [ref=e370]:
+            - link "Страница 5" [ref=e371] [cursor=pointer]:
+              - /url: /search/?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&lr=47&p=4
+              - generic: "5"
+          - listitem [ref=e372]:
+            - link "Следующая страница" [ref=e373] [cursor=pointer]:
+              - /url: /search/?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&lr=47&p=1&rnd=39567
+              - generic: дальше
+  - contentinfo [ref=e380]:
+    - generic [ref=e382]:
+      - button "Ваш регион Нижний Новгород" [ref=e384] [cursor=pointer]:
+        - generic: Нижний Новгород
+      - generic [ref=e385]:
+        - link "Google" [ref=e386] [cursor=pointer]:
+          - /url: //www.google.com/search?ie=UTF-8&q=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026
+        - link "Bing" [ref=e387] [cursor=pointer]:
+          - /url: //www.bing.com/search?q=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026
+      - button "Обратная связь" [ref=e389] [cursor=pointer]:
+        - generic: Обратная связь
+      - button "Настройки" [ref=e391] [cursor=pointer]:
+        - generic: Настройки
+      - link "ya.ru" [ref=e393] [cursor=pointer]:
+        - /url: //ya.ru/?from=serp_footer
+      - generic [ref=e394]:
+        - link "О компании" [ref=e395] [cursor=pointer]:
+          - /url: https://company.yandex.ru
+        - link "Коммерческие предложения" [ref=e396] [cursor=pointer]:
+          - /url: /search/direct?text=%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%86%D0%B5%D0%BD%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202026&filters_docs=direct_cm
+        - link "Вакансии" [ref=e397] [cursor=pointer]:
+          - /url: //yandex.ru/jobs
+        - link "Лицензия на использование" [ref=e398] [cursor=pointer]:
+          - /url: //yandex.ru/legal/termsofuse/
+        - link "Политика конфиденциальности" [ref=e399] [cursor=pointer]:
+          - /url: //yandex.ru/legal/confidential/
+        - link "Правила рекомендаций" [ref=e400] [cursor=pointer]:
+          - /url: //yandex.ru/legal/recommendations/#index__search

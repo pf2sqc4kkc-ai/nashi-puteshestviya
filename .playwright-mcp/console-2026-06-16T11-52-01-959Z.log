@@ -1,0 +1,7 @@
+[    3225ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://rtb-eu-warsaw.intent.ai/um/y:0
+[    3256ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://yandex.ru/an/mapuid/onetargetis/db3f0be2-c569-48e0-a6c4-aa6aaac9c550:0
+[    4324ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.mail.ru/cm.gif?p=161&id=F2D162AAAB4DD479:0
+[    4868ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://prebid.admatic.com.tr/setuid?bidder=yandex_ortb&gdpr=0&gdpr_consent=&f=b&uid=20E7ED43BEB40F79:0
+[    6499ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://shopnetic.com/api/rtb/dmp/pixel?partner=yandex:0
+[    6506ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://yandex-sync.rutarget.ru/sync:0
+[    6610ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.gonet-ads.com/match/yandex?id=[buyerUid]:0

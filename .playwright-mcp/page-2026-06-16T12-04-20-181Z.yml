@@ -1,0 +1,449 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - alert
+    - link "К дополнительным результатам" [ref=e3] [cursor=pointer]:
+      - /url: "#search-result-aside"
+    - link "К основным результатам" [ref=e4] [cursor=pointer]:
+      - /url: "#search-result"
+    - link "Обратная связь о специальных возможностях" [ref=e5] [cursor=pointer]:
+      - /url: //yandex.ru/support/search/troubleshooting/accessibility.html
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - search "Поиск в интернете" [ref=e9]:
+        - generic [ref=e10]:
+          - link "Яндекс" [ref=e11] [cursor=pointer]:
+            - /url: //ya.ru
+            - img [ref=e12]
+          - generic [ref=e15]:
+            - textbox [ref=e16]: Петергоф нижний парк цена билета 2025 2026
+            - combobox [ref=e17]: Петергоф нижний парк цена билета 2025 2026
+          - button [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+      - generic [ref=e21]:
+        - button "Голосовой поиск" [ref=e22] [cursor=pointer]:
+          - generic:
+            - img
+        - button "Поиск по картинке" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Расширенный поиск" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+        - link "Маркет" [ref=e30] [cursor=pointer]:
+          - /url: https://market.yandex.ru/my/cart?utm_source=serp_header_cart&clid=957&purchase-referrer=serp_cart
+          - img [ref=e31]
+        - button "Избранное" [ref=e33] [cursor=pointer]:
+          - img [ref=e34]
+        - link "Заказы" [ref=e36] [cursor=pointer]:
+          - /url: https://yandex.ru/products/my/orders?lr=47
+          - img [ref=e37]
+      - generic [ref=e39]:
+        - link "Войти" [ref=e40] [cursor=pointer]:
+          - /url: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fyandex.ru%2Fsearch%2F%3Ftext%3D%25D0%259F%25D0%25B5%25D1%2582%25D0%25B5%25D1%2580%25D0%25B3%25D0%25BE%25D1%2584%2520%25D0%25BD%25D0%25B8%25D0%25B6%25D0%25BD%25D0%25B8%25D0%25B9%2520%25D0%25BF%25D0%25B0%25D1%2580%25D0%25BA%2520%25D1%2586%25D0%25B5%25D0%25BD%25D0%25B0%2520%25D0%25B1%25D0%25B8%25D0%25BB%25D0%25B5%25D1%2582%25D0%25B0%25202025%25202026%26ncrnd%3D34088%26ncrnd%3D2761&origin=serp_desktop_auth_new
+        - button "Меню" [ref=e41] [cursor=pointer]:
+          - img [ref=e42]
+    - navigation [ref=e44]:
+      - generic [ref=e45]:
+        - link "Поиск" [ref=e46] [cursor=pointer]:
+          - /url: //ya.ru?source=tabbar
+          - generic [ref=e47]: Поиск
+          - text: Поиск
+        - link "Алиса AI" [ref=e48] [cursor=pointer]:
+          - /url: //yandex.ru/alice?reqid=1781611459141007-5895682938568436157-balancer-l7leveler-kubr-yp-vla-43-BAL&utm_source=yandex&utm_campaign=serp_alicetab_chat&utm_medium=interface&alice_deeplink=%7B%22text%22%3A%22%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026%22%7D&source_query=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&theme=serp
+        - link "Картинки" [ref=e49] [cursor=pointer]:
+          - /url: //yandex.ru/images/search?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&parent-reqid=1781611459141007-5895682938568436157-balancer-l7leveler-kubr-yp-vla-43-BAL&from=tabbar
+        - link "Видео" [ref=e50] [cursor=pointer]:
+          - /url: //yandex.ru/video/search?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&parent-reqid=1781611459141007-5895682938568436157-balancer-l7leveler-kubr-yp-vla-43-BAL&from=tabbar
+        - link "Карты" [ref=e51] [cursor=pointer]:
+          - /url: //yandex.ru/maps/?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&source=serp_navig
+        - link "Товары" [ref=e52] [cursor=pointer]:
+          - /url: //yandex.ru/search?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&products_mode=1&from=tabbar&serp-reload-from=tab
+        - link "Финансы" [ref=e53] [cursor=pointer]:
+          - /url: //yandex.ru/finance?lr=47&from=tabbar
+        - link "Квартиры" [ref=e54] [cursor=pointer]:
+          - /url: //yandex.ru/realty?lr=47&from=tabbar
+        - link "Переводчик" [ref=e55] [cursor=pointer]:
+          - /url: //translate.yandex.ru?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&from=tabbar
+      - link "Все" [ref=e57] [cursor=pointer]:
+        - /url: //yandex.ru/all?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&from=tabbar
+  - main [ref=e59]:
+    - generic [ref=e64]:
+      - list "Результаты поиска" [ref=e65]:
+        - listitem [ref=e66]:
+          - generic [ref=e69]:
+            - link "Быстрый ответ Алисы AI" [ref=e71] [cursor=pointer]:
+              - /url: https://yandex.ru/alice/?utm_source=yandex&utm_medium=interface&utm_campaign=serp_aliseicon_chat&reqid=1781611459141007-5895682938568436157-balancer-l7leveler-kubr-yp-vla-43-BAL&theme=serp&source_query=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026&alice_deeplink=%7B%22text%22%3A%22%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026%22%7D
+              - generic [ref=e72]:
+                - img [ref=e75]
+                - heading "Быстрый ответ Алисы AI" [level=3] [ref=e79]
+            - button "Готовлю ответ ." [disabled] [ref=e80]:
+              - generic:
+                - generic: Готовлю ответ .
+        - listitem [ref=e83]:
+          - generic [ref=e84]:
+            - link "Режим работы и цены / Нижний парк / Государственный..." [ref=e86] [cursor=pointer]:
+              - /url: https://peterhofmuseum.ru/objects/peterhof/nizhniy_park/info
+              - heading "Режим работы и цены / Нижний парк / Государственный..." [level=2] [ref=e88]:
+                - generic [ref=e89]: Режим работы и цены / Нижний парк / Государственный...
+            - link "peterhofmuseum.ruobjects/peterhof/nizhniy_park/…" [ref=e92] [cursor=pointer]:
+              - /url: https://peterhofmuseum.ru/objects/peterhof/nizhniy_park/info
+              - text: peterhofmuseum.ru›objects/peterhof/nizhniy_park/…
+            - button "Действия" [ref=e93] [cursor=pointer]:
+              - img [ref=e95]
+            - generic [ref=e101]: "Нижний парк. Об объекте. Режим работы и цены. ... Можно приобрести следующие комплексные билеты: Нижний парк + Государевы потехи будние дни. стоимость для граждан РФ и ЕАЭС — 1 200 рублей."
+        - listitem [ref=e102]:
+          - generic [ref=e103]:
+            - 'link "Петергоф: режим работы 2026, стоимость билетов, как..." [ref=e105] [cursor=pointer]':
+              - /url: https://peterburg.center/maps/petergof.html
+              - 'heading "Петергоф: режим работы 2026, стоимость билетов, как..." [level=2] [ref=e107]':
+                - generic [ref=e108]: "Петергоф: режим работы 2026, стоимость билетов, как..."
+            - link "peterburg.centermaps/petergof.html" [ref=e111] [cursor=pointer]:
+              - /url: https://peterburg.center/maps/petergof.html
+              - text: peterburg.center›maps/petergof.html
+            - button "Действия" [ref=e112] [cursor=pointer]:
+              - img [ref=e114]
+            - generic [ref=e120]: Режим работы и стоимость билетов 2026. С 26 апреля 2025 года вход в парки ГМЗ «Петергоф» - платный. Билеты в продажу поступят за 2 недели до первого пуска.
+        - listitem [ref=e121]:
+          - generic [ref=e122]:
+            - link "Билеты в Петергоф 2026 - цены, льготы, режим работы" [ref=e124] [cursor=pointer]:
+              - /url: https://vizitspb.ru/blog/bilety-v-petergof/
+              - heading "Билеты в Петергоф 2026 - цены, льготы, режим работы" [level=2] [ref=e126]:
+                - generic [ref=e127]: Билеты в Петергоф 2026 - цены, льготы, режим работы
+            - link "vizitspb.ruБлогБилеты в Петергоф в 2026 году" [ref=e130] [cursor=pointer]:
+              - /url: https://vizitspb.ru/blog/bilety-v-petergof/
+              - text: vizitspb.ru›Блог›Билеты в Петергоф в 2026 году
+            - button "Действия" [ref=e131] [cursor=pointer]:
+              - img [ref=e133]
+            - generic [ref=e137]:
+              - generic [ref=e139]: "Цены на билеты в Нижний парк в 2026 году. Бесплатный вход предоставляется: Самостоятельное посещение Петергофа: советы. Плюсы покупки билетов онлайн. Где расположены кассы? Стоимость билетов в музеи комплекса (2026)."
+              - generic [ref=e140]:
+                - text: "Не найдено:"
+                - link "2025" [ref=e141] [cursor=pointer]:
+                  - /url: /search/?text=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%20%2B2025%202026&lr=47&missword=1
+        - listitem [ref=e142]:
+          - generic [ref=e143]:
+            - link "Режим работы музеев и парков Петергофа и цены на..." [ref=e145] [cursor=pointer]:
+              - /url: https://spb-gid.ru/news/petergof-otkryvaet-muzei/
+              - heading "Режим работы музеев и парков Петергофа и цены на..." [level=2] [ref=e147]:
+                - generic [ref=e148]: Режим работы музеев и парков Петергофа и цены на...
+            - link "spb-gid.ruГрафик работы и цены на билеты в ГМЗ «Петергоф» осень 2025 — весна…" [ref=e151] [cursor=pointer]:
+              - /url: https://spb-gid.ru/news/petergof-otkryvaet-muzei/
+              - text: spb-gid.ru›График работы и цены на билеты в ГМЗ «Петергоф» осень 2025 — весна…
+            - button "Действия" [ref=e152] [cursor=pointer]:
+              - img [ref=e154]
+            - generic [ref=e160]: "Петергоф: режим работы всех музеев, парков и дворцов на период с 5 ноября 2025 до 24 апреля 2026 года. Актуальные цены на билеты в музеи Петергофа, Александрии, Ораниенбаума. Кто может посещать музеи ГМЗ бесплатно."
+        - listitem [ref=e161]:
+          - generic [ref=e163]:
+            - button "Действия" [ref=e164] [cursor=pointer]:
+              - img [ref=e166]
+            - heading "Картинки по запросу Петергоф нижний парк цена билета 2025 2026" [level=2] [ref=e171]:
+              - link "Картинки по запросу Петергоф нижний парк цена билета 2025 2026" [ref=e172] [cursor=pointer]:
+                - /url: /images/search?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&stype=image&lr=47&parent-reqid=1781611459141007-5895682938568436157-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                - generic [ref=e174]: Картинки
+            - list [ref=e180]:
+              - generic [ref=e181]:
+                - generic:
+                  - link "Картинка Цены на билеты в Петергоф 2026 - купить билет в парк" [ref=e183] [cursor=pointer]:
+                    - /url: /images/search?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026&img_url=https%3A%2F%2Fv-petergof.ru%2Fwp-content%2Fuploads%2F2026%2F04%2Fceny-na-bilety-v-nizhniy-park-petergof-2026.jpg&pos=0&rpt=simage&stype=image&lr=47&parent-reqid=1781611459141007-5895682938568436157-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                    - img [ref=e184]
+                  - link "Картинка Нижний парк в Петергофе. Касса. Вход 450ру на 19.06.2021 -" [ref=e186] [cursor=pointer]:
+                    - /url: /images/search?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026&img_url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FMTcAUu93Mj0%2Fmaxresdefault.jpg%3Fsqp%3D-oaymwEmCIAKENAF8quKqQMa8AEB-AH-DoACwAiKAgwIABABGGUgZShlMA8%3D%26rs%3DAOn4CLCicQePteTMebVMblF2lmNKKM2aKg&pos=1&rpt=simage&stype=image&lr=47&parent-reqid=1781611459141007-5895682938568436157-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                    - img [ref=e187]
+                  - 'link "Картинка Билеты в Петергоф: цены и расписание в 2025" [ref=e189] [cursor=pointer]':
+                    - /url: /images/search?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026&img_url=https%3A%2F%2Favatars.dzeninfra.ru%2Fget-zen_doc%2F271828%2Fpub_66c4be068ef13b0aafba35a5_66c4c893df2b810cc494395e%2Fscale_1200&pos=2&rpt=simage&stype=image&lr=47&parent-reqid=1781611459141007-5895682938568436157-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                    - img [ref=e190]
+                  - link "Картинка Петергофские дачники\" с посещением Нижнего парка Петергофа и" [ref=e192] [cursor=pointer]:
+                    - /url: /images/search?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026&img_url=https%3A%2F%2Fbontour.ru%2Fimages%2Ftours%2Fmini%2F21520sm.webp&pos=3&rpt=simage&stype=image&lr=47&parent-reqid=1781611459141007-5895682938568436157-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                    - img [ref=e193]
+        - listitem [ref=e195]:
+          - generic [ref=e196]:
+            - link "Сколько стоит посетить Петергоф в 2026 году, советы..." [ref=e198] [cursor=pointer]:
+              - /url: https://in-trips.ru/blog/petergof.html
+              - heading "Сколько стоит посетить Петергоф в 2026 году, советы..." [level=2] [ref=e200]:
+                - generic [ref=e201]: Сколько стоит посетить Петергоф в 2026 году, советы...
+            - link "in-trips.ruСоветы" [ref=e204] [cursor=pointer]:
+              - /url: https://in-trips.ru/blog/petergof.html
+              - text: in-trips.ru›Советы
+            - button "Действия" [ref=e205] [cursor=pointer]:
+              - img [ref=e207]
+            - generic [ref=e211]:
+              - generic [ref=e213]:
+                - generic [ref=e214]: Билеты в Петергоф, цена 2026 года.
+                - list [ref=e216]:
+                  - listitem [ref=e217]: Цены на билеты в кассах Петергофа
+                  - listitem [ref=e218]: Сколько стоят билеты в Нижний парк
+              - generic [ref=e219]:
+                - text: "Не найдено:"
+                - link "2025" [ref=e220] [cursor=pointer]:
+                  - /url: /search/?text=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%20%2B2025%202026&lr=47&missword=1
+        - listitem [ref=e221]:
+          - generic [ref=e222]:
+            - 'link "«Русский Версаль»: всё о сезоне фонтанов в Петергофе..." [ref=e224] [cursor=pointer]':
+              - /url: https://dzen.ru/a/aeXq8nPgIGSMnXP2
+              - 'heading "«Русский Версаль»: всё о сезоне фонтанов в Петергофе..." [level=2] [ref=e226]':
+                - generic [ref=e227]: "«Русский Версаль»: всё о сезоне фонтанов в Петергофе..."
+            - link "dzen.rua/aeXq8nPgIGSMnXP2" [ref=e230] [cursor=pointer]:
+              - /url: https://dzen.ru/a/aeXq8nPgIGSMnXP2
+              - text: dzen.ru›a/aeXq8nPgIGSMnXP2
+            - button "Действия" [ref=e231] [cursor=pointer]:
+              - img [ref=e233]
+            - generic [ref=e239]: Рассказываем, сколько стоят билеты в Нижний парк и дворцы, кто может пройти бесплатно, какие нововведения ждут гостей в 2026 году и как добраться из Петербурга на «Метеоре», электричке, машине или автобусе.
+        - listitem [ref=e240]:
+          - generic [ref=e241]:
+            - link "Время работы и стоимость, где купить билеты..." [ref=e243] [cursor=pointer]:
+              - /url: https://www.spb-guide.ru/petergof-rezhim-raboty-i-stoimost-biletov.htm
+              - heading "Время работы и стоимость, где купить билеты..." [level=2] [ref=e245]:
+                - generic [ref=e246]: Время работы и стоимость, где купить билеты...
+            - link "spb-guide.ruПетергофВремя работы и стоимость билетов в Петергоф" [ref=e249] [cursor=pointer]:
+              - /url: https://www.spb-guide.ru/petergof-rezhim-raboty-i-stoimost-biletov.htm
+              - text: spb-guide.ru›Петергоф›Время работы и стоимость билетов в Петергоф
+            - button "Действия" [ref=e250] [cursor=pointer]:
+              - img [ref=e252]
+            - generic [ref=e256]:
+              - generic [ref=e258]: Нижний парк Петергофа — стоимость билетов лето 2026. ... Парк Александрия в Петергофе – цена билетов летом 2026 года. Для граждан России, Белоруссии, Армении, Казахстана и Кыргызстана. взрослые — 400 рублей.
+              - generic [ref=e259]:
+                - text: "Не найдено:"
+                - link "2025" [ref=e260] [cursor=pointer]:
+                  - /url: /search/?text=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%20%2B2025%202026&lr=47&missword=1
+        - listitem [ref=e261]:
+          - generic [ref=e262]:
+            - link "Петергоф – самостоятельная поездка 2026" [ref=e264] [cursor=pointer]:
+              - /url: https://turpiter.ru/petergof-samostoyatelnaya-poezdka/
+              - heading "Петергоф – самостоятельная поездка 2026" [level=2] [ref=e266]:
+                - generic [ref=e267]: Петергоф – самостоятельная поездка 2026
+            - link "turpiter.rupetergof-samostoyatelnaya-poezdka/" [ref=e270] [cursor=pointer]:
+              - /url: https://turpiter.ru/petergof-samostoyatelnaya-poezdka/
+              - text: turpiter.ru›petergof-samostoyatelnaya-poezdka/
+            - button "Действия" [ref=e271] [cursor=pointer]:
+              - img [ref=e273]
+            - generic [ref=e277]:
+              - generic [ref=e279]: "Цены на билеты в Нижний парк в 2026 году: 2 500 рублей в выходные дни (2 000 рублей — будние дни) — иностранные граждане (полная стоимость без льгот)."
+              - generic [ref=e280]:
+                - text: "Не найдено:"
+                - link "2025" [ref=e281] [cursor=pointer]:
+                  - /url: /search/?text=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%20%2B2025%202026&lr=47&missword=1
+        - listitem [ref=e282]:
+          - generic [ref=e283]:
+            - 'link "Нижний парк Петергофа: цена билета и режим работы..." [ref=e285] [cursor=pointer]':
+              - /url: https://www.spbmuzei.ru/nizhnij-park-petergofa-stoimost-biletov-i-rezhim-raboty
+              - 'heading "Нижний парк Петергофа: цена билета и режим работы..." [level=2] [ref=e287]':
+                - generic [ref=e288]: "Нижний парк Петергофа: цена билета и режим работы..."
+            - 'link "spbmuzei.ruНижний парк Петергофа: стоимость билетов и режим работы 2026" [ref=e291] [cursor=pointer]':
+              - /url: https://www.spbmuzei.ru/nizhnij-park-petergofa-stoimost-biletov-i-rezhim-raboty
+              - text: "spbmuzei.ru›Нижний парк Петергофа: стоимость билетов и режим работы 2026"
+            - button "Действия" [ref=e292] [cursor=pointer]:
+              - img [ref=e294]
+            - generic [ref=e298]:
+              - generic [ref=e300]: "Нижний парк Петергофа: цена входного билета, режим работы и бесплатные дни. ... Стоимость билетов в Нижний парк Петергофа 2026. Бесплатные категории."
+              - generic [ref=e301]:
+                - text: "Не найдено:"
+                - link "2025" [ref=e302] [cursor=pointer]:
+                  - /url: /search/?text=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%20%2B2025%202026&lr=47&missword=1
+        - listitem [ref=e303]:
+          - generic [ref=e304]:
+            - link "Стоимость билетов в парки музея-заповедника..." [ref=e306] [cursor=pointer]:
+              - /url: https://vk.com/wall-174592706_169527
+              - heading "Стоимость билетов в парки музея-заповедника..." [level=2] [ref=e308]:
+                - generic [ref=e309]: Стоимость билетов в парки музея-заповедника...
+            - link "vk.comwall-174592706_169527" [ref=e312] [cursor=pointer]:
+              - /url: https://vk.com/wall-174592706_169527
+              - text: vk.com›wall-174592706_169527
+            - button "Действия" [ref=e313] [cursor=pointer]:
+              - img [ref=e315]
+            - generic [ref=e321]: Стоимость билетов в парки музея-заповедника "Петергоф" в 2025 году. С 26 апреля вход в Нижний парк, парки Александрия и Ораниенбаум станет платным. Стоимость билетов для граждан России и Республики Беларусь...
+        - listitem [ref=e322]:
+          - generic [ref=e323]:
+            - link "Купить билет в Петергоф в 2026 году - цены, расписание..." [ref=e325] [cursor=pointer]:
+              - /url: https://travelto.ru/blog/kupit-bilet-v-petergof/
+              - heading "Купить билет в Петергоф в 2026 году - цены, расписание..." [level=2] [ref=e327]:
+                - generic [ref=e328]: Купить билет в Петергоф в 2026 году - цены, расписание...
+            - 'link "travelto.ruКак купить билет в Петергоф в 2026 году: цена, правила посещения и…" [ref=e331] [cursor=pointer]':
+              - /url: https://travelto.ru/blog/kupit-bilet-v-petergof/
+              - text: "travelto.ru›Как купить билет в Петергоф в 2026 году: цена, правила посещения и…"
+            - button "Действия" [ref=e332] [cursor=pointer]:
+              - img [ref=e334]
+            - generic [ref=e340]: Как попасть в Петергоф из Петербурга, сколько стоит билет, где купить электронные билеты в Петергоф онлайн, часы работы и советы для посещения.
+        - listitem [ref=e341]:
+          - generic [ref=e342]:
+            - 'link "Нижний парк Петергофа: фонтаны, билеты, цены 2026" [ref=e344] [cursor=pointer]':
+              - /url: https://gorbilet.ru/blog/news/marshrut-po-nizhnemu-parku-petergofa-nimfy-lvy-i-drakony
+              - 'heading "Нижний парк Петергофа: фонтаны, билеты, цены 2026" [level=2] [ref=e346]':
+                - generic [ref=e347]: "Нижний парк Петергофа: фонтаны, билеты, цены 2026"
+            - link "gorbilet.rublog/news/marshrut-po-nizhnemu-parku-…" [ref=e350] [cursor=pointer]:
+              - /url: https://gorbilet.ru/blog/news/marshrut-po-nizhnemu-parku-petergofa-nimfy-lvy-i-drakony
+              - text: gorbilet.ru›blog/news/marshrut-po-nizhnemu-parku-…
+            - button "Действия" [ref=e351] [cursor=pointer]:
+              - img [ref=e353]
+            - generic [ref=e359]: "Маршрут по Нижнему парку Петергофа: нимфы, львы и драконы. Власта Баранова | 29 сентября 2025. ... Сколько стоят билеты в Нижний парк Петергофа. До 24 апреля 2026 года Нижний парк можно посетить совершенно бесплатно."
+        - listitem [ref=e360]:
+          - generic [ref=e361]:
+            - link "Билеты на метеор Санкт-Петербург" [ref=e363] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WiuejI_zOoVX2LdA0WKM02EechxMqh0AJC2SG1Llc83UzCFZOWG1xn817KMN0ygT9j3dSxcpP_kTEs-uy_KxNc-umttYq_nvspQEHw6tqywbkOhfpmGKN8ra85cLh4Sraf5LoKf4Wdf3gCWgmsYeQaKw8h64D0B9oAfa9Q8MnUs0APilFAX3ODTJAZymWK910uz1n_5E2QA40fei2mXJzQeAq5Brg0hGKlLu5A2bwaqLeANgIHMWfTuDAK1BlMChG0l2axm2j20yELA05eGdU0LeGNXYf00j24_k2j22yAH80LeGde0Bq88Wnihvcf3xGgAG4w7BwT9zsgOi3_Sba6cGx4eLsG3V6w-fGpMaK3jwutaKcj_JPnw5JdDeBNKwRToUGd7RZjgvr9O01-kpb1Lvn9DxyaFgnlj7fMgA01lEvnic6-y7DhiF1Dm03c03byPGaKvIxAVcGwjXRugtO6arREcfcZ8DBtxa6Z6jxz1tlKRdC2X5RGuxX16IXjkasQvPUVBmlM0nW2yGdk05i7K0JCl41CD4vU-kxu8P12fnkGZYDmlOmjQ4srrL1mTiCM9X1nrMeNnp1Kp1d42KB8Nj8LnM3BcfOy5CMgmtHioCqMaOiuOH7Z2XCieFJ40Ou0GA7AeStDIhq8JOv7xGtFrllC2T-s46WlpuO8yOzR_-ZFoz_epykVxFyEymJ5HV-ydgVlQJrJ7DB90moqsj9ypnhkkwJfijQ7qLvWc0vtX6xmBWEPxHMxhHbsc4a45wyk_wNjdoOzg34OXIDWFpNxpHouIhW-q8lVP_WJHpyojp8NV1gjt7OmZs0aRi61t3Sa_vIzJ8GO6G0Ym01HlyctTZPF32-CsUzkQar4LIIH0gR3NiWGUeZX8_Aevu49cDxV-Gn3ulQeBUjHlgrrJQy9RWvIeGEyTMEew9baO_anQeHVEPMHIBAdUQHLU_0HGL~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+              - heading "Билеты на метеор Санкт-Петербург" [level=2] [ref=e365]:
+                - generic [ref=e366]: Билеты на метеор Санкт-Петербург
+            - link "nameteor.ruБилеты-на-метеор-Сан..." [ref=e369] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WiuejI_zOoVX2LdA0WKM02EechxMqh0AJC2SG1Llc83UzCFZOWG1xn817KMN0ygT9j3dSxcpP_kTEs-uy_KxNc-umttYq_nvspQEHw6tqywbkOhfpmGKN8ra85cLh4Sraf5LoKf4Wdf3gCWgmsYeQaKw8h64D0B9oAfa9Q8MnUs0APilFAX3ODTJAZymWK910uz1n_5E2QA40fei2mXJzQeAq5Brg0hGKlLu5A2bwaqLeANgIHMWfTuDAK1BlMChG0l2axm2j20yELA05eGdU0LeGNXYf00j24_k2j22yAH80LeGde0Bq88Wnihvcf3xGgAG4w7BwT9zsgOi3_Sba6cGx4eLsG3V6w-fGpMaK3jwutaKcj_JPnw5JdDeBNKwRToUGd7RZjgvr9O01-kpb1Lvn9DxyaFgnlj7fMgA01lEvnic6-y7DhiF1Dm03c03byPGaKvIxAVcGwjXRugtO6arREcfcZ8DBtxa6Z6jxz1tlKRdC2X5RGuxX16IXjkasQvPUVBmlM0nW2yGdk05i7K0JCl41CD4vU-kxu8P12fnkGZYDmlOmjQ4srrL1mTiCM9X1nrMeNnp1Kp1d42KB8Nj8LnM3BcfOy5CMgmtHioCqMaOiuOH7Z2XCieFJ40Ou0GA7AeStDIhq8JOv7xGtFrllC2T-s46WlpuO8yOzR_-ZFoz_epykVxFyEymJ5HV-ydgVlQJrJ7DB90moqsj9ypnhkkwJfijQ7qLvWc0vtX6xmBWEPxHMxhHbsc4a45wyk_wNjdoOzg34OXIDWFpNxpHouIhW-q8lVP_WJHpyojp8NV1gjt7OmZs0aRi61t3Sa_vIzJ8GO6G0Ym01HlyctTZPF32-CsUzkQar4LIIH0gR3NiWGUeZX8_Aevu49cDxV-Gn3ulQeBUjHlgrrJQy9RWvIeGEyTMEew9baO_anQeHVEPMHIBAdUQHLU_0HGL~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+              - text: nameteor.ru›Билеты-на-метеор-Сан...
+            - button "Действия" [ref=e370] [cursor=pointer]:
+              - img [ref=e372]
+            - generic [ref=e376]:
+              - generic [ref=e378]: Поездка на метеоре в Петергоф и обратно в кормовом салоне по выгодным ценам · Интересные экскурсии. Онлайн покупка. Без наценки. Электронные билеты
+              - generic [ref=e379]:
+                - link "Гарантированные места" [ref=e381] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WgyejI_zOoVX2Lcj0WqL0FFbaRxMqh0AJC2SG1Llc83UzCFZOWG1xn817KMN0ygT9j3dSxcpP_kTEs-uy_KxNc-umttYq_nvspQEHw6tqywbkOhfpmGK65cLh4JK8Z1byuK7TGZiUahb1oPGA6ZWCUWutYb1b510asK1OQfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q4CHOELyJSbz8578YT3bTka_RbENXlWGo3P9TgI8Ru7lZDNMeXXHgHsyyZqBpU_hCez1f3gsbJgUDsrCeRjjHEvVQ4k1WVPQo8ezuSaz-IDru_wXKJH5Wm_bymsJZ_S1czu606y01RE3I62hIIOhzr7neDUnDyHOihOOjFLLJfk75ZrmZflKT-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02s3e1fcPXWcAZytVLTC8D09IuNGVnc0LlOcd2xg-hWW2r6BEoWmogKRww0APWJY9Abi3s4oueXDtKic4cBzSQ8cJ4w3MFMCC839bH6-O4920ESG853bOERUXMQ49lS3vgx_uqNk7C_p42G7n_i4QF-rv-HlzUVaJ_N_nd-7OQ9wci_MTtFVh8wffa54cQvgVM4ETvrNTTfimMjhy8y0V0Sp-XT03p7CtfBD_eoZH0oI4_-NTyhMtxSW0SZ4ALi1kQ_UAEN2LS7sn5wxVy2QURcL-P2xe9Lku_74Em5ZDWnEeObclA7nt2EX1HW0IWT_BDsms3mmeJDdjdc9CP5iaKGYcXrs1KCBtY1CCMmBRcoHZnCzyP6R3-epuktqS4RGozHEJNyeUPo1UMT8mQEO_Gobdp31MhnkqsBOj7X_MdHrRxGH0K0~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+                - link "Удобно и безопасно" [ref=e383] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WgyejI_zOoVX2Lcj0WqL0FFbaRxMqh0AJC2SG1Llc83UzCFZOWG1xn817KMN0ygT9j3dSxcpP_kTEs-uy_KxNc-umttYq_nvspQEHw6tqywbkOhfpmGK65cLh4JK8Z1byuK7TGZiUahb1oPGA6ZWCUWutYb1b510asK1OQfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q4CHOELyJSbz8578YT3bTka_RbENXlWGo3P9TgI8Ru7lZDNMeXXHgHsyyZqBpU_hCez1f3gsbJgUDsrCeRjjHEvVQ4k1WVPQo8ezuSaz-IDru_wXKJH5Wm_bymsJZ_S1czu606y01RE3I62hIIOhzr7neDUnDyHOihOOjFLLJfk75ZrmZflKT-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02s3e1fcPXWcAZytVLTC8D09IuNGVnc0LlOcd2xg-hWW2r6BEoWmogKRww0APWJY9Abi3s4oueXDtKic4cBzSQ8cJ4w3MFMCC839bH6-O4920ESG853bOERUXMQ49lS3vgx_uqNk7C_p42G7n_i4QF-rv-HlzUVaJ_N_nd-7OQ9wci_MTtFVh8wffa54cQvgVM4ETvrNTTfimMjhy8y0V0Sp-XT03p7CtfBD_eoZH0oI4_-NTyhMtxiuy48H2cRWValtkXbmjN1TeHU-xz0chdvbRcGks3LxkCn17i18tQCZc69flnFI160XHHW0IWT_BDsms3mmeJDdjdc9CP5iaKGYcXrs1KCBtY1CCMmBRcoHZnCzyP6R3-epuktqS4RGozHEJNyeUPo1UMT8mQEO_Gobdp31MhnkqsBOj7X_MdHrRxGH0K0~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+                - link "Цены от организатора" [ref=e385] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WhOejI_zOoVX2Lcj0aKL0ADcbBxMqh0AJC2SG1Llc83UzCFZOWG1xn817KMN0ygT9j3dSxcpP_kTEs-uy_KxNc-umttYq_nvspQEHw6tqywbkOhfpmGK65cLh4JK8Z1byuK7TGZiUahb1oPGA6ZWCUWutYb1b510asK1OQfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q4CHOELyJSbz8578YT3bTka_RbENXlWGo3P9TgI8Ru7lZDNMeXXHgHsyyZqBpU_hCez1f3gsbJgUDsrCeRjjHEvVQ4k1WVPQo8ezuSaz-IDru_wXKJH5Wm_bymsJZ_S1czu606y01RE3I62hIIOhzr7neDUnDyHOihOOjFLLJfk75ZrmZflKT-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02s3e1fcPXWcAZytVLTC8D09IuNGVnc0LlOcd2xg-hWW2r6BEoWmogKRww0APWJY9Abi3s4oueXDtKic4cBzSQ8cJ4w3MCUuG4JAgFym0IcgrGgbMAbKjby0i809r3WKENWfbw59iGczuFcxd_Z1UxS3pCGvCS7UyIe__LdvE_rP-JFzN-6VuTXelhQJrRtiv-iZcbcWOHPRcezOOvtNTTrscn1wwimJm0ynpDw5m3FyOpUqes-J2E43DAJVzVtofOVg_1W1AAKpS3y5s_qCk7gO3j2h_rV8CtS_CfSo5smQlVn68AzW14xHiUmH5F-HIMI6a8Ai00K6_opTiDWyCA4pPxPvYJ6HR9548feTTWL32zuWJ35i2sviaOyJFV6Hcm_gC-Bjz716qClKJar_A7cSWNbdIC6ZcFqvUyG7D8dCuf5gzw7ewi3R7C8~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+                - link "Гибкая система скидок" [ref=e387] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WgyejI_zOoVX2Lcj0WqL0FFbaRxMqh0AJC2SG1Llc83UzCFZOWG1xn817KMN0ygT9j3dSxcpP_kTEs-uy_KxNc-umttYq_nvspQEHw6tqywbkOhfpmGK65cLh4JK8Z1byuK7TGZiUahb1oPGA6ZWCUWutYb1b510asK1OQfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q4CHOELyJSbz8578YT3bTka_RbENXlWGo3P9TgI8Ru7lZDNMeXXHgHsyyZqBpU_hCez1f3gsbJgUDsrCeRjjHEvVQ4k1WVPQo8ezuSaz-IDru_wXKJH5Wm_bymsJZ_S1czu606y01RE3I62hIIOhzr7neDUnDyHOihOOjFLLJfk75ZrmZflKT-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02s3e1fcPXWcAZytVLTC8D09IuNGVnc0LlOcd2xg-hWW2r6BEoWmogKRww0APWJY9Abi3s4oueXDtKic4cBzSQ8cJ4w3MFMCC839bH6-O4920ESG853bOERUXMQ49lS3vgx_uqNk7C_p42G7n_i4QF-rv-HlzUVaJ_N_nd-7OQ9wci_MTtFVh8wffa54cQvgVM4ETvrNTTfimMjhy8y0V0Sp-XT03p7CtfBD_eoZH0oI4_-NTyhMtuCmuCHY58s0_DVlD7BXAk3xGYzzd-1D7FpAtCXTy6gtSTZ2FO2HkmO7SCIJVcbZ10L4LA01Q0T_BDsms3mmeJDdjdc9CP5iaKGYcXrs1KCBtY1CCMmBRcoHZnCzyP6R3-epuktqS4RGozHEJNyeUPo1UMT8mQEO_Gobdp31MhnkqsBOj7X_MdHrRxGH0K0~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+              - generic [ref=e389]:
+                - link "Контактная информация" [ref=e391] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/Wj0ejI_zOoVX2LdD0XKM05CecxxMqh0AJC2SG1Llc83UzCFZOWG1xn817KMN0ygT9j3dSxcpP_kTEs-uy_KxNc-umttYq_nvspQEHw6tqywbkOhfpmGKN8ra85cLh4Sraf5LoKf4Wdf3gCWgmsYeQaKw8h64D0B9oAfa9Q8MnUs0APilFAX3ODTJAZymWK910uz1n_5E2QA40fei2mXJzQeAq5Brg0hGKlLu5A2bwaqLeANgIHMWfTuDAK1BlMChG0l2axm2j20yELA05eGdU0LeGNXYf00j24_k2j22yAH80LeGde0Bq88Wnihvcf3xGgAG4w7BwT9zsgOi3_Sba6cGx4eLsG3V6w-fGpMaK3jwutaKcj_JPnw5JdDeBNKwRToUGd7RZjgvr9O01-kpb1Lvn9DxyaFgnlj7fMgA01lEvnic6-y7DhiF1Dm03c03byPGaKvIxAVcGwjXRugtO6arREcfcZ8DBtxa6h6lsTBw3dtNQtGEWrBKvh13625fk4sQxPgL9m_V2nO3-0BX2Lu0MmV0j4nCC4nK_kxwBfX1e1ANYo1-iu0jR4sutLLrSC0M8nPsq64LoZTNm1JC2KJ9KjWUmcN5a9iw5ioanNfZnCmOdOOnQnZX0HCge_p018G1Jg30eSh1JRqAJOXDxWVDtV_62zov7sOWo8yFzeXH_-lFoD_hpyYVw_yC_mx3HFMrdwpkPpzP7TFC0WcptDHwmXplkgxhjDc2rbTXdW1uZcVqBW2UunczfHjzcKO86QGd_wxlbIq_jk3124Gfcu7vBzxePSBLmNQ4Nlk_G9gv-PMvaBjWrUxZCGHx0IDsZ8vXgKJviKQ480Wfm09G6_opTyDayC84pfxvvYJMHR9948fiDUm12MWTbMiLnps6ZCVo_qbYgnSrMU_Q9VLhAW5votQv2k2TOykCOw9VyvsT1MhHz6OJnQ9AACtNrMy0lmO0~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B
+                - generic [ref=e392]:
+                  - heading "Телефон" [level=3] [ref=e393]
+                  - button "Показать телефон" [ref=e395] [cursor=pointer]: +7 (800) 200-XX-XX Показать
+                - generic [ref=e396]:
+                  - heading "Время работы" [level=3] [ref=e397]
+                  - text: ежедневно 9:00-18:00
+            - generic [ref=e398]: Промо
+        - listitem [ref=e399]:
+          - generic [ref=e400]:
+            - 'link "Царское Село: экскурсия в Петергоф из Петербурга" [ref=e402] [cursor=pointer]':
+              - /url: https://yabs.yandex.ru/count/WfiejI_zOoVX2Laz0cqK06Dcayn3D3q1Sm9LV09SRvY0tlJ3us840IyC0Zhq-LpkxDb-vyuRxdpzZjSRxd23h4X6DQfr24P9GqP09A1FvxE-6ib0iYfPZ-eaQusa8YgI4jAIaHAA7J1byuK7TGZiUahb1oPGA6ZWCUWuca3au-FZurEYmrJaSKLX0Kte0i8Vv1N0fUfL5Q2bwb4LeANgyIX0IzMRAa1BrPCgG4kz6rA0bdh7Le0MX2Tv1MX1U7Aa02q8J_0Aq8Bmn4W1MX2Ut1MW1U59aGAq83m15w05GMUIytq11VBAXp3zmUizS6-yfWxLa4Bjw8tdKMX-Jvzv53hDeRNKwRHnUmh5RJjgvr9R0Xoipr9Mv15FxiaFgHil4WQFPocfy_c6oSRxWStk0m4tW0FOm0qW34HCKkodvaEhOM-Ajs1fDMpfgPgo0xgkwxfUetCObA8sXnt224d3RT9irwmyUVXUi1Z05mXFy0BOMg1ZkLyWK8dBHH2_MS0MjYQy8L8W9WPfMjX1XrKetrm1Kp0tUOGfR3q57MP2-LVr68iXDtKi7fEEzSQ8cJ4w3ME6-OxmW0cLKNvW0i809r3WKENWfbw59iGczuFcxd-ZRsBumyqmuWTxAq__wubG-LvFXChdUdAGlyDqrNtj_vFysVydoJJRq6EMPUI8CCVCfPUvt7TTrtNQR47hgp2FWXSO7xrJy0BZexSqcoy7e0sCysJV9N95q8zf3pu0p6GsvhyuO9Oj6HiN1kQrlauBjv2lp8NS1Qjs7uyXs0iOiMDq3CiIoY_6TsX2I04MW08J_5Ncm4Ums6mvnX41Ml1V4jxfHIJgJqEG_s7nnuq8INXUZIiLNXpx-mML1gAfHKpFcYWMZK0-lguEiFqr~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+              - 'heading "Царское Село: экскурсия в Петергоф из Петербурга" [level=2] [ref=e404]':
+                - generic [ref=e405]: "Царское Село: экскурсия в Петергоф из Петербурга"
+            - 'link "tourtransservice.ruЦарское Село: экскурсия в Петергоф из Петербурга…" [ref=e408] [cursor=pointer]':
+              - /url: https://yabs.yandex.ru/count/WfiejI_zOoVX2Laz0cqK06Dcayn3D3q1Sm9LV09SRvY0tlJ3us840IyC0Zhq-LpkxDb-vyuRxdpzZjSRxd23h4X6DQfr24P9GqP09A1FvxE-6ib0iYfPZ-eaQusa8YgI4jAIaHAA7J1byuK7TGZiUahb1oPGA6ZWCUWuca3au-FZurEYmrJaSKLX0Kte0i8Vv1N0fUfL5Q2bwb4LeANgyIX0IzMRAa1BrPCgG4kz6rA0bdh7Le0MX2Tv1MX1U7Aa02q8J_0Aq8Bmn4W1MX2Ut1MW1U59aGAq83m15w05GMUIytq11VBAXp3zmUizS6-yfWxLa4Bjw8tdKMX-Jvzv53hDeRNKwRHnUmh5RJjgvr9R0Xoipr9Mv15FxiaFgHil4WQFPocfy_c6oSRxWStk0m4tW0FOm0qW34HCKkodvaEhOM-Ajs1fDMpfgPgo0xgkwxfUetCObA8sXnt224d3RT9irwmyUVXUi1Z05mXFy0BOMg1ZkLyWK8dBHH2_MS0MjYQy8L8W9WPfMjX1XrKetrm1Kp0tUOGfR3q57MP2-LVr68iXDtKi7fEEzSQ8cJ4w3ME6-OxmW0cLKNvW0i809r3WKENWfbw59iGczuFcxd-ZRsBumyqmuWTxAq__wubG-LvFXChdUdAGlyDqrNtj_vFysVydoJJRq6EMPUI8CCVCfPUvt7TTrtNQR47hgp2FWXSO7xrJy0BZexSqcoy7e0sCysJV9N95q8zf3pu0p6GsvhyuO9Oj6HiN1kQrlauBjv2lp8NS1Qjs7uyXs0iOiMDq3CiIoY_6TsX2I04MW08J_5Ncm4Ums6mvnX41Ml1V4jxfHIJgJqEG_s7nnuq8INXUZIiLNXpx-mML1gAfHKpFcYWMZK0-lguEiFqr~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+              - text: "tourtransservice.ru›Царское Село: экскурсия в Петергоф из Петербурга…"
+            - button "Действия" [ref=e409] [cursor=pointer]:
+              - img [ref=e411]
+            - generic [ref=e417]: Большой дворец и Верхний парк
+            - generic [ref=e418]: Промо
+        - listitem [ref=e419]:
+          - generic [ref=e420]:
+            - link "Купить билет в Нижний парк Петергофа" [ref=e422] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WmCejI_zOoVX2Lci0gqN01EigZugKa_0d40Ldm3N6oQWD_tmk1X1mEiHq4i8XjaOnS29amPieS_dScVFzZjttd3dwtUytd27EqIaD6E4KDMAP9qHP5JZi0BLL1n1I4OrghMH32CQIKX6IbGawn6HK6qamsX6qf0HK4ra5IgopfYHP4qoEggJQYkIaLN9IbHJY-ghaGmagvBrgAvXL4HLAZAwraOrb9AGg3Y2ICX0MW92iYfPZseb6aKqI2mXZH2Y8QI4j6Ia1APill2W3e5TJwdym0GA1Gqy1Xt7EnvgMW5Dw0B27uGBu5BrgWhGKlMe2j1IzNWKeANgJHMWfUf95Q2btWqfG4kzOoj02yAJl0Aq83mvKe0MX2Tu1MX1U6Aa02q8J-uAq8Bmf4W1MX2UW0lGWg0poVcQc8D2XcJN0aLETsaNCdRZDNMeXXHgHsyyZqBpU_hCez1f3gsbJgUDsrCeRjjHEvVQ4k1WVPQo8ezuSaz-IDruRQvm_mYviifbDpkJ6GcO041pFjymsNW_iDbz8E06S00RkBOKmYr9iP-Q3ws6lIdUWgNLiAMdQieS1gMepM67C4BIS9iqspKhJnw-5om6y0N24xm0jWvejLzCop8-EoTZ5ymWK8dBHH2_MS0MjYREV718GCjPPs477LQXV7C5JC7Sv16ci8Nx0XT3RkfOPenEmvWrZF202PLHVc02mW0dKE1GvU2cNeKcn2RtW-RkVoCCbC0Vzd2s-C4TNFql2wllPM7rkHqu_frMZFjQsgpkPscpEgRP1pbZbcVOq9XZvjBRNEwxhkiwRRQWzLMOTwCbqf7URxH4Ej9RPfml-o5gEiGysOiZmx3ycFPW1Dw2_E3whs_ASteI-osjwqnDUKvFOg_zNmxph02MkP2xODNkup44Um4ZTeoEONcc_7OIK7WYf00BG04N_2Tdz_-gMgpUL2QooGTWeTIGlFqG-cAfwbAgfXpidUFPGfsqJwahaXeyOkQ2rCSEIh4PI0Sb9skH_LmsM8kow41OLykEWXW0~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+              - heading "Купить билет в Нижний парк Петергофа" [level=2] [ref=e424]:
+                - generic [ref=e425]: Купить билет в Нижний парк Петергофа
+            - link "tourtiki.ruКупить билет в Нижний парк Петергофа…" [ref=e428] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WmCejI_zOoVX2Lci0gqN01EigZugKa_0d40Ldm3N6oQWD_tmk1X1mEiHq4i8XjaOnS29amPieS_dScVFzZjttd3dwtUytd27EqIaD6E4KDMAP9qHP5JZi0BLL1n1I4OrghMH32CQIKX6IbGawn6HK6qamsX6qf0HK4ra5IgopfYHP4qoEggJQYkIaLN9IbHJY-ghaGmagvBrgAvXL4HLAZAwraOrb9AGg3Y2ICX0MW92iYfPZseb6aKqI2mXZH2Y8QI4j6Ia1APill2W3e5TJwdym0GA1Gqy1Xt7EnvgMW5Dw0B27uGBu5BrgWhGKlMe2j1IzNWKeANgJHMWfUf95Q2btWqfG4kzOoj02yAJl0Aq83mvKe0MX2Tu1MX1U6Aa02q8J-uAq8Bmf4W1MX2UW0lGWg0poVcQc8D2XcJN0aLETsaNCdRZDNMeXXHgHsyyZqBpU_hCez1f3gsbJgUDsrCeRjjHEvVQ4k1WVPQo8ezuSaz-IDruRQvm_mYviifbDpkJ6GcO041pFjymsNW_iDbz8E06S00RkBOKmYr9iP-Q3ws6lIdUWgNLiAMdQieS1gMepM67C4BIS9iqspKhJnw-5om6y0N24xm0jWvejLzCop8-EoTZ5ymWK8dBHH2_MS0MjYREV718GCjPPs477LQXV7C5JC7Sv16ci8Nx0XT3RkfOPenEmvWrZF202PLHVc02mW0dKE1GvU2cNeKcn2RtW-RkVoCCbC0Vzd2s-C4TNFql2wllPM7rkHqu_frMZFjQsgpkPscpEgRP1pbZbcVOq9XZvjBRNEwxhkiwRRQWzLMOTwCbqf7URxH4Ej9RPfml-o5gEiGysOiZmx3ycFPW1Dw2_E3whs_ASteI-osjwqnDUKvFOg_zNmxph02MkP2xODNkup44Um4ZTeoEONcc_7OIK7WYf00BG04N_2Tdz_-gMgpUL2QooGTWeTIGlFqG-cAfwbAgfXpidUFPGfsqJwahaXeyOkQ2rCSEIh4PI0Sb9skH_LmsM8kow41OLykEWXW0~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+              - text: tourtiki.ru›Купить билет в Нижний парк Петергофа…
+            - button "Действия" [ref=e429] [cursor=pointer]:
+              - img [ref=e431]
+            - generic [ref=e435]:
+              - generic [ref=e437]: Посетите Нижний парк и Большой императорский дворец без очередей. Билеты сразу!
+              - generic [ref=e438]:
+                - link "Самые популярные экскурсии СПб" [ref=e440] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/Wg4ejI_zOoVX2Lb50fqK0DDbaZugKa_0d40Ldm3N6oQWD_tmk1X1mEiHq4i8XjaOnS29amPieS_dScVFzZjttd3dwtUytd27Iq86qX8GabN9UbGhqIYYGM89QOGG3I4bf2KZ9H4xOChc2m_g4DZrbCeFJA1GqC1Zq76yuw6c5T24BY3yGRW0BbMlgW0jLO-g02rLZqS1MghUL05QgfvK0LhgtP02jDGxjWAq83p9Aq0BmfCZ1MX1U89NW1Q49qOAq8BmvAu0BGXFYXIW1U49k00j23gJdA-9EIXaI7OjKEHqbtOXOpTUKuTgIA5szCRpA3I_fyyy2ftcq5hgTDguFONYjXsrSwaj0GxMPoahyeWdz-I7r8tNvWhtZv0hgrnsipEPaO0903JdymsJZVS3czq70cu01x21QqiXt98K-wdvq6hOc-8jM5eDMtggfinXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWwu1M-yMqBEEpSp9smGm2bRXS1F6R1MnXQ-BC1uS4j9nr5dRGOHNADrV05CnD7c4AMxWlS37afevbnkWqZ5d320-OK1db1oOW37021GvL3cxgLMX2R78_QEx-Dy902VnX3sUB7zp1rV-oiFfU5bQVsu7Ztsd5kA-bpUf-bZQhOvfza3DcUOODZJbcBhtDvRxhkgxJPWjQNuLvDreY7UdzHaka8xrbnlco7wAcGyoJlJWo3CkF6_1W1Dw2_E3whs_ASteI-osjwqnDUKvFOg_zNmxph02MkP2xODNkup44Um4ZTeoEOPb2-QLzIPD22h0051VymPdxSrLTOkNEeYOVI8LIepD98FJ5KjIbXfgoi3_7im9rqbwchiW-UCJI2r9_EoZ5Te0Th4xM8hjovM0Upr82ALqjEqfH~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+                - link "Эрмитаж в мини-группе" [ref=e442] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WjmejI_zOoVX2Lc30dKM09CfeJugKa_0d40Ldm3N6oQWD_tmk1X1mEiHq4i8XjaOnS29amPieS_dScVFzZjttd3dwtUytd27EqIaD6E4q8qYwuoWfHj3D6hKGZUKh4D2GBNrw6W9IKOjL2H4LDUebsRWe2e94I5PQwEZcdf3A0bfYKOI3Ii96KXBG4XM9UjHhKIZY0Q99QGHGZI4b92MZ9J0bCqN7jGXiEifbH-OGA6WWSUWutZ7Gqqhe0bTGFY3S05SgbvL0Lgg7bK1MgeUZmAqLBsf0hHKFQa2jDIx8GLegNTi1MX1U99NW1Q49qSAq8Bm1Ay0BGXFZ1IW1U79NG5Q49uKAK0BmXDm0LeGT2OvNnDpKCYGx5gWoEakxKB6Rhoc3jMGGkteZUTHQ7vFdtaKEisXjTJfj75x2iLjEshdKbi27ApFKbRa4K_koG-f6w_D5UuV8LTMkUncPp8Z0HC0QCxd6oORxmSskmy4t00EO0FNbaAu9IdsK_EXrR0tnLkmj1gsz5HDcSEW5BKvx116I1fkasQxPkN9m_U2nG2-G7Y25y3M0QtsYsbPncVdPEo26GGgSRa8uZSBsCBMn9aF3WbeEUiixA33AfHlhe0fc9iymXIsS5_WOiXD7SkCqMaOiuOH7Z2XCieFJ40Ou0GA7AeStDIhq8JOv7xGtFrlX84I-CCUpXO_k8Eh_sLXzRqih3wt0yU_qufnNqkRrVqiRLR7DFiWPypo31iQSynSUflBVTTrNQVD5hI-2lDkj4GwqlkDbaX7UikCysK_H4s7c2TxSMGObX_xU302Rq5-SFtND-KvFOdzbjPrfgOyfoUnr_ulXtbM0CjSo5smQlVn68AzW14xHiUmR59-fGOyK8KKO04e5_n_gVjpLLqYBAP_9X_mGgbkSRWWzCLArANkclvORSSZ6dLI2bBN2pnuXCm5gOuTb4Aobyv9JjOYyvbji1Pbq_5XNHqW2c80~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+                - link "Царское село янтарная комната" [ref=e444] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WmyejI_zOoVX2Lcr0WqO0CEihJugKa_0d40Ldm3N6oQWD_tmk1X1mEiHq4i8XjaOnS29amPieS_dScVFzZjttd3dwtUytd27EqIaD6E4q8qYwuoWfHj3D6hKGZUKh4D2G7K8HahK8Y8Z6dK8HaL8LAKYweqwgQRY248ogb6jZMGOqKWg4YeIGh8gKMbOQoAhK95rnemaQvBHKPrK6mrPasgh4Oqa92gEeBf6JRqXb8IqH2E9XfM43AGb82IhalMeLg9HH8F44j888Hf2IaXBHafSEs3AvWiFwX3OzPJA3qoWKD30Oz1nlEEXfXNGX2uW_46u02vLhwe0BLMFgW0jLOz70LggtbG1MggUL05QwjsG0hJKExO2j20yoIj02yAJ8mLeGNY2Lu0MX2T62j22yEIk02q8JueKe0NX2RW0BGWwavolYJaeP4XsBL3aT9Ts8MCtNbE7QaYXTlJ6yoWqlwVFF0gTvj1QwdJQk3s5uhOTjNEfBG4ErcSfA_A89_VaXzIDr-OAzu-GAwjSThCpcP602G0qv_CDautt0vlT1m9k00UmWMjB8ToI5Fkf-T1gs9lYBLXQ3LjwggRCOL2AsXns22Ca3RT9irspykJXUy5Y05yWFC4BOEk0Lll5j2pZitCoTi4C0fMuN0JncmLiOMlYp0U71BISTHPsq64LoZTNm1JCJHvX2bkuBt0nvAQEPSReD8nPmmWFc50PvGSc80nm0WKELGvkwbLeGcnoFsZk_ZV2G0dyOGzdYn_SmTN_ih3wNXPMdzk1uzzfnRYlfStgVfOsgsEQVP0pPdc63OqvPYwzpUM-wxgkqsOBMb-5UJTQ8Xtf_KPBf2EzPSRviX-YfaFCaxquCWpBZrLuC09lGNvm_TStvJazYVsMrdMcfZod9x7N_Y-7ULO0orp8NR1gz_4OWhs04Jj6nx1qK_uoH5rHI04MW08N_B1hz_-gMbQDx-MQV00MIlzq9GMXBsQYFdJN-4ThEoxHg9DJa3fVuC5ZP2v8SUoWL4cz54voiXQPpso3jIYRZW_hwW1H40C0~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+                - link "По рекам и каналам Петербурга" [ref=e446] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WgWejI_zOoVX2LbG0jKK00CcapugKa_0d40Ldm3N6oQWD_tmk1X1mEiHq4i8XjaOnS29amPieS_dScVFzZjttd3dwtUytd27UvSmGK86qX8GabN9UbGhqIYYGM89QOGG3I4bf2KZ9UaEcBBvmeCw17OzfV834oWKDF0OT1plUAXf1JIX2mX_42w0IzMhAa1BrQCgG4lLur60bgetLO2MgYTLW9PwDwG0BVMEhG0j24_o2j22yEH80LeGdk0Le0NXYP42j20ykIj02yAJ8WLeGNW2Ba0BWiuavsjY3WePabqB53dTfLt8s8tNrA4QKgWTlV4y2itlwJEFGgSvj9OwdJPkJw6uRKVjN6fBW8FrMSgAFEB9FVaXTUErkSBz8-JAAfVTx4nc96020CtvVCDau_t0PlU1W1l00MpWsb88joJ5Vce-j1hsfdWBbbR3bfwgANCObA8sXnt224d3RT9irwmyUVXUi1Z05mXFy0BOEg3LVZ4jo_Zid8nTC8D09IuNGVnc0LlOcZZpmI41BMUTXHrqM8NopHKm1NEJHvZ25kuBN0ovgMEPCJeDOzOmmWCcL4RvWGa80vn0WKELWvjw5PeGczmFchl_ZJ1G0d_OmzdY1tTmzRyihBwNXTNdTk3uTrenxcjfixgVfStgc6OVv8nPdc53OuwPIszpkU-whkkqsOBMLs7UZPP8Htg_qHBfI6-PSRxiXwZf4FDaBuuCm_9Z61wCm5kG7rp_zKrvJazYlwLrdQafp-b9xBN_os6U5S0o5t8NhDfzF8PWBs34Zj4nB2rG_cWAfYL22h0051Zy9US-7Xk_fwiATfLR6Kq-qYkKLefY5g4l9gG-GjVuIBauBX6eaq-GEZlWmMDYBaXfxA3KH9aKJ7Ao5edFOeErA9TE0-lgDr4G0m00~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+              - generic [ref=e448]:
+                - link "Контактная информация" [ref=e450] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WmGejI_zOoVX2Lcl0hKN02FigZugKa_0d40Ldm3N6oQWD_tmk1X1mEiHq4i8XjaOnS29amPieS_dScVFzZjttd3dwtUytd27EqIaD6E4KDMAP9qHP5JZi0BLL1n1I4OrghMH32CQIKX6IbGawn6HK6qamsX6qf0HK4ra5IgopfYHP4qoEggJQYkIaLN9IbHJY-ghaGmagvBrgAvXL4HLAZAwraOrb9AGg3Y2ICX0MW92iYfPZseb6aKqI2mXZH2Y8QI4j6Ia1APill2W3e5TJwdym0GA1Gqy1Xt7EnvgMW5Dw0B27uGBu5BrgWhGKlMe2j1IzNWKeANgJHMWfUf95Q2btWqfG4kzOoj02yAJl0Aq83mvKe0MX2Tu1MX1U6Aa02q8J-uAq8Bmf4W1MX2UW0lGWg0poVcQc8D2XcJN0aLETsaNCdRZDNMeXXHgHsyyZqBpU_hCez1f3gsbJgUDsrCeRjjHEvVQ4k1WVPQo8ezuSaz-IDruRQvm_mYviifbDpkJ6GcO041pFjymsNW_iDbz8E06S00RkBOKmYr9iP-Q3ws6lIdUWgNLiAMdQiep70QbgCrXXp12qd2RDDirAqyUlXSi1l05mXEy0BOEQBLVJCioFZidOnVC8529oqKGlrd05hOcpdnmI43BMMTX1nrMeNnp1Kp1tEGHfh25-m8NGsxgM6QCJiEODOpmW0cLKNvW0i809r3WKENWfbw59iGczuFcxdyZ39J07_PmjlZ17LpzBmkhxsLXzRaTEFwTLepxMjgixcTfipgcsGSvOvPdsD2OO-RIsrpkkwxhEcsseFLLc7UZ9TAHtc-qH3hIMsQSB_iXQZh4FDcB8yEm_DY21oFm5kG7rtzzKvxJazXlQLrdQifpUX9xxVzoc6S5iCo5t0MhTX-F8TWB6B5ZT0nBDULFl0cHH4W15e025_odQFSlgrgiv5Gcila78ABKaBpzaFjYgUrIQgSSx1tph4_4zHrIXsiSF4hf1Uc-7PGY_MFtgfEr-5cDSx0MhHNxbAuEiAqe~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B
+                - generic [ref=e451]:
+                  - heading "Телефон" [level=3] [ref=e452]
+                  - button "Показать телефон" [ref=e454] [cursor=pointer]: +7 (999) 039-XX-XX Показать
+                - generic [ref=e455]:
+                  - heading "Время работы" [level=3] [ref=e456]
+                  - text: круглосуточно
+            - generic [ref=e457]: Промо
+        - listitem [ref=e458]:
+          - generic [ref=e459]:
+            - link "Купите билет в Нижний парк Петергофа онлайн!" [ref=e461] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WliejI_zOoVX2LdT0cqN03EhfjCVLmcO4wZY3HFGctvuN8mWu5qYeAEOe2jtca2Vp-NEdkrtxhpXpjVlUBtX3dSwlQNJFB-bk1I_fxaqcXiH6I5PC8ArMaJLu6T641BLwe864lMelY5KD0E7K55zDPA1P5Mo7f488Y43QGae2ScgP3sgbP9o6a95Iaj7IIDisB1XP0TCsNpXGHq2kvvI-O4950eQU0mwZdS5Z80je0bTG9X9LW2NgbTLW9QgHrM0bgh7em0jLM-g02rLJwe0BVLkI05QwXrR0LeGdkGLe0NXoP42j20ymIj02y8J8mLeGNXoLu0MX2T52j22y0HSW1O4dKdErqJP7feCEiPDJfT82vUn3s7c1w_tm3MWYHoMB54_9BS3V6-yfWxLa4Bjw8tdKMX-Jvzv53hDeRNKwRHnUmh5RJjgvr9R0Xoipr9Mv15FxiaFgHjl2LdssCLzFjymsNW_iDbz8E06S00RkFwBfaDIxAVcGwjXRugtO6arREcfchAFyeLN8tOWg-zwZSvXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWsuFLUejK86TrMU6xO0Q1IbmkWlZD0hQmDL5cXQCaAsU6XHrqM8NopHKm1NC2KR8Kjfw23ZEX3AFaBY-6tDInO2OjLXiZPiReD8nPmmWFc50PvGSc80nm0WKELGvkwbLeGcnoFsZk_ZV2d1N-CCxZ_i4-M_U_Gp--T-Z7v_gcBtzdRgryxR9Rv6UNtI9CimXHpBACLPSvPYwzCSjzrtLTfyqMjBuAyxYUfkXTmvaICRtrMbzUxk1gysGF9boqycFQWn7uYkIA_VTUrC76rG-n7FsE_vabxan6Te2zrkz55MAnegUsbUNbYf0wnH3i1OpOCJg6PHJb_q6oOooa00j00HhywtSZP_32KCwUO3ZFqY2bdSXULwGHxCdj9vQ_xEQ5wEuyg-KBVEPz28EARdvCzYxZTMqJwXvyp6ENFjokyt0jRdh_9BH51--newlted48~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+              - heading "Купите билет в Нижний парк Петергофа онлайн!" [level=2] [ref=e463]:
+                - generic [ref=e464]: Купите билет в Нижний парк Петергофа онлайн!
+            - link "sputnik8.comЭкскурсии-по-Нижнему..." [ref=e467] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WliejI_zOoVX2LdT0cqN03EhfjCVLmcO4wZY3HFGctvuN8mWu5qYeAEOe2jtca2Vp-NEdkrtxhpXpjVlUBtX3dSwlQNJFB-bk1I_fxaqcXiH6I5PC8ArMaJLu6T641BLwe864lMelY5KD0E7K55zDPA1P5Mo7f488Y43QGae2ScgP3sgbP9o6a95Iaj7IIDisB1XP0TCsNpXGHq2kvvI-O4950eQU0mwZdS5Z80je0bTG9X9LW2NgbTLW9QgHrM0bgh7em0jLM-g02rLJwe0BVLkI05QwXrR0LeGdkGLe0NXoP42j20ymIj02y8J8mLeGNXoLu0MX2T52j22y0HSW1O4dKdErqJP7feCEiPDJfT82vUn3s7c1w_tm3MWYHoMB54_9BS3V6-yfWxLa4Bjw8tdKMX-Jvzv53hDeRNKwRHnUmh5RJjgvr9R0Xoipr9Mv15FxiaFgHjl2LdssCLzFjymsNW_iDbz8E06S00RkFwBfaDIxAVcGwjXRugtO6arREcfchAFyeLN8tOWg-zwZSvXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWsuFLUejK86TrMU6xO0Q1IbmkWlZD0hQmDL5cXQCaAsU6XHrqM8NopHKm1NC2KR8Kjfw23ZEX3AFaBY-6tDInO2OjLXiZPiReD8nPmmWFc50PvGSc80nm0WKELGvkwbLeGcnoFsZk_ZV2d1N-CCxZ_i4-M_U_Gp--T-Z7v_gcBtzdRgryxR9Rv6UNtI9CimXHpBACLPSvPYwzCSjzrtLTfyqMjBuAyxYUfkXTmvaICRtrMbzUxk1gysGF9boqycFQWn7uYkIA_VTUrC76rG-n7FsE_vabxan6Te2zrkz55MAnegUsbUNbYf0wnH3i1OpOCJg6PHJb_q6oOooa00j00HhywtSZP_32KCwUO3ZFqY2bdSXULwGHxCdj9vQ_xEQ5wEuyg-KBVEPz28EARdvCzYxZTMqJwXvyp6ENFjokyt0jRdh_9BH51--newlted48~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+              - text: sputnik8.com›Экскурсии-по-Нижнему...
+            - button "Действия" [ref=e468] [cursor=pointer]:
+              - img [ref=e470]
+            - generic [ref=e474]:
+              - generic [ref=e476]: Экскурсии по России и всему Миру. Онлайн бронирование Экскурсий · Оплата онлайн. Мгновенное подтверждение. Опытные гиды. Интересные места
+              - generic [ref=e477]:
+                - link "Экскурсии Петербург" [ref=e479] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WjyejI_zOoVX2Lc-0eqM09CfeDCVLmcO4wZY3HFGctvuN8mWu5qYeAEOe2jtca2Vp-NEdkrtxhpXpjVlUBtX3dSwlQNJFB-bk1I_fxaqcXiH6I5PC8ArMaJLu6T641BLwa86qX9G4f9LoNfKAoNbD8IAb9QEaaROi643JDbyuK4T0hkUKlc12HGA6dWCEevt1Oo0BQ09NK2OILO0bwfNLO2MgaTLW9QgnwC0BLLlgW0jLK-g02trRaW1MkeTMm5Q49xa5Q05uScH0hGWFC4hG0l24oC5Q45uSbU05eGdHGhGWl04N80M19r9pjT4sHwQ33h6JKwNI0kNiGzXvWUlzy0re8aSbYnHFoIt0tnllAOErP12xUYDvr5eVa-VUHGwpQ6rrEcqSNiAnMqxQkTIMm8ShCzILkGHJ-x93waRRmbPzjZ5VJxVCDbuFx3PVI3W1d006xZ-YwP3KkodvaEhOM-Ajs1fDMpfgPgoZ_A5LoDs8AllUetEOL2AsXns22Ca3RT9irspykJXUy5Y05yWFC4BODk3rNgBL21dTLdXks06WKfSBeBupGAsi3LHPeMZ92jdXeKTT5Y5yiqLC0Lp0b6o5BQUWWupeGoZv2ulXjpKiM0cBLOR8sR6w3ICMSC83vXG6UK79Y0CS0853bKERkfLQ49iSZzexlutmfmL_Z3Eu_x1FbltlqC_ldVen-VwfYz_PswjVEsoM-HdbzqYJBC8KSooZ5MNEMOklJ7BVTTrNQVD5hI-2lEudgReNSEP4Z6zzLfVNkxWQlDa3oPSjFBZ1ZmOWQz8hjX_xqKTR5pz4ClHx_YVMUBEP6G7s6lzNbGX5YjwQbjPNgu8gLCCmLx0Y1sZOrZMAV-V905YGWgm01GP_FDsGsFmmjJDdcWtprOWfNrWB_t9OJAjXvqZBqJpGpLRlgWvxwq_o3zQ6x9BELu7CQ5-WOzv56d1BJmFr-AtVqr2MnH_nNTqTO0G3W40~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+                - link "Экскурсии Москва" [ref=e481] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WjWejI_zOoVX2Lct0bKM02EfdjCVLmcO4wZY3HFGctvuN8mWu5qYeAEOe2jtca2Vp-NEdkrtxhpXpjVlUBtX3dSwlQNJFB-bk1I_fxaqcXiH6I5PC8ArMaJLu6T641BLwiA6KL2I4L5EGwX8QUaeQOGD6pR0bCqN7jGXiEifbH-OGA6WWSUWutXNm0ZO0fhG1OIPP0LmgNfL1MYfUbG5QAbwF0hGKlMc2j1IzQGAq5BlXXIWfTwn5Q05uKbU0LeGdXmfG0l24xm2j20yCLA05eGdTmLeGNXIf00j24_01MX1q9daV4sKxQ79e6FSv7I9j70P-n1cVl1w3rm3ciXXoHBrGt8xmFV6Q-fG3IdKZjvu7eNcz_IPHw7J75fBdKuRjwTGtBQZTYwr9S31-YnbHHxnv9xyaBhnbf1bZrtSv_CDautt0vlT1m9k00UmWUk_Q3eanNvgFhGQzgPu2vPMmvQUgYdxA5zuDM87ilgkr-WS1gMepM67C4BIS9iqspKhJnw-5om6y0N24xm0jZrOhRT81N9MbnM-2sOGgCJb8eZVB60BMnDbLZXAid9cMDX1XrKetrm1Kp0d42LBOUifw30JoZ1Axl9Yo4qT2sRIOhKnOcQCJiEODOpmW0cLKNvW0i809r3WKENWfbw59iGczuFcxdyZp5dX3-CyxX_iitN_E_JZUuT-VAvl-l9tvjRArowxHNvssIt2D8iGnIpBM7MPO-RI6xFSTrtNTTfiGUkhC8_hQOhUDPmf4TDRh_NbvGwkDa_sOC95Ap_syM04lYAvOl-z5tMmSVL3B4U_utzcYJkJaHrWh_LxKOLOhEYfRMLvkIAaJZ44Um4ZTeoEOKb4-JlOeQOdf00BG04P_BjsOsBmmhZDdZ0tppeWfPrVR_da6CvmoOt82t6AKBcMBsZYZVKC-gUMb-nFcjTLJAXRj6CUZGhG7QM7Q_7zN5PeYyxh-x2k3e06CG00~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+                - link "Экскурсии Калининград" [ref=e483] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WjiejI_zOoVX2Lcy0cqM09CfeDCVLmcO4wZY3HFGctvuN8mWu5qYeAEOe2jtca2Vp-NEdkrtxhpXpjVlUBtX3dSwlQNJFB-bk1I_fxaqcXiH6I5PC8ArMaJLu6T641BLwg9AHP9H95GaD4IbaTCGAb9QEaeQOSE63R0TC6NpXGTr2EnwIkK79b0eQE0nw3ZU5J02je0cT05X9ba1NAfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q47GcELyJPNjeCkWODpbT8YrSnZw4cH-ytWFNW2PoMB94_P3S3l2zyPewL4CAjQCtdaUX-Jrzvb7eD8VMKgVJnkqf5BVjg9rBRGbmi3vBMP57FBadFwHkl2LasMCNz_bymsJZ_S1czu606y01RE3wBveEIR6VcW-jXhqfteAbrR2bfshAFieNNetOWQo-wpKwXq4fQdFO8OoGDDmcpNRDofE7xmMB0No1y0GlW6qFLkijKe6SrMM5xu8P12fnkGZYDmlOmjP4cHMEagoS6HPsq64LoZTNm1JC2KJ9KjXw2ZhCX3ACahky679JnuAPj5XjZ9WPezCmPWqZF612PPGVc80mm0aKE5GvkAbNeGcnoVsWkVlV27DM-CCuZ_i7-spT_mxz-DwX7v_hcxxydRcryhNBRf6VNNQBCCqYH37BCbPTvfYvzCOizrtNTPqsMz3wAipZUfgYTmrdIiJqrcjzURc3gysJFPXmqSgFLNWm0b-HNB7_teiwsBZw8PQZt_4_iyIToSWEiDVwlQX2B5RqrBQol5mHKgSOWhs04Jj6nx2SKtuDaePwGWgm01GO_EDs0sFmmipDdbWtpspmy9LFdlrOldET5t8GZxcMBpZW7U8C-gUob-nFcDSrJAYxjMCU3GhM7QM7Q_7zN5PeYyxh-x2k3e06CG00~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+                - link "Экскурсии Стамбул" [ref=e485] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WjKejI_zOoVX2Lcv0ZqM0EDedTCVLmcO4wZY3HFGctvuN8mWu5qYeAEOe2jtca2Vp-NEdkrtxhpXpjVlUBtX3dSwlQNJFB-bk1I_fxaqcXiH6I5PC8ArMaJLu6T641BLwYAd8LIaj7IKDCA63Hj1Ti2KpHSUr26mwocL7vX0eQ21nw3ZU5V02DW2cj05X9ba1N2fUbK5QAbwL0LegNey2j1IzQOAq5Brf0hGKk-65A2bth4Le0NXILu1MX2U72b02y8Jl0Aq83mnKe0MX2Tt1MX1U5Aa02q8Jy05Q47GcUHyJPJjeScWOzpaT8cqS1dx46P-y7eFN0EQo6794lL3SZl0zyPhwb0DATIEtdWUXURtz9b7eTCSMakTJXktfr3SjgDsBhKbmC7wB6L57l7adloGkl6Ma6MFNTpdymsJZVS3czq70cu01x21wxzeEYJ5Vce-j1hsfdWBbbR3bfwgAVieNtWrOWUo-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02sFLYjjqW5SbQN5RuBPX2enEKYYDyiO0jR4sLME4goScPOs467LIZVN05JC2SG9KjXwodeC1FAC4hkycB8JHqBPj9YjJ5YPenEmvWrZF202PLHVc02mW0dKE1GvU2cNeKcn2RtW-RkVoFCMU4Fuppk7-opTVyxzEDxXtvyhc_wydVcrihNBhj5VdRPBS8qYn35BCjOTPbZvj8RizntNTTrscn1wwimZ-jfYjurd2aHqrklzUNb3gusJ_PWmaKhFuRXmGXyHNB5_dilwc3ZweTOZdx7_ymIToOZEy1Uw_UY2h5OqLFRol9oHKYTOWZs0aRi61t34axvv-niG0afm09G6lpBTgDYyCB0pPv0Dyz28ANzzQRaEkt93HFBB-JcXMWkgglb2phpneH1Zwu_9lihutLj4-eUVCoZbpBShlDmBMvw_oIqHGVliQEhzw9n2000~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84+%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%BF%D0%B0%D1%80%D0%BA+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2025+2026
+              - generic [ref=e487]:
+                - link "Контактная информация" [ref=e489] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WlqejI_zOoVX2LdW0dqN06ChfzCVLmcO4wZY3HFGctvuN8mWu5qYeAEOe2jtca2Vp-NEdkrtxhpXpjVlUBtX3dSwlQNJFB-bk1I_fxaqcXiH6I5PC8ArMaJLu6T641BLwe864lMelY5KD0E7K55zDPA1P5Mo7f488Y43QGae2ScgP3sgbP9o6a95Iaj7IIDisB1XP0TCsNpXGHq2kvvI-O4950eQU0mwZdS5Z80je0bTG9X9LW2NgbTLW9QgHrM0bgh7em0jLM-g02rLJwe0BVLkI05QwXrR0LeGdkGLe0NXoP42j20ymIj02y8J8mLeGNXoLu0MX2T52j22y0HSW1O4dKdErqJP7feCEiPDJfT82vUn3s7c1w_tm3MWYHoMB54_9BS3V6-yfWxLa4Bjw8tdKMX-Jvzv53hDeRNKwRHnUmh5RJjgvr9R0Xoipr9Mv15FxiaFgHjl2LdssCLzFjymsNW_iDbz8E06S00RkFwBfaDIxAVcGwjXRugtO6arREcfchAFyeLN8_OrMmUo-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02sFLYjjqW5SbQN5RuBPX2enEKYYDyiO0jR4sLME4goScPOs467LIZVN05JC2SG9KjXwodeC1FAC4hkycB8JHqBPj9YjJ5YPenEmvWrZF202PLHVc02mW0dKE1GvU2cNeKcn2RtW-RkVoFCMU4Fuppk7-opTVyxzEDxXtvyhc_wydVcrihNBhj5VdRPBS8qYn35BCjOTPbZvj8RizntNTTrscn1wwimZ-jfYjurd2aHqrklzUNb3gusJ_PWmaKhFxRWmGXyHNB5_dilwc3ZweTOZdx7_ymIToOZEy1Uw_UY2h5OqLFRol9oHKYTOWZs0aRi61t3agpyK0fWiP02B0056lm3U8DdyC9SpfvuEC_U8ALToLwtf15CokqdcR_iveZexZohwmjy_dq8ZufkVlptBkDrRHFg7dpCOvS-tAxpS2rkUlyaj4K7xx6Zg_UYSGW0~2?etext=2202.fyGWJVBuymbDVzJ9ESOBF0aUDX1qcTGM7qYgvZi5hf29jo3tFa42Q2EkH4D9B3TEeCfjc5YhhqOrTwSsrTAftehbWGbKdOO0mdJIJHltvM1sbXZ2cHJhanZwYmRtemt0.1b04b9cac12138c763eee5442ef561d82f351965&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B
+                - generic [ref=e490]:
+                  - heading "Телефон" [level=3] [ref=e491]
+                  - button "Показать телефон" [ref=e493] [cursor=pointer]: +7 (812) 407-XX-XX Показать
+                - generic [ref=e494]:
+                  - heading "Время работы" [level=3] [ref=e495]
+                  - text: будни 10:00-18:00
+            - generic [ref=e496]: Промо
+      - navigation "Страницы результатов поиска" [ref=e497]:
+        - heading "Страницы результатов поиска" [level=2] [ref=e498]
+        - list [ref=e499]:
+          - listitem [ref=e500]:
+            - button "Текущая страница 1" [ref=e501]:
+              - generic: "1"
+          - listitem [ref=e502]:
+            - link "Страница 2" [ref=e503] [cursor=pointer]:
+              - /url: /search/?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&lr=47&p=1
+              - generic: "2"
+          - listitem [ref=e504]:
+            - link "Страница 3" [ref=e505] [cursor=pointer]:
+              - /url: /search/?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&lr=47&p=2
+              - generic: "3"
+          - listitem [ref=e506]:
+            - link "Страница 4" [ref=e507] [cursor=pointer]:
+              - /url: /search/?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&lr=47&p=3
+              - generic: "4"
+          - listitem [ref=e508]:
+            - link "Страница 5" [ref=e509] [cursor=pointer]:
+              - /url: /search/?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&lr=47&p=4
+              - generic: "5"
+          - listitem [ref=e510]:
+            - link "Следующая страница" [ref=e511] [cursor=pointer]:
+              - /url: /search/?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&lr=47&p=1&rnd=94422
+              - generic: дальше
+    - region [ref=e516]:
+      - generic [ref=e517]: Что умеет Поиск
+      - button "Закрыть" [ref=e519] [cursor=pointer]
+      - generic [ref=e520]:
+        - generic [ref=e522]:
+          - text: Поиск по Услугам —
+          - text: от мастеров и компаний
+          - text: с разных сервисов
+        - link "Найти" [ref=e524] [cursor=pointer]:
+          - /url: https://yabs.yandex.ru/count/WXiejI_zOoVX2LaU0cqG01FSQqTBHqP7Nu6u4axW1Cm9LF49S1FO4zWce4r0wmqJq9j-U5oC8E25Ff_BdJtRxznvmvslt_5wmntkqTAHqH6IDGb9AKce6iA8o0ZfwESwP4q2m0wOild2Wpe4sC1AvGScHCiTHJ3eE9R98ReKqzZUyB1H18nDzD2dzi8-edW96DD-IEAYJ30YcPaSe85XWAyRhwb3DQHGEthZUHIQtzDd7eLESsWjTJfjt9v2STkEshdKbW07wxEK5Nd4atloG-h62tFenSF5vNo-ORBnVc2p-q303U00Dd0LcEB1PCFMrn5gMMaGD_tKV6Wrx4tn5YojXgr_rA3bC2X5RGuxX16IXkjfjZw3rcV8Wa0bBXT1_6O1MzXQs45xWKsPsT9NDrV0UupOn-WUnZp20oRqHOKFJ62w80nm0WKELGvkwdtGv7uWDliXP9bb7f9jGRBhkgxJPXZ6BMvFw4QQ7liwGYqhRrvc-V8NQpDIvySIU702Z5PnXFxhdQ2IT0_zbjPr9YUe9Dr3h_LRNbIgkcfQ2YUFR9n0g84Wnu41e3ZcIgLI6OAzW15xwK7vYGpGjTMYl8M48Fo0TYbmsVBykYkYAmBA9yr1Q8ZPmsqB8bsnSl8aSAZe3cmY8Oa8lzlxwXtkjrNzi0ZRpYjwqcDKo5nlb1R8YWiimapiciWqlpiEELOA0cfuD9NULdl1FTlO0G00~2
+          - generic: Найти
+  - contentinfo [ref=e527]:
+    - generic [ref=e529]:
+      - button "Ваш регион Нижний Новгород" [ref=e531] [cursor=pointer]:
+        - generic: Нижний Новгород
+      - generic [ref=e532]:
+        - link "Google" [ref=e533] [cursor=pointer]:
+          - /url: //www.google.com/search?ie=UTF-8&q=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026
+        - link "Bing" [ref=e534] [cursor=pointer]:
+          - /url: //www.bing.com/search?q=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026
+      - button "Обратная связь" [ref=e536] [cursor=pointer]:
+        - generic: Обратная связь
+      - button "Настройки" [ref=e538] [cursor=pointer]:
+        - generic: Настройки
+      - link "ya.ru" [ref=e540] [cursor=pointer]:
+        - /url: //ya.ru/?from=serp_footer
+      - generic [ref=e541]:
+        - link "О компании" [ref=e542] [cursor=pointer]:
+          - /url: https://company.yandex.ru
+        - link "Коммерческие предложения" [ref=e543] [cursor=pointer]:
+          - /url: /search/direct?text=%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%202026&filters_docs=direct_cm
+        - link "Вакансии" [ref=e544] [cursor=pointer]:
+          - /url: //yandex.ru/jobs
+        - link "Лицензия на использование" [ref=e545] [cursor=pointer]:
+          - /url: //yandex.ru/legal/termsofuse/
+        - link "Политика конфиденциальности" [ref=e546] [cursor=pointer]:
+          - /url: //yandex.ru/legal/confidential/
+        - link "Правила рекомендаций" [ref=e547] [cursor=pointer]:
+          - /url: //yandex.ru/legal/recommendations/#index__search

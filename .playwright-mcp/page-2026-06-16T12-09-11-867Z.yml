@@ -1,0 +1,477 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - alert
+    - link "К дополнительным результатам" [ref=e3] [cursor=pointer]:
+      - /url: "#search-result-aside"
+    - link "К основным результатам" [ref=e4] [cursor=pointer]:
+      - /url: "#search-result"
+    - link "Обратная связь о специальных возможностях" [ref=e5] [cursor=pointer]:
+      - /url: //yandex.ru/support/search/troubleshooting/accessibility.html
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - search "Поиск в интернете" [ref=e9]:
+        - generic [ref=e10]:
+          - link "Яндекс" [ref=e11] [cursor=pointer]:
+            - /url: //ya.ru
+            - img [ref=e12]
+          - generic [ref=e15]:
+            - textbox [ref=e16]: Русский музей цена билета 2026
+            - combobox [ref=e17]: Русский музей цена билета 2026
+          - button [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+      - generic [ref=e21]:
+        - button "Голосовой поиск" [ref=e22] [cursor=pointer]:
+          - generic:
+            - img
+        - button "Поиск по картинке" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Расширенный поиск" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+        - link "Маркет" [ref=e30] [cursor=pointer]:
+          - /url: https://market.yandex.ru/my/cart?utm_source=serp_header_cart&clid=957&purchase-referrer=serp_cart
+          - img [ref=e31]
+        - button "Избранное" [ref=e33] [cursor=pointer]:
+          - img [ref=e34]
+        - link "Заказы" [ref=e36] [cursor=pointer]:
+          - /url: https://yandex.ru/products/my/orders?lr=47
+          - img [ref=e37]
+      - generic [ref=e39]:
+        - link "Войти" [ref=e40] [cursor=pointer]:
+          - /url: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fyandex.ru%2Fsearch%2F%3Ftext%3D%25D0%25A0%25D1%2583%25D1%2581%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2520%25D0%25BC%25D1%2583%25D0%25B7%25D0%25B5%25D0%25B9%2520%25D1%2586%25D0%25B5%25D0%25BD%25D0%25B0%2520%25D0%25B1%25D0%25B8%25D0%25BB%25D0%25B5%25D1%2582%25D0%25B0%25202026%26ncrnd%3D44197%26ncrnd%3D7810&origin=serp_desktop_auth_new
+        - button "Меню" [ref=e41] [cursor=pointer]:
+          - img [ref=e42]
+    - navigation [ref=e44]:
+      - generic [ref=e45]:
+        - link "Поиск" [ref=e46] [cursor=pointer]:
+          - /url: //ya.ru?source=tabbar
+          - generic [ref=e47]: Поиск
+          - text: Поиск
+        - link "Алиса AI" [ref=e48] [cursor=pointer]:
+          - /url: //yandex.ru/alice?reqid=1781611751012959-592168356338294387-balancer-l7leveler-kubr-yp-vla-43-BAL&utm_source=yandex&utm_campaign=serp_alicetab_chat&utm_medium=interface&alice_deeplink=%7B%22text%22%3A%22%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026%22%7D&source_query=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&theme=serp
+        - link "Картинки" [ref=e49] [cursor=pointer]:
+          - /url: //yandex.ru/images/search?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&parent-reqid=1781611751012959-592168356338294387-balancer-l7leveler-kubr-yp-vla-43-BAL&from=tabbar
+        - link "Видео" [ref=e50] [cursor=pointer]:
+          - /url: //yandex.ru/video/search?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&parent-reqid=1781611751012959-592168356338294387-balancer-l7leveler-kubr-yp-vla-43-BAL&from=tabbar
+        - link "Карты" [ref=e51] [cursor=pointer]:
+          - /url: //yandex.ru/maps/?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&source=serp_navig
+        - link "Товары" [ref=e52] [cursor=pointer]:
+          - /url: //yandex.ru/search?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&products_mode=1&from=tabbar&serp-reload-from=tab
+        - link "Финансы" [ref=e53] [cursor=pointer]:
+          - /url: //yandex.ru/finance?lr=47&from=tabbar
+        - link "Квартиры" [ref=e54] [cursor=pointer]:
+          - /url: //yandex.ru/realty?lr=47&from=tabbar
+        - link "Переводчик" [ref=e55] [cursor=pointer]:
+          - /url: //translate.yandex.ru?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&from=tabbar
+      - link "Все" [ref=e57] [cursor=pointer]:
+        - /url: //yandex.ru/all?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&from=tabbar
+  - main [ref=e59]:
+    - generic [ref=e64]:
+      - list "Результаты поиска" [ref=e65]:
+        - listitem [ref=e66]:
+          - generic [ref=e69]:
+            - link "Быстрый ответ Алисы AI" [ref=e71] [cursor=pointer]:
+              - /url: https://yandex.ru/alice/?utm_source=yandex&utm_medium=interface&utm_campaign=serp_aliseicon_chat&reqid=1781611751012959-592168356338294387-balancer-l7leveler-kubr-yp-vla-43-BAL&theme=serp&source_query=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026&alice_deeplink=%7B%22text%22%3A%22%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026%22%7D
+              - generic [ref=e72]:
+                - img [ref=e75]
+                - heading "Быстрый ответ Алисы AI" [level=3] [ref=e79]
+            - button "Готовлю ответ" [disabled] [ref=e80]:
+              - generic:
+                - generic: Готовлю ответ
+        - listitem [ref=e83]:
+          - generic [ref=e84]:
+            - 'link "«Русский музей в 2026 году: режим работы, стоимость...»" [ref=e86] [cursor=pointer]':
+              - /url: https://dzen.ru/a/aVut9igG2Xcy-oiL
+              - 'heading "«Русский музей в 2026 году: режим работы, стоимость...»" [level=2] [ref=e88]':
+                - generic [ref=e89]: "«Русский музей в 2026 году: режим работы, стоимость...»"
+            - link "dzen.rua/aVut9igG2Xcy-oiL" [ref=e92] [cursor=pointer]:
+              - /url: https://dzen.ru/a/aVut9igG2Xcy-oiL
+              - text: dzen.ru›a/aVut9igG2Xcy-oiL
+            - button "Действия" [ref=e93] [cursor=pointer]:
+              - img [ref=e95]
+            - generic [ref=e101]: Стоимость билетов в 2026 году. · Взрослый билет в одно здание (например,...
+        - listitem [ref=e102]:
+          - generic [ref=e103]:
+            - 'link "Русский музей в Санкт-Петербурге: цены на билеты..." [ref=e105] [cursor=pointer]':
+              - /url: https://www.tourister.ru/world/europe/russia/city/saint_petersburg/museum/12513
+              - 'heading "Русский музей в Санкт-Петербурге: цены на билеты..." [level=2] [ref=e107]':
+                - generic [ref=e108]: "Русский музей в Санкт-Петербурге: цены на билеты..."
+            - link "tourister.ruСанкт-ПетербургМузеи" [ref=e111] [cursor=pointer]:
+              - /url: https://www.tourister.ru/world/europe/russia/city/saint_petersburg/museum/12513
+              - text: tourister.ru›Санкт-Петербург›Музеи
+            - button "Действия" [ref=e112] [cursor=pointer]:
+              - img [ref=e114]
+            - generic [ref=e120]: Цены на билеты в Русский музей 2026. Михайловский замок. Взрослые — 700 руб. Студенты, школьники и пенсионеры — 500 руб. Дети от 7 до 14 лет – 350 руб. Единый входной билет в Михайловский дворец и корпус Бенуа.
+        - listitem [ref=e121]:
+          - generic [ref=e122]:
+            - link "Билеты - Русский музей" [ref=e124] [cursor=pointer]:
+              - /url: https://www.rusmuseum.ru/about/tickets/
+              - heading "Билеты - Русский музей" [level=2] [ref=e126]:
+                - generic [ref=e127]: Билеты - Русский музей
+            - link "rusmuseum.ruabout/tickets/" [ref=e130] [cursor=pointer]:
+              - /url: https://www.rusmuseum.ru/about/tickets/
+              - text: rusmuseum.ru›about/tickets/
+            - button "Действия" [ref=e131] [cursor=pointer]:
+              - img [ref=e133]
+            - generic [ref=e137]:
+              - generic [ref=e139]: Пенсионеры, планирующие визит в Русский музей, могут оформить билеты на сайте. Также билеты можно приобрести в кассах музея в день посещения. Льготные билеты не предусматривают экскурсионного обслуживания.
+              - generic [ref=e140]:
+                - text: "Не найдено:"
+                - link "2026" [ref=e141] [cursor=pointer]:
+                  - /url: /search/?text=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%20%2B2026&lr=47&missword=1
+        - listitem [ref=e142]:
+          - generic [ref=e143]:
+            - link "Русский музей в Санкт-Петербурге – цены на билеты..." [ref=e145] [cursor=pointer]:
+              - /url: https://www.spb-guide.ru/russkij-muzej-kupit-bilety-ceny.htm
+              - heading "Русский музей в Санкт-Петербурге – цены на билеты..." [level=2] [ref=e147]:
+                - generic [ref=e148]: Русский музей в Санкт-Петербурге – цены на билеты...
+            - link "spb-guide.ruРусский музейЦены на билеты в Русский музей, льготы" [ref=e151] [cursor=pointer]:
+              - /url: https://www.spb-guide.ru/russkij-muzej-kupit-bilety-ceny.htm
+              - text: spb-guide.ru›Русский музей›Цены на билеты в Русский музей, льготы
+            - button "Действия" [ref=e152] [cursor=pointer]:
+              - img [ref=e154]
+            - generic [ref=e160]: Русский музей, цены на билеты, 2023 год. Цена билетов в Русский музей (здание Михайловского дворца) 2026. для взрослых — 700 рублей.
+        - listitem [ref=e161]:
+          - generic [ref=e162]:
+            - link "Где купить билеты в Русский Музей в 2026 году..." [ref=e164] [cursor=pointer]:
+              - /url: https://travelto.ru/blog/russkiy-muzey-bilety/
+              - heading "Где купить билеты в Русский Музей в 2026 году..." [level=2] [ref=e166]:
+                - generic [ref=e167]: Где купить билеты в Русский Музей в 2026 году...
+            - link "travelto.rublog/russkiy-muzey-bilety/" [ref=e170] [cursor=pointer]:
+              - /url: https://travelto.ru/blog/russkiy-muzey-bilety/
+              - text: travelto.ru›blog/russkiy-muzey-bilety/
+            - button "Действия" [ref=e171] [cursor=pointer]:
+              - img [ref=e173]
+            - generic [ref=e179]: "Русский музей в Санкт-Петербурге в 2026 году: билеты, режим работы и как посетить Михайловский дворец."
+        - listitem [ref=e180]:
+          - generic [ref=e181]:
+            - link "Русский музей в Санкт-Петербурге - цена билета, часы..." [ref=e183] [cursor=pointer]:
+              - /url: https://www.spbmuzei.ru/russkij-muzej-bilety-rezhim-raboty
+              - heading "Русский музей в Санкт-Петербурге - цена билета, часы..." [level=2] [ref=e185]:
+                - generic [ref=e186]: Русский музей в Санкт-Петербурге - цена билета, часы...
+            - link "spbmuzei.ruРусский музей–цена билета и режим работы в 2026 году" [ref=e189] [cursor=pointer]:
+              - /url: https://www.spbmuzei.ru/russkij-muzej-bilety-rezhim-raboty
+              - text: spbmuzei.ru›Русский музей–цена билета и режим работы в 2026 году
+            - button "Действия" [ref=e190] [cursor=pointer]:
+              - img [ref=e192]
+            - generic [ref=e198]: "Цена билета в Русский музей в 2026 году. Перед посещением музея ознакомьтесь, сколько стоит входной билет (все цены указаны в рублях): Категория посетителей."
+        - listitem [ref=e199]:
+          - generic [ref=e201]:
+            - button "Действия" [ref=e202] [cursor=pointer]:
+              - img [ref=e204]
+            - heading "Картинки по запросу Русский музей цена билета 2026" [level=2] [ref=e209]:
+              - link "Картинки по запросу Русский музей цена билета 2026" [ref=e210] [cursor=pointer]:
+                - /url: /images/search?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&stype=image&lr=47&parent-reqid=1781611751012959-592168356338294387-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                - generic [ref=e212]: Картинки
+            - list [ref=e218]:
+              - generic [ref=e219]:
+                - generic:
+                  - link "Картинка Русский музей в Санкт-Петербурге - цены на билеты 2026 году" [ref=e221] [cursor=pointer]:
+                    - /url: /images/search?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026&img_url=https%3A%2F%2Fwww.spb-guide.ru%2Fimg%2F22702%2Frusskij-muzej-besplatnyj-vhod-171394big.jpg&pos=0&rpt=simage&stype=image&lr=47&parent-reqid=1781611751012959-592168356338294387-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                    - img [ref=e222]
+                  - link "Картинка Отзыв о Комплексный билет в Русский музей и его филиалы" [ref=e224] [cursor=pointer]:
+                    - /url: /images/search?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026&img_url=https%3A%2F%2Fi2017.otzovik.com%2F2017%2F07%2F31%2F5196623%2Fimg%2F57684608.jpeg&pos=1&rpt=simage&stype=image&lr=47&parent-reqid=1781611751012959-592168356338294387-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                    - img [ref=e225]
+                  - link "Картинка Русский музей в Санкт-Петербурге - цены на билеты 2026 году" [ref=e227] [cursor=pointer]:
+                    - /url: /images/search?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026&img_url=https%3A%2F%2Fwww.spb-guide.ru%2Fimg%2F22702%2Frusskij-muzej-ceny-na-bilety-171395big.jpg&pos=2&rpt=simage&stype=image&lr=47&parent-reqid=1781611751012959-592168356338294387-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                    - img [ref=e228]
+                  - 'link "Картинка Выставки в Русском музее в 2026 году: цены на художественные" [ref=e230] [cursor=pointer]':
+                    - /url: /images/search?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026&img_url=https%3A%2F%2Favatars.dzeninfra.ru%2Fget-zen_doc%2F271828%2Fpub_697887ff8acd535b0dda4dd2_6978a2cfe0c00227228e182a%2Fscale_1200&pos=3&rpt=simage&stype=image&lr=47&parent-reqid=1781611751012959-592168356338294387-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                    - img [ref=e231]
+                  - link "Картинка Правила посещения - Русский музей" [ref=e233] [cursor=pointer]:
+                    - /url: /images/search?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026&img_url=https%3A%2F%2Frusmuseum.ru%2Fupload%2Fmedialibrary%2Fbc9%2F02%2520pensioner.jpg&pos=4&rpt=simage&stype=image&lr=47&parent-reqid=1781611751012959-592168356338294387-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                    - img [ref=e234]
+        - listitem [ref=e236]:
+          - generic [ref=e237]:
+            - 'link "15 лучших музеев Санкт-Петербурга: описание, часы..." [ref=e239] [cursor=pointer]':
+              - /url: https://lenta.ru/articles/2026/02/18/top-15-muzeev-sankt-peterburga/
+              - 'heading "15 лучших музеев Санкт-Петербурга: описание, часы..." [level=2] [ref=e241]':
+                - generic [ref=e242]: "15 лучших музеев Санкт-Петербурга: описание, часы..."
+            - link "lenta.ruarticles/2026/02/18/top-15-muzeev-sankt-…" [ref=e245] [cursor=pointer]:
+              - /url: https://lenta.ru/articles/2026/02/18/top-15-muzeev-sankt-peterburga/
+              - text: lenta.ru›articles/2026/02/18/top-15-muzeev-sankt-…
+            - button "Действия" [ref=e246] [cursor=pointer]:
+              - img [ref=e248]
+            - generic [ref=e254]: "Стоимость билетов: цена комплексного билета, который позволяет посетить филиалы музея и объекты Петропавловской крепости, отличается в разные сезоны. С 1 мая по 31 октября билеты для взрослых стоят 2300 рублей..."
+        - listitem [ref=e255]:
+          - generic [ref=e256]:
+            - 'link "Обзор: сколько стоят билеты в популярные музеи..." [ref=e258] [cursor=pointer]':
+              - /url: https://www.rus-tourist.ru/news/803/
+              - 'heading "Обзор: сколько стоят билеты в популярные музеи..." [level=2] [ref=e260]':
+                - generic [ref=e261]: "Обзор: сколько стоят билеты в популярные музеи..."
+            - link "rus-tourist.runews/803/" [ref=e264] [cursor=pointer]:
+              - /url: https://www.rus-tourist.ru/news/803/
+              - text: rus-tourist.ru›news/803/
+            - button "Действия" [ref=e265] [cursor=pointer]:
+              - img [ref=e267]
+            - generic [ref=e273]: Посещение музеев входит в программу дня многих туристов в Санкт-Петербург. Сколько стоит? Мы подготовили обзор стоимости билетов в самые популярные музеи Петербурга в 2026 году.
+        - listitem [ref=e274]:
+          - generic [ref=e275]:
+            - 'link "Экскурсии в Музеи Петербурга 2026: Эрмитаж..." [ref=e277] [cursor=pointer]':
+              - /url: https://vc.ru/travel/2219930-ekskursii-v-muzei-peterburga
+              - 'heading "Экскурсии в Музеи Петербурга 2026: Эрмитаж..." [level=2] [ref=e279]':
+                - generic [ref=e280]: "Экскурсии в Музеи Петербурга 2026: Эрмитаж..."
+            - link "vc.rutravel/2219930-ekskursii-v-muzei-peterburga" [ref=e283] [cursor=pointer]:
+              - /url: https://vc.ru/travel/2219930-ekskursii-v-muzei-peterburga
+              - text: vc.ru›travel/2219930-ekskursii-v-muzei-peterburga
+            - button "Действия" [ref=e284] [cursor=pointer]:
+              - img [ref=e286]
+            - generic [ref=e292]: Экскурсии в Эрмитаж и Русский музей, цены на билеты, расписание работы, авторские туры от местных гидов, отзывы о экскурсиях в Санкт-Петербурге.
+        - listitem [ref=e293]:
+          - generic [ref=e294]:
+            - 'link "Русский музей: история, описание, режим работы, цены..." [ref=e296] [cursor=pointer]':
+              - /url: https://www.eurotraveler.ru/europe/russia/russian-museum/
+              - 'heading "Русский музей: история, описание, режим работы, цены..." [level=2] [ref=e298]':
+                - generic [ref=e299]: "Русский музей: история, описание, режим работы, цены..."
+            - link "eurotraveler.ruРоссия" [ref=e302] [cursor=pointer]:
+              - /url: https://www.eurotraveler.ru/europe/russia/russian-museum/
+              - text: eurotraveler.ru›Россия
+            - button "Действия" [ref=e303] [cursor=pointer]:
+              - img [ref=e305]
+            - generic [ref=e311]: "Русский музей в Санкт-Петербурге: история создания, здания, картины. Где находится, часы работы, цены на билеты 2026, можно ли посетить бесплатно?"
+        - listitem [ref=e312]:
+          - generic [ref=e313]:
+            - link "Экскурсии в Русский музей Санкт-Петербурга в 2026 году..." [ref=e315] [cursor=pointer]:
+              - /url: https://experience.tripster.ru/experience/Saint_Petersburg/20188-russkij-muzej/
+              - heading "Экскурсии в Русский музей Санкт-Петербурга в 2026 году..." [level=2] [ref=e317]:
+                - generic [ref=e318]: Экскурсии в Русский музей Санкт-Петербурга в 2026 году...
+            - link "experience.tripster.ruРоссияСанкт-Петербург" [ref=e321] [cursor=pointer]:
+              - /url: https://experience.tripster.ru/experience/Saint_Petersburg/20188-russkij-muzej/
+              - text: experience.tripster.ru›Россия›Санкт-Петербург
+            - button "Действия" [ref=e322] [cursor=pointer]:
+              - img [ref=e324]
+            - generic [ref=e328]:
+              - generic [ref=e330]: Экскурсии в Русский музей Санкт-Петербурга. Расписание экскурсий на июнь-июль 2026 года от лучших гидов. 1593 отзыва на экскурсии от туристов. Цены от 950 ₽.
+              - 'button "Рейтинг: 4,8 из 5 ⁠ 1,6K отзывов на агрегатор" [ref=e333] [cursor=pointer]':
+                - generic [ref=e334]:
+                  - generic [ref=e335]: "Рейтинг: 4,8 из 5"
+                  - text: ⁠4,8
+                - generic [ref=e338]:
+                  - text: 1,6K отзывов
+                  - generic [ref=e339]: на агрегатор
+        - listitem [ref=e340]:
+          - generic [ref=e341]:
+            - 'link "Русский музей: режим работы 2025, цена билетов: как..." [ref=e343] [cursor=pointer]':
+              - /url: https://peterburg.center/maps/russkiy-muzey.html
+              - 'heading "Русский музей: режим работы 2025, цена билетов: как..." [level=2] [ref=e345]':
+                - generic [ref=e346]: "Русский музей: режим работы 2025, цена билетов: как..."
+            - link "peterburg.centermaps/russkiy-muzey.html" [ref=e349] [cursor=pointer]:
+              - /url: https://peterburg.center/maps/russkiy-muzey.html
+              - text: peterburg.center›maps/russkiy-muzey.html
+            - button "Действия" [ref=e350] [cursor=pointer]:
+              - img [ref=e352]
+            - generic [ref=e358]: Приобрести входные билеты в музей можно на сайте Русского музея и в кассах. Единственным официальным сайтом для покупки билетов в Русский музей является сайт rusmuseum.ru.
+        - listitem [ref=e359]:
+          - generic [ref=e360]:
+            - link "Купите билет на развод мостов с борта экохода!" [ref=e362] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WhOejI_zOoVX2LbE0aKL03FdcBxMqdbIU0cO4wZY4-1wmmJqfXzU5oe8U3q2kW27LNfbPA_0hW5R0GwhzDI22AboPu0M-dmkT_PiltFd3NU-ViVh3NUurghH32CQrffQH88g0sa92CcgP3sgbMWKKPDg748ag3U4YgmoZ8QgLgGZ4aj88v2Ch4fM8ceHcBBvmeCbLJegbDw4M0KSEYY2GSVH0MPL1mTikQlIOIeIf0-oW2RB0i9KlQe2j5GzgWAqL3qU1MYfUbC5QAbwKWLegNT32j1IxzWAq8Bm9Ay0BGXFZXIW1U49NW5Q49uOAK0BmfEx0hGWF2bIW1Q49-02j228iNA-9iugXFHju4CYfql_JJaH_13s7xpU0_V6Q-fG3Mb-uzDdVjzHw9r7xUSKMa-XqwVjjA5IsuxQkTIE00VhivGLUSIJU_93wiRhQEDPPF1pFjymsNW_iDbz8E06S00Rk3I6YdHTVce-j1hsfdWBbbR3bfwgATFmuiTXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWwm2Ozei9XedAtrtV1JC8LE9o4SHl5h25hGctkweE3jXYnC8EEgn2-UOAc8AvoKEFmlOGBYk6tDInp1YTXZ5h6E5114bgV9WG0s604oXmg7Am_uq_JyiF2x2uzS4otoh_A_EjyhqotogVE-Cbwkyra_XhQoRnpzPCOgPvmvbPJl65ETvrNTTfCqpS4I1T1C1pFADt0V0Sp-Yj1_Db6Y5aa9xyXG3cwNvCUt02ZrnGwlmNkYEoogplE5BssZzPv0YFmZ8NSXUisdqyXc0pGCMEqJ4iAL1-70pOGQj8rCG85Vnrdlj3ucptwq-IytTHa_2kOQT_KvTsyv0dAmwHasuSEGvJD-QvxPFoRMM7ggR5G8-ZsB7Mv2WMbGM5I5VB9ZuQ~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+              - heading "Купите билет на развод мостов с борта экохода!" [level=2] [ref=e364]:
+                - generic [ref=e365]: Купите билет на развод мостов с борта экохода!
+            - link "nameteor.ruКупите билет на развод мостов с борта экохода!" [ref=e368] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WhOejI_zOoVX2LbE0aKL03FdcBxMqdbIU0cO4wZY4-1wmmJqfXzU5oe8U3q2kW27LNfbPA_0hW5R0GwhzDI22AboPu0M-dmkT_PiltFd3NU-ViVh3NUurghH32CQrffQH88g0sa92CcgP3sgbMWKKPDg748ag3U4YgmoZ8QgLgGZ4aj88v2Ch4fM8ceHcBBvmeCbLJegbDw4M0KSEYY2GSVH0MPL1mTikQlIOIeIf0-oW2RB0i9KlQe2j5GzgWAqL3qU1MYfUbC5QAbwKWLegNT32j1IxzWAq8Bm9Ay0BGXFZXIW1U49NW5Q49uOAK0BmfEx0hGWF2bIW1Q49-02j228iNA-9iugXFHju4CYfql_JJaH_13s7xpU0_V6Q-fG3Mb-uzDdVjzHw9r7xUSKMa-XqwVjjA5IsuxQkTIE00VhivGLUSIJU_93wiRhQEDPPF1pFjymsNW_iDbz8E06S00Rk3I6YdHTVce-j1hsfdWBbbR3bfwgATFmuiTXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWwm2Ozei9XedAtrtV1JC8LE9o4SHl5h25hGctkweE3jXYnC8EEgn2-UOAc8AvoKEFmlOGBYk6tDInp1YTXZ5h6E5114bgV9WG0s604oXmg7Am_uq_JyiF2x2uzS4otoh_A_EjyhqotogVE-Cbwkyra_XhQoRnpzPCOgPvmvbPJl65ETvrNTTfCqpS4I1T1C1pFADt0V0Sp-Yj1_Db6Y5aa9xyXG3cwNvCUt02ZrnGwlmNkYEoogplE5BssZzPv0YFmZ8NSXUisdqyXc0pGCMEqJ4iAL1-70pOGQj8rCG85Vnrdlj3ucptwq-IytTHa_2kOQT_KvTsyv0dAmwHasuSEGvJD-QvxPFoRMM7ggR5G8-ZsB7Mv2WMbGM5I5VB9ZuQ~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+              - text: nameteor.ru›Купите билет на развод мостов с борта экохода!
+            - button "Действия" [ref=e369] [cursor=pointer]:
+              - img [ref=e371]
+            - generic [ref=e375]:
+              - generic [ref=e376]: Развод мостов, закат и панорамы Петербурга с борта электросудна.
+              - 'button "Рейтинг: 4,9 из 5 ⁠ 44 отзыва" [ref=e379] [cursor=pointer]':
+                - generic [ref=e380]:
+                  - generic [ref=e381]: "Рейтинг: 4,9 из 5"
+                  - text: ⁠4,9
+                - generic [ref=e384]: 44 отзыва
+              - generic [ref=e385]:
+                - link "Развод мостов" [ref=e387] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WhSejI_zOoVX2LbE0aqL03CdcRxMqdbIU0cO4wZY4-1wmmJqfXzU5oe8U3q2kW27LNfbPA_0hW5R0GwhzDI22AboPu0M-dmkT_PiltFd3NU-ViVh3NUurghH32CQrffQH88g0sa92CcgP3sgbMWKKPDg748ag3U4YgmoZ8QgLgGZ4aj88v2Ch4fM8ceHcBBvmeCbLJegbDw4M0KSEYY2GSVH0MPL1mTikQlIOIeIf0-oW2RB0i9KlQe2j5GzgWAqL3qU1MYfUbC5QAbwKWLegNT32j1IxzWAq8Bm9Ay0BGXFZXIW1U49NW5Q49uOAK0BmfEx0hGWF2bIW1Q49-02j228iNA-9iugXFHju4CYfql_JJaH_13s7xpU0_V6Q-fG3Mb-uzDdVjzHw9r7xUSKMa-XqwVjjA5IsuxQkTIE00VhivGLUSIJU_93wiRhQEDPPF1pFjymsNW_iDbz8E06S00Rk3I6YdHTVce-j1hsfdWBbbR3bfwgATFmuiTXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWwm2Ozei9XedAtrtV1JC8LE9o4SHl5h25hGctkweE3jXYnC8EEgn2-UOAc8AvoKEFmlOGBYk6tDInp1YTXZ5h6E5114bgV9WG0s604oXmg7Am_uq_JyiF2x2uzS4otoh_A_EjyhqotogVE-Cbwkyra_XhQoRnpzPCOgPvmvbPJl65ETvrNTTfCqpS4I1T1C1pFADt0V0Sp-Yj1_Db6Y5aa9xyXG3cwNxSW0SdyCW5fSv_eJiYgypwZYDbh_sJHOxmA2np8NV1gjt7OmWs0rJi61t3aWBb1-4GBOCg4ZKn0XNyTPxxG-9iz-jFalDtKPFmhc6dVrENTlEG9oiEaPDk73aEKpVckUsJycrbXwgcnK2FezYnrkGe5fK5XKXNooO-6W00~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Финский залив" [ref=e389] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WhOejI_zOoVX2LbE0aKL03FdcBxMqdbIU0cO4wZY4-1wmmJqfXzU5oe8U3q2kW27LNfbPA_0hW5R0GwhzDI22AboPu0M-dmkT_PiltFd3NU-ViVh3NUurghH32CQrffQH88g0sa92CcgP3sgbMWKKPDg748ag3U4YgmoZ8QgLgGZ4aj88v2Ch4fM8ceHcBBvmeCbLJegbDw4M0KSEYY2GSVH0MPL1mTikQlIOIeIf0-oW2RB0i9KlQe2j5GzgWAqL3qU1MYfUbC5QAbwKWLegNT32j1IxzWAq8Bm9Ay0BGXFZXIW1U49NW5Q49uOAK0BmfEx0hGWF2bIW1Q49-02j228iNA-9iugXFHju4CYfql_JJaH_13s7xpU0_V6Q-fG3Mb-uzDdVjzHw9r7xUSKMa-XqwVjjA5IsuxQkTIE00VhivGLUSIJU_93wiRhQEDPPF1pFjymsNW_iDbz8E06S00Rk3I6YdHTVce-j1hsfdWBbbR3bfwgATFmuiTXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWwm2Ozei9XedAtrtV1JC8LE9o4SHl5h25hGctkweE3jXYnC8EEgn2-UOAc8AvoKEFmlOGBYk6tDInp1YTXZ5h6E5114bgV9WG0s604oXmg7Am_uq_JyiF2x2uzS4otoh_A_EjyhqotogVE-Cbwkyra_XhQoRnpzPCOgPvmvbPJl65ETvrNTTfCqpS4I1T1C1pFADt0V0Sp-Yj1_Db6Y5aa9xyXG3cwNxiuy49F791gVDVw8x8AhE-uqZPQ_zaaICy2ijSo5smQlVn68BD01KxHiUmf43vjyGFxAWYKHCZ5Vnrdlj3ucptwq-IytTHa_2kOQT_KvTsyv0dAmwHasuSEGvJD-QvxPFoRMM7ggR5G8-ZsB7Mv2WMbGM5I5VB9ZuQ~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Прогулки на экоходе" [ref=e391] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WhOejI_zOoVX2LbE0aKL03FdcBxMqdbIU0cO4wZY4-1wmmJqfXzU5oe8U3q2kW27LNfbPA_0hW5R0GwhzDI22AboPu0M-dmkT_PiltFd3NU-ViVh3NUurghH32CQrffQH88g0sa92CcgP3sgbMWKKPDg748ag3U4YgmoZ8QgLgGZ4aj88v2Ch4fM8ceHcBBvmeCbLJegbDw4M0KSEYY2GSVH0MPL1mTikQlIOIeIf0-oW2RB0i9KlQe2j5GzgWAqL3qU1MYfUbC5QAbwKWLegNT32j1IxzWAq8Bm9Ay0BGXFZXIW1U49NW5Q49uOAK0BmfEx0hGWF2bIW1Q49-02j228iNA-9iugXFHju4CYfql_JJaH_13s7xpU0_V6Q-fG3Mb-uzDdVjzHw9r7xUSKMa-XqwVjjA5IsuxQkTIE00VhivGLUSIJU_93wiRhQEDPPF1pFjymsNW_iDbz8E06S00Rk3I6YdHTVce-j1hsfdWBbbR3bfwgATFmuiTXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWwm2Ozei9XedAtrtV1JC8LE9o4SHl5h25hGctkweE3jXYnC8EEgn2-UOAc8AvoKEFmlOGBYk6tDInp1YTXZ5h6E5114bgV9WG0s604oXmg7Am_uq_JyiF2x2uzS4otoh_A_EjyhqotogVE-Cbwkyra_XhQoRnpzPCOgPvmvbPJl65ETvrNTTfCqpS4I1T1C1pFADt0V0Sp-Yj1_Db6Y5aa9xyXG3cwNwimeCJUEI2KkU_q1sHLMPznv6or_x98aTu59QvaBjWrUxZCGIR0IfsZ8vXIO7ol_WWYwqYKHCZ5Vnrdlj3ucptwq-IytTHa_2kOQT_KvTsyv0dAmwHasuSEGvJD-QvxPFoRMM7ggR5G8-ZsB7Mv2WMbGM5I5VB9ZuQ~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Закаты на воде" [ref=e393] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WhOejI_zOoVX2LbE0aKL03FdcBxMqdbIU0cO4wZY4-1wmmJqfXzU5oe8U3q2kW27LNfbPA_0hW5R0GwhzDI22AboPu0M-dmkT_PiltFd3NU-ViVh3NUurghH32CQrffQH88g0sa92CcgP3sgbMWKKPDg748ag3U4YgmoZ8QgLgGZ4aj88v2Ch4fM8ceHcBBvmeCbLJegbDw4M0KSEYY2GSVH0MPL1mTikQlIOIeIf0-oW2RB0i9KlQe2j5GzgWAqL3qU1MYfUbC5QAbwKWLegNT32j1IxzWAq8Bm9Ay0BGXFZXIW1U49NW5Q49uOAK0BmfEx0hGWF2bIW1Q49-02j228iNA-9iugXFHju4CYfql_JJaH_13s7xpU0_V6Q-fG3Mb-uzDdVjzHw9r7xUSKMa-XqwVjjA5IsuxQkTIE00VhivGLUSIJU_93wiRhQEDPPF1pFjymsNW_iDbz8E06S00Rk3I6YdHTVce-j1hsfdWBbbR3bfwgATFmuiTXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWwm2Ozei9XedAtrtV1JC8LE9o4SHl5h25hGctkweE3jXYnC8EEgn2-UOAc8AvoKEFmlOGBYk6tDInp1YTXZ5h6E5114bgV9WG0s604oXmg7Am_uq_JyiF2x2uzS4otoh_A_EjyhqotogVE-Cbwkyra_XhQoRnpzPCOgPvmvbPJl65ETvrNTTfCqpS4I1T1C1pFADt0V0Sp-Yj1_Db6Y5aa9xyXG3cwNuCmuCJUEI2KkU_q1sHLMPznv6or_x98aTu59QvaBjWrUxZCGIR0IfsZ8vXIO7o3rdVqAf8rCG85Vnrdlj3ucptwq-IytTHa_2kOQT_KvTsyv0dAmwHasuSEGvJD-QvxPFoRMM7ggR5G8-ZsB7Mv2WMbGM5I5VB9ZuQ~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+              - generic [ref=e395]:
+                - link "Контактная информация" [ref=e397] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WhSejI_zOoVX2LbH0aqL04CdcRxMqdbIU0cO4wZY4-1wmmJqfXzU5oe8U3q2kW27LNfbPA_0hW5R0GwhzDI22AboPu0M-dmkT_PiltFd3NU-ViVh3NUurghH32CQrffQH88g0sa92CcgP3sgbMWKKPDg748ag3U4YgmoZ8QgLgGZ4aj88v2Ch4fM8ceHcBBvmeCbLJegbDw4M0KSEYY2GSVH0MPL1mTikQlIOIeIf0-oW2RB0i9KlQe2j5GzgWAqL3qU1MYfUbC5QAbwKWLegNT32j1IxzWAq8Bm9Ay0BGXFZXIW1U49NW5Q49uOAK0BmfEx0hGWF2bIW1Q49-02j228iNA-9iugXFHju4CYfql_JJaH_13s7xpU0_V6Q-fG3Mb-uzDdVjzHw9r7xUSKMa-XqwVjjA5IsuxQkTIE00VhivGLUSIJU_93wiRhQEDPPF1pFjymsNW_iDbz8E06S00Rk3I6YdHTVce-j1hsfdWBbbR3bfwgATFmuaVcC2X5RGuxX16IXjkasQvPUVBmlM0nW2yGdk05i7K0JFl51CD4vU-kxu8P12fnkGZYDmlOmjQ4srrL1mTiCM9X1nrMeNnp1Kp1tEIXHs5x29SLGsxgM6QCJiEODOpm888aDJvCY84mm0aKE5GvsF_6dwVbXmLOtFfWcM-L_vNvLlbUcM-Lpvtn4lNtcadyjJMJ-6Th9Z7JlE7CBAVumXplkgxhj1acxWYGBWBWEPxHkm1uZcVqreFvCeqGCaXF_a80ytG_jk312JnoGQdpN-YEo2gplkD8sMl_P94ZF0hBNCXTi6htyHY2pG0LEqR7iBn0-QK4O4IqYaHDZ1NyDP_xGq9jz-jFahDuKHFohY6eVrDtT_F0uLw6o5aOHuwer8rHRVkag4vY9rNJ8hV7KUnMopcAHHc14aXNcn8v6W00~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B
+                - generic [ref=e398]:
+                  - heading "Телефон" [level=3] [ref=e399]
+                  - button "Показать телефон" [ref=e401] [cursor=pointer]: +7 (800) 200-XX-XX Показать
+                - generic [ref=e402]:
+                  - heading "Время работы" [level=3] [ref=e403]
+                  - text: ежедневно 9:00-18:00
+            - generic [ref=e404]: Промо
+        - listitem [ref=e405]:
+          - generic [ref=e406]:
+            - link "Билеты на экскурсию в Русский музей" [ref=e408] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WmWejI_zOoVX2Lag0zKN0AFgfBxMCi2ZIWBc1Ahu1BZUC06zwOVNXGe2tWa8w2bm753kD84-dykTFTllt7d3dQ_VyNh37QxKngLHw3F7fVTjG-jd3i960QB7wVFpx07XH07YsGF2YGA45SSIKNr3Y4PIqX9I7MH5CgfHhMy8qKYgOJHqWpf3YAYkKLDlM4a82IKXBT58eZ73Ic89QGJIaf5IafALHf2GqjKEcBBvmeCbLJegbDw4M0KSEYY2GSVn3hg1Y0AQq0M4cMC5SAbwLGLegNfK1MYfUZmAq5BrfWhGKlMa2j1IxuOKeANUiHMW1U59NW5Q49uSAK0BmXEy0hGWF35IW1Q49tS5Q45uKgG0BGXFm0LeGH1ZvNnDKEdHMG4MoStfAatHgl9KJbjZv44gGV40tnklgKCrfFcDJv_vVKUXTnwrdrDeFOLEdxRJXafjEshdKZi27ApFKbRa4K_koG-f6s-B8ISUCPJp-OR9nlk1pUu30JU00zZ0fJ5Kf9CK-wdvq6hOc-8jM5eDMtggfap3Iv9iZJX6r_KQdSEW5BKvx116I1fkasQxPkN9m_U2nG2-G7Y25y3M0J3j5nC8LE9o4SHl5h25hGblY1I8YK6Q5dRGOHNADrV05Cm9HDb1OIldrOeXDtKic4cBrSQ8cJ4w3MFMCCA329BK-30X1i809r3WKELW_njXzgWVnhdxVZ2p3EL_wSVjzzAFsyzTvktuUuOkKRvMXeZvPsM8c9dcdYlCClta1tFCN7gPottNTLsdpJ1nHu1qqG19PgDt3P1aDdhhlNoPHWWPf2Vx9Lkao7vCUp02O5BAgFoNrdKcx1uev-XtVCeJ7s4cALv6h_LxFRv_RsKkv2vOjVju3C5cW8eTesDW9g3y57YDBQj8rCG88Vm-UWDmyCBacU-j4QOMiw8U9ldXrudUkYHnyO3oMP0onTQfnJfoEogoCavDFfXU1Y4dPnH6BrvJ1oelpwXVtFXR_NEbqgqZlAkapGDZZeThSOQzB7RvSEpG5cNMsM5TRIeAOW00~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+              - heading "Билеты на экскурсию в Русский музей" [level=2] [ref=e410]:
+                - generic [ref=e411]: Билеты на экскурсию в Русский музей
+            - link "ticketstour.ruЭкскурсия-в-Михайлов..." [ref=e414] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WmWejI_zOoVX2Lag0zKN0AFgfBxMCi2ZIWBc1Ahu1BZUC06zwOVNXGe2tWa8w2bm753kD84-dykTFTllt7d3dQ_VyNh37QxKngLHw3F7fVTjG-jd3i960QB7wVFpx07XH07YsGF2YGA45SSIKNr3Y4PIqX9I7MH5CgfHhMy8qKYgOJHqWpf3YAYkKLDlM4a82IKXBT58eZ73Ic89QGJIaf5IafALHf2GqjKEcBBvmeCbLJegbDw4M0KSEYY2GSVn3hg1Y0AQq0M4cMC5SAbwLGLegNfK1MYfUZmAq5BrfWhGKlMa2j1IxuOKeANUiHMW1U59NW5Q49uSAK0BmXEy0hGWF35IW1Q49tS5Q45uKgG0BGXFm0LeGH1ZvNnDKEdHMG4MoStfAatHgl9KJbjZv44gGV40tnklgKCrfFcDJv_vVKUXTnwrdrDeFOLEdxRJXafjEshdKZi27ApFKbRa4K_koG-f6s-B8ISUCPJp-OR9nlk1pUu30JU00zZ0fJ5Kf9CK-wdvq6hOc-8jM5eDMtggfap3Iv9iZJX6r_KQdSEW5BKvx116I1fkasQxPkN9m_U2nG2-G7Y25y3M0J3j5nC8LE9o4SHl5h25hGblY1I8YK6Q5dRGOHNADrV05Cm9HDb1OIldrOeXDtKic4cBrSQ8cJ4w3MFMCCA329BK-30X1i809r3WKELW_njXzgWVnhdxVZ2p3EL_wSVjzzAFsyzTvktuUuOkKRvMXeZvPsM8c9dcdYlCClta1tFCN7gPottNTLsdpJ1nHu1qqG19PgDt3P1aDdhhlNoPHWWPf2Vx9Lkao7vCUp02O5BAgFoNrdKcx1uev-XtVCeJ7s4cALv6h_LxFRv_RsKkv2vOjVju3C5cW8eTesDW9g3y57YDBQj8rCG88Vm-UWDmyCBacU-j4QOMiw8U9ldXrudUkYHnyO3oMP0onTQfnJfoEogoCavDFfXU1Y4dPnH6BrvJ1oelpwXVtFXR_NEbqgqZlAkapGDZZeThSOQzB7RvSEpG5cNMsM5TRIeAOW00~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+              - text: ticketstour.ru›Экскурсия-в-Михайлов...
+            - button "Действия" [ref=e415] [cursor=pointer]:
+              - img [ref=e417]
+            - generic [ref=e421]:
+              - generic [ref=e423]: Билеты на экскурсию в Михайловский дворец. Без очередей
+              - 'button "Рейтинг: 4,6 из 5 ⁠ 17 отзывов на агрегатор" [ref=e426] [cursor=pointer]':
+                - generic [ref=e427]:
+                  - generic [ref=e428]: "Рейтинг: 4,6 из 5"
+                  - text: ⁠4,6
+                - generic [ref=e431]:
+                  - text: 17 отзывов
+                  - generic [ref=e432]: на агрегатор
+              - generic [ref=e433]:
+                - link "Обзорные экскурсии" [ref=e435] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WliejI_zOoVX2LaK0sqN0BCfeRxMCi2ZIWBc1Ahu1BZUC06zwOVNXGe2tWa8w2bm753kD84-dykTFTllt7d3dQ_VyNh37QxKngLHw3F7fVTjG-jd3i960QB7wVFpx07XH07YsGF2YS9wemZ920UG4GaPI4j0I5Obwr6jHAE8caH2I2W9QOb64eqPLX9BI2EGbeoKafIiD8A4bBxiW2cRBpnOKgMZGkbDY5N0eOCY67GSxw0RY2YW2Lr0c3bM09UgLrM0bgf7LO2MgiUZ02rLRwe0BLLFgW0jzMv80Lhg7Li1MX2Uv1MW1U79aGAq83p1Aq0BmXCZ1MX1U79NW1Q49qKAq8Bm15o05WGnLixN19KUdHLWaToShj8KhIfFvRGrHXwa4XGFyBtncZfKGvhV-FIPttSKUkTH-pc5rbFez6axRQZKjgDsBhKZmC7wB6L57l7adloGkl6s67BY4KCvds-ORBmVsEm-4703E80DN1f3HJf9iP-Q3ws6lIdUWgNLiAMdQieql2J9reXZT5slqJaCIb6RmmvXXAJXDccsQrQUF7mlM0pW2uGdU05i7G3JVZ61G2Kk5q7yPW5Rs9hmXaY1c1YaQM477LQXV7C5JC6SG9GT5BPoNgqOSbF7WfcqM6sCc1cZqp1c3ICyY219ZGyJOY0CS0853bKEzhyHPe_wOPoxxmSpor3-btxSVY_zkFtSPTwElsVe4kLhPOYOVrQ6Y9bfxhd2BDDFVZ37pAMNkTntNTTrsWmJTmH85msGP3Pwrm19PgEttikNQOIGGNgoNx95Ykp73NWm0c1IogZybzPr9kmUAEVeTtpA4nzX9YbUHg_rUps-VszbBkGkMBNxU0p1Pe2A7QDZODOe_mq5eh6AH4sC8loEUKDjyCAucU-Y4QOMiwBo9VcrrucokYJnwu3oJf1YgZmC1Syga8K1N-ChK9EFJI-39fDv2gCNCQa_bXT7X5_Sk9N-ENVfrX7GLTBe0J37mxKumruMktmuTcYBCkliiAus5GKn~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Водные экскурсии" [ref=e437] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WleejI_zOoVX2LaI0sKN09FfeBxMCi2ZIWBc1Ahu1BZUC06zwOVNXGe2tWa8w2bm753kD84-dykTFTllt7d3dQ_VyNh37QxKngLHw3F7fVTjG-jd3i960QB7wVFpx07XH07YsGF2YS9wewXgL8E43AGb82IhalMeLg9HH4qY8IIKXBH48ud632k99QGHI4j6IabALXf1GafUTi2KpHSUBAdIKQ7q9iGguD114GmwZdVG3KGKq8Gk8CmSAu1BrQigG4lLeof0IzNZKO2MgZTLW9Qg9rM0bdetf00jzOwj02q8J_8Aq8Bmv4W1MX2Uu1MW1U69aGAq83ovAq0BmfCY1MX1U08kG0k262ldQu9AZyuAi4XkJbTfYbQLftBQ6YCFKWcA1_ZUU4qTgY7DRtpwpEyx2htpgFsSGkifTFgqdJPKQjjHEvVQ4U1WVPQo8ezuSaz-IDruMmmvyOYXdCytJ3RU3sns7mYu0Hp01YwDeIATfDXFpOTMmzuKRy7IQjZIKpLb6bwIP6l4CRgkr-WS1gMepM67C4BIS9iqspKhJnw-5om6y0N24xm0jWw0QR-OGA0IbuiWVhE0BMnDU4EaG4mCqhImWmwhKBwv0gPWJY3A3WfREQzM3BcfOy5CMgmsHioCqMaOiuOH7aIGfCQ72J4G1ZY10eSg1_lV2BD7_J3EtVU3cMKe_qi_Rh-NVjn-xZ9lnzypT8dojJ94p3yhGyJCDFTSOPRf9p-OO-RIorpkkwxhEcs6YJi2f8i6I38RlMk09BFHM-_bopH2o20zsI_P8aNsOnyFHW1CIXcL_zAwpeJT0-KS_OvFUU8Zp2J5o-YrVg_7z--jp8NS1Qjs7uyXs0nGiMDq3CmCoZy15xYjAX8rCG8Y_7vv0stmmhIPxw4HfXQpekub-R7NYQww977hWF9Da6AAF0m3pog0X05VuojGauzDBuCcataAenSngJ-M5qU4NzoubVuvT-dM4T1LqkW1CCV3jJZ3NXQxV3XsQ8iow-omhZOL1J40~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Ночные экскурсии" [ref=e439] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WleejI_zOoVX2LaJ0sKN0AFfeBxMCi2ZIWBc1Ahu1BZUC06zwOVNXGe2tWa8w2bm753kD84-dykTFTllt7d3dQ_VyNh37QxKngLHw3F7fVTjG-jd3i960QB7wVFpx07XH07YsGF2YS9wesX6a54H2Hb8Iq18LYNhKQr4euYQH498A0bfYKOIZHbM4aj88v2MZ9IIbAmqWeIK97V0bCqN7Yofqb6Xz2R4Ak3GGH4CEevtq0r45D24BY3C72k0IzMhAa1BrQCgG4lLur60bgetLO2MgYTLW9PwDwG0BVMEhG0j24_o2j22yEH80LeGdk0Le0NXYP42j20ykIj02yAJ8WLeGNW2Ba0BWXWhvsk2Ie_E2h18RavNQOfMbQTosXeZ3r89YWVutdXD7QeXpMzy-iplEmgzywZzd4BhANJwj9qsL6hRKJkNsX7WO7sMiYAFU79FVaZTU5iCEV68ePpFDqmstWziTXy8k04Sm0OkZQ4YdQJOJys7LiFU56_1qchOqbCrPHfUacHhn36whjVe70QbgCrXXp12qd2RDDirAqyUlXSi1l05mXEy0BOEW6c_c42W4fUB87wpW2riJNX3f41C3DAqi8CEgr2-kGAcO4uWoWuAMpclLWovgMF1J5giDaRCZD5f6BE64Hv4aAJ6Xman40OuWGA7AWVxtmYpH_qmpjttWvbbAFzBFsw_btxSVkuoRyVVCtI9yhKoHCm_AqF4p3JtN66MwIS_c6FcqijSxhkkwpfjXeax0gIB1aWo6xrhW2IpqLllvSiqGiWWFTalsI95zcCL7em0c9GoAl-bTPq9kmVAEVeTd_B4HvX9YfVHQ_rUZ-_VMvaBkGjMxJuUGx0Pe6B7w1YODChVfOWtKqMY9aOY_8Pv8stmmhQPRw8HfXQpel0b-RFNYR2w9B7hW79Ea6AQF0m4poe8XG5VuojGauzDBuCcataAenSngJ-M5qU4NzoubVuvT-dM4T1LqkW1CCV3jJZ3NXQxV3XsQ8iow-omhZOL1J40~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Экскурсии на разводные мосты" [ref=e441] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/Wm8ejI_zOoVX2LaR0wKN02FgehxMCi2ZIWBc1Ahu1BZUC06zwOVNXGe2tWa8w2bm753kD84-dykTFTllt7d3dQ_VyNh37QxKngLHw3F7fVTjG-jd3i960QB7wVFpx07XH07YsGF2YQA6aLAI4L5DfL4rge63YaH21j8I499LoNfKAz4eeYQH419AGbgYaKHZXfN44j88f2KZfIGbAuqW8IMd7J1byuK7IwfqL2Yz2R4AE7HG18EEunrq0n45DA4B23F72k1IzQeAq5Brg0hGKlLu5A2bwaqLeANgIHMWfTuDAK1BlMChG0l2axm2j20yELA05eGdU0LeGNXYf00j24_k2j22yAH80LeGde0Bq88Wnihvcg3IexC2B9ARqrMQebNbgPosniY3L8BY0RutNbE7QaZp6vy-y_kEGkyyQZ-dq7eAdJvjfmsLsdRKpgLs13XOdwMio2EUt9CVKZVU5aDEF68ev_CDautt0vlT1m9k00UmWKjZg4WdAVPJyw7Li3V5Mx2q6hRqL4sPXfSasHfnZAxhDJg7GIbgSzWXZ90qt2RDTitAauVl1Oi1V87m12-0hGDWsYyc4AZ4vIA8tonW2riJtX0f41E3D2tieCCgb6-kW2cO4uYoWy9MpgiLGsxgM32J5gkD4JDZT1h6h6641n4agV5XGWo40KwWmA7AmVutmknHFunpz_rWPXdA_zAFs--b7xUVkypRyVSCNQ9yhGmHyy_A434ppJrNc6NwoG_ccBdqCfVxhkkwJfjXueu0wQ81ain6xneWoMpqrdlvCeqGCaXFzaksI97z68O78m0cfOpAVsbTPyBkWNAEViUdFF4HPfBYPVHQlzVZ-_TMvaBkWbMxZySGR0Qes34w1cO7vLUSJe2i8b4J8oByndaZRl32nfblfX6c5hEY02RvmzU9mBeaiUs0SbAGOXez30pFAaY90P-iA52JZqqlWoQJUGgZ5p6fFvONHuHVtBYL_ZbtwTOHq5NIw04mnyErECDU5hjyE7PeYpBhxB2kDXK5CG00~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+            - generic [ref=e442]: Промо
+        - listitem [ref=e443]:
+          - generic [ref=e444]:
+            - link "Историческая экспозиция. Русский музей фотографии" [ref=e446] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WueejI_zOoVX2LaH1EKR09EmkoMSm0cO4wZY3HFGctvuNQWWuBs0W0vzFfSxUxRVkVDTNpjVl-FrXZlS74T6rHpE75Uh4LAE7DQZ6qepWfIeH3bk9EiC9QCSIKQu3mXdYXl5D8_wW72Yc89meW2Hmqf4BPBYEQf2FqL6GZAiI3cKWf2Ib6GevSYXL2IKmvb32Id8-SnH5JhAWK-ZKLpgTDvIA6xVKJmApL4Laf4Zb-8sZjzEQOwgK52Ed0PI_YH24G46FqJLdseH4b3Hpn1IaOoVwlG9OWGXelm9OWdfXsZ9chH4PAHaDEFevqU8wCV4z3brNg_FQL1LcjzG8A2gqxPQgNcKX5AHjOQLn1BIYAGawb5IqX8ICxi3fco-y619bOuAfJSXLW673efWq76awbKLeANgKHMWfUhnA41BrPigG4lLaof0IxqRKe2MUiTMW1Q49ta5Q45uSgG0BGXFy0hGWl34I05Q49xS5Q05uKcH0hGWF04Ne0L1PvBpDK54YxkFoUHoklGI7tOzRhoc3jMGvZS-VURt7ONUUTH-Jg7r53fzsauRAhNjg9rBxGXmi3vBMP57FBadFwHklBvF29CvBao0GTfkTgNM26wFqVbymsJZ_S1czu606y01RE3QHinRNa0_DHzQ3NjJl0LBgs5BJzMKVPOEHYyrOWw3KjJci4CO8McuJPhjcfKd3zyB5WFu0k49NW3R7YkjjyWJA4vBC6H1e1ANYo1-iu0jR4sS-U2GW9Qppi8EEgn2-UOAc8AvoIDCOVl3R1n3RZ9ZT1h63FCTuK44IMfyc103OO0JA72eSh3_ZJYHF7vOX2nc7yoS-ljVcelWzz9S13ztkPVsTmnLIRvMviZXpyeSEMIQMx0noxGU4EQOkVGsb_kkwxfEcs7YZW3fmY7DYPVUEQGvyT9R9fGl-xKzSfedVwyhtIa_fZquWMoXr-k_NjSIXcJARsbTPzArX26Pyje_APLetcPL8HponBUu1nY2pG0LEqR7y0DG_YK4dA1IHQ8cHYxydW667F7wZeWjNrZMkYsIoeV4oRgwbRoVa7fmchQ0_IGBPOdQlWUchz9u835xEEBvuqiM_5ULzTepV0aXI1fEB75o8lcELD_sOoiA7RKyCXLAIqM75g4lfgO-f6VCIB_mk5mhTQ1UkLlF_XesnJmBtdfGXxNMudnzMEoADK_1MfJavd1qTO0e3W40~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+              - heading "Историческая экспозиция. Русский музей фотографии" [level=2] [ref=e448]:
+                - generic [ref=e449]: Историческая экспозиция. Русский музей фотографии
+            - link "russpass.ruМузей-Фотографии…" [ref=e452] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WueejI_zOoVX2LaH1EKR09EmkoMSm0cO4wZY3HFGctvuNQWWuBs0W0vzFfSxUxRVkVDTNpjVl-FrXZlS74T6rHpE75Uh4LAE7DQZ6qepWfIeH3bk9EiC9QCSIKQu3mXdYXl5D8_wW72Yc89meW2Hmqf4BPBYEQf2FqL6GZAiI3cKWf2Ib6GevSYXL2IKmvb32Id8-SnH5JhAWK-ZKLpgTDvIA6xVKJmApL4Laf4Zb-8sZjzEQOwgK52Ed0PI_YH24G46FqJLdseH4b3Hpn1IaOoVwlG9OWGXelm9OWdfXsZ9chH4PAHaDEFevqU8wCV4z3brNg_FQL1LcjzG8A2gqxPQgNcKX5AHjOQLn1BIYAGawb5IqX8ICxi3fco-y619bOuAfJSXLW673efWq76awbKLeANgKHMWfUhnA41BrPigG4lLaof0IxqRKe2MUiTMW1Q49ta5Q45uSgG0BGXFy0hGWl34I05Q49xS5Q05uKcH0hGWF04Ne0L1PvBpDK54YxkFoUHoklGI7tOzRhoc3jMGvZS-VURt7ONUUTH-Jg7r53fzsauRAhNjg9rBxGXmi3vBMP57FBadFwHklBvF29CvBao0GTfkTgNM26wFqVbymsJZ_S1czu606y01RE3QHinRNa0_DHzQ3NjJl0LBgs5BJzMKVPOEHYyrOWw3KjJci4CO8McuJPhjcfKd3zyB5WFu0k49NW3R7YkjjyWJA4vBC6H1e1ANYo1-iu0jR4sS-U2GW9Qppi8EEgn2-UOAc8AvoIDCOVl3R1n3RZ9ZT1h63FCTuK44IMfyc103OO0JA72eSh3_ZJYHF7vOX2nc7yoS-ljVcelWzz9S13ztkPVsTmnLIRvMviZXpyeSEMIQMx0noxGU4EQOkVGsb_kkwxfEcs7YZW3fmY7DYPVUEQGvyT9R9fGl-xKzSfedVwyhtIa_fZquWMoXr-k_NjSIXcJARsbTPzArX26Pyje_APLetcPL8HponBUu1nY2pG0LEqR7y0DG_YK4dA1IHQ8cHYxydW667F7wZeWjNrZMkYsIoeV4oRgwbRoVa7fmchQ0_IGBPOdQlWUchz9u835xEEBvuqiM_5ULzTepV0aXI1fEB75o8lcELD_sOoiA7RKyCXLAIqM75g4lfgO-f6VCIB_mk5mhTQ1UkLlF_XesnJmBtdfGXxNMudnzMEoADK_1MfJavd1qTO0e3W40~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+              - text: russpass.ru›Музей-Фотографии…
+            - button "Действия" [ref=e453] [cursor=pointer]:
+              - img [ref=e455]
+            - generic [ref=e459]:
+              - generic [ref=e461]: "Уникальная фототехника ХIХ-ХХ веков: стереофотографии, голограммы и камера-обскура. · Маршруты по Москве. Для всей семьи. Билеты онлайн"
+              - generic [ref=e462]:
+                - link "RUSSPASS" [ref=e464] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WxGejI_zOoVX2Lae13KT07DpnYMSm0cO4wZY3HFGctvuNQWWuBs0W0vzFfSxUxRVkVDTNpjVl-FrXZlS74T6rHpE75Uh4LAE7DQZ6qepWfIeH3bk9EiC9QCSIKQu3mXdYXl5D8_wW72Yc89meW2Hmqf4BPBYEQf2FqL6GZAiI3cKWf2Ib6GevSYXL2IKmvb32Id8-SnH5JhAWK-ZKLpgTDvIA6xVKJmApL4Laf4Zb-8sZjzEQOwgK52Ed0PI_YH24G46FqJLdseH4b3Hpn1IaOoVwlG9OWGXelm9OWdfXsZ9chH4PAHaDEFeP_gSEg_NvpIeAirlA11GrMbRhTGy-YD4zADKPArXBG54LGe119q2sKwfxNHIfzIxIgr6Rslkh49B51a9AL6BX9IIh5KJGrGb9ACZ4aj88vAIg4T9IKj8p20xOChc2m-MLEceK7eJOXLmwA081Xr7gbvL0Lgg7bK1MgeUZmAqLBsf0hHKFQa2jDIx8GLegNTi1MX1U99NW1Q49qSAq8Bm1Ay0BGXFZ1IW1U79NG5Q49uKAK0BmXDm0LeGT2OvNnD4jBZxc4mkfqilyM7NuyPhwb0DQNxZqsT-tr7edKVjvnHQJw7Jf-sqeLBRZjgvr8u01-kpb1Lvn9DxyaFgnklxX32Puy846AJjPbTgZU3s69tFDqmstWziTXy8k04Sm0QkRSIyvGNqK_EXrR0tnLkmj1gsz5HDsMVfOFHI8-OmA4Lj3Zk44PA6swJPhbbvyl2zO360Bn2Uu0MmxR7IUeiyWUAq14CM12fnkGZYDmlOmjR4cGyE2MWvwopieCCgb6-kW2cOcpp25BO_pCOnv2OpHgTXp33V4Hv4aAJ6Xman40OuWGA7AWVxtuWJoUE7HSXYzi7CgR__fRa8VY_DHV1pbtjfVyTGbUHhPOuS_gpCaKEckGKRiqph0M6EcKjlSxdlkgxhj1acxWYGBXpId7ZfdKEQ4o-zPKBvib_R8wTvylUwqftoumeUd42sqElrNwzh2KCovRUqhZFfMiAGJ7djdvHAD6-pgX0EUU9Rt0CCmMQ0YXsZO_W7ABy83oBcgaZKn0Wj_5O2HYBn-kg8BLzOrXOkalY7nCcwSfQyVvDwA9ksWBqg2qMCshu7fiRIU00qUpZY-UDB5lnkbVMQENm9uI1fQ9PprkjMmTVmtQqm0DNo62gK4hjB149Vt4Izwp3JYwdJuorTwYhikLkhz3LWkpmBqUf1ZO7MeXBsiDZhOMg3jQXIfu5rzHj0Y040~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Маршруты по Москве" [ref=e466] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/W_CejI_zOoVX2Lc912qV0BFsqYMSm0cO4wZY3HFGctvuNQWWuBs0W0vzFfSxUxRVkVDTNpjVl-FrXZlS74T6rHpE75Uh4LAE7DQZ6qepWfIeH3bk9EiC9QCSIKQu3mXdYXl5D8_wW72Yc89meW2Hmqf4BPBYEQf2FqL6GZAiI3cKWf2Ib6GevSYXL2IKmvb32Id8-SnH5JhAWK-ZKLpgTDvIA6xVKJmApL4Laf4Zb-8sZjzEQOwgK52Ed0PI_YH24G46FqJLdseH4b3Hpn1IaOoVwlG9OWGXelm9OWdfXsZ9chH4PAHaDEFeP_gSEg_NvpIeAirlA11GrMbRhTGy-YD4z4D11H4yaA952UlHZUU9AGWd2X0bh4DAGY-0e5CWsocrdKxgb7fNgTNeRSsTLMY9QWGtb8I2GjZMAJMAJssdCoYtMe6c-DE-ta5MQ8bgaH0D4q92IKXBD99eM6kX-eRI4jAC92Gg4Oabf159ITIZfAGb97q7JDbyuS6IAXqLIcz2h08E7HJ1eED8rQigG4lLeof0IzNZKO2MgZTLW9Qg9rM0bdetf00jzOwj02q8J_8Aq8Bmv4W1MX2Uu1MW1U69aGAq83ovAq0BmfCY1MX1U08kG0k2pYJdQuA85dSVaydbTEabFknwt7XD7QeXpMzy-iplEmgzywZzd4BhANJwj9qsL6hRKJkNsX7WO7sMiYAFU79FVaZTU7sV42PpN9W0WxJTx4gj4TmUe_FvXid6-u7DxWC1Du03sC2rZPYtl81-QZwq6lQcU0kMLiEMdgef-omTZ5vgn1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02sFLPQRv4dK9oMOCY2G2Kk5q7yPW5Rs9euyy4X0IrddOKTT5Y5yiqLC0LpaqUOmlQ7sJY6t6J6w3IC6UOxmeC8ajJuC246mW0dKE1GvM3_6t4YUVom25dCFfWvzVU_D1V1xwMv27xkSY_jxnYgadojp973dvKvSiWqjs1Zbcaz8CmnS-bjBlTTrtMTDiF47G7IXKEQ4o-zSqXpugMtJ2XVzcjxv3HF_bvNkbD-ZC634yWMUht-wtKjOKYc_9RMTIPTInYIAQ_zarA9vcrM5S8XJtoBUu0Xs0nGiMDq37-7yiCGmG2f8b4J8pByNWM6El7wReejNrZMcY-IkeZ4oRfwcNn_8G_6mvPblz146UQDxu7foJGU2D0UZdZ--985_tDblNOKNqAPI1fHzzmDknNm54ywGCfzYn2UtjZJrrhGtOBvZ4crFDeLIY5E7u7G5yTGDp_CL6Baz7YZBdK5U-xMGleQK2xFGh9wK4D0Qr65FIpsvx3RO2tgeHDWNKqK4680~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Музеи и выставки" [ref=e468] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WuiejI_zOoVX2La31EqR0EFml2MSm0cO4wZY3HFGctvuNQWWuBs0W0vzFfSxUxRVkVDTNpjVl-FrXZlS74T6rHpE75Uh4LAE7DQZ6qepWfIeH3bk9EiC9QCSIKQu3mXdYXl5D8_wW72Yc89meW2Hmqf4BPBYEQf2FqL6GZAiI3cKWf2Ib6GevSYXL2IKmvb32Id8-SnH5JhAWK-ZKLpgTDvIA6xVKJmApL4Laf4Zb-8sZjzEQOwgK52Ed0PI_YH24G46FqJLdseH4b3Hpn1IaOoVwlG9OWGXelm9OWdfXsZ9chH4PAHaDEFeP_gSEg_NvpIeAirlA11GrMbRhTGy-YD4zADq0yWegHQggKf9LY8IIqWZafAeHqb9IqYHEs3AvWiFbbJfg51w4s8LSEYW20OTHwfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q47GcELyJHBIu-vXCBgTBB_5Xr-F6Q-fG3Mb-uzDdVjzHw9r7xUSKMa-XqwVjjA5IsuxQkTIE00VhivGLUSIJU_93wiRh-uGmcUF211YaxMPNQetWzXYTppTCDjuFR7OV2BW17C06hct4lEK5z5FpeTMmDyLRiBGQjlHKJTbdwM3qKYFcC2X5RGuxX16IXjkasQvPUVBmlM0nW2yGdk05iEsnqdgBF87Yj0H35WGgSRa8uZSBsCBMn9aF3WbeEUiixA33AfHlhe0fc9iymXIsFyp6CUGcCqQdOSmmtn4UH92aneS9CH06E842Xoe7-z-84ydZXqN8OlR1pAc__wMv27ulpKNmSvTxQN_7K9NaQsME7Fwip953fha56xDCwm5XZfbBRtEvxxgkwxGP9ku8a2uSqfnuwPr3cXCllML2-R9VsoEdUVBtkjATykCQ3quWM-Zr-g_NjOGXcV9RMjUPT2rXIAQyzazA9PgtMLK8XppnBUu1Xc0pGCMEqJ7yfV9_qV3YInM9cXW1BFmk0GOPyVfMY2rVMDQ2BPAkXyJ9kagLlD-EUW2Qje1z8GkbXzg-1wQXqdXWBtiuuldZInRyIPNrMZ1y2KqWQSZHUUbeeXzaPopKMXw8XL9JzH15w8kbrQNecRAo_psUbalTgJrtQvc-1acNPx6l7XGXq5hSnnuM-phCDbYBZkWViAuEW0On~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Афиша" [ref=e470] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/Wv0ejI_zOoVX2La311KS01EnlIMSm0cO4wZY3HFGctvuNQWWuBs0W0vzFfSxUxRVkVDTNpjVl-FrXZlS74T6rHpE75Uh4LAE7DQZ6qepWfIeH3bk9EiC9QCSIKQu3mXdYXl5D8_wW72Yc89meW2Hmqf4BPBYEQf2FqL6GZAiI3cKWf2Ib6GevSYXL2IKmvb32Id8-SnH5JhAWK-ZKLpgTDvIA6xVKJmApL4Laf4Zb-8sZjzEQOwgK52Ed0PI_YH24G46FqJLdseH4b3Hpn1IaOoVwlG9OWGXelm9OWdfXsZ9chH4PAHaDEFeP_gSEg_NvpIeAirlA11GrMbRhTGy-YD4zADKPArXBG54LJ8nH5L2CZeYiOGq8Yc9UfIKj8GKkGEcRBxmO4cLZWgbDo5M0OSEYc3GSQJgLHMWfUfH5Q2bwl4eG4lLcof0IzMJAa1BlHjIW9PwnrQ05eGdUGLeGNXof00j24_m2j22yCH80LeGdjmLe0NXIP42j20y0HUW1K5dalCrGKIBku_9v7Awz18VTZrklAOErP3cDpvzvlSTXTvvr7vEeVKKEdtQJXigjUsedKlj272mFajPaKSykIS_f6wylay8apakJ811scvsfTO8Re_H-Np3PEFzm6RtWO0Rm05iuDf6p5jUG3yr7reDUrEy1KkhOKjFrPHzbWv6BpLY3eDIrEQmGnWXQRXDcksQbISFtmiM0_W2uGbU0DiUAwsto1CeJaimP46W4fUB87wpW2riJPpvu920bhFEmWuwh4BvvWgOWhd98qnX-yDi74DkCcDq6iOCyntXGGH9QdoO40DXW1CeSAXoiF-DE94yVbY4B6OVp9pw-r-QY-3tqbm4FtUvb_Pt35L9lbRcoE7FoXmvP9fRi37Bj1uGvfYvz3QN-wxhkawROUAE0Ed28Ss9bzuvf3dnqbicb2_xjJrocYT_holTAJ_suC49P0kzNl_rkfOm95D-I-iwawub3CcKr_v9gKJpDgiAuP0dliKzm11i1gZOCJg6lrJ-SbMFQXM9cXW1BVmk0GOPyVfMY2rVMDQ2BPAkXyJ9kagLlD-EUW2Qje1z8GkbXzg-1wQXqdXWBtiuuldZInRyIPNrMZ1y2KqWQSYHSx7hLj0P3Yyx9sXfUTWeb5QsO1b2NmHKVx7C-1Noxt4JBdMEzjojJVeQWbsUnNRreDY1rg8CUrXiys6nmLhKhBF3kjeK8CG0~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+            - generic [ref=e471]: Промо
+        - listitem [ref=e472]:
+          - generic [ref=e473]:
+            - link "Билеты на экскурсионный тур из Нижнего Новгорода в СПб" [ref=e475] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WhuejI_zOoVX2Lbs0eKL0ADdcVOMKmBc1AfummJqfXzU5oe8U2yWe4EVp-NEdkrtxhpXpjVlUBtX3fU4dRYkQpUnb1-Tc4vS9_wAcVnqloQ_E36JNvoOXn-99QGHI4j6IlNG45KfIGY91WSxOChc2m-MLEceK7eJOXLmwA081Xr74uXyV7nyV4fqc8gOmQ0Kq8Gk8Fn1aWAuLBsg0hHKFQe2j5Gz7WLegNfJ1MYfUb85QAbtGmhGKk_O2j22y2Il02q8JuuKe0NX2Lu1MX2U62b02yAJkmAq83mfKe0MX2VW0hGWw4nolYOEexHaa2JAd2uBIQij7yBC3rxlWNlZDNMeXZI_yUapl-yezCwZzdCAhQVGwTDssb2fRKVjN6f7W8FrMSgAFEB9FVaXTUFrNPwOQGlrl0Z9ShFBs0ior87S-Np3PEFzm6RtWO0Rm05iu8fmQZFRiFLrX99YFpKVuYrOjAxhkrwZSnYKeZQ77S88ISDjqcpNh3nv-5wm6C0N24_m0jWweDNthoPMofPWo4veWbjJl606WKfSBeBupGAsi3LHPeMZ92jdXeKTT5Y5yiqLC0LpauSUXQsdeCDCA5Smc-AD8JTrB3D6fs7C6aPu446I6Xycn40Ou0GA7AeSx7zZyyhK3zzqqVB1VilU_teduk_rJiIVI-l8_XtcYFbhcsBjppR5MgQPWJHcsMVPc6FcqXkpt7TTrtNQ31Dt14WN3axsoFJEmSaUcTvgy6N_Gum5zcIlPHQYwCUq1nFm-DV3qNyhS6koPVHRMjVr9MvDjf1UkxJZ1vvWdE6Mi4xECDmNWiq05Jj6nx2ieVnq6UeDLIHgOWGN_DvquvlHg1rRz6cyxLyNHneRlweSAJ3yl6z8Q1KXhcy9v46aCdqenk-jJrjGIXGhC7Ik5WEnRyME3othQ57BBbnqjMnYKG40~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+              - heading "Билеты на экскурсионный тур из Нижнего Новгорода в СПб" [level=2] [ref=e477]:
+                - generic [ref=e478]: Билеты на экскурсионный тур из Нижнего Новгорода в СПб
+            - link "kristall-tour.ruТуры-в-Петербург…" [ref=e481] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WhuejI_zOoVX2Lbs0eKL0ADdcVOMKmBc1AfummJqfXzU5oe8U2yWe4EVp-NEdkrtxhpXpjVlUBtX3fU4dRYkQpUnb1-Tc4vS9_wAcVnqloQ_E36JNvoOXn-99QGHI4j6IlNG45KfIGY91WSxOChc2m-MLEceK7eJOXLmwA081Xr74uXyV7nyV4fqc8gOmQ0Kq8Gk8Fn1aWAuLBsg0hHKFQe2j5Gz7WLegNfJ1MYfUb85QAbtGmhGKk_O2j22y2Il02q8JuuKe0NX2Lu1MX2U62b02yAJkmAq83mfKe0MX2VW0hGWw4nolYOEexHaa2JAd2uBIQij7yBC3rxlWNlZDNMeXZI_yUapl-yezCwZzdCAhQVGwTDssb2fRKVjN6f7W8FrMSgAFEB9FVaXTUFrNPwOQGlrl0Z9ShFBs0ior87S-Np3PEFzm6RtWO0Rm05iu8fmQZFRiFLrX99YFpKVuYrOjAxhkrwZSnYKeZQ77S88ISDjqcpNh3nv-5wm6C0N24_m0jWweDNthoPMofPWo4veWbjJl606WKfSBeBupGAsi3LHPeMZ92jdXeKTT5Y5yiqLC0LpauSUXQsdeCDCA5Smc-AD8JTrB3D6fs7C6aPu446I6Xycn40Ou0GA7AeSx7zZyyhK3zzqqVB1VilU_teduk_rJiIVI-l8_XtcYFbhcsBjppR5MgQPWJHcsMVPc6FcqXkpt7TTrtNQ31Dt14WN3axsoFJEmSaUcTvgy6N_Gum5zcIlPHQYwCUq1nFm-DV3qNyhS6koPVHRMjVr9MvDjf1UkxJZ1vvWdE6Mi4xECDmNWiq05Jj6nx2ieVnq6UeDLIHgOWGN_DvquvlHg1rRz6cyxLyNHneRlweSAJ3yl6z8Q1KXhcy9v46aCdqenk-jJrjGIXGhC7Ik5WEnRyME3othQ57BBbnqjMnYKG40~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+              - text: kristall-tour.ru›Туры-в-Петербург…
+            - button "Действия" [ref=e482] [cursor=pointer]:
+              - img [ref=e484]
+            - generic [ref=e488]:
+              - generic [ref=e490]: Финский залив, Музеи, Разводные мосты, дворцы, парки, соборы и коллонады! · Комфортабельный транспорт. Интересные маршруты. Много программ. Красивые места. Гостиницы в центре. Отели в центре. Лучшие отзывы
+              - generic [ref=e491]:
+                - link "ВСЕ ЭКСКУРСИОННЫЕ ТУРЫ РОССИЯ" [ref=e493] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/Wh0ejI_zOoVX2LbO0XKL0EFcblOMKmBc1AfummJqfXzU5oe8U2yWe4EVp-NEdkrtxhpXpjVlUBtX3fT4xIQMygCJqudhn5ynav_kr-GN9sRoYnFpy2EnX3G2QSb8gHuQeYeb2I7Hs05JDbzuiAHAHuNIcn2hW4C7HJ3eE9f0vEFZu-DJeiDKn0m6fO0cT07X3v8KmANgLHMWfUfH5Q2bwl4eG4lLcof0IzMJAa1BlHjIW9PwnrQ05eGdUGLeGNXof00j24_m2j22yCH80LeGdjmLe0NXIP42j20y0HUW1K5dalCrSHYb9OCaKUPqMKXQRVaGPdxmUW_S6w-fGpMa-OrFd_bzHw5t7hMVKsWzXKwVjjE6IcqxQkTIEm8ShCzILkGHJ-x93waRh-_on4nRgET5I9QRNSPUaA4EvCxd6oORxmSskmy4t00EO0DNX5ERsOQjhoEK5Fkf-H1lmQ9rNT_r6ft3e1IrEUmGHaWQRfDcksRboSFtWiK0la1uWXV0rW6jldyriLAs14DsGXFSck85CmXKud8Hn6yMi8MjYJ8h72LPEJCixA33AfHlhe0fc9iyz2XipQPuOyXD7SkCqMaOiuOH7aIGfCQ72J4G1ZY10eSg1_lVsBmozSCtNRHyiD-ozx_UYVXxlHFnvz8wid-7EMB-sgPO-xDDiPPfPY2DMVPPDkQOkVJ6BFTTrtMTDiF47G7IXOEJFJAzSt2oHwQt6dpP_n1ZWJtPQvc5AFfn0nvCmEDV3qV_hS2joPRHRsbTrvUuDTb2UktIZXzuWd66My8wESDmNmWs0rJi61t3CWFb9m7Dfe4g4ZKn0XRyxdDsUDlRj0qGDzplXoC5nhJtnnDQLf2N309vSAPCdy60lRLWiORGAIWThXiCXrUB__9RiS61r7UqQ8KPKhfQzhQY~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Санкт-Петербург" [ref=e495] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WheejI_zOoVX2Lbs0cKL03Edb_OMKmBc1AfummJqfXzU5oe8U2yWe4EVp-NEdkrtxhpXpjVlUBtX3fU4dRYkQpUnb1-Tc4vS9_wAcVnqloQ_E36JNvoOXn-99QGHI4j6IlNG45KfIGY91WSxOChc2m-MLEceK7eJOXLmwA081Xr74uXyV7nyV4fqc8gOmQ0Kq8Gk8Fn1aWAuLBsg0hHKFQe2j5Gz7WLegNfJ1MYfUb85QAbtGmhGKk_O2j22y2Il02q8JuuKe0NX2Lu1MX2U62b02yAJkmAq83mfKe0MX2VW0hGWw4nolYOEexHaa2JAd2uBIQij7yBC3rxlWNlZDNMeXZI_yUapl-yezCwZzdCAhQVGwTDssb2fRKVjN6f7W8FrMSgAFEB9FVaXTUFrNPwOQGlrl0Z9ShFBs0ior87S-Np3PEFzm6RtWO0Rm05iu8fmQZFRiFLrX99YFpKVuYrOjAxhkrwZSnYKeZQ77S88ISDjqcpNh3nv-5wm6C0N24_m0jWweDNthoPMofPWo4veWbjJl606WKfSBeBupGAsi3LHPeMZ92jdXeKTT5Y5yiqLC0LpauSUXQtP56yCkQbZcJ4w3MFMCCA329BK-30X1i809r3WKELW_nkRLwP--AQBbW_sM_R-rpiHVwzt8lvSMaVsxp17p5_R56j_jYdMCiqCf37BFil673ENtfZblkkwhjDccBWZGBfmSB97fdSEJlR8z5Q3B_iVOYom9tijin15F_RnO08U_teu-cy5RassZ7vBwxg-nAt95j9hbtRym1ECCzmIriaPXlj2i1cWOiVe69Orb7y1hvTLaQY94HZytdJZcz6e7LlqQRpjNnT76Xk_gXmfCFoyRqXe5I6kRmdaGQGoVIW6xAsdnHesfw0KiePmChnQ3CflnKu4DD_HecfMZjBLfeWL1G00~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Калининград" [ref=e497] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/Wi0ejI_zOoVX2Lbk0fKL0CFdcVOMKmBc1AfummJqfXzU5oe8U2yWe4EVp-NEdkrtxhpXpjVlUBtX3hTDx1NhVaF4T5vndBYktSHIVdHYEd6T-2jcyjFzclpYn4n-SM8UVYIMa4OWBHafrKD3LAKa8IGQBdR0bCqN7Yofqb6Xz2R4Ak3GGH4CEeuc4Fdu-FZubEWm5J63GIcW2Lr0-8Ca1N2fUbK5QAbwL0LegNey2j1IzQOAq5Brf0hGKk-65A2bth4Le0NXILu1MX2U72b02y8Jl0Aq83mnKe0MX2Tt1MX1U5Aa02q8Jy05Q47GcUHyJHn6QSaWIPGvNHQILbi-X9aVlDu3zyPhwb0DQNxZqsT-tr7edKVjvnHQJw7Jf-sqeLBRZjgvr8u01-kpb1Lvn9DxyaFgnkkxF37J5kfv4PBbPfUn5sIe0xdp-OR9nlk1pUu30JU00zZ05U7KPhPXw-i89SL-QZx4Mx1eNTTtlKRdC2X5RGuxX16IXjkasQvPUVBmlM0nW2yGdk05i7L0g-zVJQoKBS6GdT04jwPumGm2bRXS1F6R1MnXQwBC2aT9LiuC2plei0hbcojW2kOc3pqAMxCftXXoKySoOtGQngnXX0SH9AdnOK8CX05EeC2Xoi7-DpQlJFtmJHSj7-otxFslToB-Nkz4_BcqZkpVOOwOlxOfrlviKwnbcXb8OvPzbeqvPYwzCSjzrtLTfyqmSKU0TE7WP8zCxnoSx97fhGPVzZ_4M61Fzbfc8Of-hCA32NZyw-7elnMuDTao-Ysjw_eIjoPRIAzTsl43Jp3ES4jO9sSOxWl1Pe2A7QDZM1OfFueADw1KaQY94HVyddGR8lad2jussyMHXl3Va2C51jRtamWjPFXgAW9vC52cZzI0lPMqMCFdAIXjh0043AyMUV9RiSi1vJjQbCnqftIrAH550G00~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - link "Туры на Кавказ" [ref=e499] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WhmejI_zOoVX2Lbb0dKL0CFdcVOMKmBc1AfummJqfXzU5oe8U2yWe4EVp-NEdkrtxhpXpjVlUBtX3fS44R5N72Tc4tl5SUAwTXDB-T69wSHrug-OoK_tQ_AB4pFvnObv-95OGXg1j6IaL0yDKPMIX91eIB03fco-y619bOuAfJSXLW673efWq74qWSZ7nyV7fqI7gOWP34e1JUW2mXyaAO1BrQigG4lLeof0IzNZKO2MgZTLW9Qg9rM0bdetf00jzOwj02q8J_8Aq8Bmv4W1MX2Uu1MW1U69aGAq83ovAq0BmfCY1MX1U08kG0k2pYJdQ-8mIai6IQBCwRAGjDho8SpyuFKUk3TUKuTgIFCRdpxp-uv2xpngFwVGUWgTFcsd3PNQTjJEfNO4E5YVfQp88vxSanzIDrxVvOcPjb3FYv0iDxkClI137SYTppTCDjuFR7OV2BW17C06hWYdDhCDMrz7A2dsK_CXte95wxg-wpKwXq4fQdFO8OoGDDmcpNRDofE7xmMB0No1y0GlWAq3Mdt_QcAbR0c6x8Gck3N52sOGgCJb8eZVB60BMnDbLZXAid9cMDX1XrKetrm1Kp0tUUXHs9fDySQGcpgM6QFJC6OD8po884cD3nDY80nm0WKELGxslx5vPUg7Rxfe-M2_PUz_lHFnztedui-bTMJ_3dF4_BLDiVPdcs8jqyn06hFiispCCNFfZLdkkwxhEcs6YJi2f0i79tjaUkVWP8zCRpNuilyXnW9xijSo2r7qOnWUJC3ZNmz7_wt0hScMqMzfNTUNk3NPGdhjqeuVU89nXbl2EZd3S5y8DWDKx1WTmzAg_0qemL2i8b4J8nRye-XyyBQtQHrfR7u6E59W77ZV1A7LXwt-4CY3w6Nw40tOMn-BDIoVWbB2wk5OUBKOaT-AdGtelwD5VLWpfQk94YiA~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+              - generic [ref=e501]:
+                - link "Контактная информация" [ref=e503] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WhuejI_zOoVX2Lbv0eKL05DdcFOMKmBc1AfummJqfXzU5oe8U2yWe4EVp-NEdkrtxhpXpjVlUBtX3fU4dRYkQpUnb1-Tc4vS9_wAcVnqloQ_E36JNvoOXn-99QGHI4j6IlNG45KfIGY91WSxOChc2m-MLEceK7eJOXLmwA081Xr74uXyV7nyV4fqc8gOmQ0Kq8Gk8Fn1aWAuLBsg0hHKFQe2j5Gz7WLegNfJ1MYfUb85QAbtGmhGKk_O2j22y2Il02q8JuuKe0NX2Lu1MX2U62b02yAJkmAq83mfKe0MX2VW0hGWw4nolYOEexHaa2JAd2uBIQij7yBC3rxlWNlZDNMeXZI_yUapl-yezCwZzdCAhQVGwTDssb2fRKVjN6f7W8FrMSgAFEB9FVaXTUFrNPwOQGlrl0Z9ShFBs0ior87S-Np3PEFzm6RtWO0Rm05iu8fmQZEJ5Fkf-T1gs9lYBLXQ3LjQr_LThz4v34fHcyCEOOIauJPfjcjMdZnyBrWCu0k49tW1R1tGwljN4ojbIp1a9pJ1hIbUC8D09IuNGVnc0LlOcYYpmb6IbJF3mWuwh4BvvWgOWhd9Gu_2rcoADuRSrB7C69s6CMiOuK44IMfyc103OO0JA72eSh3_ZSqhKpzyqqNB1_ijU__hdOY_rpiHVowj8_jtc2FchssAjJ_R56kPPWRIc6MVPMEEcKjlp7BVTLtNQJDCt14WNJWusIFJEmSdUsHwgy6N_Gyn5jYJlPPPYA8VM_1W0Xx_UZZwRmLkJRQCValhkhx4hSaMqckNTlp04umpt1BMoHc6-qAm6Q1Yn-WObZUKVyW0VOrL96fY11ZyzdJZdj6eALlqQTJjNnS76nk_gXn1CFpiRqZ2YiMyTjyoHXgzq_Gvah2tDWrh2FO5fGUn1sBdQl63VIisx95RHulsRET5LnFT5XK0~2?etext=2202.9aztPzVu4Eax4Ee6fqlNi1bK2HgS3WMe65doVJQ6oKcnuIgwC7sY5-8b-_2F0m8s3_rp--YsDShShoRoS-_m-mx4bnZ3aXhkeHJoYnJucnc.7498b9b6dd6694551d06223a00aa87789440f29c&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B
+                - generic [ref=e504]:
+                  - heading "Телефон" [level=3] [ref=e505]
+                  - button "Показать телефон" [ref=e507] [cursor=pointer]: +7 (831) 423-XX-XX Показать
+                - generic [ref=e508]:
+                  - heading "Время работы" [level=3] [ref=e509]
+                  - text: будни 10:00-19:00, сб 11:00-15:00
+                - generic [ref=e510]:
+                  - heading "Метро" [level=3] [ref=e511]
+                  - text: м. Горьковская
+                - generic [ref=e512]:
+                  - heading "Адрес" [level=3] [ref=e513]
+                  - text: Нижний Новгород
+            - generic [ref=e514]: Промо
+      - complementary "Люди ищут" [ref=e515]:
+        - heading "Люди ищут" [level=2] [ref=e516]
+        - list [ref=e517]:
+          - generic [ref=e518]:
+            - listitem [ref=e519]:
+              - link "русский музей санкт-петербург цена билета 2026" [ref=e520] [cursor=pointer]:
+                - /url: /search/?lr=47&rq=1&text=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%81%D0%B0%D0%BD%D0%BA%D1%82-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&src=ref&serp-reload-from=rec_bottom
+                - generic [ref=e521]: русский музей санкт-петербург цена билета 2026
+            - listitem [ref=e522]:
+              - link "русский музей стоимость билетов 2026" [ref=e523] [cursor=pointer]:
+                - /url: /search/?lr=47&rq=1&text=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%202026&src=ref&serp-reload-from=rec_bottom
+                - generic [ref=e524]: русский музей стоимость билетов 2026
+            - listitem [ref=e525]:
+              - link "русский музей санкт-петербург стоимость билетов 2026" [ref=e526] [cursor=pointer]:
+                - /url: /search/?lr=47&rq=1&text=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%81%D0%B0%D0%BD%D0%BA%D1%82-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%202026&src=ref&serp-reload-from=rec_bottom
+                - generic [ref=e527]: русский музей санкт-петербург стоимость билетов 2026
+            - listitem [ref=e528]:
+              - link "русский музей санкт-петербург цена билета 2025" [ref=e529] [cursor=pointer]:
+                - /url: /search/?lr=47&rq=1&text=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%81%D0%B0%D0%BD%D0%BA%D1%82-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025&src=ref&serp-reload-from=rec_bottom
+                - generic [ref=e530]: русский музей санкт-петербург цена билета 2025
+          - generic [ref=e531]:
+            - listitem [ref=e532]:
+              - link "цена билета в русский музей в санкт-петербурге 2026" [ref=e533] [cursor=pointer]:
+                - /url: /search/?lr=47&rq=1&text=%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%20%D0%B2%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D0%B2%20%D1%81%D0%B0%D0%BD%D0%BA%D1%82-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D0%B5%202026&src=ref&serp-reload-from=rec_bottom
+                - generic [ref=e534]: цена билета в русский музей в санкт-петербурге 2026
+            - listitem [ref=e535]:
+              - link "русский музей цена билета 2025 санкт-петербург" [ref=e536] [cursor=pointer]:
+                - /url: /search/?lr=47&rq=1&text=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025%20%D1%81%D0%B0%D0%BD%D0%BA%D1%82-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&src=ref&serp-reload-from=rec_bottom
+                - generic [ref=e537]: русский музей цена билета 2025 санкт-петербург
+            - listitem [ref=e538]:
+              - link "русский музей цена билета 2025" [ref=e539] [cursor=pointer]:
+                - /url: /search/?lr=47&rq=1&text=%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202025&src=ref&serp-reload-from=rec_bottom
+                - generic [ref=e540]: русский музей цена билета 2025
+      - navigation "Страницы результатов поиска" [ref=e541]:
+        - heading "Страницы результатов поиска" [level=2] [ref=e542]
+        - list [ref=e543]:
+          - listitem [ref=e544]:
+            - button "Текущая страница 1" [ref=e545]:
+              - generic: "1"
+          - listitem [ref=e546]:
+            - link "Страница 2" [ref=e547] [cursor=pointer]:
+              - /url: /search/?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&lr=47&p=1
+              - generic: "2"
+          - listitem [ref=e548]:
+            - link "Страница 3" [ref=e549] [cursor=pointer]:
+              - /url: /search/?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&lr=47&p=2
+              - generic: "3"
+          - listitem [ref=e550]:
+            - link "Страница 4" [ref=e551] [cursor=pointer]:
+              - /url: /search/?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&lr=47&p=3
+              - generic: "4"
+          - listitem [ref=e552]:
+            - link "Страница 5" [ref=e553] [cursor=pointer]:
+              - /url: /search/?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&lr=47&p=4
+              - generic: "5"
+          - listitem [ref=e554]:
+            - link "Следующая страница" [ref=e555] [cursor=pointer]:
+              - /url: /search/?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&lr=47&p=1&rnd=50131
+              - generic: дальше
+  - contentinfo [ref=e562]:
+    - generic [ref=e564]:
+      - button "Ваш регион Нижний Новгород" [ref=e566] [cursor=pointer]:
+        - generic: Нижний Новгород
+      - generic [ref=e567]:
+        - link "Google" [ref=e568] [cursor=pointer]:
+          - /url: //www.google.com/search?ie=UTF-8&q=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026
+        - link "Bing" [ref=e569] [cursor=pointer]:
+          - /url: //www.bing.com/search?q=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026
+      - button "Обратная связь" [ref=e571] [cursor=pointer]:
+        - generic: Обратная связь
+      - button "Настройки" [ref=e573] [cursor=pointer]:
+        - generic: Настройки
+      - link "ya.ru" [ref=e575] [cursor=pointer]:
+        - /url: //ya.ru/?from=serp_footer
+      - generic [ref=e576]:
+        - link "О компании" [ref=e577] [cursor=pointer]:
+          - /url: https://company.yandex.ru
+        - link "Коммерческие предложения" [ref=e578] [cursor=pointer]:
+          - /url: /search/direct?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&filters_docs=direct_cm
+        - link "Вакансии" [ref=e579] [cursor=pointer]:
+          - /url: //yandex.ru/jobs
+        - link "Лицензия на использование" [ref=e580] [cursor=pointer]:
+          - /url: //yandex.ru/legal/termsofuse/
+        - link "Политика конфиденциальности" [ref=e581] [cursor=pointer]:
+          - /url: //yandex.ru/legal/confidential/
+        - link "Правила рекомендаций" [ref=e582] [cursor=pointer]:
+          - /url: //yandex.ru/legal/recommendations/#index__search

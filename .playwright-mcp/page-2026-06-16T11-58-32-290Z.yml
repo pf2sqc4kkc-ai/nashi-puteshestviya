@@ -1,0 +1,104 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - generic:
+      - generic:
+        - img
+        - img
+        - img
+        - img
+        - img
+        - img
+        - img
+        - img
+        - img
+        - img
+        - img
+  - generic:
+    - generic:
+      - banner
+    - generic:
+      - complementary [ref=e7]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e13]:
+              - generic [ref=e14]:
+                - img [ref=e16]
+                - generic [ref=e19]:
+                  - generic [ref=e20]: Ничего не найдено.
+                  - generic [ref=e21]: Проверьте адрес страницы или поищите что-нибудь другое.
+              - button "На главную" [ref=e23] [cursor=pointer]:
+                - generic [ref=e24]: На главную
+            - iframe [ref=e25]:
+              
+          - iframe [ref=e26]:
+            
+      - img [ref=e30] [cursor=pointer]
+    - navigation:
+      - generic [ref=e33]:
+        - button "Пробки в Нижнем Новгороде" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - generic:
+              - img
+        - button "Панорамы улиц и фотографии" [ref=e41] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - button "Зеркала" [ref=e44] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - button "Движущийся транспорт" [ref=e47] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - button "Слои" [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+      - generic [ref=e52]:
+        - button "Линейка и планиметр" [ref=e55] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - button "Детали" [ref=e58] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+      - button "Профиль" [ref=e61] [cursor=pointer]:
+        - generic:
+          - generic:
+            - img
+      - generic:
+        - generic:
+          - generic:
+            - generic [ref=e65]:
+              - button "Приблизить" [ref=e67] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+              - button "Отдалить" [ref=e69] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+            - button "Моё местоположение" [ref=e73] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+    - contentinfo:
+      - generic [ref=e77]:
+        - generic [ref=e78]: © Яндекс
+        - link "Справка" [ref=e79] [cursor=pointer]:
+          - /url: //yandex.ru/support/maps/?lang=ru
+        - link "Условия использования" [ref=e80] [cursor=pointer]:
+          - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+      - link "Яндекс" [ref=e83] [cursor=pointer]:
+        - /url: https://ya.ru
+        - img [ref=e85]
+      - generic:
+        - generic:
+          - generic:
+            - generic: 3 км
+    - iframe [ref=e86]:
+      
+  - iframe [ref=e87]:
+    

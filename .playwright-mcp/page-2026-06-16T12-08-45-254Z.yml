@@ -1,0 +1,31 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://fabergemuseum.ru/
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "Посетителям":
+          - /url: https://fabergemuseum.ru/posetitelyam/
+      - link "События" [ref=e9] [cursor=pointer]:
+        - /url: https://fabergemuseum.ru/sobyitiya/
+      - link "Коллекции" [ref=e11] [cursor=pointer]:
+        - /url: https://fabergemuseum.ru/kollekczii/
+      - link "Магазин" [ref=e12] [cursor=pointer]:
+        - /url: https://fabergemuseum.shop/?utm_source=main-site-header
+      - link "Программа лояльности" [ref=e13] [cursor=pointer]:
+        - /url: https://fabergemuseum.ru/loyalty-program
+    - generic [ref=e17] [cursor=pointer]: ru
+    - link [ref=e19] [cursor=pointer]:
+      - /url: ""
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]: "4"
+      - generic [ref=e30]: "4"
+    - paragraph [ref=e33]: Простите, но видимо страница которую вы ищете удалена или не существует.
+    - link "на главную" [ref=e35] [cursor=pointer]:
+      - /url: https://fabergemuseum.ru/
+  - generic [ref=e38]:
+    - paragraph [ref=e39]: Мы используем cookies для улучшения работы сайта.
+    - generic [ref=e40]:
+      - button "Принять" [ref=e41] [cursor=pointer]
+      - generic [ref=e42] [cursor=pointer]: Подробнее

@@ -1,0 +1,413 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - alert
+    - link "К дополнительным результатам" [ref=e3] [cursor=pointer]:
+      - /url: "#search-result-aside"
+    - link "К основным результатам" [ref=e4] [cursor=pointer]:
+      - /url: "#search-result"
+    - link "Обратная связь о специальных возможностях" [ref=e5] [cursor=pointer]:
+      - /url: //yandex.ru/support/search/troubleshooting/accessibility.html
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - search "Поиск в интернете" [ref=e9]:
+        - generic [ref=e10]:
+          - link "Яндекс" [ref=e11] [cursor=pointer]:
+            - /url: //ya.ru
+            - img [ref=e12]
+          - textbox [ref=e16]: Царское село Екатерининский дворец билет цена 2026
+          - button [ref=e17] [cursor=pointer]:
+            - img [ref=e18]
+      - generic [ref=e20]:
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Поиск по картинке" [ref=e25] [cursor=pointer]:
+          - img [ref=e26]
+        - button "Расширенный поиск" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+        - link "Маркет" [ref=e32] [cursor=pointer]:
+          - /url: https://market.yandex.ru/my/cart?utm_source=serp_header_cart&clid=957&purchase-referrer=serp_cart
+          - img [ref=e33]
+        - button "Избранное" [ref=e35] [cursor=pointer]:
+          - img [ref=e36]
+        - link "Заказы" [ref=e38] [cursor=pointer]:
+          - /url: https://yandex.ru/products/my/orders?lr=47
+          - img [ref=e39]
+      - generic [ref=e41]:
+        - link "Войти" [ref=e42] [cursor=pointer]:
+          - /url: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fyandex.ru%2Fsearch%2F%3Ftext%3D%25D0%25A6%25D0%25B0%25D1%2580%25D1%2581%25D0%25BA%25D0%25BE%25D0%25B5%2520%25D1%2581%25D0%25B5%25D0%25BB%25D0%25BE%2520%25D0%2595%25D0%25BA%25D0%25B0%25D1%2582%25D0%25B5%25D1%2580%25D0%25B8%25D0%25BD%25D0%25B8%25D0%25BD%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2520%25D0%25B4%25D0%25B2%25D0%25BE%25D1%2580%25D0%25B5%25D1%2586%2520%25D0%25B1%25D0%25B8%25D0%25BB%25D0%25B5%25D1%2582%2520%25D1%2586%25D0%25B5%25D0%25BD%25D0%25B0%25202026%26ncrnd%3D12092%26ncrnd%3D8304&origin=serp_desktop_auth_new
+        - button "Меню" [ref=e43] [cursor=pointer]:
+          - img [ref=e44]
+    - navigation [ref=e46]:
+      - generic [ref=e47]:
+        - link "Поиск" [ref=e48] [cursor=pointer]:
+          - /url: //ya.ru?source=tabbar
+          - generic [ref=e49]: Поиск
+          - text: Поиск
+        - link "Алиса AI" [ref=e50] [cursor=pointer]:
+          - /url: //yandex.ru/alice?reqid=1781611959071223-11792500494301861247-balancer-l7leveler-kubr-yp-vla-43-BAL&utm_source=yandex&utm_campaign=serp_alicetab_chat&utm_medium=interface&alice_deeplink=%7B%22text%22%3A%22%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026%22%7D&source_query=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&theme=serp
+        - link "Картинки" [ref=e51] [cursor=pointer]:
+          - /url: //yandex.ru/images/search?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&parent-reqid=1781611959071223-11792500494301861247-balancer-l7leveler-kubr-yp-vla-43-BAL&from=tabbar
+        - link "Видео" [ref=e52] [cursor=pointer]:
+          - /url: //yandex.ru/video/search?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&parent-reqid=1781611959071223-11792500494301861247-balancer-l7leveler-kubr-yp-vla-43-BAL&from=tabbar
+        - link "Карты" [ref=e53] [cursor=pointer]:
+          - /url: //yandex.ru/maps/?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&source=serp_navig
+        - link "Товары" [ref=e54] [cursor=pointer]:
+          - /url: //yandex.ru/search?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&products_mode=1&from=tabbar&serp-reload-from=tab
+        - link "Финансы" [ref=e55] [cursor=pointer]:
+          - /url: //yandex.ru/finance?lr=47&from=tabbar
+        - link "Квартиры" [ref=e56] [cursor=pointer]:
+          - /url: //yandex.ru/realty?lr=47&from=tabbar
+        - link "Переводчик" [ref=e57] [cursor=pointer]:
+          - /url: //translate.yandex.ru?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&from=tabbar
+      - link "Все" [ref=e59] [cursor=pointer]:
+        - /url: //yandex.ru/all?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&from=tabbar
+  - main [ref=e61]:
+    - generic [ref=e66]:
+      - list "Результаты поиска" [ref=e67]:
+        - listitem [ref=e68]:
+          - link "Быстрый ответ Алисы AI" [ref=e73] [cursor=pointer]:
+            - /url: https://yandex.ru/alice/?utm_source=yandex&utm_medium=interface&utm_campaign=serp_aliseicon_chat&reqid=1781611959071223-11792500494301861247-balancer-l7leveler-kubr-yp-vla-43-BAL&theme=serp&source_query=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026&alice_deeplink=%7B%22text%22%3A%22%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026%22%7D
+            - generic [ref=e74]:
+              - img [ref=e77]
+              - heading "Быстрый ответ Алисы AI" [level=3] [ref=e81]
+        - listitem [ref=e82]:
+          - generic [ref=e83]:
+            - 'link "«Екатерининский дворец в 2026: как купить билеты и не..." [ref=e85] [cursor=pointer]':
+              - /url: https://dzen.ru/a/aV4ftNJHaSg_Hb0k
+              - 'heading "«Екатерининский дворец в 2026: как купить билеты и не..." [level=2] [ref=e87]':
+                - generic [ref=e88]: "«Екатерининский дворец в 2026: как купить билеты и не..."
+            - link "dzen.rua/aV4ftNJHaSg_Hb0k" [ref=e91] [cursor=pointer]:
+              - /url: https://dzen.ru/a/aV4ftNJHaSg_Hb0k
+              - text: dzen.ru›a/aV4ftNJHaSg_Hb0k
+            - button "Действия" [ref=e92] [cursor=pointer]:
+              - img [ref=e94]
+            - generic [ref=e100]: Отличный выбор! Екатерининский дворец в Царском Селе (г. Пушкин) — одна из...
+        - listitem [ref=e101]:
+          - generic [ref=e102]:
+            - link "Режим работы и стоимость билетов | Государственный..." [ref=e104] [cursor=pointer]:
+              - /url: https://tzar.ru/visitors/workinhours
+              - heading "Режим работы и стоимость билетов | Государственный..." [level=2] [ref=e106]:
+                - generic [ref=e107]: Режим работы и стоимость билетов | Государственный...
+            - link "tzar.ruvisitors/workinhours" [ref=e110] [cursor=pointer]:
+              - /url: https://tzar.ru/visitors/workinhours
+              - text: tzar.ru›visitors/workinhours
+            - button "Действия" [ref=e111] [cursor=pointer]:
+              - img [ref=e113]
+            - generic [ref=e117]:
+              - generic [ref=e119]: Екатерининский дворец – маршрут №2 (закрыт 18 июня). ... 4. Стоимость входного билета каждой из указанных категорий граждан устанавливается распоряжением директора Государственного Музея-заповедника «Царское Село».
+              - generic [ref=e120]:
+                - text: "Не найдено:"
+                - link "2026" [ref=e121] [cursor=pointer]:
+                  - /url: /search/?text=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%20%2B2026&lr=47&missword=1
+              - generic [ref=e122]:
+                - link "Екатерининский дворец" [ref=e124] [cursor=pointer]:
+                  - /url: https://tzar.ru/visitors/workinhours/ekaterininsky_palace
+                - link "Агатовые комнаты" [ref=e126] [cursor=pointer]:
+                  - /url: https://tzar.ru/visitors/workinhours/agath
+                - link "Дворцовая церковь" [ref=e128] [cursor=pointer]:
+                  - /url: https://tzar.ru/visitors/workinhours/church
+        - listitem [ref=e129]:
+          - generic [ref=e130]:
+            - 'link "Царское Село (Пушкин): режим работы..." [ref=e132] [cursor=pointer]':
+              - /url: https://www.spbmuzei.ru/czarskoe-selo-chasy-raboty-i-stoimost-biletov
+              - 'heading "Царское Село (Пушкин): режим работы..." [level=2] [ref=e134]':
+                - generic [ref=e135]: "Царское Село (Пушкин): режим работы..."
+            - 'link "spbmuzei.ruЦарское Село (Пушкин): часы работы и стоимость билетов в 2026 году" [ref=e138] [cursor=pointer]':
+              - /url: https://www.spbmuzei.ru/czarskoe-selo-chasy-raboty-i-stoimost-biletov
+              - text: "spbmuzei.ru›Царское Село (Пушкин): часы работы и стоимость билетов в 2026 году"
+            - button "Действия" [ref=e139] [cursor=pointer]:
+              - img [ref=e141]
+            - generic [ref=e147]: "Царское Село (Пушкин): часы работы и стоимость билетов в 2026 году. ... Билеты в Екатерининский дворец и Янтарную комнату. Янтарная комната в Екатерининском дворце Царское Село."
+        - listitem [ref=e148]:
+          - generic [ref=e149]:
+            - link "Цены на билеты и расписания музеев и парков Царского..." [ref=e151] [cursor=pointer]:
+              - /url: https://tzarskoeselo.ru/bilety-raspisaniya
+              - heading "Цены на билеты и расписания музеев и парков Царского..." [level=2] [ref=e153]:
+                - generic [ref=e154]: Цены на билеты и расписания музеев и парков Царского...
+            - link "tzarskoeselo.rubilety-raspisaniya" [ref=e157] [cursor=pointer]:
+              - /url: https://tzarskoeselo.ru/bilety-raspisaniya
+              - text: tzarskoeselo.ru›bilety-raspisaniya
+            - button "Действия" [ref=e158] [cursor=pointer]:
+              - img [ref=e160]
+            - generic [ref=e166]: "Расписания работы и цены на входные билеты в парки и музеи Пушкина (Царское Село): Екатерининский дворец и парк, Александровский дворец и парк, Арсенал, Камеронова галерея, Агатовые комнаты, Лицей и др."
+        - listitem [ref=e167]:
+          - generic [ref=e168]:
+            - link "Музей-заповедник Царское Село – время работы лето..." [ref=e170] [cursor=pointer]:
+              - /url: https://www.spb-guide.ru/tzarskoe-selo-rezhim-raboty-stoimost-biletov-kak-dobratsya.htm
+              - heading "Музей-заповедник Царское Село – время работы лето..." [level=2] [ref=e172]:
+                - generic [ref=e173]: Музей-заповедник Царское Село – время работы лето...
+            - link "spb-guide.ruВремя работы и стоимость билетов, как добраться до Царского Села" [ref=e176] [cursor=pointer]:
+              - /url: https://www.spb-guide.ru/tzarskoe-selo-rezhim-raboty-stoimost-biletov-kak-dobratsya.htm
+              - text: spb-guide.ru›Время работы и стоимость билетов, как добраться до Царского Села
+            - button "Действия" [ref=e177] [cursor=pointer]:
+              - img [ref=e179]
+            - generic [ref=e185]: "Цены на билеты в Царское Село (Екатерининский парк) – лето 2026. В летний период (c 20 апреля): полная стоимость— 400 рублей."
+        - listitem [ref=e186]:
+          - generic [ref=e187]:
+            - link "Чем туристов и петербуржцев порадует Царское Село..." [ref=e189] [cursor=pointer]:
+              - /url: https://spb.aif.ru/tourism/chem-turistov-i-peterburzhcev-poraduet-carskoe-selo-v-2026-godu
+              - heading "Чем туристов и петербуржцев порадует Царское Село..." [level=2] [ref=e191]:
+                - generic [ref=e192]: Чем туристов и петербуржцев порадует Царское Село...
+            - link "spb.aif.rutourism/chem-turistov-i-peterburzhcev-…" [ref=e195] [cursor=pointer]:
+              - /url: https://spb.aif.ru/tourism/chem-turistov-i-peterburzhcev-poraduet-carskoe-selo-v-2026-godu
+              - text: spb.aif.ru›tourism/chem-turistov-i-peterburzhcev-…
+            - button "Действия" [ref=e196] [cursor=pointer]:
+              - img [ref=e198]
+            - generic [ref=e204]: + - «Стоимость билетов в Екатерининский парк и Екатерининский дворец, а также на все другие объекты не повысится. В Александровский и Баболовский парки на протяжении всего года вход свободный.
+        - listitem [ref=e205]:
+          - generic [ref=e206]:
+            - link "Большой Екатерининский дворец, Пушкин. Отели, сайт..." [ref=e208] [cursor=pointer]:
+              - /url: https://www.tourister.ru/world/europe/russia/city/pushkin/castles/4309
+              - heading "Большой Екатерининский дворец, Пушкин. Отели, сайт..." [level=2] [ref=e210]:
+                - generic [ref=e211]: Большой Екатерининский дворец, Пушкин. Отели, сайт...
+            - link "tourister.ruПушкинЗамки, дворцы" [ref=e214] [cursor=pointer]:
+              - /url: https://www.tourister.ru/world/europe/russia/city/pushkin/castles/4309
+              - text: tourister.ru›Пушкин›Замки, дворцы
+            - button "Действия" [ref=e215] [cursor=pointer]:
+              - img [ref=e217]
+            - generic [ref=e223]: Большой Екатерининский дворец, Пушкин (Царское Село). Как добраться из Санкт-Петербурга. ... Цены на билеты в Екатерининский дворец в Пушкине. входной билет (для граждан РФ) — 1000 рублей
+        - listitem [ref=e224]:
+          - generic [ref=e225]:
+            - link "\"Царское Село\" в Петербурге перешло на летний режим..." [ref=e227] [cursor=pointer]:
+              - /url: https://www.dp.ru/a/2026/04/20/carskoe-selo-v-peterburge
+              - heading "\"Царское Село\" в Петербурге перешло на летний режим..." [level=2] [ref=e229]:
+                - generic [ref=e230]: "\"Царское Село\" в Петербурге перешло на летний режим..."
+            - link "dp.rua/2026/04/20/carskoe-selo-v-peterburge" [ref=e233] [cursor=pointer]:
+              - /url: https://www.dp.ru/a/2026/04/20/carskoe-selo-v-peterburge
+              - text: dp.ru›a/2026/04/20/carskoe-selo-v-peterburge
+            - button "Действия" [ref=e234] [cursor=pointer]:
+              - img [ref=e236]
+            - generic [ref=e242]: Большой Екатерининский дворец в Царском Селе. 09:0020 апреля 202609:00. ... “ "Стоимость билетов в Екатерининский парк и Екатерининский дворец, а также на все другие объекты музея не повысится.
+        - listitem [ref=e243]:
+          - generic [ref=e244]:
+            - link "Екатерининский дворец - билеты 2026, как добраться..." [ref=e246] [cursor=pointer]:
+              - /url: https://travelto.ru/blog/ekaterininskiy-dvorec-bilety/
+              - heading "Екатерининский дворец - билеты 2026, как добраться..." [level=2] [ref=e248]:
+                - generic [ref=e249]: Екатерининский дворец - билеты 2026, как добраться...
+            - 'link "travelto.ruБольшой Екатерининский дворец в Пушкине в 2026 году: что интересно…" [ref=e252] [cursor=pointer]':
+              - /url: https://travelto.ru/blog/ekaterininskiy-dvorec-bilety/
+              - text: "travelto.ru›Большой Екатерининский дворец в Пушкине в 2026 году: что интересно…"
+            - button "Действия" [ref=e253] [cursor=pointer]:
+              - img [ref=e255]
+            - generic [ref=e261]: "Как посетить Екатерининский дворец в Пушкине в 2026 году: где купить билеты, расписание, стоимость, что посмотреть внутри и как добраться."
+        - listitem [ref=e262]:
+          - generic [ref=e263]:
+            - link "Музей-заповедник «Царское Село» 20 апреля 2026..." [ref=e265] [cursor=pointer]:
+              - /url: https://egoistmag.ru/news/muzey-zapovednik-carskoe-selo-20-aprelya-2026-nachnet-vysokiy-sezon
+              - heading "Музей-заповедник «Царское Село» 20 апреля 2026..." [level=2] [ref=e267]:
+                - generic [ref=e268]: Музей-заповедник «Царское Село» 20 апреля 2026...
+            - link "egoistmag.runews/muzey-zapovednik-carskoe-selo-…" [ref=e271] [cursor=pointer]:
+              - /url: https://egoistmag.ru/news/muzey-zapovednik-carskoe-selo-20-aprelya-2026-nachnet-vysokiy-sezon
+              - text: egoistmag.ru›news/muzey-zapovednik-carskoe-selo-…
+            - button "Действия" [ref=e272] [cursor=pointer]:
+              - img [ref=e274]
+            - generic [ref=e280]: Стоимость билетов в Екатерининский парк и Екатерининский дворец, а также на все другие объекты музея не повысится.
+        - listitem [ref=e281]:
+          - generic [ref=e282]:
+            - link "Пушкин. Екатерининский дворец... | Цены на KASSIR.RU" [ref=e284] [cursor=pointer]:
+              - /url: https://spb.kassir.ru/tourist/tsarskoe-selo-dvorets-park-i-yantarnaya-komnata
+              - heading "Пушкин. Екатерининский дворец... | Цены на KASSIR.RU" [level=2] [ref=e286]:
+                - generic [ref=e287]: Пушкин. Екатерининский дворец... | Цены на KASSIR.RU
+            - link "spb.kassir.ruЭкскурсииПушкин. Екатерининский дворец, Янтарная комната" [ref=e290] [cursor=pointer]:
+              - /url: https://spb.kassir.ru/tourist/tsarskoe-selo-dvorets-park-i-yantarnaya-komnata
+              - text: spb.kassir.ru›Экскурсии›Пушкин. Екатерининский дворец, Янтарная комната
+            - button "Действия" [ref=e291] [cursor=pointer]:
+              - img [ref=e293]
+            - generic [ref=e299]: Екатерининский дворец, Янтарная комната. 17 июня 2026 – 30 августа 2026. ... Автобусный тур в Пушкин начинается в центре Петербурга, по пути гид расскажет вам о достопримечательностях Петербурга и легендах Царского села.
+        - listitem [ref=e300]:
+          - generic [ref=e301]:
+            - link "Как увидеть Янтарную комнату в 2026 году, новые правила..." [ref=e303] [cursor=pointer]:
+              - /url: https://trip-together.ru/amber-room-catherine-palace/
+              - heading "Как увидеть Янтарную комнату в 2026 году, новые правила..." [level=2] [ref=e305]:
+                - generic [ref=e306]: Как увидеть Янтарную комнату в 2026 году, новые правила...
+            - link "trip-together.ruСанкт-…Как увидеть Янтарную комнату в 2026 году, новые правила" [ref=e309] [cursor=pointer]:
+              - /url: https://trip-together.ru/amber-room-catherine-palace/
+              - text: trip-together.ru›Санкт-…›Как увидеть Янтарную комнату в 2026 году, новые правила
+            - button "Действия" [ref=e310] [cursor=pointer]:
+              - img [ref=e312]
+            - generic [ref=e318]: Стоимость билетов на 2026 год в парк и Екатерининский дворец. Как добраться до Царского села самостоятельно. ... Цены на билет во дворец увеличатся на сумму посещения парка с 20 апреля 2026 года.
+        - listitem [ref=e319]:
+          - generic [ref=e320]:
+            - link "Ещё раз напомним подробнее про стоимость билета..." [ref=e322] [cursor=pointer]:
+              - /url: https://vk.com/wall-6311_197981
+              - heading "Ещё раз напомним подробнее про стоимость билета..." [level=2] [ref=e324]:
+                - generic [ref=e325]: Ещё раз напомним подробнее про стоимость билета...
+            - link "vk.comwall-6311_197981" [ref=e328] [cursor=pointer]:
+              - /url: https://vk.com/wall-6311_197981
+              - text: vk.com›wall-6311_197981
+            - button "Действия" [ref=e329] [cursor=pointer]:
+              - img [ref=e331]
+            - generic [ref=e337]: Музей-заповедник «Царское Село» начинает высокий сезон 15 апреля, он продлится до 30 октября. В этот период вход в Екатерининский парк, как всегда, станет платным. Полный билет стоит 200 рублей, предусмотрены...
+        - listitem [ref=e338]:
+          - generic [ref=e339]:
+            - link "Купить билет в Екатерининский дворец в Царском Селе" [ref=e341] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WgmejI_zOoVX2LcV0lKK00EcahxMbd029s1Ee8etJ41l-k5v8OA0zm82ElJvNExisNxdpXlkVFsErnlkS77R6OqwftTK2W0X6aZKen-X7o4hZYKY4aAm5bMNWEePIKOqaeoGI2mXZR06KOUeHqZK92KmPVE51r2sK85IUXDkW68X0811n_5EMYE10fhG1OG_o2k0IzMhAa1BrQCgG4lLur60bgetLO2MgYTLW9PwDwG0BVMEhG0j24_o2j22yEH80LeGdk0Le0NXYP42j20ykIj02yAJ8WLeGNW2Ba0BWiuavsj2o5099zqYL4wN5dknYxlncZfKGue_xMXkEszyYZkTqETKQjlr_NpQKkSKEhNjg9rBxHKuM9-bhCWZdjoJ7r8tNW1i3NYW0GFEvnic6-y7DhiF1Dm03c03rskRu5r9YltKV6Wrx4tn5YojXYqzLLFstArNMoFs-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02sFLYjjuAQs0gLiWjc4AZ4vIA8tonW2riJRdTL7HomnOY57NHOXVBD5J05SvD7cCAsq2ioXjpKiSmOdOOnQnZX0GdNdHqct40Ou0GA7AeSx7zZ1HrNVfZ4j-w3FTpV__gljE_rNscVw_4O__u5jr_BZ7Joiyn89qnpjP1PfjMICCUxhkiwRRuWZi9Otb17zqZl6-he7kdjiioN_PwNAd-U_CEW5Y7zcFRW19hCIPdzrpUvGOxD-IsjwqnDRf1ZSrxx9zby294iSo5tmQhTnsC8TWaYTeoEOHb4-HLe4bFZYmDV1mGQ_0rsmr_mUhDc_xBDCrLAmzUiD-DzPqJvnT8j2HT_BrhsNhK8yOBBo_EIXdiJvBaZ5rYaj5HG2cLFvKvUBKvgjc9th3a5Qr7wDy7HrKIZE0G0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+              - heading "Купить билет в Екатерининский дворец в Царском Селе" [level=2] [ref=e343]:
+                - generic [ref=e344]: Купить билет в Екатерининский дворец в Царском Селе
+            - link "tsarpalace.ruДарим-билеты-в-музей…" [ref=e347] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WgmejI_zOoVX2LcV0lKK00EcahxMbd029s1Ee8etJ41l-k5v8OA0zm82ElJvNExisNxdpXlkVFsErnlkS77R6OqwftTK2W0X6aZKen-X7o4hZYKY4aAm5bMNWEePIKOqaeoGI2mXZR06KOUeHqZK92KmPVE51r2sK85IUXDkW68X0811n_5EMYE10fhG1OG_o2k0IzMhAa1BrQCgG4lLur60bgetLO2MgYTLW9PwDwG0BVMEhG0j24_o2j22yEH80LeGdk0Le0NXYP42j20ykIj02yAJ8WLeGNW2Ba0BWiuavsj2o5099zqYL4wN5dknYxlncZfKGue_xMXkEszyYZkTqETKQjlr_NpQKkSKEhNjg9rBxHKuM9-bhCWZdjoJ7r8tNW1i3NYW0GFEvnic6-y7DhiF1Dm03c03rskRu5r9YltKV6Wrx4tn5YojXYqzLLFstArNMoFs-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02sFLYjjuAQs0gLiWjc4AZ4vIA8tonW2riJRdTL7HomnOY57NHOXVBD5J05SvD7cCAsq2ioXjpKiSmOdOOnQnZX0GdNdHqct40Ou0GA7AeSx7zZ1HrNVfZ4j-w3FTpV__gljE_rNscVw_4O__u5jr_BZ7Joiyn89qnpjP1PfjMICCUxhkiwRRuWZi9Otb17zqZl6-he7kdjiioN_PwNAd-U_CEW5Y7zcFRW19hCIPdzrpUvGOxD-IsjwqnDRf1ZSrxx9zby294iSo5tmQhTnsC8TWaYTeoEOHb4-HLe4bFZYmDV1mGQ_0rsmr_mUhDc_xBDCrLAmzUiD-DzPqJvnT8j2HT_BrhsNhK8yOBBo_EIXdiJvBaZ5rYaj5HG2cLFvKvUBKvgjc9th3a5Qr7wDy7HrKIZE0G0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+              - text: tsarpalace.ru›Дарим-билеты-в-музей…
+            - button "Действия" [ref=e348] [cursor=pointer]:
+              - img [ref=e350]
+            - generic [ref=e354]:
+              - generic [ref=e356]: Архитектура Отеля 18 века. Отличное дополнение к экскурсии по историческим местам · Изысканный интерьер. Рестораны. Безупречные отзывы. Спа комплекс
+              - generic [ref=e357]:
+                - link "О акции" [ref=e359] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WgmejI_zOoVX2LcV0lKK00EcahxMbd029s1Ee8etJ41l-k5v8OA0zm82ElJvNExisNxdpXlkVFsErnlkS77R6OqwftTK2W0X6aZKen-X7o4hZYKY4aAm5bMNWEePIKOqaeoGI2mXZR06KOUeHqZK92KmPVE51r2sK85IUXDkW68X0811n_5EMYE10fhG1OG_o2k0IzMhAa1BrQCgG4lLur60bgetLO2MgYTLW9PwDwG0BVMEhG0j24_o2j22yEH80LeGdk0Le0NXYP42j20ykIj02yAJ8WLeGNW2Ba0BWiuavsj2o5099zqYL4wN5dknYxlncZfKGue_xMXkEszyYZkTqETKQjlr_NpQKkSKEhNjg9rBxHKuM9-bhCWZdjoJ7r8tNW1i3NYW0GFEvnic6-y7DhiF1Dm03c03rskRu5r9YltKV6Wrx4tn5YojXYqzLLFstArNMoFs-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02sFLYjjuAQs0gLiWjc4AZ4vIA8tonW2riJRdTL7HomnOY57NHOXVBD5J05SvD7cCAsq2ioXjpKiSmOdOOnQnZX0GdNdHqct40Ou0GA7AeSx7zZ1HrNVfZ4j-w3FTpV__gljE_rNscVw_4O__u5jr_BZ7Joiyn89qnpjP1PfjMICCUxhkiwRRuWZi9Otb17zqZl6-he7kdjiioN_PwNAd-U_CEW5Y7zk04FJg39d9JPVtsJ6-JOdD_IkixKv0OvDkUrVvBDXn39CXTo5wpQVJo6O9SWOiVe69P1b5_fH0RZYmDV1mGQ_0rsmr_mUhDc_xBDCrLAmzUiD-DzPqJvnT8j2HT_BrhsNhK8yOBBo_EIXdiJvBaZ5rYaj5HG2cLFvKvUBKvgjc9th3a5Qr7wDy7HrKIZE0G0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Роскошные номера" [ref=e361] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WgmejI_zOoVX2LcV0lKK00EcahxMbd029s1Ee8etJ41l-k5v8OA0zm82ElJvNExisNxdpXlkVFsErnlkS77R6OqwftTK2W0X6aZKen-X7o4hZYKY4aAm5bMNWEePIKOqaeoGI2mXZR06KOUeHqZK92KmPVE51r2sK85IUXDkW68X0811n_5EMYE10fhG1OG_o2k0IzMhAa1BrQCgG4lLur60bgetLO2MgYTLW9PwDwG0BVMEhG0j24_o2j22yEH80LeGdk0Le0NXYP42j20ykIj02yAJ8WLeGNW2Ba0BWiuavsj2o5099zqYL4wN5dknYxlncZfKGue_xMXkEszyYZkTqETKQjlr_NpQKkSKEhNjg9rBxHKuM9-bhCWZdjoJ7r8tNW1i3NYW0GFEvnic6-y7DhiF1Dm03c03rskRu5r9YltKV6Wrx4tn5YojXYqzLLFstArNMoFs-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02sFLYjjuAQs0gLiWjc4AZ4vIA8tonW2riJRdTL7HomnOY57NHOXVBD5J05SvD7cCAsq2ioXjpKiSmOdOOnQnZX0GdNdHqct40Ou0GA7AeSx7zZ1HrNVfZ4j-w3FTpV__gljE_rNscVw_4O__u5jr_BZ7Joiyn89qnpjP1PfjMICCUxhkiwRRuWZi9Otb17zqZl6-he7kdjiioN_PwNAd-U_CEW5Y7zsCU34sWo9sNsNz_a1ZasvxUqhZCrkK6EpNdjdsJp8KIop8NS1Qjs7uyXs2M8s34wXcKGvSURu0AoBmvy7H0Q_0rsmr_mUhDc_xBDCrLAmzUiD-DzPqJvnT8j2HT_BrhsNhK8yOBBo_EIXdiJvBaZ5rYaj5HG2cLFvKvUBKvgjc9th3a5Qr7wDy7HrKIZE0G0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Spa комплекс" [ref=e363] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WgmejI_zOoVX2LcV0lKK00EcahxMbd029s1Ee8etJ41l-k5v8OA0zm82ElJvNExisNxdpXlkVFsErnlkS77R6OqwftTK2W0X6aZKen-X7o4hZYKY4aAm5bMNWEePIKOqaeoGI2mXZR06KOUeHqZK92KmPVE51r2sK85IUXDkW68X0811n_5EMYE10fhG1OG_o2k0IzMhAa1BrQCgG4lLur60bgetLO2MgYTLW9PwDwG0BVMEhG0j24_o2j22yEH80LeGdk0Le0NXYP42j20ykIj02yAJ8WLeGNW2Ba0BWiuavsj2o5099zqYL4wN5dknYxlncZfKGue_xMXkEszyYZkTqETKQjlr_NpQKkSKEhNjg9rBxHKuM9-bhCWZdjoJ7r8tNW1i3NYW0GFEvnic6-y7DhiF1Dm03c03rskRu5r9YltKV6Wrx4tn5YojXYqzLLFstArNMoFs-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02sFLYjjuAQs0gLiWjc4AZ4vIA8tonW2riJRdTL7HomnOY57NHOXVBD5J05SvD7cCAsq2ioXjpKiSmOdOOnQnZX0GdNdHqct40Ou0GA7AeSx7zZ1HrNVfZ4j-w3FTpV__gljE_rNscVw_4O__u5jr_BZ7Joiyn89qnpjP1PfjMICCUxhkiwRRuWZi9Otb17zqZl6-he7kdjiioN_PwNAd-U_CEW5Y7zM8K79z1aJihilxx93N9ipczfNMTgSeCSc_FQFydcGuXacGkv2rRjFXv3i4iGiMDq3CiWoWyZH9SDNnpuEY0Q_0rsmr_mUhDc_xBDCrLAmzUiD-DzPqJvnT8j2HT_BrhsNhK8yOBBo_EIXdiJvBaZ5rYaj5HG2cLFvKvUBKvgjc9th3a5Qr7wDy7HrKIZE0G0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Поздний выезд" [ref=e365] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WgmejI_zOoVX2LcV0lKK00EcahxMbd029s1Ee8etJ41l-k5v8OA0zm82ElJvNExisNxdpXlkVFsErnlkS77R6OqwftTK2W0X6aZKen-X7o4hZYKY4aAm5bMNWEePIKOqaeoGI2mXZR06KOUeHqZK92KmPVE51r2sK85IUXDkW68X0811n_5EMYE10fhG1OG_o2k0IzMhAa1BrQCgG4lLur60bgetLO2MgYTLW9PwDwG0BVMEhG0j24_o2j22yEH80LeGdk0Le0NXYP42j20ykIj02yAJ8WLeGNW2Ba0BWiuavsj2o5099zqYL4wN5dknYxlncZfKGue_xMXkEszyYZkTqETKQjlr_NpQKkSKEhNjg9rBxHKuM9-bhCWZdjoJ7r8tNW1i3NYW0GFEvnic6-y7DhiF1Dm03c03rskRu5r9YltKV6Wrx4tn5YojXYqzLLFstArNMoFs-gxNw1m6fQZDOOSmGj9mcpJRDIjF7huNB0Rm1S8Jl02sFLYjjuAQs0gLiWjc4AZ4vIA8tonW2riJRdTL7HomnOY57NHOXVBD5J05SvD7cCAsq2ioXjpKiSmOdOOnQnZX0GdNdHqct40Ou0GA7AeSx7zZ1HrNVfZ4j-w3FTpV__gljE_rNscVw_4O__u5jr_BZ7Joiyn89qnpjP1PfjMICCUxhkiwRRuWZi9Otb17zqZl6-he7kdjiioN_PwNAd-U_CEW5Y7z68O79z1aJihilxx93N9ipczfNMTgSeCSc_FQFydcGuXacGkv2rRjFXv3i4iGiMDq3CiWoXy5c-JxnO6l0m8Q_0rsmr_mUhDc_xBDCrLAmzUiD-DzPqJvnT8j2HT_BrhsNhK8yOBBo_EIXdiJvBaZ5rYaj5HG2cLFvKvUBKvgjc9th3a5Qr7wDy7HrKIZE0G0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+              - generic [ref=e367]:
+                - link "Контактная информация" [ref=e369] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WguejI_zOoVX2LcY0WKL03CcaxxMbd029s1Ee8etJ41l-k5v8OA0zm82ElJvNExisNxdpXlkVFsErnlkS77R6OqwftTK2W0X6aZKen-X7o4hZYKY4aAm5bMNWEePIKOqaeoGI2mXZR06KOUeHqZK92KmPVE51r2sK85IUXDkW68X0811n_5EMYE10fhG1OG_o2k0IzMhAa1BrQCgG4lLur60bgetLO2MgYTLW9PwDwG0BVMEhG0j24_o2j22yEH80LeGdk0Le0NXYP42j20ykIj02yAJ8WLeGNW2Ba0BWiuavsj2o5099zqYL4wN5dknYxlncZfKGue_xMXkEszyYZkTqETKQjlr_NpQKkSKEhNjg9rBxHKuM9-bhCWZdjoJ7r8tNW1i3NYW0GFEvnic6-y7DhiF1Dm03c03rskRu5r9YltKV6Wrx4tn5YojXYqzLLFstArNMoFsDLklxtgDpc5GYjeSTWWZ90stIRDTi_BauNl1OW1V83p12s3RWzLwAwY9hL0fks06WKfSBeBupGAsi3NXTbVLmG5RZ5ZOGOTLADzS0LCmDtc4AMmBlI9Zo4qToupHQHYpXX4Ua73TsM723OG1Jg30eSh1_ZTMq77bXqbywpxOm_tzh_zA-rx_bVQv7e_nxrzm-xNCI2S_ounqmZHN2vbbMYq9SxphkgxJvWlYA8pb3NLqZ_I-eOxkaTukotpPxtcfykV9Fmng4TAFBNXm0atcfCp-wvlS8CVc_9RMTQOcDyYnEQ_zasm-X4YMkP2xODNkup44kmGHEqR7i0HJVXufFG1V7FWw81hy9NOZOF1wkMR_kCqpLMB3rxWtutqdHRd6qYq95vSlMYPVjI3nWijxzPA6UnFakICNMAIqL50APK_bJbujJcgsOdUiEGLhKVetmT7LHACu1000~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B
+                - generic [ref=e370]:
+                  - heading "Телефон" [level=3] [ref=e371]
+                  - button "Показать телефон" [ref=e373] [cursor=pointer]: +7 (812) 210-XX-XX Показать
+                - generic [ref=e374]:
+                  - heading "Время работы" [level=3] [ref=e375]
+                  - text: круглосуточно
+            - generic [ref=e376]: Промо
+        - listitem [ref=e377]:
+          - generic [ref=e378]:
+            - link "Экскурсии в Пушкине с посещением Екатерининского дворца" [ref=e380] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/Wk8ejI_zOoVX2La50wKM09FecmkKCIPWJg2ADqn0R_hXUI62W7U9W8uYIwdSQG9zFfSxUxRVkVE6Er-_u_M6Ermawmmben5FfILh4DAIKH8K6etcKjkUFgFsxRJjgOtdpYUUEwL1I4OrgZMrHhKk4g8n8sdfY4GIqfAH4eabf14oa9Q0aAnArgCwQGc9UYIu0wPill00oXOgK4flmWrGB0G0CEWuKlMg2j1IzQWAq5BrU1IWfUfD5Q2bwaaLeANU3Ib0IxrZAq0BmfEy0hGWF3bIW1Q49tW5Q45uOgG0BGXFxWhGWl2aI05Q49w02z22e3F9-PfOI-DWomPTbzEb_RJCMloZbDEEh29kPQy1lZTUKuTgIF6d7SrjvurFSQSJ-fnARRk-dqzRwfn2fxOTjNEflG87wxEK5Nd4atloG-h6wuauIP9sPCfY8TxDdcM5WbgsXFFvXid6-u7DxWC1Du03sC3rsny_pXkslevGKkodvaEy1MlNQtGEWrBKvh13625fk4sQxPgL9m_V2nO3-0BX2Lu0MnhCPlN5j3o4_ACgks06WKfSBeBupGAsi3NX3P42CJ58qy8EEgn2-UOAc88vWIXP2jii9qvYo4qT2sRIOhKnOcQCJiEODOpmW8JhpWuJRY0CS0853bKEzhzHng_B3zU8SHzCS_l-rsVfyRq-Iu_FfST-_7q2LPElXMcB-rcOjZYcUTg3MVQCL7PTrtNQV44SXR5S0KqjZTuheAcbqLkwxCl_ooyEqfD_c98hGJ-cFJY1HYf5i_z2dxfRzgR3lpU_Gv_EYeInLMDRNlidxUgQp7tviBeaPWEpqaAmIn2nOtGCpA_yqWhwboyEV1qG8FpIyNPEdaCfliVylXAvPI1mvGYtb9QVaoMQ03OrUEcTqtV5qYmvqq_8BUBaIe5Hx7ps9CyLy68Z-B5TFe1tvxjzJFgrl9kXFXEFR97xd2vs1uE0SJO-uHOTkgvoNLqFBLi0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+              - heading "Экскурсии в Пушкине с посещением Екатерининского дворца" [level=2] [ref=e382]:
+                - generic [ref=e383]: Экскурсии в Пушкине с посещением Екатерининского дворца
+            - link "parus-peterburg.ruЭкскурсии-в-Пушкине..." [ref=e386] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/Wk8ejI_zOoVX2La50wKM09FecmkKCIPWJg2ADqn0R_hXUI62W7U9W8uYIwdSQG9zFfSxUxRVkVE6Er-_u_M6Ermawmmben5FfILh4DAIKH8K6etcKjkUFgFsxRJjgOtdpYUUEwL1I4OrgZMrHhKk4g8n8sdfY4GIqfAH4eabf14oa9Q0aAnArgCwQGc9UYIu0wPill00oXOgK4flmWrGB0G0CEWuKlMg2j1IzQWAq5BrU1IWfUfD5Q2bwaaLeANU3Ib0IxrZAq0BmfEy0hGWF3bIW1Q49tW5Q45uOgG0BGXFxWhGWl2aI05Q49w02z22e3F9-PfOI-DWomPTbzEb_RJCMloZbDEEh29kPQy1lZTUKuTgIF6d7SrjvurFSQSJ-fnARRk-dqzRwfn2fxOTjNEflG87wxEK5Nd4atloG-h6wuauIP9sPCfY8TxDdcM5WbgsXFFvXid6-u7DxWC1Du03sC3rsny_pXkslevGKkodvaEy1MlNQtGEWrBKvh13625fk4sQxPgL9m_V2nO3-0BX2Lu0MnhCPlN5j3o4_ACgks06WKfSBeBupGAsi3NX3P42CJ58qy8EEgn2-UOAc88vWIXP2jii9qvYo4qT2sRIOhKnOcQCJiEODOpmW8JhpWuJRY0CS0853bKEzhzHng_B3zU8SHzCS_l-rsVfyRq-Iu_FfST-_7q2LPElXMcB-rcOjZYcUTg3MVQCL7PTrtNQV44SXR5S0KqjZTuheAcbqLkwxCl_ooyEqfD_c98hGJ-cFJY1HYf5i_z2dxfRzgR3lpU_Gv_EYeInLMDRNlidxUgQp7tviBeaPWEpqaAmIn2nOtGCpA_yqWhwboyEV1qG8FpIyNPEdaCfliVylXAvPI1mvGYtb9QVaoMQ03OrUEcTqtV5qYmvqq_8BUBaIe5Hx7ps9CyLy68Z-B5TFe1tvxjzJFgrl9kXFXEFR97xd2vs1uE0SJO-uHOTkgvoNLqFBLi0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+              - text: parus-peterburg.ru›Экскурсии-в-Пушкине...
+            - button "Действия" [ref=e387] [cursor=pointer]:
+              - img [ref=e389]
+            - generic [ref=e393]:
+              - generic [ref=e395]: Вход без очереди! Билеты включены в стоимость. Отправление из центра Петербурга. · Насыщенная программа. Скидки до 50% на сайте. Профессиональный гид
+              - generic [ref=e396]:
+                - link "М. Боярский рекомендует ПАРУС" [ref=e398] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WiCejI_zOoVX2Ldi0gqL0CFcb0kKCIPWJg2ADqn0R_hXUI62W7U9W8uYIwdSQG9zFfSxUxRVkVE6Er-_u_M6Ermawmmben5FfILh4DAIKH8K6etcKjkUFgFsxRJjgOtdpYUUEwKoa9Q0aAnArgCwQGc9UWIcRBxm0CeMAb1ARy8DK2m4033eE5BrgWhGKlMe2j1IzNWKeANgJHMWfUf95Q2btWqfG4kzOoj02yAJl0Aq83mvKe0MX2Tu1MX1U6Aa02q8J-uAq8Bmf4W1MX2UW0lGWg0poVcQM4lZOCi6NPVJfVsqp5hyevJJZgmYRcMl0RutNbE7QaZnfntDRUUDJt6d4_gSIcsxlfzFM-gSGgUs7RLpgRq21-kpb1Lvn9DxyaFgnkk9E4cITcJAOY7UpPvbXO9QjeJp-OR9nlk1pUu30JU00zZ0zTiVFyuRjhwEK5Bif-P3l0Lhrsjq3eDIrEQmGnWXQRXDcksQbISFtmiM0_W2uGbU05iQp6RrnRGyXFoZAhjW1e5AN2w2-Cq2jh0ruGsH0Z4nIDF23ZgiGldc2fY2EO4eMGhRB2TEOiXD7GjcqcArCM9cZ4x3c3MCy824wyuE4suW37021GvL3lQ_KSQlom_NY74VJ7Fx_jTdwV6zFakFpwN7Vlnz0bMJhuLfY_jPcBOufddQWrdsZ5HsNTTrsdn178MnN05DBOtUAw2ffT5RkkpB_yil3jAJVvYIAq4_Ri234sYaKZJxB_IfksLlElnxyplqwQn865irjkMrVzAkhidSbm-hIs8sC2ij1Bi44Jj6nx1SL7uqCXdV5mU-3WWU_4BmTZMUGn2-nvY-4fbY873C2BTqav_JemzdMpCykD9cWdYbjU_ySoe51Z7psQSy5y8Ps-J7Tla6tftlzZ7fr_9kXlfCFB95xdEws1qC0iRP-8HRTEYwodLrFRHi0G00~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Автобусные экскурсии" [ref=e400] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WjqejI_zOoVX2La20tqM06DecmkKCIPWJg2ADqn0R_hXUI62W7U9W8uYIwdSQG9zFfSxUxRVkVE6Er-_u_M6Ermawmmben5FfILh4DAIKH8K6etcKjkUFgFsxRJjgOtdpYUUEwL2IKXBD99eM6lhZHj5IKj0Haerg2IMa4R8G5e2Gh8gMO_gf2Kawf6J7J1byuK7KBPGWL9w4sw0OY40W477aQfNLO2MgaTLW9QgnwC0BLLlgW0jLK-g02trRaW1MkeTMm5Q49xa5Q05uScH0hGWFC4hG0l24oC5Q45uSbU05eGdHGhGWl04N80M19r9pjV4MXe7MpRekfmkxQTbrk8VfPnsP1LnAtiDyBtncZfKGue_xMXkEszyYZkTqETKQjlr_NpQKkSKEhNjg9rBxHKuM9-bhCWZdjoJ7r8tNa_4IPAq8rCM2_5kzYmh5DIo9PpFDqmstWziTXy8k04Sm0Qkt_xuSTwmzNM4ac8_DH_YBLYxNgDp69IYDeSTmWX9mstIRDUiF7duNh0Om1S8J_02sD9WDgilfkKXv1zLsGKp25JYSX74RnQmXQq9RuWKY8b1cXPsq64LoZTNm1JC2KJ9KjXcEN4IGsxgM32J5gkD4JDZT1h6h6641oHSTtQOS0DXW1CeSAXoiF-DCdvTVhX6ZFjWcjltlpvBZ-_rMNfyBZtsu-yJg9fyBKnRtC_2jCKnpTCUpB9dfBBhkgxJvWlYA8pb2cXgQVHU0KqjZTxIPL_-Ntvna9xymvHS2VgnZmSdq4YbQFPVw5Dtozvq-FVcT-ZJMP4mjcfiosl_f5rTaxal7rQNn6nWLbe8TWaYTeoEWKahFzwGFRWl3dmT41xyel5sIvv39hx7yBuIMMKWSE88jpIMtybVMHJzEtsuNCqIsVs4KkmmL2amFCmtGUVfowR_m8zjQH1uya_RnmsyblUbBEs6P8jtydInHJ88Ld1K9DoYIUUcqDLlvgS4~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Экскурсии в Пушкин" [ref=e402] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WiyejI_zOoVX2Ldq0WqM08FdbmkKCIPWJg2ADqn0R_hXUI62W7U9W8uYIwdSQG9zFfSxUxRVkVE6Er-_u_M6Ermawmmben5FfILh4DAIKH8K6etcKjkUFgFsxRJjgOtdpYUUEwL2D6OaBHsHM48Q8GDf2GZ9gcGzgfEMaAX7UZjWokOB3w1ieGAbz2RS0CL20023ZYDLhwe0BLMFgW0jLOz70LggtbG1MggUL05QwjsG0hJKExO2j20yoIj02yAJ8mLeGNY2Lu0MX2T62j22yEIk02q8JueKe0NX2RW0BGWwavolYRKq3hPiq7KvNTfFowp5FqevxSWgubRs6k1xupLrg8OKVzhHt7RU-1HtEg7FgTIsw_lvjANEANHgsr4xbzehSB0-IrcHHpov9p-aRhoUY9CaQKUcB1RYtUnPLYYePKiuds-ORBmVsEm-4703E80DNB_zyUEyOUlh22N5Vce-n5kmThr6vp0eHMqEEuGHaeRRfDckMNdoyBrWCO0l49xW1R2bmMnMNqpBGyW_gh8BPX2enEKYYDyiO0jR4zuGAH0JWpGjxA33AfHlhe0fc1E8agMmpNBY98RSrB5W9YrM6oDcnkWqZ5d320z8kExiCE46mW0dKE1GvM3_6sNyklnmZHZtmJItxtzzbXxVwxFq-5nwxCVV9r0r-LgOjhYVXMcBOvgdFPXbpqXbrtLTfyqNn54OonNGrDBelGAQMXgzfSk-_B_yuY0z-OSfkHBqOnKUd40ZbQBPVw5FtIrxq-7Vcz-XJsT5mjYgiIsl_PDsTKtcldnONHApWLbf8TWbYDWnEeRbe_BNSK53V77Wwu0U_CBmTZsUGnY-nxY-4fbZ873K2BTqbD_9PnQUlJbzN5gR2PjOQrdoiAaK61NCxv7oz6XZ_ycFRUaDFFc_syUjNylxJFRiUcIBT-TqiKKO1Ajpz1DkqUHoa-lgD_FP0W00~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Обзорная с Эрмитажем" [ref=e404] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WkWejI_zOoVX2La70zKM0DCedGkKCIPWJg2ADqn0R_hXUI62W7U9W8uYIwdSQG9zFfSxUxRVkVE6Er-_u_M6Ermawmmben5FfILh4DAIKH8K6etcKjkUFgFsxRJjgOtdpYUUEwKXK9M4Y92izLBL2Cb8HcrqL5DlK8kGZ7006P5OGXeX0sa92CcgP3sgavQGg4U3Es3AvWiFe6oX0gNq9jm0nK8008EE8rMlgW0jLO-g02rLZqS1MghUL05QgfvK0LhgtP02jDGxjWAq83p9Aq0BmfCZ1MX1U89NW1Q49qOAq8BmvAu0BGXFYXIW1U49k00j23gJdA-9jJGEjcpGTJbTsa_BhCK_IZdjo2hYLlOQu7lZDNMeXXH_sj7STjxu57SweS-frBRh-_cqfSufT6hRKJkNsYjmi3vBMP57FBadFwHkl9w8aoHfHwOi5kBTx5bMAAXbIpYVRvXil1_Ox3uGS0CuW0rSl_tnuxnXw-i89SL-QZx4Mx1slKRdC2X5RGuxX16IXjkasQvPUVBmlM0nW2yGdk05iAN1R5PVJCj3o3-giWjc4AZ4vIA8tonW2riJtX0f41E3D2tieCCgb6-kW2cO4uYIfR3DSk8aXjpKiM0cBLOR8sR6w3ICMSC83qYuxkmmuGR202TGu53bOFyRPVow_72D6FV1DBVlVtsM7j_hi_JuN7hinzydK3NvMfYsk9-5QOjZcgSzc6NFI6NNTLsdpHV4KHZB5T3KqkYz0ffQ6hsboxxyl_pY83tvXocv4lHZ61wSG2ELejb_eK_TBNlJuT-Rtw5FPqN2sAgnBQ_zatPrJUQ-V5XT4hE1MMaXs2M8s34w1YQCybVm8NVqnO6l0m8W_FBnTb2UGok-nmI_4lbb873d2BVKbfzZ1bbjx4BJ8Myxfq_dfLdIePzGIwo7AmN6clCbIPuYY0kMuCV6Q02FmdVxMDMlvT6cUS0yiaN9ELriMGm2_Xdz2RTeR1dckbhsThO0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+              - generic [ref=e406]:
+                - link "Контактная информация" [ref=e408] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WkWejI_zOoVX2La80zKM0DFed0kKCIPWJg2ADqn0R_hXUI62W7U9W8uYIwdSQG9zFfSxUxRVkVE6Er-_u_M6Ermawmmben5FfILh4DAIKH8K6etcKjkUFgFsxRJjgOtdpYUUEwL1I4OrgZMrHhKk4g8n8sdfY4GIqfAH4eabf14oa9Q0aAnArgCwQGc9UYIu0wPill00oXOgK4flmWrGB0G0CEWuKlMg2j1IzQWAq5BrU1IWfUfD5Q2bwaaLeANU3Ib0IxrZAq0BmfEy0hGWF3bIW1Q49tW5Q45uOgG0BGXFxWhGWl2aI05Q49w02z22e3F9-PfOI-DWomPTbzEb_RJCMloZbDEEh29kPQy1lZTUKuTgIF6d7SrjvurFSQSJ-fnARRk-dqzRwfn2fxOTjNEflG87wxEK5Nd4atloG-h6wuauIP9sPCfY8TxDdcM5WbgsXFFvXid6-u7DxWC1Du03sC3rsny_pf9YFpKVMWrxKxm5IwjX6wFlUetEOL2AsXns22Ca3RT9irspykJXUy5Y05yWFC4BO4k3sQo-c9Q7a7zKPHVC8529oqKGlrd05hOcl25I82O6QLhOGOTLADzS0LCm9n0bIs6RvSH93BcfOy5CMgmsHioCqMaOiuOH7f1mtTbXmWs40KwWmA7AmVutolXr-U4QCUw3QMxV__eiFRxNP-dnkVJOZxzFe6hojJ1jSJyBqnR7D4zxCCkUaSgkwxfEco-8ep2MAw2ffT5x1JIrD7fBbttvV_d5GNho3rDo9UZ75ZmuWKOgHRF_Gf-wM_QcmxytlqEVpeg4iLLZMrxx9-tgcinz-R2w96O3iz92i4iGiMDq3CmOvTSs_GU-EF1rG23y0l9sKPv3BBx72ByI6MOWSEW8j_IMdrCccW0sPNZf7TLtnT8oETDIo2tYv0g2KMn-zaJeGYWyFR5d0qIa0ZmWtFPHIw_bVGhJOIMoHRvzkjWb6WJKQfq8j-ZaVUFewZTe7080~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B
+                - generic [ref=e409]:
+                  - heading "Телефон" [level=3] [ref=e410]
+                  - button "Показать телефон" [ref=e412] [cursor=pointer]: +7 (800) 101-XX-XX Показать
+                - generic [ref=e413]:
+                  - heading "Время работы" [level=3] [ref=e414]
+                  - text: ежедневно 9:00-21:00
+            - generic [ref=e415]: Промо
+        - listitem [ref=e416]:
+          - generic [ref=e417]:
+            - 'link "Царское Село из Санкт-Петербурга: цены и расписание" [ref=e419] [cursor=pointer]':
+              - /url: https://yabs.yandex.ru/count/Wk4ejI_zOoVX2LdF0fqM07Ffdr77BmcO4wZY3HFGctvuNeWWu5qYeAFee5JkD84-dykTFTllt7d3dQ_VyNh37UvzI_Dywfn6yMX-GtCZ8YCa2qQmLeke6lpC24AYMbtGc96qT4GYIMc63A4a4ZAGbe2IaAnArgDQAIcd8LIaj7IKDCA63Hj3Ti2KpHSUGDb21KhfJRW1YeK000OTnpkShy02cj05X9bZ1N2fUbK5QAbwL0LegNey2j1IzQOAq5Brf0hGKk-65A2bth4Le0NXILu1MX2U72b02y8Jl0Aq83mnKe0MX2Tt1MX1U5Aa02q8Jy05Q47GcUHyJTYvQAmZybpCwH9fuJBcgPosniY3L8BY0RutNbE7QaZnfntDRUUDJt6d4_gSIcsxlfzFM-gSGgUs7RLpgRq21-kpb1Lvn9DxyaFgnWjKBLowCkHylc6oyNvWi_j0m0tW03Pm_HTDXwJOJys7LiFU56_1qchOqbCrPH_b2wz6x41Mt_KQdSEW5BKvx116I1fkasQxPkN9m_U2nG2-G7Y25y2s1wlr5gb0pkgomdV130ALk5m4yPi5R65huim7XmIqd7KMTj1X5SetLy0Kp0b4oLBOUWewp8GoZ9Axl1XoKyU2cRHOROoO6QFJC6OD8pmWuRgpmuGR20ESG853bOFzRuGfy_jX72kH7qoJyVXV_zZzNl_O_LowRCVV9sG9lnO6VFvP6F2PQLw01xFiXtIPO-RIsrpkkwxhEcs-88x2MEPwcg9t3MTAnFJMQtrvkOEhpPCzc73Hoezf3pw0YrcZa__USLPMihhNNTRlTvnQbwsErYNHQ_qHmJ_pbPxQLfQNAqBg54EmIn2nOtGCooNABsGqGyCN1xuE21hyUtS3gJl1xDa7OVxYmqMyody1A4NvgWZpmqhp4CA5b1Pp8JcVBwgQxpg3ocdUI_PUvdL5oOEzF9fSdv1hSKo-B7OSC7-XBSg-OkMw6aTKjW00~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+              - 'heading "Царское Село из Санкт-Петербурга: цены и расписание" [level=2] [ref=e421]':
+                - generic [ref=e422]: "Царское Село из Санкт-Петербурга: цены и расписание"
+            - link "sputnik8.comЭкскурсии-в-Царское..." [ref=e425] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/Wk4ejI_zOoVX2LdF0fqM07Ffdr77BmcO4wZY3HFGctvuNeWWu5qYeAFee5JkD84-dykTFTllt7d3dQ_VyNh37UvzI_Dywfn6yMX-GtCZ8YCa2qQmLeke6lpC24AYMbtGc96qT4GYIMc63A4a4ZAGbe2IaAnArgDQAIcd8LIaj7IKDCA63Hj3Ti2KpHSUGDb21KhfJRW1YeK000OTnpkShy02cj05X9bZ1N2fUbK5QAbwL0LegNey2j1IzQOAq5Brf0hGKk-65A2bth4Le0NXILu1MX2U72b02y8Jl0Aq83mnKe0MX2Tt1MX1U5Aa02q8Jy05Q47GcUHyJTYvQAmZybpCwH9fuJBcgPosniY3L8BY0RutNbE7QaZnfntDRUUDJt6d4_gSIcsxlfzFM-gSGgUs7RLpgRq21-kpb1Lvn9DxyaFgnWjKBLowCkHylc6oyNvWi_j0m0tW03Pm_HTDXwJOJys7LiFU56_1qchOqbCrPH_b2wz6x41Mt_KQdSEW5BKvx116I1fkasQxPkN9m_U2nG2-G7Y25y2s1wlr5gb0pkgomdV130ALk5m4yPi5R65huim7XmIqd7KMTj1X5SetLy0Kp0b4oLBOUWewp8GoZ9Axl1XoKyU2cRHOROoO6QFJC6OD8pmWuRgpmuGR20ESG853bOFzRuGfy_jX72kH7qoJyVXV_zZzNl_O_LowRCVV9sG9lnO6VFvP6F2PQLw01xFiXtIPO-RIsrpkkwxhEcs-88x2MEPwcg9t3MTAnFJMQtrvkOEhpPCzc73Hoezf3pw0YrcZa__USLPMihhNNTRlTvnQbwsErYNHQ_qHmJ_pbPxQLfQNAqBg54EmIn2nOtGCooNABsGqGyCN1xuE21hyUtS3gJl1xDa7OVxYmqMyody1A4NvgWZpmqhp4CA5b1Pp8JcVBwgQxpg3ocdUI_PUvdL5oOEzF9fSdv1hSKo-B7OSC7-XBSg-OkMw6aTKjW00~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+              - text: sputnik8.com›Экскурсии-в-Царское...
+            - button "Действия" [ref=e426] [cursor=pointer]:
+              - img [ref=e428]
+            - generic [ref=e432]:
+              - generic [ref=e434]: Экскурсии по России и всему Миру. Онлайн бронирование Экскурсий · Оплата онлайн. Мгновенное подтверждение. Опытные гиды. Интересные места
+              - generic [ref=e435]:
+                - link "Экскурсии Петербург" [ref=e437] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/Wj8ejI_zOoVX2Ld00YKM08Fecr77BmcO4wZY3HFGctvuNeWWu5qYeAFee5JkD84-dykTFTllt7d3dQ_VyNh37UvzI_Dywfn6yMX-GtCZ8YCa2qQmLeke6lpC24AYMbt8G5e2IaAoAbcFQgMad8PGaTBIKT886pPiW2cRBpo0ieKAbDARS0CK2m4033gETpXVWGKqeGi8CySAu5BrgWhGKlMe2j1IzNWKeANgJHMWfUf95Q2btWqfG4kzOoj02yAJl0Aq83mvKe0MX2Tu1MX1U6Aa02q8J-uAq8Bmf4W1MX2UW0lGWg0poVcQi7FHM4VakPZJ9TB2PSnJEMsDaGUf1CK3V6-yfWxLaE9FEvhRpXkVuaudz3cLsdPzFv-sr3c5JcqxQkTIUmKErcSfA_A89_VaXzID5wXQk7HboFbymsJZ_S1czu606y01RE3wBveEIR6VcW-jXhqfteAbrR2bfshAFieNNetOWQo-wpKwXq4fQdFO8OoGDDmcpNRDofE7xmMB0No1y0GlW6qFLkijKe6SrMM5xu8P12fnkGZYDmlOmjR4cGyE2MWvwopieCCgb6-kW2cO4uYIfR3r57IO2MKO9NTvCUIcZWKpQR7Q634pHgTXp1f6U432TMU72JSG1ZY10eSg1_lV25FczyCuLY8_c2RZyR_-iVkz_h7xkNJPZhzFo19-BGpu_BCmu3FJl00FPjaFwJB7pAMtkTntNTTrsdn178MnpFKqHUyQpfI8wQtN-l9o1rUR9timuQAL7pVWmGTmCMjqyjyxpifALlUwo_hzZbFhijNHkYHwhJyY-6U-qbFRol9oHKYTOWXs2I9sZ8vX2LP-dYRlq1S7lWu86lm3TqEbEy7EsGTXx-A32rob5hoZKSwMm_KGJfY7_698QJvRDNs-mFbyqX-4FwaDsO4ShpF1FDYxdceFgRWMkVtBOZUrb1FQel2lkzNLfaIQ1m00~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Экскурсии Москва" [ref=e439] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WimejI_zOoVX2Lcv0lKL01Decb77BmcO4wZY3HFGctvuNeWWu5qYeAFee5JkD84-dykTFTllt7d3dQ_VyNh37UvzI_Dywfn6yMX-GtCZ8YCa2qQmLeke6lpC24AYMbtOC0fACYBAQGWLAIqT9OsmOSC6cBBvmWCeMwX0ARq9Dq2n4030eEDuX_CLM40Jke0mSwm0BbMlgW0jLO-g02rLZqS1MghUL05QgfvK0LhgtP02jDGxjWAq83p9Aq0BmfCZ1MX1U89NW1Q49qOAq8BmvAu0BGXFYXIW1U49k00j23gJdAy9EnUDTKIUYpbT8YrSnZoLqzOOUP1AK3p0zyPhwb0DAVwqexdjlF4fxdH2drEfRTVtysbBdLFerBQZTYwrL-1WVPQo8ezuSaz-IDruWQg5IrU6dCytJ3RU3sns7mYu0Hp01gx_ekcG5Fkf-T1gs9lYBLXQ3LjwggRietpXrOWToEgxNgDp69IYDeSTmWX9mstIRDUiF7duNh0Om1S8J_02sFPWjTuY5SXPNLRuBfX1e1ANYo1-iu0jR4sS-U2GW9Qppi8EEgn2-UOAc88vWIXP2bjFGOUPK8PHSfSNGsxgM32J5gkD4JDZT1h6h6641oHSTtQOS0DXW1CeSAXoiF-DC6L-FunZ9VA3QJ8U_-iVkz_h7xkVIvVj-Fk4BE7Nme3FFmi3FZFD2_1WblsGBdFCN7gRottNTLsdpHV4KHZBN4zJzAxXJ8cOtdgjBoztSBLviWSJBbhviOy77y35hD79V-yuAojPtUikw_SxJgtBLaVhakYr_eZWd_bAJsqhoyiL8NMA8TWbYDWnEeObdF9ZcN8h-kB0rm416lpBTeEZEy70sGTXwE8325ob_DspKSusAoxb7UOX_0SfhRTH8PylQZxVrGZgnTI9x2tDwqgG1tkfj7ez8TVYj7nPx2PW_K9Rb7nbptMrgQXi0G00~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Экскурсии Калининград" [ref=e441] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WjCejI_zOoVX2Lc-0YqM00FfdL77BmcO4wZY3HFGctvuNeWWu5qYeAFee5JkD84-dykTFTllt7d3dQ_VyNh37UvzI_Dywfn6yMX-GtCZ8YCa2qQmLeke6lpC24AYMbrKgKWoYeIAX8QeD78QGaLAIqT98spOi06s0wPill00oXOgK4flmWrGB0G0CEWutk5y1HRGX2uWp1mhW4lLgof0IzMZAa1BrUDHW9QgDrM0bgedLO2MUZUa02trZgq0BGXFyWhGWl3aI05Q49xW5Q05uOcH0hGWFBahG0l2ao85Q45u0Yv02uBE9EThmiv5OnsHvs9EbqWBbx4FuUK7h_V0zLHEMsFaGIf1yG3V6w-fGpMa-DEEvhRpngUuqmbzJgMsNT_FforrJg5JsuxQkTHUWOFrMSgAFEB9FVaXTUC5gXOkNHboFjymsNW_iDbz8E06S00RkFwBfaDIxAVcGwjXRugtO6arREcfchAFyeLN8tOWg-zwZSvXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWsuFLUejK86TrMU6xO0Q1IbmkWlZD0hQmDN7cWqC2Miuw2plei0hbcojW2kO4ecGfR3q57MP26KR9NLuCkQbZmKnQh3P6p8pHQHYpXX4Ua73TsM723OG1Jg30eSh1_ZV2bFdzC8wLo0-coNZyht_iVgz_x7ukNRRZxnEoX5yB0px_B0pup3Glm8DPzaEwp35pwMqkzrtNTPqsNn17OInpFKtHkuOp9M9wwxM-lDp1rUR97aouQEN7AZpu02vcZKx-UyTPMSdgNdTPlzznQbssEbgNHA_rHmJ_p5TwQbjPNgu8gLCCmIv1n8xHCIphbD--oJdWYmDV1mGO_FDsmwGxmShP1s7juWEa0YyKvNaEvZk-zKDs_vxfymMVvnb_qF7WRyZEPRnkTUR1tlYt_hZYMiptBuizrrQSq1RL__XMLmS0R1u0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Экскурсии Стамбул" [ref=e443] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WiaejI_zOoVX2Lcx0jqL0DDdcL77BmcO4wZY3HFGctvuNeWWu5qYeAFee5JkD84-dykTFTllt7d3dQ_VyNh37UvzI_Dywfn6yMX-GtCZ8YCa2qQmLeke6lpC24AYMbtaD8IAb9QEaaROi64Zo0wOild20oXRg40flGatGB4G0C2WutY7ynLOG1EwW31ph00kLQ-g02rLZwe0BLMFHm5QgjvK0LggdbG1MkhTa0Aqr3ks0hGWFCahG0l2aoC5Q45uWbU05eGdHWhGWl3ahW0j24-A5A05uGcu02q8EfEShmax5urrH9wBELqYBLp6F9NJrXXva4fGFC3tnclgK0qf_hIZkUsyyIdkT4AVKwbjr_VpQKkTK-ZKjgDsBhLNu61zbh8YZtXoJtv8tNY1geLBLuQSppTCDjuFR7OV2BW17C06hl-YwP0K-wdvq6hOc-8jM5eDMtggfkoZVE7LY1t8whjUetCObA8sXnt224d3RT9irwmyUVXUi1Z05mXFy0BOzc2rtY8Lo5bTLlWkc46W4fUB87wpW2riJPpvu920bhFEmWuwh4BvvWgOWZc1A5aAMqz1XvbGXb5obnT3RkfOC9CMguqHCsDq6iQiOOG795ntTfXm0s604oXmg7Am_uqmPNu_Z6CbyeDfCXx_wn-xt-iVkvzBb-tu-uGiuTV2WCy_2mC-CyqBy62M_P0kSynSUflBVTTrNQVD5yHH6CjSJrFqhk5CYPZUUgqlBtTmjNco1nCkMlan30y-W8jPevF_td5MLhAwrrtMxtUSMfUjZjObqMlz4S4_yvMUsbQMboj2wXH3i4iGiMDq34ivvQVW2GKrlZZmTK0R_Djs0wGxmSJP1s7guWC9N2N0EoOt2qUvIGRprwXvYDD3IX6JjelF5sUQDon1HJHV97kN_hhgqi5UiDnCvyErE8-zB7PykApG5gNNyM5T7I0AOW00~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+              - generic [ref=e445]:
+                - link "Контактная информация" [ref=e447] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WkGejI_zOoVX2LdI0hKM0AEfe577BmcO4wZY3HFGctvuNeWWu5qYeAFee5JkD84-dykTFTllt7d3dQ_VyNh37UvzI_Dywfn6yMX-GtCZ8YCa2qQmLeke6lpC24AYMbtGc96qT4GYIMc63A4a4ZAGbe2IaAnArgDQAIcd8LIaj7IKDCA63Hj3Ti2KpHSUGDb21KhfJRW1YeK000OTnpkShy02cj05X9bZ1N2fUbK5QAbwL0LegNey2j1IzQOAq5Brf0hGKk-65A2bth4Le0NXILu1MX2U72b02y8Jl0Aq83mnKe0MX2Tt1MX1U5Aa02q8Jy05Q47GcUHyJTYvQAmZybpCwH9fuJBcgPosniY3L8BY0RutNbE7QaZnfntDRUUDJt6d4_gSIcsxlfzFM-gSGgUs7RLpgRq21-kpb1Lvn9DxyaFgnWjKBLowCkHylc6oyNvWi_j0m0tW03Pm_HTDXwJOJys7LiFU56_1qchOqbCrPH_b2wz6x6ks3cJrNQ_HEGnAKPl33c64fE4sQRPhLfuyV2zO3E0BX2Tu0Mnxi5flaGhah2uhV1VC8529oqKGlrd05hOcpdnmI43BMMTX1nrMeNnp1Kp1d42KB8Mjfw33J2Z3ABdBYo4tTIoOIOlLneYPCJeDOzOmmWCIhZixJBY1CC0953XKETZ_HfWoln_6iHBvmJGPZ__rZztlzO_TpwNBTlnzGfRmQs70vv-50P-PvWLuCCj-I9SvPYwzpUM-wxgkq-OBuYYCPQwdANhNSAP4J6-zrfUNExZQFDc32HUj_DY21n_0nQpHoN_lE2ihMTthBkltEqwjorP7wvBejVw8u9_vIazjAylB5I5rYY7O9OZOCJg6vP_oopZWGFt5WQy30XhyatV3gJl1yja7OG7ZGqUyIe41A57vgcZpmqfJ4SATb1Pp8JctBwgoxpgFocdU-_TUvdL5oOEzF9fSdv1hSKo-B7OSC7-XBSg-OkMw6aTKjW00~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B
+                - generic [ref=e448]:
+                  - heading "Телефон" [level=3] [ref=e449]
+                  - button "Показать телефон" [ref=e451] [cursor=pointer]: +7 (812) 407-XX-XX Показать
+                - generic [ref=e452]:
+                  - heading "Время работы" [level=3] [ref=e453]
+                  - text: будни 10:00-18:00
+            - generic [ref=e454]: Промо
+        - listitem [ref=e455]:
+          - generic [ref=e456]:
+            - 'link "Царское Село: Екатерининский. Автобус + всё включено" [ref=e458] [cursor=pointer]':
+              - /url: https://yabs.yandex.ru/count/WjyejI_zOoVX2LdQ0eqM04EfdpxHIbG2vWIg-0IuJJyyBqGGy5v0G4y1H5RkDF66Er-_u_M6ErpRYTzFg5Jw0tIKPDluipOgiiu8MhenHAD6RNGZgKPjD6HDggr6D9AGg4bATOsQUaCe2Mc9HX8DQqszGIrAMW8oKgf19L5a99I4j1GqWfN44X899MlHY25h3IgI4XL9Y2Xm1qpPVE41b2rKe9JUX1kWM0W0OD1nD965hX11t0TG7QQx6aWX1JHP5X2cwbKLeANgKHMWfUhnA41BrPigG4lLaof0IxqRKe2MUiTMW1Q49ta5Q45uSgG0BGXFy0hGWl34I05Q49xS5Q05uKcH0hGWF04Ne0L1PvBpDK4uSuLbf4P5JfV-mmhS-n1cVl1w3zmRhwb3DQJuquxcjlF6fxZJ2NrEfRPTty-dBNLEeLFRZjgvr5w1W_LPoeeyuiaz-I5ru_L32Br1cEmmJ-dTx1uaXOXW0YJdymsJZVS3czq70cu01x21Ymj6XctO-Zf2IR6VcW_n5YmEWrBKvh13625fk4sQxPgL9m_V2nO3-0BX2Lu0MmUq-lu50fMuN0JncmLiOMkYp0f7ILRE30ixwB0AvPihO0hc9Wyz2bjFGOUPKBPmJamIGsuoOtGQnWpp7U412TUT7IRSG1ZW10eSgXpiVoED6FZ3528VFzZhUFA_NhVolLwtyhaUo8-_CtqGVkqoql1dbv66J3DLa5cciyxCCNFfZLdkkwxhEcs-88x2M1xWh2IBtWSuAycYjnxCbxrVcScZ9tyXLXYj_9Zsu0GWdvwK_TSxVNKH3FHRMjUPdBww20PwxP-yYvjwV7DCDDD1oOeR3C4kGSIEqJ4i1PLV04KfoIyEV1qG6VpOTqEkEtcvyksD0U-GmeNvj9MhKg1BBHJ_-mFW2dtHONGMXCiVjE93Z0w_oyqvsf2EoJRFWYDwK6INrkBkF2pss3AuO2qwzJzPNUqBhNa0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+              - 'heading "Царское Село: Екатерининский. Автобус + всё включено" [level=2] [ref=e460]':
+                - generic [ref=e461]: "Царское Село: Екатерининский. Автобус + всё включено"
+            - link "miratravel.netpetergof-spb…" [ref=e464] [cursor=pointer]:
+              - /url: https://yabs.yandex.ru/count/WjyejI_zOoVX2LdQ0eqM04EfdpxHIbG2vWIg-0IuJJyyBqGGy5v0G4y1H5RkDF66Er-_u_M6ErpRYTzFg5Jw0tIKPDluipOgiiu8MhenHAD6RNGZgKPjD6HDggr6D9AGg4bATOsQUaCe2Mc9HX8DQqszGIrAMW8oKgf19L5a99I4j1GqWfN44X899MlHY25h3IgI4XL9Y2Xm1qpPVE41b2rKe9JUX1kWM0W0OD1nD965hX11t0TG7QQx6aWX1JHP5X2cwbKLeANgKHMWfUhnA41BrPigG4lLaof0IxqRKe2MUiTMW1Q49ta5Q45uSgG0BGXFy0hGWl34I05Q49xS5Q05uKcH0hGWF04Ne0L1PvBpDK4uSuLbf4P5JfV-mmhS-n1cVl1w3zmRhwb3DQJuquxcjlF6fxZJ2NrEfRPTty-dBNLEeLFRZjgvr5w1W_LPoeeyuiaz-I5ru_L32Br1cEmmJ-dTx1uaXOXW0YJdymsJZVS3czq70cu01x21Ymj6XctO-Zf2IR6VcW_n5YmEWrBKvh13625fk4sQxPgL9m_V2nO3-0BX2Lu0MmUq-lu50fMuN0JncmLiOMkYp0f7ILRE30ixwB0AvPihO0hc9Wyz2bjFGOUPKBPmJamIGsuoOtGQnWpp7U412TUT7IRSG1ZW10eSgXpiVoED6FZ3528VFzZhUFA_NhVolLwtyhaUo8-_CtqGVkqoql1dbv66J3DLa5cciyxCCNFfZLdkkwxhEcs-88x2M1xWh2IBtWSuAycYjnxCbxrVcScZ9tyXLXYj_9Zsu0GWdvwK_TSxVNKH3FHRMjUPdBww20PwxP-yYvjwV7DCDDD1oOeR3C4kGSIEqJ4i1PLV04KfoIyEV1qG6VpOTqEkEtcvyksD0U-GmeNvj9MhKg1BBHJ_-mFW2dtHONGMXCiVjE93Z0w_oyqvsf2EoJRFWYDwK6INrkBkF2pss3AuO2qwzJzPNUqBhNa0~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+              - text: miratravel.net›petergof-spb…
+            - button "Действия" [ref=e465] [cursor=pointer]:
+              - img [ref=e467]
+            - generic [ref=e471]:
+              - generic [ref=e473]: Янтарная комната и дворцы Царского Села с гидом из СПб! · Онлайн-бронирование. Опытные гиды. Малые группы. Без предоплаты. Мгновенное подтверждение. Лучшие места СПб
+              - generic [ref=e474]:
+                - link "Экскурсии по СПб" [ref=e476] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/Wi0ejI_zOoVX2Lcr0fKL01DdbpxHIbG2vWIg-0IuJJyyBqGGy5v0G4y1H5RkDF66Er-_u_M6ErpRYTzFg5JwymDqb2G3QGae2ScgP3sgbOg4g4abRYW91PaWaLHa99I4j1GqWfN44X899MlHY25h3IgI4XL9Y6Xj1qpPVE41b2rKe9JUX1kWM0W0OD1nD965hX11t0TG7QQx6aWX1JHP5X2cwbKLeANgKHMWfUhnA41BrPigG4lLaof0IxqRKe2MUiTMW1Q49ta5Q45uSgG0BGXFy0hGWl34I05Q49xS5Q05uKcH0hGWF04Ne0L1PvBpDK4uSuLbf4P5JfV-mmhS-n1cVl1w3zmRhwb3DQJuquxcjlF6fxZJ2NrEfRPTty-dBNLEeLFRZjgvr5w1W_LPoeeyuiaz-I5ru_L32Br1cEmmJ-dTx1uaXOXW0YJdymsJZVS3czq70cu01x21Ymj6XctO-Zf2IR6VcW_n5YmEWrBKvh13625fk4sQxPgL9m_V2nO3-0BX2Lu0MmUq-lu50fMuN0JncmLiOMkYp0f7ILRE30ixwB0AvPihO0hc9Wyz2bjFGOUPKBPmJamIGsuoOtGQnWpp7U412TUT7IRSG1ZW10eSgXpiVoED6FZ3528VFzZhUFA_NhVolLwtyhaUo8-_CtqGVkqoql1dbv66J3DLa5cciyxCCNFfZLdkkwxhEcs-88x2M1xWh2IBtWSuAycYjnxCbxrVcScZ9tyXLXYj_BY21oS0-VIaxB_UwQkBOA3VqhhEvFJLHJ3GQ__aNTpKuvjZefaEIbRSO0Xs2I9sZ8vXwQRySWtWgByuy7L06lomTWEbEtblycrxONtaXdA9TCZhueaQddqBnG_-0BX2NtGOdGNXyWUj-12Zm-zoSuusf6EopRFWY1uKsQMrk3iFYpss32vOYqxzJrPN-q9h7W00~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Петергоф и пригороды" [ref=e478] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WhaejI_zOoVX2Lcj0bqL09EcbJxHIbG2vWIg-0IuJJyyBqGGy5v0G4y1H5RkDF66Er-_u_M6ErpRYTzFg5JwymDqb7IZQeHa94C8wQY43AgI2H99HKP2IKXBGIDOIImXaL2o5eqOijQW8YbHaOI8kZjWokOB3w1ieGAbz2RS0CL20023ZgE9B7I52E8-WEemtTL02YcWoRA0C5MlgW0jLO-g02rLZqS1MghUL05QgfvK0LhgtP02jDGxjWAq83p9Aq0BmfCZ1MX1U89NW1Q49qOAq8BmvAu0BGXFYXIW1U49k00j23gJdAy9mfahB2CrAdAwz1zMuDw7CFE3rtlWtdXD7QeXnPzsDBUTDpx5dKxeSogrxVf-FcsfSmgTsdRKpgNs2Xoipr9Mv15FxiaFgHkl7qBe3S9aXtbAxsRt82b411CWEPzlc6oy7zZiFX1m0pY03LnSC39imzRN4KgA_THyYBTWSHYKeZQ77S88ISDjqcpNh3nv-5wm6C0N24_m0jWweDNtBn2enEKYYDyiO0jR4sLME4goScPOs467LIZVN05JC3Tvw57OUWewp8IoXNDYaXXoancZqp1ccEy83qYuxkmmuGR202TGu53bOFyRQSJ07wOG-VZ1NiUJ__MwbU_rkfNFzK1-_9tfW_1hbv66FxkCD6IQgOBCCfrrPewPIs_CSjzrNTTfymLn5CRo06SbMVG-m5b95htrOBxi_SfC7Ztv2x72QEN763mu0SYd9sN_zKvVNGG3_PRMTIQdhow2WLxx9-_YfXxV71FDT52ouWP3i4iGiMDq34iqvV-E1XpmnO6l0m8Q_71s0wCxUL_oRNTXVUE6yeXqmEjYbpGy9XQA7_m1S8M-w30w2yBb3rhn8KQ7t-Nc76r8nsIRPy4HFIYoIsjnTnuMUsmPNB0MdVgVhAxsXTOy~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Водные прогулки" [ref=e480] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WhCejI_zOoVX2Lcg0YqL05Ecb3xHIbG2vWIg-0IuJJyyBqGGy5v0G4y1H5RkDF66Er-_u_M6ErpRYTzFg5JwymDqb7IZg6fKeuGCgf894ab5Ha99I4j18rX9B26HKB8MZHYorg0YAL6HX8Z6Ti2KpHSUGDb21KhfJRW1YeK000OTHnDPw0eHn7q0rM6wgu4KKa2JPG5XgbvL0Lgg7bK1MgeUZmAqLBsf0hHKFQa2jDIx8GLegNTi1MX1U99NW1Q49qSAq8Bm1Ay0BGXFZ1IW1U79NG5Q49uKAK0BmXDm0LeGT2OvNnE4CrTOHcfKv7JfFwp0lGzXvWUlzy2zyPewL4EAF-reRZjlV8exdT3dL6hRzVrysbBd53grxQYTI-qLE5YVfQp88vxSanzIDru_XD0RXCaEyvJUpUv1KeW89a1oFjymsNW_iDbz8E06S00RkBXWPDY6hQyZb1JxgVaGRy7YC2X5RGuxX16IXjkasQvPUVBmlM0nW2yGdk05i7L0g-zV8529oqKGlrd05hOcognmb6JbpB2mWmwhKBwv0gPWRlBGex3r57IO2MKBvyGaCUGcCqQdOSmmtn4Ua73TsM723OG1Jg30eSh1_ZVIY84_J27oyOEzZYV_wtKht-jrAv_hWVpuEzC7uTSk8mr_TXbfo3HJ1PbbEklC73ENtfZblkkwhjFc2-8eZEK1pagow7s0iv8iUkl1VDdxbPayUl8NOeNHoezhF3W1oASdPV_rJbzT10FzbjPr9gUlBeA1Nlidx-Ac7jyS4yrqKBBY1aEmIn2nOtGCopBbfq3heUgB0ry711dyM7P3eZjvMVBjTM4TuuR2YFJva03uPGl5N_mrv0fz4Jhw4-7Y35vTHOmE2-JcajgGZl4spw8cUb20Iskn-pmiTcHfk60jolngMLsDGwHv~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+                - link "Ночные экскурсии" [ref=e482] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WhGejI_zOoVX2Lch0ZKL05Ecb3xHIbG2vWIg-0IuJJyyBqGGy5v0G4y1H5RkDF66Er-_u_M6ErpRYTzFg5JwymDqb6IzKJGZoAYeX0ogaWaIIKL6Gab8Iq4ZM4ai8P5GiXQD6BBMe28fKP64YC2KpHSUGDb21KhfJRW1YeK000OTHnDPw0eHn7q0rM6wgu4KKa2JPG5XgbvL0Lgg7bK1MgeUZmAqLBsf0hHKFQa2jDIx8GLegNTi1MX1U99NW1Q49qSAq8Bm1Ay0BGXFZ1IW1U79NG5Q49uKAK0BmXDm0LeGT2OvNnE4CrTOHcfKv7JfFwp0lGzXvWUlzy2zyPewL4EAF-reRZjlV8exdT3dL6hRzVrysbBd53grxQYTI-qLE5YVfQp88vxSanzIDru_XD0RXCaEyvJUpUv1KeW89a1oFjymsNW_iDbz8E06S00RkBXWPDY6hQyZb1JxgVaGRy7YC2X5RGuxX16IXjkasQvPUVBmlM0nW2yGdk05i7L0g-zV8529oqKGlrd05hOcognmb6JbpB2mWmwhKBwv0gPWRlBGex3r57IO2MKBvyGaCUGcCqQdOSmmtn4Ua73TsM723OG1Jg30eSh1_ZVIY84_J27oyOEzZYV_wtKht-jrAv_hWVpuEzC7uTSk8mr_TXbfo3HJ1PbbEklC73ENtfZblkkwhjFc2-8eZEK1pagow7s0iv8iUkl1VDdxbPayUl8NOeNHoeyzU702a4zFolxhdRww20RwBQthJ4vVNGG3lVPFtiLDFRuv9fhfe6J53OPWbo1Yn-WObcRAhyI13z0N1xuE21hyO7Q3eZjvM_9jTc4zuuRIYFHsXB7PC978hmT_Lxb2N-0PFP5mGOIujYL61qjoSomsf6EXpRE0HGyAyz9QH3iFYorRobom5fNy7bPN1o1k7W00~2?etext=2202.TOmv9UETw_VCVXB0zu7jr19nkd2C7jlPCSbJKy1wgj_wBbD0K6qX6B8iOa_96aP_pln7DUuS1iq3KJqj-cc7nvlf46JcfVikYMJfaKgnT6ACgMbHpB4YNYX7DGI5fn_cemF1emRzeHVmZGJ1b2tqeQ.e7d74cad790f5a33052bdcc7defa82676f4b8c87&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D1%86%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5+%D1%81%D0%B5%D0%BB%D0%BE+%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82+%D1%86%D0%B5%D0%BD%D0%B0+2026
+            - generic [ref=e483]: Промо
+      - navigation "Страницы результатов поиска" [ref=e484]:
+        - heading "Страницы результатов поиска" [level=2] [ref=e485]
+        - list [ref=e486]:
+          - listitem [ref=e487]:
+            - button "Текущая страница 1" [ref=e488]:
+              - generic: "1"
+          - listitem [ref=e489]:
+            - link "Страница 2" [ref=e490] [cursor=pointer]:
+              - /url: /search/?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&lr=47&p=1
+              - generic: "2"
+          - listitem [ref=e491]:
+            - link "Страница 3" [ref=e492] [cursor=pointer]:
+              - /url: /search/?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&lr=47&p=2
+              - generic: "3"
+          - listitem [ref=e493]:
+            - link "Страница 4" [ref=e494] [cursor=pointer]:
+              - /url: /search/?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&lr=47&p=3
+              - generic: "4"
+          - listitem [ref=e495]:
+            - link "Страница 5" [ref=e496] [cursor=pointer]:
+              - /url: /search/?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&lr=47&p=4
+              - generic: "5"
+          - listitem [ref=e497]:
+            - link "Следующая страница" [ref=e498] [cursor=pointer]:
+              - /url: /search/?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&lr=47&p=1&rnd=40478
+              - generic: дальше
+  - contentinfo [ref=e505]:
+    - generic [ref=e507]:
+      - button "Ваш регион Нижний Новгород" [ref=e509] [cursor=pointer]:
+        - generic: Нижний Новгород
+      - generic [ref=e510]:
+        - link "Google" [ref=e511] [cursor=pointer]:
+          - /url: //www.google.com/search?ie=UTF-8&q=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026
+        - link "Bing" [ref=e512] [cursor=pointer]:
+          - /url: //www.bing.com/search?q=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026
+      - button "Обратная связь" [ref=e514] [cursor=pointer]:
+        - generic: Обратная связь
+      - button "Настройки" [ref=e516] [cursor=pointer]:
+        - generic: Настройки
+      - link "ya.ru" [ref=e518] [cursor=pointer]:
+        - /url: //ya.ru/?from=serp_footer
+      - generic [ref=e519]:
+        - link "О компании" [ref=e520] [cursor=pointer]:
+          - /url: https://company.yandex.ru
+        - link "Коммерческие предложения" [ref=e521] [cursor=pointer]:
+          - /url: /search/direct?text=%D0%A6%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B5%D0%BB%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%202026&filters_docs=direct_cm
+        - link "Вакансии" [ref=e522] [cursor=pointer]:
+          - /url: //yandex.ru/jobs
+        - link "Лицензия на использование" [ref=e523] [cursor=pointer]:
+          - /url: //yandex.ru/legal/termsofuse/
+        - link "Политика конфиденциальности" [ref=e524] [cursor=pointer]:
+          - /url: //yandex.ru/legal/confidential/
+        - link "Правила рекомендаций" [ref=e525] [cursor=pointer]:
+          - /url: //yandex.ru/legal/recommendations/#index__search

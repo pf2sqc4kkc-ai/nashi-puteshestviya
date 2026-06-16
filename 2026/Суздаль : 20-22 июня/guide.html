@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Суздаль · 20–22 июня 2026 · Семейный путеводитель</title>
+<style>
+  :root{
+    --cream:#F7F1E3; --paper:#FFFBF2; --ink:#241B12; --muted:#5C5240;
+    --gold:#A86C1E; --gold-soft:#C8923D; --terra:#9E4326; --green:#516043;
+    --tg:#2AABEE; --tg-dark:#1779b8;
+    --line:#E4D8BF; --shadow:0 10px 34px rgba(43,33,24,.12);
+    --serif:Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--cream);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.68;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+  h1,h2,h3,h4{font-family:var(--serif);font-weight:700;line-height:1.18}
+  em{font-style:italic;color:var(--terra)}
+  a{color:var(--gold);text-decoration:none}
+  .ic{width:1em;height:1em;fill:currentColor;vertical-align:-.12em}
+
+  nav{position:sticky;top:0;z-index:50;background:rgba(247,241,227,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;gap:4px;flex-wrap:wrap;align-items:center;padding:11px 22px}
+  nav .brand{font-family:var(--serif);font-weight:700;color:var(--terra);margin-right:auto;font-size:17px}
+  nav a{font-size:14px;color:var(--muted);padding:6px 12px;border-radius:20px;transition:.2s}
+  nav a:hover{background:var(--gold);color:#fff}
+
+  .hero{position:relative;min-height:86vh;display:flex;align-items:flex-end;color:#fff;
+    background:linear-gradient(180deg,rgba(20,14,8,.18) 0%,rgba(20,14,8,.12) 38%,rgba(20,14,8,.85) 100%),url('images/hero.webp') center/cover}
+  .hero .wrap{padding-bottom:54px;width:100%}
+  .hero .kicker{letter-spacing:.34em;text-transform:uppercase;font-size:13px;color:#f6deaa;font-weight:700}
+  .hero h1{font-size:clamp(52px,11vw,112px);margin:10px 0 4px;color:#fff;text-shadow:0 4px 30px rgba(0,0,0,.45)}
+  .hero .dates{font-size:clamp(20px,3.6vw,28px);font-family:var(--serif);font-style:italic;color:#f8e8c8}
+  .hero .sub{margin-top:16px;max-width:600px;color:#f4ecdd;font-size:17px;text-shadow:0 1px 12px rgba(0,0,0,.5)}
+
+  .stats{background:var(--ink);color:#efe4cd}
+  .stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+  .stat{text-align:center;padding:28px 12px;border-right:1px solid rgba(255,255,255,.1)}
+  .stat:last-child{border-right:none}
+  .stat svg{width:28px;height:28px;fill:var(--gold-soft);margin-bottom:8px}
+  .stat .n{font-family:var(--serif);font-size:29px;color:#fff;font-weight:700;line-height:1}
+  .stat .l{font-size:13.5px;color:#d8c9a4;text-transform:uppercase;letter-spacing:.06em;margin-top:7px}
+
+  section{padding:60px 0}
+  .sec-head{display:flex;align-items:center;gap:15px;margin-bottom:16px}
+  .sec-head .num{font-family:var(--serif);font-size:16px;color:#fff;background:var(--terra);width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .sec-head h2{font-size:clamp(30px,5vw,42px)}
+  .lead{color:var(--muted);max-width:720px;margin-bottom:28px;font-size:17px}
+</style>
+</head>
+<body>
+<style>
+  .grid{display:grid;gap:18px}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:var(--shadow)}
+  .card h3{font-size:20px;margin-bottom:4px;display:flex;align-items:center;gap:9px}
+  .card h3 svg{width:22px;height:22px;fill:var(--gold);flex:0 0 auto}
+  .card .meta{font-size:14px;color:var(--gold);font-weight:600;margin-bottom:10px}
+  .card p{font-size:16px;color:#3f372b}
+  .tag{display:inline-block;font-size:12.5px;background:#efe4cc;color:var(--terra);padding:4px 11px;border-radius:20px;margin:7px 5px 0 0;font-weight:600}
+  .price{font-family:var(--serif);color:var(--green);font-weight:700}
+
+  .route{display:flex;align-items:flex-start;flex-wrap:wrap;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:var(--shadow)}
+  .route .stop{text-align:center;flex:1;min-width:100px}
+  .route .stop .dot{width:15px;height:15px;border-radius:50%;background:var(--gold);margin:0 auto 9px}
+  .route .stop b{font-family:var(--serif);font-size:17px;display:block}
+  .route .stop span{display:block;font-size:13px;color:var(--muted)}
+  .route .leg{flex:0 0 auto;text-align:center;color:var(--terra);font-size:13px;font-weight:700;padding:0 10px;margin-top:2px}
+  .route .leg svg{display:block;width:38px;height:14px;margin:0 auto 3px;fill:none;stroke:var(--gold-soft);stroke-width:2}
+
+  /* FINDS — LIGHT, high contrast */
+  .finds-head{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+  .finds-head .tg-badge{display:inline-flex;align-items:center;gap:8px;background:var(--tg);color:#fff;font-size:13px;font-weight:700;padding:7px 14px;border-radius:22px}
+  .finds .lead{margin-bottom:22px}
+  .find-card{background:var(--paper);border:1px solid #d3e6f4;border-left:5px solid var(--tg);border-radius:14px;padding:20px 22px;box-shadow:var(--shadow);margin-bottom:16px;display:flex;gap:18px;align-items:flex-start}
+  .find-card .when{flex:0 0 78px;font-family:var(--serif);color:var(--tg-dark);font-weight:700;font-size:16px;line-height:1.25}
+  .find-card h4{font-size:19px;margin-bottom:5px}
+  .find-card p{font-size:16px;color:#3f372b}
+  .find-card .ch{font-size:13.5px;color:var(--tg-dark);margin-top:7px;font-weight:600}
+
+  .day{background:var(--paper);border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:var(--shadow);margin-bottom:32px}
+  .day-img{position:relative;height:250px;background-size:cover;background-position:center;display:flex;align-items:flex-end}
+  .day-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.62))}
+  .day-img .cap{position:relative;z-index:2;color:#fff;padding:24px 30px}
+  .day-img .cap .dow{font-style:italic;font-family:var(--serif);color:#f8e8c8;font-size:17px}
+  .day-img .cap h3{font-size:clamp(24px,4vw,32px);text-shadow:0 2px 16px rgba(0,0,0,.55)}
+  .day-img .dno{position:absolute;top:18px;right:24px;z-index:2;font-family:var(--serif);font-size:70px;color:rgba(255,255,255,.9);font-weight:700;line-height:1;text-shadow:0 2px 20px rgba(0,0,0,.45)}
+  .day-body{padding:26px 30px 30px}
+  .day-theme{color:var(--muted);font-size:16.5px;margin-bottom:22px}
+  .tl{position:relative;border-left:2px solid var(--line);margin-left:6px;padding-left:26px}
+  .tl-item{position:relative;padding-bottom:24px}
+  .tl-item:last-child{padding-bottom:0}
+  .tl-item::before{content:"";position:absolute;left:-33px;top:5px;width:14px;height:14px;border-radius:50%;background:var(--gold);border:3px solid var(--paper)}
+  .tl-item.star::before{background:var(--terra);box-shadow:0 0 0 3px #f0d9cf}
+  .tl-time{font-family:var(--serif);font-weight:700;color:var(--terra);font-size:15px}
+  .tl-item h4{font-size:19px;margin:3px 0 6px}
+  .tl-item p{font-size:16px;color:#3f372b}
+  .tl-item .how{font-size:14.5px;color:var(--gold);font-weight:600;margin:4px 0}
+  .tl-item .how svg{width:15px;height:15px;fill:currentColor;vertical-align:-.15em}
+  .tl-item .note{font-size:15px;color:#5c5240;margin-top:7px;padding:8px 12px;background:#f4ecda;border-radius:8px}
+  .tl-item .note b{color:var(--terra)}
+  .pill{display:inline-block;font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:11px;margin-left:5px;vertical-align:middle}
+  .pill.free{background:#d7e6c9;color:#3f5230}
+  .pill.event{background:#f3d9cf;color:var(--terra)}
+  .pill.pay{background:#efe1c2;color:#8a5d12}
+  .pill.tg{background:#d3e9f8;color:var(--tg-dark)}
+  .pill.cheap{background:#dbe9f0;color:#2a6a8a}
+  .choice{background:#fbf2df;border:1px dashed var(--gold);border-radius:14px;padding:18px 20px;margin-top:10px;font-size:16px}
+  .choice b{color:var(--terra)}
+
+  .budget-table{width:100%;border-collapse:collapse;background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);font-size:16px}
+  .budget-table th,.budget-table td{padding:13px 15px;text-align:left;border-bottom:1px solid var(--line)}
+  .budget-table th{background:#efe1c2;font-family:var(--serif);font-size:16px}
+  .budget-table td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .budget-table tr.total td{font-weight:700;font-family:var(--serif);font-size:18px;color:var(--terra);background:#fbf2df;border-bottom:none}
+  .budget-table .pick{background:#f5ecd6}
+
+  .callout{background:#fbf2df;border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:18px 22px;margin:20px 0;font-size:16px}
+  .callout strong{color:var(--terra)}
+  .checklist{columns:2;column-gap:32px;font-size:16px;list-style:none}
+  .checklist li{margin-bottom:11px;padding-left:30px;position:relative;break-inside:avoid}
+  .checklist li svg{position:absolute;left:0;top:3px;width:19px;height:19px;fill:var(--gold)}
+  footer{background:var(--ink);color:#e2d6bd;text-align:center;padding:46px 22px;font-size:15px;margin-top:20px}
+  footer em{color:var(--gold-soft)}
+  .src{font-size:13px;color:#b4a684;max-width:720px;margin:14px auto 0;line-height:1.5}
+  @media(max-width:760px){.g2,.g3,.stats .wrap{grid-template-columns:1fr 1fr}.checklist{columns:1}.stat{border-right:none;border-bottom:1px solid rgba(255,255,255,.1)}.find-card{flex-direction:column;gap:6px}.find-card .when{flex-basis:auto}}
+  .tvar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0}
+  .tvar{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px 20px;box-shadow:var(--shadow)}
+  .tvar .tv-badge{display:inline-block;font-size:11.5px;font-weight:700;color:#fff;padding:4px 10px;border-radius:11px;margin-bottom:11px}
+  .tvar .tv-badge.car{background:var(--terra)} .tvar .tv-badge.bus{background:var(--green)} .tvar .tv-badge.train{background:#2a6a8a}
+  .tvar h4{font-size:16px;margin-bottom:9px}
+  .tvar .tr{display:flex;font-size:14px;padding:5px 0;border-bottom:1px solid var(--line)}
+  .tvar .tr:last-of-type{border-bottom:none}
+  .tvar .tr .tk{color:var(--muted);flex:0 0 42%;font-weight:600;font-size:13.5px}
+  .tvar .verdict{margin-top:11px;padding:8px 12px;border-radius:8px;font-size:13.5px;font-weight:600}
+  .tvar .verdict.best{background:#d7e6c9;color:#3f5230} .tvar .verdict.ok{background:#efe1c2;color:#8a5d12}
+  .wake-box{background:var(--ink);color:#efe4cd;border-radius:14px;padding:14px 20px;margin-bottom:20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+  .wake-box .wake-items{display:flex;gap:20px;flex-wrap:wrap}
+  .wake-box .wi .wn{font-family:var(--serif);font-size:20px;color:#f8d77a;font-weight:700;line-height:1}
+  .wake-box .wi .wl{font-size:11px;color:#c0a86a;text-transform:uppercase;letter-spacing:.05em;margin-top:3px}
+  .rb{font-size:11.5px;font-weight:700;padding:2px 6px;border-radius:7px;margin-left:4px;vertical-align:middle;white-space:nowrap}
+  .rb.ya{background:#fc3f1d;color:#fff} .rb.gi{background:#00adef;color:#fff}
+  @media(max-width:760px){.tvar-grid{grid-template-columns:1fr}.wake-box .wake-items{gap:14px}}
+</style>
+<svg style="display:none">
+  <symbol id="i-cal" viewBox="0 0 24 24"><path d="M7 2v2H5a2 2 0 00-2 2v13a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2h-2V2h-2v2H9V2H7zm12 7v10H5V9h14z"/></symbol>
+  <symbol id="i-people" viewBox="0 0 24 24"><path d="M16 11a3 3 0 100-6 3 3 0 000 6zm-8 0a3 3 0 100-6 3 3 0 000 6zm0 2c-2.7 0-8 1.3-8 4v3h10v-3c0-1 .4-1.9 1-2.6C9.9 13.1 8.8 13 8 13zm8 0c-.3 0-.7 0-1.1.1 1.3 1 2.1 2.2 2.1 3.9v3h7v-3c0-2.7-5.3-4-8-4z"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><path d="M18.9 6c-.2-.6-.8-1-1.4-1H6.5c-.6 0-1.2.4-1.4 1L3 12v8a1 1 0 001 1h1a1 1 0 001-1v-1h12v1a1 1 0 001 1h1a1 1 0 001-1v-8l-2.1-6zM6.8 7h10.4l1 3H5.8l1-3zM6.5 16a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm11 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></symbol>
+  <symbol id="i-rub" viewBox="0 0 24 24"><path d="M7 3h6a5 5 0 010 10H9v2h5v2H9v2H7v-2H5v-2h2v-2H5v-2h2V3zm2 2v6h4a3 3 0 000-6H9z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1112 6a2.5 2.5 0 010 5.5z"/></symbol>
+  <symbol id="i-walk" viewBox="0 0 24 24"><path d="M13 4a2 2 0 11-4 0 2 2 0 014 0zm-1.7 3.5c-.7 0-1.3.4-1.7 1L7 13l2 1 1.5-2.2.7 3.7-2.2 5.1 1.9.8 2.7-6.3-1.4-2.4.8-2.1 1 2.4h3v-2h-1.7l-1.8-3.6c-.4-.7-1.1-1.2-1.9-1.2z"/></symbol>
+  <symbol id="i-food" viewBox="0 0 24 24"><path d="M8 2v8a2 2 0 11-2 2V2H4v8a4 4 0 003 3.9V22h2v-8.1A4 4 0 0012 10V2h-2v8a2 2 0 11-2 2V2zM18 2c-1.7 0-3 2.7-3 6 0 2.6.8 4.8 2 5.6V22h2V2z"/></symbol>
+  <symbol id="i-gift" viewBox="0 0 24 24"><path d="M20 7h-2.2A3 3 0 0012 3a3 3 0 00-5.8 4H4a1 1 0 00-1 1v3h9V8h2v3h9V8a1 1 0 00-1-1zm-9 0H9a1 1 0 110-2c.9 0 1.5.9 2 2zm4 0h-2c.5-1.1 1.1-2 2-2a1 1 0 110 2zM3 13v7a1 1 0 001 1h7v-8H3zm10 8h7a1 1 0 001-1v-7h-8v8z"/></symbol>
+  <symbol id="i-bell" viewBox="0 0 24 24"><path d="M12 2a2 2 0 00-2 2v.6A7 7 0 005 11v4l-2 2v1h18v-1l-2-2v-4a7 7 0 00-5-6.4V4a2 2 0 00-2-2zm0 20a3 3 0 003-3H9a3 3 0 003 3z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l11-11-1.4-1.4z"/></symbol>
+  <symbol id="i-tg" viewBox="0 0 24 24"><path d="M21.9 4.3l-3.3 15.6c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6 13.4l-4.9-1.5c-1-.3-1-1 .2-1.5L20.6 2.8c.9-.3 1.6.2 1.3 1.5z"/></symbol>
+</svg>
+
+<nav><div class="wrap">
+  <span class="brand">Суздаль ’26</span>
+  <a href="#road">Дорога</a>
+  <a href="#finds">Находки</a>
+  <a href="#d1">День 1</a>
+  <a href="#d2">День 2</a>
+  <a href="#d3">День 3</a>
+  <a href="#nearby">Рядом</a>
+  <a href="#food">Еда</a>
+  <a href="#shop">Сувениры</a>
+  <a href="#money">Смета</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="kicker">Семейное путешествие · 2026</div>
+  <h1>Суздаль</h1>
+  <div class="dates">20–22 июня · суббота–понедельник</div>
+  <p class="sub">Три дня в столице Золотого кольца — для двоих взрослых и подростка. С адресами, маршрутами от вашего жилья и сметой под 30 000 ₽.</p>
+</div></header>
+
+<div class="stats"><div class="wrap">
+  <div class="stat"><svg><use href="#i-cal"/></svg><div class="n">3 дня</div><div class="l">2 ночи</div></div>
+  <div class="stat"><svg><use href="#i-people"/></svg><div class="n">3</div><div class="l">путешественника</div></div>
+  <div class="stat"><svg><use href="#i-car"/></svg><div class="n">258 км</div><div class="l">из Нижнего</div></div>
+  <div class="stat"><svg><use href="#i-rub"/></svg><div class="n">≤ 30 000</div><div class="l">с бензином, без жилья</div></div>
+</div></div>
+
+<div class="wrap">
+
+<section id="road">
+  <div class="sec-head"><span class="num">00</span><h2>Дорога и база</h2></div>
+  <p class="lead">Выезжаем из Нижнего Новгорода (Верхне-Волжская наб., 14) по трассе М-7 через Владимир. База на все три дня — съёмное жильё на бульваре Всполье, 17к3 (северная окраина Суздаля, до центра ~1,1–2 км пешком).</p>
+  <div class="route">
+    <div class="stop"><div class="dot"></div><b>Нижний Новгород</b><span>В.-Волжская наб., 14<br>выезд 8:00–8:30</span></div>
+    <div class="leg"><svg viewBox="0 0 38 14"><path d="M1 7h36M31 2l6 5-6 5"/></svg>~223 км · М-7<br>≈ 2 ч 40 мин</div>
+    <div class="stop"><div class="dot"></div><b>Владимир</b><span>транзит, заправка АИ-100</span></div>
+    <div class="leg"><svg viewBox="0 0 38 14"><path d="M1 7h36M31 2l6 5-6 5"/></svg>~35 км<br>≈ 35 мин</div>
+    <div class="stop"><div class="dot"></div><b>Суздаль</b><span>б-р Всполье, 17к3<br>прибытие ~11:30</span></div>
+  </div>
+  <h3 style="font-family:var(--serif);font-size:22px;margin:28px 0 14px">Как добраться — 3 варианта</h3>
+  <div class="tvar-grid">
+    <div class="tvar">
+      <span class="tv-badge car">А · Авто (рекомендую)</span>
+      <h4>М-7 через Владимир</h4>
+      <div class="tr"><span class="tk">Встать в НН:</span> <b>6:30</b></div>
+      <div class="tr"><span class="tk">Выезд:</span> <b>8:00</b> с В.-Волжской, 14</div>
+      <div class="tr"><span class="tk">Трасса:</span> М-7 → Гороховец → Владимир</div>
+      <div class="tr"><span class="tk">Расстояние:</span> ~258 км</div>
+      <div class="tr"><span class="tk">Время в пути:</span> ~3 ч 30 мин</div>
+      <div class="tr"><span class="tk">Прибытие:</span> ~11:30</div>
+      <div class="tr"><span class="tk">Платных участков:</span> нет</div>
+      <div class="tr"><span class="tk">АИ-100:</span> заправить в НН; следующая — Лукойл Владимир (въезд)</div>
+      <div class="tr"><span class="tk">Стоп-разминка:</span> Гороховец ~150 км · 30 мин (тогда выехать 7:30)</div>
+      <div class="tr"><span class="tk">Стоимость:</span> ~5 000 ₽ бензин</div>
+      <div class="verdict best">✓ Лучший вариант — полная гибкость, Кидекша на авто</div>
+    </div>
+    <div class="tvar">
+      <span class="tv-badge bus">Б · Автобус</span>
+      <h4>С пересадкой во Владимире</h4>
+      <div class="tr"><span class="tk">Встать в НН:</span> <b>6:30</b></div>
+      <div class="tr"><span class="tk">Автовокзал:</span> Канавинская а/ст (Московский вокзал)</div>
+      <div class="tr"><span class="tk">Отправление:</span> <b>7:30</b> НН → Владимир</div>
+      <div class="tr"><span class="tk">НН → Владимир:</span> 4 ч 15 мин · 535 ₽/чел</div>
+      <div class="tr"><span class="tk">Пересадка:</span> а/ст ул. Вокзальная, Владимир</div>
+      <div class="tr"><span class="tk">Владимир → Суздаль:</span> каждые 30 мин · 50 мин · 212 ₽/чел</div>
+      <div class="tr"><span class="tk">Прибытие:</span> ~13:00–13:15</div>
+      <div class="tr"><span class="tk">А/ст → Всполье:</span> такси ~250 ₽ · 10 мин</div>
+      <div class="tr"><span class="tk">Итого 3 чел:</span> ~2 241 ₽ (туда)</div>
+      <div class="verdict ok">⚠ 5,5–6 ч с вещами — утомительно для семьи</div>
+    </div>
+    <div class="tvar">
+      <span class="tv-badge train">В · «Ласточка» + автобус</span>
+      <h4>Поезд до Владимира</h4>
+      <div class="tr"><span class="tk">Встать в НН:</span> <b>5:30</b></div>
+      <div class="tr"><span class="tk">Поезд 721Г:</span> НН 6:25 → Владимир 8:37</div>
+      <div class="tr"><span class="tk">Цена:</span> от 555 ₽/чел (сидячий)</div>
+      <div class="tr"><span class="tk">Прибытие Владимир:</span> 8:37 → авт. 8:50</div>
+      <div class="tr"><span class="tk">Владимир → Суздаль:</span> 50 мин · 212 ₽/чел</div>
+      <div class="tr"><span class="tk">Прибытие в Суздаль:</span> ~9:45–10:00</div>
+      <div class="tr"><span class="tk">А/ст → Всполье:</span> такси ~250 ₽</div>
+      <div class="tr"><span class="tk">Итого 3 чел:</span> ~2 300 ₽ (туда)</div>
+      <div class="verdict ok">✓ Раньше приедете, но без авто — нет Кидекши</div>
+    </div>
+  </div>
+  <div class="grid g2" style="margin-top:16px">
+    <div class="card">
+      <h3><svg><use href="#i-pin"/></svg>Парковка — экономим</h3>
+      <div class="meta">платно 10:00–21:00</div>
+      <p>У Кремля (зона 1003) — дорого, <b>500 ₽/час</b>. Чуть дальше (Лебедева, периферия центра) — 50–200 ₽/ч. После 21:00 — везде бесплатно. Уличная парковка у жилья (Всполье) — бесплатно.</p>
+      <p style="margin-top:8px"><b>Лайфхак:</b> въезжать в центр до 10:00 (бесплатно) или ходить пешком (15–25 мин). В смете парковка — 500 ₽.</p>
+    </div>
+    <div class="card">
+      <h3><svg><use href="#i-bell"/></svg>Что учесть</h3>
+      <div class="meta">чтобы не сорвать план</div>
+      <p>• Спасо-Евфимиев и Кидекша <b>закрыты в понедельник</b> → идём в вс.<br>• Кремль и Музей зодчества — ежедневно.<br>• Колокольный звон Спасо-Евфимиева — 10:30, 12:30, 13:30, 15:00, 16:30.<br>• <b>Речной трамвайчик:</b> бронь по тел. +7 (910) 9-900-900, 900 ₽/взр.</p>
+    </div>
+  </div>
+</section>
+<section id="finds" class="finds">
+  <div class="finds-head">
+    <span class="num" style="font-family:var(--serif);font-size:16px;color:#fff;background:var(--terra);width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto">★</span>
+    <span class="tg-badge"><svg class="ic" style="fill:#fff" viewBox="0 0 24 24"><use href="#i-tg"/></svg>Из местных Telegram-каналов</span>
+  </div>
+  <h2 style="font-size:clamp(28px,5vw,40px);margin-bottom:6px">Чего нет на афишах</h2>
+  <p class="lead">Городские каналы @suzdalafisha, @suzdalnews, @myrasuzdal дают то, что не попадает в туристические гиды — камерные события и арт-локации именно на наши даты. Дорогие события вынесены отдельно: в бюджет 30 000 ₽ они не влезут, но пусть будут под рукой.</p>
+  <div style="height:220px;border-radius:16px;margin-bottom:22px;background:url('images/ges.webp') center/cover;box-shadow:var(--shadow)"></div>
+  <div class="find-card">
+    <div class="when">20 июня<br>18:00</div>
+    <div><h4>«Солнцестояние на ГЭС» <span class="pill event">12+</span> <span class="pill pay">2000/1400 ₽</span></h4>
+    <p>Концерт ансамбля Renaissance Voices на руинах ГЭС 1953 г. в полях у реки Нерль (~30 км от Суздаля). Сама площадка — заброшенная гидроэлектростанция — выступает как арт-объект. Атмосферно, но уезжаем из города на вечер.</p>
+    <div class="ch">@myrasuzdal · билеты myra.ru · ≈ 4 200 ₽ на троих — сверх базового бюджета</div></div>
+  </div>
+  <div class="find-card">
+    <div class="when">21 июня<br>вечер</div>
+    <div><h4>Купальские вечера <span class="pill event">семейное</span> <span class="pill pay">3200–4000 ₽</span></h4>
+    <p>Плетение венков, стрельба из лука, костёр, запуск венков по воде. На 20-е билеты распроданы, на 21-е ещё есть. Подростку 12+ — по взрослым ценам.</p>
+    <div class="ch">@suzdalnews · kupalo.ruspirit.ru · ≈ 10 000 ₽ на троих — только если поднять потолок</div></div>
+  </div>
+  <div class="find-card">
+    <div class="when">бесплатно</div>
+    <div><h4>Хор «ARTODOX» — фестиваль «Голоса Суздаля» <span class="pill free">вход свободный</span></h4>
+    <p>20 июня 19:00 — выступление мужского хора Воронежской филармонии в Спасо-Преображенском соборе. 21 июня 8:00 — литургия. Бесплатная альтернатива платным концертам, вписана в маршрут субботы.</p>
+    <div class="ch">@suzdalafisha · бюджетный вариант вечера</div></div>
+  </div>
+  <div class="find-card">
+    <div class="when">ежедн.</div>
+    <div><h4>МИРА центр — современное искусство <span class="pill pay">воркшоп 1800 ₽</span></h4>
+    <p>Арт-пространство на ул. Кремлёвская, 5 (рядом с Кремлём). Выставки + воркшоп «Картография ощущений» (12+): прогулка-дрейф по городу и создание личной карты Суздаля. Не входит ни в один стандартный маршрут — необычный опыт для подростка.</p>
+    <div class="ch">@myrasuzdal · можно заглянуть бесплатно на выставку</div></div>
+  </div>
+  <div class="find-card">
+    <div class="when">лайфхаки</div>
+    <div><h4>Промокод «ОЛЯ» и закатная смотровая <span class="pill free">советы местных</span></h4>
+    <p>Промокод <b>«ОЛЯ»</b> даёт −15% на концерт «Лето на Каменке» (анонсировали только подписчикам). Закат местные советуют смотреть <b>у Торговых рядов</b> — не главная смотровая, а обрыв за рядами: лучший вид на колокольни. Бесплатно.</p>
+    <div class="ch">@suzdalafisha, @suzdalnews</div></div>
+  </div>
+</section>
+<section id="d1">
+  <div class="day">
+    <div class="day-img" style="background-image:url('images/day1.webp')">
+      <span class="dno">01</span>
+      <div class="cap"><span class="dow">суббота, 20 июня</span><h3>Приезд, Кремль и вечер в центре</h3></div>
+    </div>
+    <div class="day-body">
+      <p class="day-theme">Прибываем к обеду, обживаемся и неспешно осваиваем исторический центр: главный Кремль, Торговые ряды, дегустация медовухи и вечерний концерт-бонус.</p>
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">6:30</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">8:00</div><div class="wl">Выезд из НН</div></div>
+          <div class="wi"><div class="wn">≈11:30</div><div class="wl">Суздаль</div></div>
+          <div class="wi"><div class="wn">13:00</div><div class="wl">Обед</div></div>
+        </div>
+        <span style="font-size:13px;color:#c4ad7e">С остановкой в Гороховце: встать 7:00, выехать 7:30</span>
+      </div>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-time">≈ 11:30</div>
+          <h4>Заселение · б-р Всполье, 17к3</h4>
+          <p>Разгружаемся, оставляем машину у жилья — дальше центр удобнее проходить пешком. До Торговых рядов отсюда ~1,1 км.</p>
+          <div class="how"><svg><use href="#i-walk"/></svg> До центра 15–20 мин пешком по ул. Ленина (главная улица, идёт через весь город)</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">13:00</div>
+          <h4>Обед · «Графинъ» <span class="pill cheap">бюджетно</span> <span class="pill pay">800–1200 ₽/чел</span></h4>
+          <p>Ул. Ленина, 146. Купеческая атмосфера, большие порции. Брать: борщ, пельмени, судак «в кафтане», утку с яблоками. Дешевле туристического центра — хороший старт для бюджета.</p>
+          <div class="how"><svg><use href="#i-walk"/></svg> ~15 мин от жилья по ул. Ленина в сторону центра</div>
+        </div>
+        <div class="tl-item star"><div class="tl-time">14:30</div>
+          <h4>Суздальский кремль + Рождественский собор <span class="pill pay">450/350 ₽</span></h4>
+          <p><b>Адрес:</b> ул. Кремлёвская, 27 (самый южный конец центра). <b>Что смотреть:</b> Рождественский собор XIII в. — синие купола с золотыми звёздами, древние фрески и Златые врата; Архиерейские палаты с Крестовой палатой; деревянная Никольская церковь. <b>Обязательно</b> пройти по земляному валу вокруг — оттуда лучший вид на излучину Каменки.</p>
+          <div class="how"><svg><use href="#i-walk"/></svg> От «Графина» ~15 мин пешком · билет: взр. 450 ₽, подросток 350 ₽ · на осмотр 1,5–2 ч</div>
+          <div class="note"><b>Лайфхак:</b> прогулка по валу — бесплатна, билет нужен только в здания. Подростку вал заходит как «настоящая крепость».</div>
+        </div>
+        <div class="tl-item star"><div class="tl-time">16:30</div>
+          <h4>Торговые ряды + дегустация медовухи <span class="pill pay">430–500 ₽/чел</span></h4>
+          <p><b>Адрес:</b> ул. Ленина, 63А (Торговая площадь). Гостиный двор XIX в. — сердце города. За рядами — обрыв со <b>смотровой на город</b> (та самая, что советуют местные на закат). В дегустационном зале «Суздальская медовуха» — проба сортов на травах, с хреном, можжевельником; подростку — безалкогольный медовый напиток и квас, фото на троне (150 ₽).</p>
+          <div class="how"><svg><use href="#i-walk"/></svg> 10 мин пешком от Кремля по ул. Кремлёвская → ул. Ленина · дегустация ~40 мин</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">19:00</div>
+          <h4>Вечер на выбор <span class="pill free">бесплатный вариант есть</span></h4>
+          <div class="choice">
+            <b>Бюджетно (рекомендую):</b> хор «ARTODOX» в Спасо-Преображенском соборе, 19:00 — фестиваль «Голоса Суздаля», <b>вход свободный</b>. Либо просто закат на валу / у Торговых рядов.<br><br>
+            <b>За доплату:</b> концерт «Лето на Каменке» 17:00 (ГТК, ул. Коровники 45; 1000–4000 ₽, промокод «ОЛЯ» −15%) или «Солнцестояние на ГЭС» 18:00. В потолок 30к не влезает — берём только если готовы поднять бюджет.
+          </div>
+        </div>
+        <div class="tl-item"><div class="tl-time">20:30</div>
+          <h4>Ужин · кафе у центра <span class="pill cheap">бюджетно</span> <span class="pill pay">500–700 ₽/чел</span></h4>
+          <p>Лёгкий ужин — «Квасная изба» или «Ландыш» (см. раздел «Еда»). Дома — чай с купленной медовухой.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="d2">
+  <div class="day">
+    <div class="day-img" style="background-image:url('images/day2.webp')">
+      <span class="dno">02</span>
+      <div class="cap"><span class="dow">воскресенье, 21 июня</span><h3>Монастыри, колокола и Кидекша</h3></div>
+    </div>
+    <div class="day-body">
+      <p class="day-theme">Главный день. Панорама с колокольни, крупнейший монастырь с колокольным звоном, объект ЮНЕСКО в Кидекше (в понедельник закрыт — поэтому сегодня) и музей под открытым небом.</p>
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">8:30</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">9:30</div><div class="wl">Колокольня</div></div>
+          <div class="wi"><div class="wn">10:00</div><div class="wl">Монастырь</div></div>
+          <div class="wi"><div class="wn">14:30</div><div class="wl">Кидекша</div></div>
+          <div class="wi"><div class="wn">16:00</div><div class="wl">Музей зодч.</div></div>
+          <div class="wi"><div class="wn">17:00–18:00</div><div class="wl">Трамвайчик</div></div>
+        </div>
+      </div>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-time">9:00</div>
+          <h4>Завтрак <span class="pill cheap">бюджетно</span></h4>
+          <p>В жилье (продукты из «Магнита»/«Пятёрочки» на Всполье) или в кофейне «Огурец» (ул. Ленина 121, с 9:00, 400–600 ₽/чел: каши, омлеты, огуречный лимонад).</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">9:40</div>
+          <h4>Преподобенская колокольня (Ризоположенский монастырь) <span class="pill pay">100 ₽</span></h4>
+          <p><b>Адрес:</b> ул. Коммунальный городок, 8 — по пути из Всполья в центр. <b>Что:</b> самая высокая колокольня Суздаля, подъём на смотровую — <b>панорама 360°</b> на весь город и десятки куполов. Можно самому позвонить в колокол.</p>
+          <div class="how"><svg><use href="#i-walk"/></svg> ~12 мин пешком от жилья · подъём 30–40 мин · дети бесплатно</div>
+          <div class="note"><b>Лучшие 100 ₽ в городе</b> — для подростка топ: высота, звон, вид.</div>
+        </div>
+        <div class="tl-item star"><div class="tl-time">10:30</div>
+          <h4>Спасо-Евфимиев монастырь + концерт колоколов <span class="pill pay">1000/500 ₽</span></h4>
+          <p><b>Адрес:</b> ул. Ленина, 148А (5 мин от колокольни). <b>Что смотреть:</b> мощные крепостные стены и башни; Спасо-Преображенский собор с фресками; усыпальница Дмитрия Пожарского; <b>тюремная башня</b> с историей арестантов (подростку особенно интересно); смотровые на Каменку. <b>Концерт колоколов — каждый час</b> (11:00, 12:00, 13:00…), 19 колоколов, бесплатно с билетом — подгадайте к началу часа.</p>
+          <div class="how"><svg><use href="#i-walk"/></svg> вс 10:00–18:00 (пн закрыт!) · на осмотр 2–2,5 ч · билет взр. 1000 ₽, подросток 500 ₽</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">13:15</div>
+          <h4>Обед · «Огурец» (фермерский) <span class="pill pay">1000–1500 ₽/чел</span></h4>
+          <p>Ул. Ленина, 121. Главный фермерский ресторан: свекольник, судак с овощами, большие порции, огуречный лимонад. Здесь же лавка — присмотреть варенье из огурцов на сувениры. Бюджетнее: «Графинъ» или кафе.</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">14:30</div>
+          <h4>Кидекша · церковь Бориса и Глеба (ЮНЕСКО) <span class="pill pay">150 ₽</span></h4>
+          <p><b>Адрес:</b> с. Кидекша, ул. Старая, 2А. <b>Что:</b> древнейшая каменная постройка Северо-Восточной Руси (1152 г.), фрески XII в., живописный берег Нерли. <b>Едем на машине</b> — забираем её от жилья/центра.</p>
+          <div class="how"><svg><use href="#i-car"/></svg> 4 км, 10 мин на авто · вс 10:00–17:00 (пн закрыт) · осмотр 30–40 мин</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">16:00</div>
+          <h4>Музей деревянного зодчества <span class="pill pay">700/350 ₽</span></h4>
+          <p><b>Адрес:</b> ул. Пушкарская, 27 (у излучины Каменки, напротив Кремля). <b>Что:</b> 18 деревянных построек XVIII–XIX вв. под открытым небом — мельницы, избы, церкви без единого гвоздя; внутрь можно заходить. Днём — «Народные гуляния по-суздальски» (до 14:30; если хотите застать — поменяйте местами с Кидекшей).</p>
+          <div class="how"><svg><use href="#i-car"/></svg> от Кидекши ~15 мин на авто · ежедн. 9:00–19:00 · осмотр 1,5 ч · дети до 14 — бесплатно</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">17:45</div>
+          <h4>Речной трамвайчик по Каменке <span class="pill pay">1000 ₽/чел · опц.</span></h4>
+          <p>Пристань: ул. Пушкарская, 39 (5 мин от музея). 40–45 мин, виды на монастыри с воды. Хорошо заходит подростку. Опционально — экономит бюджет, если пропустить.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">19:30</div>
+          <h4>Ужин-впечатление · «Лепота» <span class="pill pay">1500–2000 ₽/чел</span></h4>
+          <p>Ул. Пушкарская, 5. Самая большая коптильня города, открытый огонь и русская печь — гастро-вечер поездки. Бюджетная альтернатива — «Генеральская дача» (ул. Лебедева 5).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="d3">
+  <div class="day">
+    <div class="day-img" style="background-image:url('images/day3.webp')">
+      <span class="dno">03</span>
+      <div class="cap"><span class="dow">понедельник, 22 июня</span><h3>Виды, сувениры и дорога домой</h3></div>
+    </div>
+    <div class="day-body">
+      <p class="day-theme">Спокойный день: Спасо-Евфимиев и Кидекша закрыты (понедельник), поэтому берём фотогеничный Покровский монастырь, прогулку у реки, закупаем сувениры и выезжаем засветло.</p>
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">8:30</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">9:00</div><div class="wl">Выселение</div></div>
+          <div class="wi"><div class="wn">12:00</div><div class="wl">Сувениры</div></div>
+          <div class="wi"><div class="wn">14:00</div><div class="wl">Выезд домой</div></div>
+          <div class="wi"><div class="wn">≈18:00</div><div class="wl">Нижний</div></div>
+        </div>
+        <span style="font-size:13px;color:#c4ad7e">С остановкой в Гороховце: выехать в 13:00, дома ~19:30</span>
+      </div>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-time">9:00</div>
+          <h4>Завтрак и выселение</h4>
+          <p>Собираем вещи, грузим машину. Сегодня она пригодится — после прогулки сразу в дорогу.</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">9:45</div>
+          <h4>Покровский монастырь + вид с моста <span class="pill free">вход свободный</span></h4>
+          <p><b>Адрес:</b> ул. Покровская, 76. <b>Что:</b> действующий женский монастырь; <b>вид на него с моста через Каменку</b> — один из самых фотогеничных кадров Суздаля. Здесь захоронена царица Соломония Сабурова. На территории — «Трапезная».</p>
+          <div class="how"><svg><use href="#i-walk"/></svg> ~1,8 км / 22 мин пешком от центра, или 7 мин на авто · осмотр 45 мин</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">10:45</div>
+          <h4>Прогулка вдоль Каменки или велопрокат <span class="pill pay">от 400 ₽/ч · опц.</span></h4>
+          <p>Берег реки в июне — луга в цвету, очень живописно (бесплатно). Для подростка — велопрокат (Торговая пл. 2А / Пушкарская 27А): весь город 5×2 км, объехать за час.</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">12:00</div>
+          <h4>Сувениры · рынок у Торговых рядов <span class="pill cheap">без наценки</span></h4>
+          <p><b>Адрес:</b> ул. Ленина, 63А. Палатки вдоль рядов: медовуха (250–450 ₽), варенье из огурцов (200–400 ₽), иван-чай (200–400 ₽), керамика, лён, береста, солёные огурцы (от 50 ₽). <b>Берите наличные.</b></p>
+          <div class="note"><b>Лайфхак:</b> не покупайте у ворот монастырей — там на 30–50% дороже. Рынок и лавка «Огурца» — лучшая цена.</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">13:30</div>
+          <h4>Прощальный обед <span class="pill pay">700–1000 ₽/чел</span></h4>
+          <p>«Гостиный двор» (ул. Ленина 63А, в самих рядах — удобно после рынка) или «Графинъ».</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">15:00</div>
+          <h4>Выезд в Нижний Новгород</h4>
+          <p>~3 часа в пути → дома к 18:30–19:00. Заправка АИ-100 во Владимире на выезде.</p>
+          <div class="how"><svg><use href="#i-car"/></svg> Суздаль → Владимир → М-7 → Нижний, ~258 км</div>
+          <div class="note">22 июня — <b>День памяти и скорби</b>: в городе возможны памятные акции у мемориалов.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="nearby">
+  <div class="sec-head"><span class="num">3½</span><h2>Рядом и по дороге</h2></div>
+  <p class="lead">У вас машина — а вокруг есть что зацепить. Храм Покрова на Нерли вы уже видели, поэтому вот другое: одно место прямо на трассе из Нижнего (заехать по пути) и пара радиалок из Суздаля на полдня, если останется время и силы.</p>
+
+  <div class="card" style="border-left:5px solid var(--terra);margin-bottom:18px">
+    <h3><svg><use href="#i-car"/></svg>Гороховец — заехать по дороге <span class="pill event">топ-выбор</span></h3>
+    <div class="meta">на трассе М-7 · ~150 км от Нижнего, ~80 км до Владимира</div>
+    <p><b>Почему стоит:</b> единственный город России, где сохранилось <b>7 купеческих каменных палат XVII в.</b> (для сравнения — в Москве их всего ~20 на весь город). Монастыри на горе, Пужалова гора со смотровой на Клязьму, почти нет туристов. Идеальная остановка-разминка на 2–3 часа.</p>
+    <div class="how" style="color:var(--gold);font-weight:600;font-size:14.5px;margin-top:8px"><svg style="width:15px;height:15px;fill:currentColor;vertical-align:-.15em"><use href="#i-car"/></svg> Лежит прямо на вашем пути. Заложите +2–3 ч и выезжайте из НН пораньше — либо стоп на обратном пути 22 июня (тогда выезжать из Суздаля раньше 15:00).</div>
+  </div>
+
+  <div class="grid g3">
+    <div class="card">
+      <h3><svg><use href="#i-pin"/></svg>Владимир</h3>
+      <div class="meta">радиалка · 35 км, 40 мин от Суздаля</div>
+      <p>Дмитриевский собор с ~1000 резных фигур на фасаде и Успенский собор с <b>подлинными фресками Андрея Рублёва</b> (единственными в мире). Патриаршие сады, смотровые.</p>
+      <div class="note" style="font-size:14px;color:#5c5240;margin-top:8px;padding:8px 12px;background:#f4ecda;border-radius:8px"><b>Учтите:</b> Золотые ворота в лесах до конца 2026 — смотреть нечего.</div>
+    </div>
+    <div class="card">
+      <h3><svg><use href="#i-pin"/></svg>Гаврилов Посад + Юрьев-Польский</h3>
+      <div class="meta">радиалка-связка · 40 км, ~50 мин</div>
+      <p><b>Гаврилов Посад:</b> «Дворцовый завод» — бывший конный завод Екатерины II, история тяжеловозов, дегустации, мастер-классы (нескучный формат для подростка). <b>Юрьев-Польский:</b> Георгиевский собор 1234 г. — последний домонгольский белокаменный храм; после обрушения блоки собрали неправильно, и «сломанный» рисунок резьбы видно до сих пор.</p>
+    </div>
+    <div class="card">
+      <h3><svg><use href="#i-pin"/></svg>Боголюбовский монастырь</h3>
+      <div class="meta">попутно · 11 км, 15 мин</div>
+      <p>В 800 м от уже виденного вами Покрова на Нерли. Лестничная башня, где в 1174 г. убили Андрея Боголюбского — <b>первое политическое убийство на Руси</b>. Зайти на 40 мин, если будете в той стороне.</p>
+    </div>
+  </div>
+  <div class="callout"><strong>Реально на эту поездку:</strong> программа Суздаля и так плотная на 3 дня. Из этого списка по-настоящему «бесплатный» по логистике вариант — <b>Гороховец по дороге</b>. Остальное — заметка на будущее или если решите растянуть выходные.</div>
+</section>
+
+<section id="food">
+  <div class="sec-head"><span class="num">04</span><h2>Где поесть · 12 мест</h2></div>
+  <div class="grid g2" style="align-items:stretch;margin-bottom:8px">
+    <div style="border-radius:16px;overflow:hidden;box-shadow:var(--shadow);min-height:220px;background:url('images/food.webp') center/cover"></div>
+    <div style="display:flex;flex-direction:column;justify-content:center">
+      <p class="lead" style="margin:0">Суздальская кухня: судак, медовуха, огурцы во всех видах, копчёности на открытом огне. Чек указан на человека. Для бюджета 30к опирайтесь на места с пометкой <span class="pill cheap">бюджетно</span> — а ресторан-впечатление берите один раз за поездку.</p>
+    </div>
+  </div>
+
+  <h3 style="font-size:22px;margin:24px 0 12px;color:var(--terra)">Завтрак и кофе</h3>
+  <div class="grid g3">
+    <div class="card"><h3><svg><use href="#i-food"/></svg>Огурец · кофейня</h3><div class="meta">ул. Ленина, 121 · с 9:00 <span class="rb ya">Я ★5.0</span><span class="rb gi" title="Расхождение с Яндексом, реальная ~4.2">2G ★3.7</span></div><p>Каши, омлеты, огуречный лимонад, веранда, Wi-Fi. Единственный ранний завтрак в центре.</p><span class="tag price">400–600 ₽</span><span class="tag cheap" style="background:#dbe9f0;color:#2a6a8a">бюджетно</span></div>
+    <div class="card"><h3><svg><use href="#i-food"/></svg>Чайная</h3><div class="meta">у Городка мастеров</div><p>Блины, каши, простая русская еда, чай из самовара. Уютно и недорого.</p><span class="tag price">300–500 ₽</span><span class="tag cheap" style="background:#dbe9f0;color:#2a6a8a">бюджетно</span></div>
+    <div class="card"><h3><svg><use href="#i-food"/></svg>Завтрак в жилье</h3><div class="meta">«Магнит»/«Пятёрочка» на Всполье</div><p>Самый дешёвый вариант: продукты рядом с базой. Экономит ~1 000 ₽/день на троих.</p><span class="tag price">~500 ₽ на троих</span><span class="tag cheap" style="background:#dbe9f0;color:#2a6a8a">бюджетно</span></div>
+  </div>
+
+  <h3 style="font-size:22px;margin:28px 0 12px;color:var(--terra)">Перекус и обед — недорого</h3>
+  <div class="grid g3">
+    <div class="card"><h3>🥟 Чебуречная «Che»</h3><div class="meta">центр · перекус</div><p>Чебуреки, быстро и сытно. Один из самых дешёвых вариантов в городе.</p><span class="tag price">400–600 ₽</span><span class="tag cheap" style="background:#dbe9f0;color:#2a6a8a">бюджетно</span></div>
+    <div class="card"><h3>🍲 «Буфет»</h3><div class="meta">центр · самообслуживание</div><p>Формат столовой/буфета — горячее, выпечка, компоты. Бюджетный обед без церемоний.</p><span class="tag price">400–600 ₽</span><span class="tag cheap" style="background:#dbe9f0;color:#2a6a8a">бюджетно</span></div>
+    <div class="card"><h3>🌾 «Квасная изба»</h3><div class="meta">центр · русская кухня <span class="rb ya">Я ★4.4</span></div><p>Домашний квас, простые горячие блюда, выпечка. Атмосферно и по-доброму дёшево.</p><span class="tag price">500–800 ₽</span><span class="tag cheap" style="background:#dbe9f0;color:#2a6a8a">бюджетно</span></div>
+  </div>
+
+  <h3 style="font-size:22px;margin:28px 0 12px;color:var(--terra)">Обед — средний чек</h3>
+  <div class="grid g3">
+    <div class="card"><h3>🏛️ Гостиный двор</h3><div class="meta">ул. Ленина, 63А (Торговые ряды) <span class="rb ya">Я ★4.9</span></div><p>Исторический интерьер XIX в., свои сыры, борщ, авторская русская кухня. В самом центре.</p><span class="tag price">1000–1500 ₽</span></div>
+    <div class="card"><h3>🥒 Графинъ</h3><div class="meta">ул. Ленина, 146</div><p>Купеческая атмосфера, судак «в кафтане», пельмени, утка с яблоками. Дешевле центра.</p><span class="tag price">800–1200 ₽</span><span class="tag cheap" style="background:#dbe9f0;color:#2a6a8a">бюджетно</span></div>
+    <div class="card"><h3>🌸 «Ландыш»</h3><div class="meta">центр · кафе <span class="rb ya">Я ★4.9</span></div><p>Среднее кафе с домашней кухней. Хороший баланс цены и качества для обеда.</p><span class="tag price">700–1100 ₽</span></div>
+  </div>
+
+  <h3 style="font-size:22px;margin:28px 0 12px;color:var(--terra)">Ужин-впечатление (один раз за поездку)</h3>
+  <div class="grid g3">
+    <div class="card"><h3>🔥 Лепота</h3><div class="meta">ул. Пушкарская, 5 <span class="rb gi">2G ★4.9</span></div><p>Самая большая коптильня города, открытый огонь и русская печь. Главный гастро-вечер.</p><span class="tag price">1500–2000 ₽</span></div>
+    <div class="card"><h3>🏡 Генеральская дача</h3><div class="meta">ул. Лебедева, 5 <span class="rb gi">2G ★4.1</span></div><p>Авторская русская кухня, атмосфера дачи начала XX в., без туристической наценки центра.</p><span class="tag price">1500–2000 ₽</span></div>
+    <div class="card"><h3>🍷 Дворянское гнездо</h3><div class="meta">ул. Толстого, 5 <span class="rb ya">Я ★4.6</span></div><p>Тургеневская атмосфера, для торжественного ужина. Самый «парадный» вариант.</p><span class="tag price">2000–2500 ₽</span></div>
+  </div>
+  <div class="callout"><strong>Медовуха:</strong> дегустация в Торговых рядах (ул. Ленина 63А): алкогольная 500 ₽, безалкогольная для подростка 430 ₽, мини-лекция «Сказ о медовухе» 800 ₽. Бутылку дешевле взять в лавке «Боярский мёд» (~250–400 ₽ за 0,5 л), а не у монастырей.</div>
+</section>
+
+<section id="shop">
+  <div class="sec-head"><span class="num">05</span><h2>Что привезти</h2></div>
+  <p class="lead">Главное правило: брать на рынке у Торговых рядов или в лавке «Огурец» — у монастырей те же сувениры на 30–50% дороже. Наличные пригодятся.</p>
+  <table class="budget-table">
+    <thead><tr><th>Сувенир</th><th>Где купить</th><th class="num">Цена</th></tr></thead>
+    <tbody>
+      <tr><td>Медовуха (0,5 л)</td><td>Торговые ряды, «Боярский мёд»</td><td class="num">250–450 ₽</td></tr>
+      <tr><td>Варенье из огурцов (с лаймом/мятой)</td><td>лавка «Огурец», рынок</td><td class="num">200–400 ₽</td></tr>
+      <tr><td>Иван-чай ферментированный</td><td>рынок у Торговых рядов</td><td class="num">200–400 ₽</td></tr>
+      <tr><td>Шоколад / пряники с огурцом</td><td>лавки Торговых рядов</td><td class="num">100–500 ₽</td></tr>
+      <tr><td>Керамика, изделия из дерева и бересты</td><td>рынок, лавки</td><td class="num">200–1500 ₽</td></tr>
+      <tr><td>Солёные суздальские огурцы</td><td>рынок</td><td class="num">от 50 ₽</td></tr>
+    </tbody>
+  </table>
+</section>
+<section id="money">
+  <div class="sec-head"><span class="num">06</span><h2>Смета · потолок 30 000 ₽</h2></div>
+  <p class="lead">Два честных тарифа — оба укладываются в 30 000 ₽ с бензином (жильё оплачено отдельно). «Эконом» — если хочется сэкономить; «Оптимальный» — комфортный максимум под потолок. Бензин и музеи — фиксированная база, гибко режем еду и активности.</p>
+  <table class="budget-table">
+    <thead><tr><th>Статья</th><th class="num">Эконом</th><th class="num pick">Оптимальный ★</th></tr></thead>
+    <tbody>
+      <tr><td>⛽ Бензин (≈586 км, АИ-100)</td><td class="num">4 700</td><td class="num pick">5 000</td></tr>
+      <tr><td>🅿️ Парковка</td><td class="num">0 <span style="font-size:12px;color:var(--muted)">(до 10:00 / периферия)</span></td><td class="num pick">500</td></tr>
+      <tr><td>🏛️ Музеи на семью 2+1</td><td class="num">3 750 <span style="font-size:12px;color:var(--muted)">(2 объекта)</span></td><td class="num pick">5 600 <span style="font-size:12px;color:var(--muted)">(4 объекта)</span></td></tr>
+      <tr><td>🍽️ Еда (завтрак в жилье + кафе + 1 ресторан)</td><td class="num">9 000</td><td class="num pick">13 800</td></tr>
+      <tr><td>🍯 Дегустация медовухи</td><td class="num">1 000</td><td class="num pick">1 430</td></tr>
+      <tr><td>🎁 Сувениры</td><td class="num">1 000</td><td class="num pick">1 500</td></tr>
+      <tr><td>🚲 Активности (трамвайчик/велопрокат)</td><td class="num">—</td><td class="num pick">1 000</td></tr>
+      <tr><td>💼 Резерв</td><td class="num">1 500</td><td class="num pick">900</td></tr>
+      <tr class="total"><td>Итого</td><td class="num">≈ 21 000 ₽</td><td class="num pick">≈ 29 700 ₽</td></tr>
+    </tbody>
+  </table>
+  <div class="callout"><strong>Музеи:</strong> «Эконом» — Кремль + Спасо-Евфимиев (валы, Покровский, виды смотрим бесплатно). «Оптимальный» — добавляем Кидекшу и Музей деревянного зодчества. Подросток 12 лет везде по детскому тарифу.</div>
+  <div class="callout"><strong>Что НЕ входит в 30к</strong> (берём только если поднять потолок): концерт «Лето на Каменке» / «Солнцестояние на ГЭС» (~4 200 ₽ на троих) и тем более Купальские вечера (~10 000 ₽). Бесплатная замена вечера — хор «ARTODOX» и закат у Торговых рядов.</div>
+</section>
+
+<section id="tips">
+  <div class="sec-head"><span class="num">07</span><h2>Чек-лист</h2></div>
+  <ul class="checklist">
+    <li><svg><use href="#i-check"/></svg>Заправить АИ-100 под завязку <em>в Нижнем</em> — на трассе её мало</li>
+    <li><svg><use href="#i-check"/></svg>Выезд из НН не позже 8:30</li>
+    <li><svg><use href="#i-check"/></svg>В центр въезжать до 10:00 — парковка бесплатна</li>
+    <li><svg><use href="#i-check"/></svg>Спасо-Евфимиев и Кидекша — только воскресенье (пн закрыты)</li>
+    <li><svg><use href="#i-check"/></svg>Колокольный звон в Спасо-Евфимиевом — к началу часа</li>
+    <li><svg><use href="#i-check"/></svg>Преподобенская колокольня — 100 ₽, лучший вид, не пропустить</li>
+    <li><svg><use href="#i-check"/></svg>Сувениры — на рынке, не у монастырей</li>
+    <li><svg><use href="#i-check"/></svg>Наличные на рынок и мелкие кафе</li>
+    <li><svg><use href="#i-check"/></svg>Удобная обувь — валы и брусчатка</li>
+    <li><svg><use href="#i-check"/></svg>Ресторан-впечатление — один раз за поездку (бюджет)</li>
+    <li><svg><use href="#i-check"/></svg>Подростку: колокольня, тюремная башня, трамвайчик, велопрокат, МИРА центр</li>
+    <li><svg><use href="#i-check"/></svg>Уточнить цену АИ-100 и часы музеев перед выездом</li>
+  </ul>
+</section>
+</div>
+
+<footer>
+  <p style="font-family:var(--serif);font-size:21px;color:#fff;margin-bottom:6px">Хорошей дороги и <em>вкусной медовухи</em></p>
+  <p>Суздаль · 20–22 июня 2026 · семейный путеводитель для троих · потолок 30 000 ₽</p>
+  <p class="src">Цены, адреса, часы работы и афиши — по данным веб-разведки и местных Telegram-каналов (@suzdalafisha, @suzdalnews, @myrasuzdal) на июнь 2026; музеи — vladmuseum.ru. Изображения сгенерированы (kie.ai) для оформления и не являются документальными фото. Перед поездкой уточняйте актуальность билетов, часов и цену АИ-100.</p>
+</footer>
+</body>
+</html>

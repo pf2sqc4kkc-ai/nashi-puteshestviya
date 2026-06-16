@@ -1,0 +1,10 @@
+- generic [active] [ref=e1]:
+  - heading "block" [level=2] [ref=e4]
+  - generic [ref=e5]:
+    - heading "Server Unavailable!" [level=3] [ref=e6]
+    - generic [ref=e7]:
+      - paragraph [ref=e8]: Server unavailable.Please visit again later
+      - paragraph [ref=e9]:
+        - text: "URL: hermitagetickets.hermitagemuseum.org/catalog/"
+        - text: "Client IP: 185.94.108.61"
+      - paragraph

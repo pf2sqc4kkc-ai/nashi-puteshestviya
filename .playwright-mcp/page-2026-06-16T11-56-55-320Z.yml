@@ -1,0 +1,526 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+      - generic [ref=e6]:
+        - generic [ref=e7] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: Наденька
+            - generic [ref=e13]:
+              - img [ref=e14]
+              - text: "5"
+          - generic [ref=e17]: До 02:00
+    - generic:
+      - generic:
+        - banner:
+          - generic [ref=e21]:
+            - button "Назад" [ref=e22] [cursor=pointer]:
+              - img [ref=e25]
+            - generic [ref=e27]:
+              - textbox "Поиск и выбор мест" [ref=e30]: Наденька бар Санкт-Петербург
+              - iframe [ref=e31]:
+                
+            - button "Найти" [ref=e33] [cursor=pointer]:
+              - img [ref=e36]
+            - button "Закрыть" [ref=e40] [cursor=pointer]:
+              - img [ref=e43]
+      - generic:
+        - complementary [ref=e45]:
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51]:
+                  - generic [ref=e52]:
+                    - generic [ref=e53]:
+                      - list [ref=e56]:
+                        - listitem [ref=e57]:
+                          - button "Наденька (ул. Некрасова, 25, Центральный район), рюмочная в Санкт‑Петербурге" [ref=e59] [cursor=pointer]:
+                            - generic [ref=e60]:
+                              - img [ref=e62]
+                              - img "Наденька (ул. Некрасова, 25, Центральный район), рюмочная в Санкт‑Петербурге" [ref=e64]
+                        - listitem [ref=e65]:
+                          - button "Наденька (ул. Некрасова, 25, Центральный район), рюмочная в Санкт‑Петербурге" [ref=e67] [cursor=pointer]:
+                            - generic [ref=e68]:
+                              - img [ref=e70]
+                              - img "Наденька (ул. Некрасова, 25, Центральный район), рюмочная в Санкт‑Петербурге" [ref=e72]
+                        - listitem [ref=e73]:
+                          - button "Наденька (ул. Некрасова, 25, Центральный район), рюмочная в Санкт‑Петербурге" [ref=e75] [cursor=pointer]:
+                            - generic [ref=e76]:
+                              - img [ref=e78]
+                              - img "Наденька (ул. Некрасова, 25, Центральный район), рюмочная в Санкт‑Петербурге" [ref=e80]
+                        - listitem [ref=e81]:
+                          - button [ref=e83] [cursor=pointer]:
+                            - img [ref=e86]
+                        - listitem [ref=e89]:
+                          - button [ref=e91] [cursor=pointer]:
+                            - img [ref=e94]
+                        - listitem [ref=e97]:
+                          - button [ref=e99] [cursor=pointer]:
+                            - img [ref=e102]
+                        - listitem [ref=e105]:
+                          - button [ref=e107] [cursor=pointer]:
+                            - img [ref=e110]
+                        - listitem [ref=e113]:
+                          - button [ref=e115] [cursor=pointer]:
+                            - img [ref=e118]
+                        - listitem [ref=e121]:
+                          - button [ref=e123] [cursor=pointer]
+                        - listitem [ref=e125]:
+                          - button [ref=e127] [cursor=pointer]
+                        - iframe [ref=e129]:
+                          
+                      - generic:
+                        - generic:
+                          - img
+                        - text: "479"
+                    - generic:
+                      - img "Логотип"
+                  - generic [ref=e131]:
+                    - heading "Наденька" [level=1] [ref=e134]:
+                      - link "Наденька" [ref=e136] [cursor=pointer]:
+                        - /url: /maps/org/nadenka/87264017340/
+                    - generic [ref=e138]:
+                      - generic [ref=e141]:
+                        - link "Входит в категорию Рюмочная, поиск по категории" [ref=e142] [cursor=pointer]:
+                          - /url: /maps/2/saint-petersburg/category/the_glass_room/103434735470/
+                          - text: Рюмочная,
+                        - link "Входит в категорию бар, поиск по категории" [ref=e143] [cursor=pointer]:
+                          - /url: /maps/2/saint-petersburg/category/bar_pub/184106384/
+                          - text: бар
+                      - generic [ref=e146]:
+                        - generic [ref=e147]:
+                          - generic "Оценка 5 Из 5" [ref=e148]:
+                            - img [ref=e150]
+                            - img [ref=e153]
+                            - img [ref=e156]
+                            - img [ref=e159]
+                            - img [ref=e162]
+                          - generic [ref=e164]:
+                            - generic [ref=e165]: Рейтинг
+                            - text: 5,0
+                        - button "2590 оценок" [ref=e166] [cursor=pointer]
+                      - button "Открыто до 02:00" [ref=e167]:
+                        - button "Открыто до 02:00" [ref=e169] [cursor=pointer]:
+                          - generic [ref=e171]: Открыто до 02:00
+                          - img [ref=e174]
+                      - list [ref=e178]:
+                        - listitem [ref=e179]:
+                          - button "Маршрут" [ref=e181] [cursor=pointer]:
+                            - img [ref=e184]
+                            - generic [ref=e188]: Маршрут
+                        - listitem [ref=e189]:
+                          - generic [ref=e190]:
+                            - status [ref=e191]: Сохранить
+                            - button "Закладки" [ref=e193] [cursor=pointer]:
+                              - img [ref=e196]
+                        - listitem [ref=e198]:
+                          - button "Поделиться" [ref=e200] [cursor=pointer]:
+                            - img [ref=e203]
+                        - iframe [ref=e206]:
+                          
+                    - generic [ref=e208]:
+                      - generic [ref=e212]:
+                        - tablist [ref=e213]:
+                          - tab "Обзор," [selected] [ref=e215]:
+                            - link:
+                              - /url: /maps/org/nadenka/87264017340/
+                              - text: Обзор
+                          - tab "Фото, 479" [ref=e217]:
+                            - link:
+                              - /url: /maps/org/nadenka/87264017340/gallery/
+                              - text: Фото
+                            - generic: "479"
+                          - tab "Отзывы, 1156" [ref=e219]:
+                            - link:
+                              - /url: /maps/org/nadenka/87264017340/reviews/
+                              - text: Отзывы
+                            - generic: "1156"
+                          - tab "Особенности," [ref=e221]:
+                            - link:
+                              - /url: /maps/org/nadenka/87264017340/?tab=features
+                              - text: Особенности
+                          - tab "Похожие места," [ref=e223]:
+                            - link:
+                              - /url: /maps/org/nadenka/87264017340/related/
+                              - text: Похожие места
+                          - iframe [ref=e224]:
+                            
+                        - img [ref=e228] [cursor=pointer]
+                      - generic [ref=e232]:
+                        - generic [ref=e233]:
+                          - generic [ref=e236]:
+                            - button "Панорама — рюмочная Наденька, Санкт‑Петербург" [ref=e237] [cursor=pointer]:
+                              - img "Панорама — рюмочная Наденька, Санкт‑Петербург" [ref=e240]
+                              - generic:
+                                - img
+                              - generic: Панорама
+                            - link "Панорама":
+                              - /url: /maps/org/nadenka/87264017340/panorama/
+                          - generic [ref=e241]:
+                            - generic [ref=e242]:
+                              - generic [ref=e243]:
+                                - img [ref=e246]
+                                - heading "Адрес" [level=3] [ref=e249]
+                              - generic [ref=e255]:
+                                - generic [ref=e256]:
+                                  - link "ул. Некрасова, 25, Центральный район" [ref=e257]
+                                  - text: • подъезд 1
+                                - generic [ref=e258]:
+                                  - button "Показать входы" [ref=e259] [cursor=pointer]
+                                  - generic [ref=e260]: "|"
+                                  - button "Маршрут" [ref=e261] [cursor=pointer]
+                            - generic [ref=e262]:
+                              - generic [ref=e263]:
+                                - img [ref=e266]
+                                - heading "Контакты" [level=3] [ref=e269]
+                              - generic [ref=e281]:
+                                - text: +7 (931) 345-25-26
+                                - button "Показать телефон" [ref=e282] [cursor=pointer]:
+                                  - generic [ref=e283]: Показать телефон
+                            - generic [ref=e284]:
+                              - generic [ref=e285]:
+                                - img [ref=e288]
+                                - heading "Время работы" [level=3] [ref=e291]
+                              - button "Открыто до 02:00" [ref=e295] [cursor=pointer]:
+                                - generic [ref=e296]:
+                                  - generic "Открыто до 02:00" [ref=e302]
+                                  - generic [ref=e303]:
+                                    - generic [ref=e304]: График
+                                    - img [ref=e307]
+                            - button "Добавить фото или видео" [ref=e309] [cursor=pointer]:
+                              - generic [ref=e311]:
+                                - img [ref=e314]
+                                - generic [ref=e318]: Добавить фото или видео
+                            - button "Исправить неточность" [ref=e320] [cursor=pointer]:
+                              - img [ref=e323]
+                              - generic [ref=e325]: Исправить неточность
+                          - generic [ref=e327]:
+                            - heading "Входит в подборки" [level=2] [ref=e329]
+                            - generic [ref=e332]:
+                              - list [ref=e333]:
+                                - listitem [ref=e334]:
+                                  - button "Подборка · 15 мест Лучшие кафе, бары и булочные Петербурга для настоящих ценителей Журнал Путешествий Журнал Путешествий" [ref=e336]:
+                                    - generic [ref=e337]:
+                                      - button [ref=e338]
+                                      - generic [ref=e341]: Подборка · 15 мест
+                                    - link "Лучшие кафе, бары и булочные Петербурга для настоящих ценителей" [ref=e343] [cursor=pointer]:
+                                      - /url: /maps/discovery/travel-luchshie-kafe-bary-i-bulochnye-peterburga/
+                                    - generic [ref=e344]:
+                                      - img "Журнал Путешествий" [ref=e345]
+                                      - generic [ref=e346]: Журнал Путешествий
+                                - listitem [ref=e347]:
+                                  - 'button "Подборка · 9 мест Белые ночи в Петербурге: идеи на выходные Яндекс Карты Яндекс Карты" [ref=e349]':
+                                    - generic [ref=e350]:
+                                      - button [ref=e351]
+                                      - generic [ref=e354]: Подборка · 9 мест
+                                    - 'link "Белые ночи в Петербурге: идеи на выходные" [ref=e356] [cursor=pointer]':
+                                      - /url: /maps/discovery/user_list_belye-nochi-v-peterburge-idei-na-vykhodnye_1091661/
+                                    - generic [ref=e357]:
+                                      - img "Яндекс Карты" [ref=e358]
+                                      - generic [ref=e359]: Яндекс Карты
+                                - iframe [ref=e360]:
+                                  
+                              - img [ref=e363] [cursor=pointer]
+                          - generic "Как добраться" [ref=e366]:
+                            - heading "Как добраться" [level=2] [ref=e368]
+                            - button "Метро рядом" [ref=e372] [cursor=pointer]:
+                              - generic [ref=e373]:
+                                - generic [ref=e374]:
+                                  - generic "На метро" [ref=e377]:
+                                    - img [ref=e378]
+                                  - generic [ref=e383]:
+                                    - generic [ref=e384]: Чернышевская
+                                    - button "Чернышевская Построить маршрут Пешком 840 м" [ref=e385]:
+                                      - img [ref=e387]
+                                      - generic [ref=e389]: 840 м
+                                - generic [ref=e390]:
+                                  - generic [ref=e391]: "2"
+                                  - img [ref=e394]
+                            - button "Остановки рядом" [ref=e399] [cursor=pointer]:
+                              - generic [ref=e400]:
+                                - generic [ref=e401]:
+                                  - generic "На автобусе" [ref=e404]:
+                                    - img [ref=e405]
+                                  - generic [ref=e412]:
+                                    - generic [ref=e413]: Улица Восстания
+                                    - button "Улица Восстания Построить маршрут Пешком 111 м" [ref=e414]:
+                                      - img [ref=e416]
+                                      - generic [ref=e418]: 111 м
+                                - generic [ref=e419]:
+                                  - generic [ref=e420]: "4"
+                                  - img [ref=e423]
+                            - button [ref=e425] [cursor=pointer]:
+                              - generic [ref=e427]:
+                                - img [ref=e430]
+                                - generic [ref=e434]: Показать парковки
+                          - generic [ref=e436]:
+                            - heading "Особенности" [level=2] [ref=e438]
+                            - generic [ref=e442]:
+                              - img [ref=e445]
+                              - generic [ref=e448]: Еда навынос
+                            - button "Подробнее об организации" [ref=e449] [cursor=pointer]:
+                              - generic [ref=e451]:
+                                - img [ref=e454]
+                                - link [ref=e458]:
+                                  - /url: /maps/org/nadenka/87264017340/?tab=features
+                                  - text: Подробнее об организации
+                          - button "Вы владелец этой организации?" [ref=e462] [cursor=pointer]:
+                            - generic [ref=e464]:
+                              - img [ref=e467]
+                              - link "Вы владелец этой организации?" [ref=e472]:
+                                - /url: https://yandex.ru/business/priority-promo/web-maps-company?permalink=87264017340
+                          - generic [ref=e474]:
+                            - heading "Посещаемость и график работы" [level=2] [ref=e476]
+                            - generic [ref=e477]:
+                              - generic [ref=e478]:
+                                - generic [ref=e479]: 14:00
+                                - text: Обычно мало посетителей
+                              - generic [ref=e480]:
+                                - button "Понедельник" [ref=e481] [cursor=pointer]: Пн
+                                - button "Вторник" [ref=e482] [cursor=pointer]: Вт
+                                - button "Среда" [ref=e483] [cursor=pointer]: Ср
+                                - button "Четверг" [ref=e484] [cursor=pointer]: Чт
+                                - button "Пятница" [ref=e485] [cursor=pointer]: Пт
+                                - button "Суббота" [ref=e486] [cursor=pointer]: Сб
+                                - button "Воскресенье" [ref=e487] [cursor=pointer]: Вс
+                              - generic [ref=e488]:
+                                - button "00:00" [ref=e489] [cursor=pointer]: 00:00
+                                - button "01:00" [ref=e491] [cursor=pointer]
+                                - text: 04:00 08:00
+                                - button "12:00" [ref=e493] [cursor=pointer]: 12:00
+                                - button "13:00" [ref=e495] [cursor=pointer]
+                                - button "14:00" [ref=e497] [cursor=pointer]
+                                - button "15:00" [ref=e499] [cursor=pointer]
+                                - button "16:00" [ref=e501] [cursor=pointer]: 16:00
+                                - button "17:00" [ref=e503] [cursor=pointer]
+                                - button "18:00" [ref=e505] [cursor=pointer]
+                                - button "19:00" [ref=e507] [cursor=pointer]
+                                - button "20:00" [ref=e509] [cursor=pointer]: 20:00
+                                - button "21:00" [ref=e511] [cursor=pointer]
+                                - button "22:00" [ref=e513] [cursor=pointer]
+                                - button "23:00" [ref=e515] [cursor=pointer]: 00:00
+                          - generic [ref=e519]:
+                            - generic [ref=e522]:
+                              - generic [ref=e526]:
+                                - generic [ref=e527]:
+                                  - generic [ref=e528]: Рейтинг
+                                  - text: 5,0
+                                - generic [ref=e529]:
+                                  - generic "Оценка 5 Из 5" [ref=e531]:
+                                    - img [ref=e533]
+                                    - img [ref=e535]
+                                    - img [ref=e537]
+                                    - img [ref=e539]
+                                    - img [ref=e541]
+                                  - generic [ref=e542]: 2590 оценок
+                              - generic [ref=e548]:
+                                - generic [ref=e549]: Оцените и напишите отзыв
+                                - generic [ref=e550]:
+                                  - button "1 звезда" [ref=e551] [cursor=pointer]:
+                                    - img [ref=e552]
+                                  - button "2 звезды" [ref=e553] [cursor=pointer]:
+                                    - img [ref=e554]
+                                  - button "3 звезды" [ref=e555] [cursor=pointer]:
+                                    - img [ref=e556]
+                                  - button "4 звезды" [ref=e557] [cursor=pointer]:
+                                    - img [ref=e558]
+                                  - button "5 звезд" [ref=e559] [cursor=pointer]:
+                                    - img [ref=e560]
+                            - generic [ref=e562]:
+                              - generic [ref=e565]:
+                                - heading "1156 отзывов" [level=2] [ref=e566]
+                                - button "По умолчанию" [ref=e569] [cursor=pointer]:
+                                  - text: По умолчанию
+                                  - img [ref=e571]
+                              - list [ref=e572]:
+                                - button "Посмотреть все 1156 отзывов" [ref=e576] [cursor=pointer]
+                        - generic [ref=e577]:
+                          - link "Стать владельцем в Яндекс Картах" [ref=e579] [cursor=pointer]:
+                            - /url: https://yandex.ru/business/priority-promo/web-maps-company?permalink=87264017340&utm_medium=org_card&utm_campaign=owner-button
+                          - link "Разместить рекламу" [ref=e581] [cursor=pointer]:
+                            - /url: https://yandex.ru/business/priority-promo/web-maps-promo?utm_source=webmaps&utm_medium=org_card_link&utm_campaign=webmaps_org_card&permalink=87264017340
+                          - button "Источник данных" [ref=e584] [cursor=pointer]:
+                            - generic [ref=e585]: Источник данных
+                            - img [ref=e588]
+                - generic "подвал блока" [ref=e590]:
+                  - generic [ref=e591]:
+                    - generic [ref=e592]:
+                      - link "Сообщить об ошибке" [ref=e594] [cursor=pointer]
+                      - link "Мобильное приложение" [ref=e596] [cursor=pointer]:
+                        - /url: https://mobile.yandex.ru/apps/maps/
+                    - button "Сервисы" [ref=e599] [cursor=pointer]:
+                      - generic [ref=e600]:
+                        - generic [ref=e603]: Сервисы
+                        - img [ref=e607]
+                    - button "Персональное" [ref=e611] [cursor=pointer]:
+                      - generic [ref=e612]:
+                        - generic [ref=e615]: Персональное
+                        - img [ref=e619]
+                    - button "Для бизнеса" [ref=e623] [cursor=pointer]:
+                      - generic [ref=e624]:
+                        - generic [ref=e627]: Для бизнеса
+                        - img [ref=e631]
+                  - generic [ref=e634]:
+                    - link "vkontakte" [ref=e635] [cursor=pointer]:
+                      - /url: https://vk.com/yandex.maps
+                      - img [ref=e636]
+                    - link "telegram" [ref=e638] [cursor=pointer]:
+                      - /url: https://t.me/mapsyandex
+                      - img [ref=e639]
+                    - link "zen" [ref=e641] [cursor=pointer]:
+                      - /url: https://zen.yandex.ru/yandexmaps
+                      - img [ref=e642]
+                  - generic [ref=e644]:
+                    - generic [ref=e645]: Яндекс Карты — выбирайте, где поесть, куда сходить, чем заняться.
+                    - generic [ref=e646]: © 2001–2026 ООО «Яндекс»
+                    - generic [ref=e647]:
+                      - link "Справка" [ref=e649] [cursor=pointer]:
+                        - /url: //yandex.ru/support/maps/?lang=ru
+                      - generic [ref=e650]:
+                        - text: "|"
+                        - link "О сервисе" [ref=e651] [cursor=pointer]:
+                          - /url: //yandex.ru/support/maps/
+                      - generic [ref=e652]:
+                        - text: "|"
+                        - link "Пользовательское соглашение" [ref=e653] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+                      - generic [ref=e654]:
+                        - text: "|"
+                        - link "Правила рекомендаций" [ref=e655] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/recommendations/#index__geo
+              - iframe [ref=e656]:
+                
+            - iframe [ref=e657]:
+              
+        - img [ref=e663] [cursor=pointer]
+      - navigation:
+        - generic [ref=e666]:
+          - button "Пробки в Санкт‑Петербурге" [ref=e669] [cursor=pointer]:
+            - generic [ref=e670]:
+              - generic:
+                - img
+          - button "Панорамы улиц и фотографии" [ref=e674] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Зеркала" [ref=e677] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Движущийся транспорт" [ref=e680] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Слои" [ref=e683] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e685]:
+          - button "Линейка и планиметр" [ref=e688] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Детали" [ref=e691] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - button "Профиль" [ref=e694] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e698]:
+                - button "Приблизить" [ref=e700] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                - button "Отдалить" [ref=e702] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+              - button "Моё местоположение" [ref=e706] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+              - button "Наклон карты" [ref=e713] [cursor=pointer]: 3D
+      - contentinfo:
+        - generic [ref=e715]:
+          - generic [ref=e716]: © Яндекс
+          - link "Справка" [ref=e717] [cursor=pointer]:
+            - /url: //yandex.ru/support/maps/?lang=ru
+          - link "Условия использования" [ref=e718] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+        - link "Яндекс" [ref=e721] [cursor=pointer]:
+          - /url: https://ya.ru
+          - img [ref=e723]
+        - generic:
+          - generic:
+            - generic:
+              - generic: 90 м
+      - iframe [ref=e724]:
+        
+    - iframe [ref=e725]:
+      
+  - iframe [ref=e726]:
+    
+  - generic [ref=e729]:
+    - generic [ref=e730]:
+      - generic [ref=e731]: Наденька
+      - generic [ref=e733]:
+        - img [ref=e734]
+        - text: "5"
+    - generic [ref=e737]: До 02:00

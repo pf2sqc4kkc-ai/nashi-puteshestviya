@@ -1,0 +1,358 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+      - generic [ref=e6]:
+        - generic [ref=e7] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: Большой Петергофский дворец
+            - generic [ref=e13]:
+              - img [ref=e14]
+              - text: "5"
+          - generic [ref=e17]: "Билет: от 550 ₽"
+        - generic [ref=e18] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic [ref=e19] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic [ref=e20] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic [ref=e21] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e24] [cursor=pointer]: Медио
+    - generic:
+      - generic:
+        - banner:
+          - generic [ref=e28]:
+            - img [ref=e31] [cursor=pointer]
+            - generic [ref=e34]:
+              - textbox "Поиск и выбор мест" [ref=e37]: Большой Петергофский дворец
+              - iframe [ref=e38]:
+                
+            - button "Найти" [ref=e40] [cursor=pointer]:
+              - img [ref=e43]
+            - button "Закрыть" [ref=e47] [cursor=pointer]:
+              - img [ref=e50]
+      - generic:
+        - generic:
+          - complementary [ref=e52]:
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - generic [ref=e57]:
+                  - heading "Большой Петергофский дворец" [level=1] [ref=e59]
+                  - generic [ref=e60]:
+                    - generic [ref=e63]:
+                      - tablist [ref=e65]:
+                        - tab "Места," [selected] [ref=e67]:
+                          - generic: Места
+                        - tab "Подборки," [ref=e69]:
+                          - generic: Подборки
+                        - iframe [ref=e70]:
+                          
+                      - button [ref=e74]:
+                        - button [ref=e75] [cursor=pointer]:
+                          - img [ref=e78]
+                          - generic [ref=e80]: Фильтры
+                    - list [ref=e81]:
+                      - listitem [ref=e82]:
+                        - button "Большой Петергофский дворец Большой Петергофский дворец Оценка 5 Из 5 Рейтинг 5,0 15214 оценок Открыто до 18:00 · , Разводная ул., 2" [ref=e83] [cursor=pointer]:
+                          - link "Большой Петергофский дворец" [ref=e84]:
+                            - /url: /maps/org/bolshoy_petergofskiy_dvorets/66250375577/
+                          - generic [ref=e86]:
+                            - generic [ref=e88]: Большой Петергофский дворец
+                            - link "Оценка 5 Из 5 Рейтинг 5,0 15214 оценок" [ref=e90]:
+                              - /url: /maps/org/bolshoy_petergofskiy_dvorets/66250375577/reviews/
+                              - generic [ref=e91]:
+                                - generic [ref=e92]:
+                                  - generic "Оценка 5 Из 5" [ref=e93]:
+                                    - img [ref=e95]
+                                    - img [ref=e98]
+                                    - img [ref=e101]
+                                    - img [ref=e104]
+                                    - img [ref=e107]
+                                  - generic [ref=e109]:
+                                    - generic [ref=e110]: Рейтинг
+                                    - text: 5,0
+                                - generic [ref=e111]: 15214 оценок
+                                - generic [ref=e113]: 15214 оценок
+                            - generic [ref=e114]:
+                              - generic [ref=e116]: Открыто до 18:00
+                              - generic [ref=e117]:
+                                - text: ·
+                                - generic [ref=e118]:
+                                  - link [ref=e119]:
+                                    - /url: /maps/98546/peterhof/category/museum/184105894/
+                                    - text: Музей
+                                  - text: ","
+                                  - link [ref=e120]:
+                                    - /url: /maps/98546/peterhof/category/an_architectural_monument/143552239408/
+                                    - text: памятник архитектуры
+                            - link "Разводная ул., 2" [ref=e123]:
+                              - /url: /maps/98546/peterhof/house/ZkAYfwdlTkAGQFtjfXR5cnVjbQ==/
+                            - generic [ref=e124]:
+                              - link [ref=e126]:
+                                - /url: /maps/org/bolshoy_petergofskiy_dvorets/66250375577/gallery/
+                                - text: Фото
+                              - generic [ref=e128]:
+                                - list [ref=e129]:
+                                  - listitem [ref=e130]:
+                                    - img [ref=e132]
+                                  - listitem [ref=e133]:
+                                    - img [ref=e137]
+                                  - listitem [ref=e140]:
+                                    - img [ref=e142]
+                                  - listitem [ref=e143]:
+                                    - img [ref=e147]
+                                  - listitem [ref=e150]:
+                                    - img [ref=e154]
+                                  - listitem [ref=e157]:
+                                    - generic [ref=e160]:
+                                      - img [ref=e162]
+                                      - generic [ref=e165]: Еще 2094
+                                  - iframe [ref=e166]:
+                                    
+                                - img [ref=e169]
+                      - listitem [ref=e171]:
+                        - button "Дирекция Государственного музея-заповедника Петергоф Дирекция Государственного музея-заповедника Петергоф Открыто до 18:00 · Разводная ул., 2" [ref=e172] [cursor=pointer]:
+                          - link "Дирекция Государственного музея-заповедника Петергоф" [ref=e173]:
+                            - /url: /maps/org/direktsiya_gosudarstvennogo_muzeya_zapovednika_petergof/1761562658/
+                          - generic [ref=e175]:
+                            - generic [ref=e176]:
+                              - link [ref=e178]:
+                                - /url: /maps/org/direktsiya_gosudarstvennogo_muzeya_zapovednika_petergof/1761562658/gallery/
+                                - text: Фото
+                              - img [ref=e180]
+                            - generic [ref=e182]: Дирекция Государственного музея-заповедника Петергоф
+                            - generic [ref=e183]:
+                              - generic [ref=e185]: Открыто до 18:00
+                              - generic [ref=e186]:
+                                - text: ·
+                                - link [ref=e188]:
+                                  - /url: /maps/98546/peterhof/category/management_company/184105510/
+                                  - text: Офис организации
+                            - link "Разводная ул., 2" [ref=e191]:
+                              - /url: /maps/98546/peterhof/house/ZkAYfwdlTkAGQFtjfXR5cnVjbQ==/
+                      - listitem [ref=e192]:
+                        - button "Музей фонтанного дела Музей фонтанного дела Оценка 4.7 Из 5 Рейтинг 4,7 466 оценок Открыто до 18:00 · Разводная ул., 2" [ref=e193] [cursor=pointer]:
+                          - link "Музей фонтанного дела" [ref=e194]:
+                            - /url: /maps/org/muzey_fontannogo_dela/1714530335/
+                          - generic [ref=e196]:
+                            - generic [ref=e198]: Музей фонтанного дела
+                            - link "Оценка 4.7 Из 5 Рейтинг 4,7 466 оценок" [ref=e200]:
+                              - /url: /maps/org/muzey_fontannogo_dela/1714530335/reviews/
+                              - generic [ref=e201]:
+                                - generic [ref=e202]:
+                                  - generic "Оценка 4.7 Из 5" [ref=e203]:
+                                    - img [ref=e205]
+                                    - img [ref=e208]
+                                    - img [ref=e211]
+                                    - img [ref=e214]
+                                    - img [ref=e217]
+                                  - generic [ref=e220]:
+                                    - generic [ref=e221]: Рейтинг
+                                    - text: 4,7
+                                - generic [ref=e222]: 466 оценок
+                                - generic [ref=e224]: 466 оценок
+                            - generic [ref=e225]:
+                              - generic [ref=e227]: Открыто до 18:00
+                              - generic [ref=e228]:
+                                - text: ·
+                                - link [ref=e230]:
+                                  - /url: /maps/98546/peterhof/category/museum/184105894/
+                                  - text: Музей
+                            - link "Разводная ул., 2" [ref=e233]:
+                              - /url: /maps/98546/peterhof/house/ZkAYfwdlTkAGQFtjfXR5cnVjbQ==/
+                            - generic [ref=e234]:
+                              - link [ref=e236]:
+                                - /url: /maps/org/muzey_fontannogo_dela/1714530335/gallery/
+                                - text: Фото
+                              - generic [ref=e237]:
+                                - img [ref=e239]
+                                - img [ref=e241]
+                      - listitem [ref=e242]:
+                        - button "Экскурсионное бюро Государственного музея-заповедника Петергоф Экскурсионное бюро Государственного музея-заповедника Петергоф Оценка 4.3 Из 5 Рейтинг 4,3 14 оценок Открыто до 17:00 · Разводная ул., 2" [ref=e243] [cursor=pointer]:
+                          - link "Экскурсионное бюро Государственного музея-заповедника Петергоф" [ref=e244]:
+                            - /url: /maps/org/ekskursionnoye_byuro_gosudarstvennogo_muzeya_zapovednika_petergof/1863413228/
+                          - generic [ref=e246]:
+                            - generic [ref=e247]:
+                              - link [ref=e249]:
+                                - /url: /maps/org/ekskursionnoye_byuro_gosudarstvennogo_muzeya_zapovednika_petergof/1863413228/gallery/
+                                - text: Фото
+                              - img [ref=e251]
+                            - generic [ref=e253]: Экскурсионное бюро Государственного музея-заповедника Петергоф
+                            - link "Оценка 4.3 Из 5 Рейтинг 4,3 14 оценок" [ref=e255]:
+                              - /url: /maps/org/ekskursionnoye_byuro_gosudarstvennogo_muzeya_zapovednika_petergof/1863413228/reviews/
+                              - generic [ref=e256]:
+                                - generic [ref=e257]:
+                                  - generic "Оценка 4.3 Из 5" [ref=e258]:
+                                    - img [ref=e260]
+                                    - img [ref=e263]
+                                    - img [ref=e266]
+                                    - img [ref=e269]
+                                    - img [ref=e272]
+                                  - generic [ref=e275]:
+                                    - generic [ref=e276]: Рейтинг
+                                    - text: 4,3
+                                - generic [ref=e277]: 14 оценок
+                                - generic [ref=e279]: 14 оценок
+                            - generic [ref=e280]:
+                              - generic [ref=e282]: Открыто до 17:00
+                              - generic [ref=e283]:
+                                - text: ·
+                                - link [ref=e285]:
+                                  - /url: /maps/98546/peterhof/category/excursions/184106434/
+                                  - text: Экскурсии
+                            - link "Разводная ул., 2" [ref=e288]:
+                              - /url: /maps/98546/peterhof/house/ZkAYfwdlTkAGQFtjfXR5cnVjbQ==/
+                    - generic [ref=e289]:
+                      - link "Добавьте организацию" [ref=e291] [cursor=pointer]
+                      - text: ", если не нашли её на карте."
+                    - text: "1"
+                    - link [ref=e292] [cursor=pointer]:
+                      - /url: https://yandex.ru/maps/2/saint-petersburg/search/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B3%D0%BE%D1%84%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86/?page=2
+                      - text: "2"
+                    - generic [ref=e295]:
+                      - link "Карты" [ref=e296] [cursor=pointer]:
+                        - /url: https://yandex.ru/maps/
+                      - text: ·
+                      - link "Санкт-Петербург" [ref=e297] [cursor=pointer]:
+                        - /url: https://yandex.ru/maps/2/saint-petersburg/
+                - iframe [ref=e298]:
+                  
+              - iframe [ref=e299]:
+                
+          - img [ref=e305] [cursor=pointer]
+      - navigation:
+        - generic [ref=e308]:
+          - button "Пробки в Санкт‑Петербурге" [ref=e311] [cursor=pointer]:
+            - generic [ref=e312]:
+              - generic:
+                - img
+          - button "Панорамы улиц и фотографии" [ref=e316] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Зеркала" [ref=e319] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Движущийся транспорт" [ref=e322] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Слои" [ref=e325] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e327]:
+          - button "Линейка и планиметр" [ref=e330] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Детали" [ref=e333] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - button "Профиль" [ref=e336] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e340]:
+                - button "Приблизить" [ref=e342] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                - button "Отдалить" [ref=e344] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+              - button "Моё местоположение" [ref=e348] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+              - button "Наклон карты" [ref=e355] [cursor=pointer]: 3D
+      - contentinfo:
+        - generic [ref=e357]:
+          - generic [ref=e358]: © Яндекс
+          - link "Справка" [ref=e359] [cursor=pointer]:
+            - /url: //yandex.ru/support/maps/?lang=ru
+          - link "Условия использования" [ref=e360] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+        - link "Яндекс" [ref=e363] [cursor=pointer]:
+          - /url: https://ya.ru
+          - img [ref=e365]
+        - generic:
+          - generic:
+            - generic:
+              - generic: 400 м
+      - iframe [ref=e366]:
+        
+    - iframe [ref=e367]:
+      
+  - generic [ref=e371]: Медио

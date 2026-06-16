@@ -1,0 +1,972 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+      - generic [ref=e6]:
+        - generic [ref=e7] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: Пышки
+            - generic [ref=e13]:
+              - img [ref=e15]
+              - text: "5"
+              - img [ref=e18]
+          - generic [ref=e21]: До 20:00
+        - generic [ref=e22] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Британские
+          - generic [ref=e26]: пекарни
+        - generic [ref=e27] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic [ref=e28] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e30] [cursor=pointer]:
+          - generic [ref=e31]: Петровский
+          - generic [ref=e32]: Крендель
+        - generic [ref=e33] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e36] [cursor=pointer]: Буше
+        - generic [ref=e37] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: Пироговый
+          - generic [ref=e41]: дворик
+    - generic:
+      - generic:
+        - banner:
+          - generic [ref=e45]:
+            - button "Назад" [ref=e46] [cursor=pointer]:
+              - img [ref=e49]
+            - generic [ref=e51]:
+              - textbox "Поиск и выбор мест" [ref=e54]: Пышечная Большая Конюшенная 25
+              - iframe [ref=e55]:
+                
+            - button "Найти" [ref=e57] [cursor=pointer]:
+              - img [ref=e60]
+            - button "Закрыть" [ref=e64] [cursor=pointer]:
+              - img [ref=e67]
+      - generic:
+        - complementary [ref=e69]:
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - generic [ref=e75]:
+                  - generic [ref=e76]:
+                    - generic [ref=e77]:
+                      - list [ref=e80]:
+                        - listitem [ref=e81]:
+                          - button "Кондитерская Пышки, Санкт‑Петербург, фото" [ref=e83] [cursor=pointer]:
+                            - img "Кондитерская Пышки, Санкт‑Петербург, фото" [ref=e84]
+                        - listitem [ref=e85]:
+                          - button "Пышки (Большая Конюшенная ул., 25), кондитерская в Санкт‑Петербурге" [ref=e87] [cursor=pointer]:
+                            - generic [ref=e88]:
+                              - img [ref=e90]
+                              - img "Пышки (Большая Конюшенная ул., 25), кондитерская в Санкт‑Петербурге" [ref=e92]
+                        - listitem [ref=e93]:
+                          - button "Кондитерская Пышки, Санкт‑Петербург, фото" [ref=e95] [cursor=pointer]:
+                            - img "Кондитерская Пышки, Санкт‑Петербург, фото" [ref=e96]
+                        - listitem [ref=e97]:
+                          - button [ref=e99] [cursor=pointer]:
+                            - img [ref=e102]
+                        - listitem [ref=e105]:
+                          - button [ref=e107] [cursor=pointer]
+                        - listitem [ref=e109]:
+                          - button [ref=e111] [cursor=pointer]
+                        - listitem [ref=e113]:
+                          - button [ref=e115] [cursor=pointer]
+                        - listitem [ref=e117]:
+                          - button [ref=e119] [cursor=pointer]
+                        - listitem [ref=e121]:
+                          - button [ref=e123] [cursor=pointer]
+                        - listitem [ref=e125]:
+                          - button [ref=e127] [cursor=pointer]
+                        - iframe [ref=e129]:
+                          
+                      - generic:
+                        - generic:
+                          - img
+                        - text: "501"
+                    - generic:
+                      - img "Логотип"
+                  - generic [ref=e131]:
+                    - heading "Пышки" [level=1] [ref=e134]:
+                      - generic [ref=e135]:
+                        - link "Пышки" [ref=e136] [cursor=pointer]:
+                          - /url: /maps/org/pyshki/1036708171/
+                        - img [ref=e139]
+                    - generic [ref=e143]:
+                      - generic [ref=e146]:
+                        - link "Входит в категорию Кондитерская, поиск по категории" [ref=e147] [cursor=pointer]:
+                          - /url: /maps/2/saint-petersburg/category/confectionary/184108017/
+                          - text: Кондитерская,
+                        - link "Входит в категорию кафе, поиск по категории" [ref=e148] [cursor=pointer]:
+                          - /url: /maps/2/saint-petersburg/category/cafe/184106390/
+                          - text: кафе
+                      - generic [ref=e149]:
+                        - generic [ref=e151]:
+                          - generic [ref=e152]:
+                            - generic "Оценка 1 Из 1" [ref=e153]:
+                              - img [ref=e155]
+                            - generic [ref=e157]:
+                              - generic [ref=e158]: Рейтинг
+                              - text: 5,0
+                          - button "(64193)" [ref=e159] [cursor=pointer]
+                        - generic [ref=e160]:
+                          - generic: "Награды:"
+                          - button "Хорошее место" [ref=e161] [cursor=pointer]:
+                            - img [ref=e164]
+                            - generic [ref=e183]: Хорошее место 2026
+                      - button [ref=e185] [cursor=pointer]:
+                        - generic [ref=e186]: Коротко о месте
+                        - generic [ref=e187]: "«Пышки» — это культовое место, где готовят те самые питерские пышки по старинному рецепту: воздушные, с сахарной пудрой и по смешным ценам."
+                        - img [ref=e191]
+                      - button "Открыто до 20:00" [ref=e194]:
+                        - button "Открыто до 20:00" [ref=e196] [cursor=pointer]:
+                          - generic [ref=e198]: Открыто до 20:00
+                          - img [ref=e201]
+                      - list [ref=e205]:
+                        - listitem [ref=e206]:
+                          - button "Маршрут" [ref=e208] [cursor=pointer]:
+                            - img [ref=e211]
+                            - generic [ref=e215]: Маршрут
+                        - listitem [ref=e216]:
+                          - button "Сайт" [ref=e218] [cursor=pointer]:
+                            - img [ref=e221]
+                        - listitem [ref=e223]:
+                          - generic [ref=e224]:
+                            - status [ref=e225]: Сохранить
+                            - button "Закладки" [ref=e227] [cursor=pointer]:
+                              - img [ref=e230]
+                        - listitem [ref=e232]:
+                          - button "Поделиться" [ref=e234] [cursor=pointer]:
+                            - img [ref=e237]
+                        - iframe [ref=e240]:
+                          
+                    - generic [ref=e242]:
+                      - generic [ref=e246]:
+                        - tablist [ref=e247]:
+                          - tab "Обзор," [selected] [ref=e249]:
+                            - link:
+                              - /url: /maps/org/pyshki/1036708171/
+                              - text: Обзор
+                          - tab "Меню," [ref=e251]:
+                            - link:
+                              - /url: /maps/org/pyshki/1036708171/menu/
+                              - text: Меню
+                          - tab "Новости, 12" [ref=e253]:
+                            - link:
+                              - /url: /maps/org/pyshki/1036708171/?tab=posts
+                              - text: Новости
+                            - generic: "12"
+                          - tab "Фото, 501" [ref=e255]:
+                            - link:
+                              - /url: /maps/org/pyshki/1036708171/gallery/
+                              - text: Фото
+                            - generic: "501"
+                          - tab "Отзывы, 27737" [ref=e257]:
+                            - link:
+                              - /url: /maps/org/pyshki/1036708171/reviews/
+                              - text: Отзывы
+                            - generic: "27737"
+                          - tab "Особенности," [ref=e259]:
+                            - link:
+                              - /url: /maps/org/pyshki/1036708171/?tab=features
+                              - text: Особенности
+                          - tab "Похожие места," [ref=e261]:
+                            - link:
+                              - /url: /maps/org/pyshki/1036708171/related/
+                              - text: Похожие места
+                          - iframe [ref=e262]:
+                            
+                        - img [ref=e266] [cursor=pointer]
+                      - generic [ref=e270]:
+                        - generic [ref=e271]:
+                          - generic [ref=e274]:
+                            - list [ref=e275]:
+                              - listitem [ref=e276]:
+                                - generic [ref=e281] [cursor=pointer]: Наши новые цены
+                              - listitem [ref=e282]:
+                                - generic [ref=e287] [cursor=pointer]: С Новым Годом!
+                              - listitem [ref=e288]:
+                                - generic [ref=e293] [cursor=pointer]: Санитарный день
+                              - listitem [ref=e294]:
+                                - generic [ref=e299] [cursor=pointer]: 25 рублей
+                              - listitem [ref=e300]:
+                                - generic [ref=e305] [cursor=pointer]: Ждем вас!
+                              - listitem [ref=e306]:
+                                - generic [ref=e311] [cursor=pointer]: Пышечная ❤️
+                              - listitem [ref=e312]:
+                                - generic [ref=e317] [cursor=pointer]: Санитарный день
+                              - listitem [ref=e318]:
+                                - generic [ref=e323] [cursor=pointer]: Режим работы
+                              - iframe [ref=e324]:
+                                
+                            - img [ref=e327] [cursor=pointer]
+                          - generic [ref=e330]:
+                            - generic [ref=e331]:
+                              - generic [ref=e332]:
+                                - heading "Меню" [level=2] [ref=e334]
+                                - generic [ref=e335]: Обновлено 18 марта
+                              - generic [ref=e336]:
+                                - generic [ref=e338] [cursor=pointer]:
+                                  - button [ref=e340]:
+                                    - img [ref=e342]
+                                  - generic [ref=e344]:
+                                    - generic [ref=e345]:
+                                      - generic "Пышка" [ref=e346]
+                                      - generic "Сдобное тесто, обжаренное в масле, посыпанное сахарной пудрой. 51г" [ref=e347]
+                                    - generic [ref=e348]:
+                                      - generic [ref=e349]: 30 ₽
+                                      - generic [ref=e350]: •1 шт.
+                                - generic [ref=e352] [cursor=pointer]:
+                                  - button [ref=e354]:
+                                    - img [ref=e356]
+                                  - generic [ref=e358]:
+                                    - generic [ref=e359]:
+                                      - generic "Кофе бочковой со сгущенным молоком." [ref=e360]
+                                      - generic "Кофе (как раньше) готовится в котле со сгущенным молоком и разливается из бойлера в стакан." [ref=e361]
+                                    - generic [ref=e362]:
+                                      - generic [ref=e363]: 60 ₽
+                                      - generic [ref=e364]: •190 мл
+                            - button "Посмотреть всё меню" [ref=e366] [cursor=pointer]:
+                              - generic [ref=e368]:
+                                - img [ref=e371]
+                                - generic [ref=e374]: Посмотреть всё меню
+                          - generic [ref=e377]:
+                            - button "Панорама — кондитерская Пышки, Санкт‑Петербург" [ref=e378] [cursor=pointer]:
+                              - img "Панорама — кондитерская Пышки, Санкт‑Петербург" [ref=e381]
+                              - generic:
+                                - img
+                              - generic: Панорама
+                            - link "Панорама":
+                              - /url: /maps/org/pyshki/1036708171/panorama/
+                          - generic [ref=e382]:
+                            - generic [ref=e383]:
+                              - generic [ref=e384]:
+                                - img [ref=e387]
+                                - heading "Адрес" [level=3] [ref=e390]
+                              - generic [ref=e396]:
+                                - link "Большая Конюшенная ул., 25" [ref=e398]
+                                - generic [ref=e399]:
+                                  - button "Показать входы" [ref=e400] [cursor=pointer]
+                                  - generic [ref=e401]: "|"
+                                  - button "Маршрут" [ref=e402] [cursor=pointer]
+                            - generic [ref=e403]:
+                              - generic [ref=e404]:
+                                - img [ref=e407]
+                                - heading "Контакты" [level=3] [ref=e410]
+                              - generic [ref=e422]:
+                                - text: +7 (812) 314-08-68
+                                - button "Показать телефон" [ref=e423] [cursor=pointer]:
+                                  - generic [ref=e424]: Показать телефон
+                              - link "pyshki1958.ru" [ref=e435] [cursor=pointer]:
+                                - /url: https://pyshki1958.ru/
+                              - generic [ref=e441]:
+                                - button "Соцсети, vkontakte" [ref=e443] [cursor=pointer]:
+                                  - img [ref=e446]
+                                - button "Соцсети, telegram" [ref=e449] [cursor=pointer]:
+                                  - img [ref=e452]
+                            - generic [ref=e454]:
+                              - generic [ref=e455]:
+                                - img [ref=e458]
+                                - heading "Время работы" [level=3] [ref=e461]
+                              - button "Открыто до 20:00" [ref=e465] [cursor=pointer]:
+                                - generic [ref=e466]:
+                                  - generic "Открыто до 20:00" [ref=e472]
+                                  - generic [ref=e473]:
+                                    - generic [ref=e474]: График
+                                    - img [ref=e477]
+                            - button "Добавить фото или видео" [ref=e479] [cursor=pointer]:
+                              - generic [ref=e481]:
+                                - img [ref=e484]
+                                - generic [ref=e488]: Добавить фото или видео
+                            - button "Исправить неточность" [ref=e490] [cursor=pointer]:
+                              - img [ref=e493]
+                              - generic [ref=e495]: Исправить неточность
+                          - generic [ref=e497]:
+                            - heading "Входит в подборки" [level=2] [ref=e499]
+                            - generic [ref=e502]:
+                              - list [ref=e503]:
+                                - listitem [ref=e504]:
+                                  - button "Подборка · 7 мест Где есть пышки в Петербурге Яндекс Карты Яндекс Карты" [ref=e506]:
+                                    - generic [ref=e507]:
+                                      - button [ref=e508]
+                                      - generic [ref=e511]: Подборка · 7 мест
+                                    - link "Где есть пышки в Петербурге" [ref=e513] [cursor=pointer]:
+                                      - /url: /maps/discovery/gde-est-pyshki-v-peterburge/
+                                    - generic [ref=e514]:
+                                      - img "Яндекс Карты" [ref=e515]
+                                      - generic [ref=e516]: Яндекс Карты
+                                - listitem [ref=e517]:
+                                  - 'button "Подборка · 8 мест Центральный район Петербурга: сердце города и всё, что стоит увидеть Журнал Путешествий Журнал Путешествий" [ref=e519]':
+                                    - generic [ref=e520]:
+                                      - button [ref=e521]
+                                      - generic [ref=e524]: Подборка · 8 мест
+                                    - 'link "Центральный район Петербурга: сердце города и всё, что стоит увидеть" [ref=e526] [cursor=pointer]':
+                                      - /url: /maps/discovery/travel-centralnyy-rayon-peterburga-serdce-goroda/
+                                    - generic [ref=e527]:
+                                      - img "Журнал Путешествий" [ref=e528]
+                                      - generic [ref=e529]: Журнал Путешествий
+                                - listitem [ref=e530]:
+                                  - 'button "Подборка · 20 мест Сладкое наслаждение: кондитерские в Санкт-Петербурге с наградой «Хорошее место 2026» Хорошее место Хорошее место" [ref=e532]':
+                                    - generic [ref=e533]:
+                                      - button [ref=e534]
+                                      - generic [ref=e537]: Подборка · 20 мест
+                                    - 'link "Сладкое наслаждение: кондитерские в Санкт-Петербурге с наградой «Хорошее место 2026»" [ref=e539] [cursor=pointer]':
+                                      - /url: /maps/discovery/khoroshee-mesto_konditerskaya_sankt-peterburg-2/
+                                    - generic [ref=e540]:
+                                      - img "Хорошее место" [ref=e541]
+                                      - generic [ref=e542]: Хорошее место
+                                - listitem [ref=e543]:
+                                  - 'button "Подборка · 13 мест Лето с детьми в Петербурге: корабли, белки и пышки Яндекс Карты Яндекс Карты" [ref=e545]':
+                                    - generic [ref=e546]:
+                                      - button [ref=e547]
+                                      - generic [ref=e550]: Подборка · 13 мест
+                                    - 'link "Лето с детьми в Петербурге: корабли, белки и пышки" [ref=e552] [cursor=pointer]':
+                                      - /url: /maps/discovery/kuda-pojti-s-detmi-v-peterburge/
+                                    - generic [ref=e553]:
+                                      - img "Яндекс Карты" [ref=e554]
+                                      - generic [ref=e555]: Яндекс Карты
+                                - listitem [ref=e556]:
+                                  - button "Подборка · 4 места Кондитерские с наградой «Хорошее место 2026» на Конюшенной Хорошее место Хорошее место" [ref=e558]:
+                                    - generic [ref=e559]:
+                                      - button [ref=e560]
+                                      - generic [ref=e563]: Подборка · 4 места
+                                    - link "Кондитерские с наградой «Хорошее место 2026» на Конюшенной" [ref=e565] [cursor=pointer]:
+                                      - /url: /maps/discovery/khoroshee-mesto-rajony_konditerskaya_konyushennaya-piter-2/
+                                    - generic [ref=e566]:
+                                      - img "Хорошее место" [ref=e567]
+                                      - generic [ref=e568]: Хорошее место
+                                - iframe [ref=e569]:
+                                  
+                              - img [ref=e572] [cursor=pointer]
+                          - generic "Как добраться" [ref=e575]:
+                            - heading "Как добраться" [level=2] [ref=e577]
+                            - button "Метро рядом" [ref=e581] [cursor=pointer]:
+                              - generic [ref=e582]:
+                                - generic [ref=e583]:
+                                  - generic "На метро" [ref=e586]:
+                                    - img [ref=e587]
+                                  - generic [ref=e592]:
+                                    - generic [ref=e593]: Гостиный двор
+                                    - button "Гостиный двор Построить маршрут Пешком 470 м" [ref=e594]:
+                                      - img [ref=e596]
+                                      - generic [ref=e598]: 470 м
+                                - generic [ref=e599]:
+                                  - generic [ref=e600]: "2"
+                                  - img [ref=e603]
+                            - button "Остановки рядом" [ref=e608] [cursor=pointer]:
+                              - generic [ref=e609]:
+                                - generic [ref=e610]:
+                                  - generic "На автобусе" [ref=e613]:
+                                    - img [ref=e614]
+                                  - generic [ref=e621]:
+                                    - generic [ref=e622]: Большая Конюшенная улица
+                                    - button "Большая Конюшенная улица Построить маршрут Пешком 203 м" [ref=e623]:
+                                      - img [ref=e625]
+                                      - generic [ref=e627]: 203 м
+                                - generic [ref=e628]:
+                                  - generic [ref=e629]: "4"
+                                  - img [ref=e632]
+                            - button [ref=e634] [cursor=pointer]:
+                              - generic [ref=e636]:
+                                - img [ref=e639]
+                                - generic [ref=e643]: Показать парковки
+                          - generic [ref=e645]:
+                            - heading "Особенности" [level=2] [ref=e647]
+                            - generic [ref=e651]:
+                              - img [ref=e654]
+                              - generic [ref=e656]: Кофе с собой
+                            - button "Подробнее об организации" [ref=e657] [cursor=pointer]:
+                              - generic [ref=e659]:
+                                - img [ref=e662]
+                                - link [ref=e666]:
+                                  - /url: /maps/org/pyshki/1036708171/?tab=features
+                                  - text: Подробнее об организации
+                          - button "Владелец следит за актуальностью информации" [ref=e672] [cursor=pointer]:
+                            - generic [ref=e673]:
+                              - generic [ref=e674]:
+                                - img [ref=e677]
+                                - generic [ref=e682]: Владелец следит за актуальностью информации
+                              - img [ref=e686]
+                          - generic [ref=e689]:
+                            - heading "Посещаемость и график работы" [level=2] [ref=e691]
+                            - generic [ref=e692]:
+                              - generic [ref=e693]:
+                                - generic [ref=e694]: 14:00
+                                - text: Обычно средняя загруженность
+                              - generic [ref=e695]:
+                                - button "Понедельник" [ref=e696] [cursor=pointer]: Пн
+                                - button "Вторник" [ref=e697] [cursor=pointer]: Вт
+                                - button "Среда" [ref=e698] [cursor=pointer]: Ср
+                                - button "Четверг" [ref=e699] [cursor=pointer]: Чт
+                                - button "Пятница" [ref=e700] [cursor=pointer]: Пт
+                                - button "Суббота" [ref=e701] [cursor=pointer]: Сб
+                                - button "Воскресенье" [ref=e702] [cursor=pointer]: Вс
+                              - generic [ref=e703]:
+                                - text: 00:00 04:00 08:00
+                                - button "09:00" [ref=e704] [cursor=pointer]
+                                - button "10:00" [ref=e706] [cursor=pointer]
+                                - button "11:00" [ref=e708] [cursor=pointer]
+                                - button "12:00" [ref=e710] [cursor=pointer]: 12:00
+                                - button "13:00" [ref=e712] [cursor=pointer]
+                                - button "14:00" [ref=e714] [cursor=pointer]
+                                - button "15:00" [ref=e716] [cursor=pointer]
+                                - button "16:00" [ref=e718] [cursor=pointer]: 16:00
+                                - button "17:00" [ref=e720] [cursor=pointer]
+                                - button "18:00" [ref=e722] [cursor=pointer]
+                                - button "19:00" [ref=e724] [cursor=pointer]
+                                - text: 20:00 00:00
+                          - generic [ref=e727]:
+                            - heading "Похожие места рядом" [level=2] [ref=e729]:
+                              - generic [ref=e730]: Похожие места рядом
+                            - generic [ref=e731]:
+                              - list [ref=e732]:
+                                - listitem [ref=e733]:
+                                  - link "Британские пекарни" [ref=e734] [cursor=pointer]:
+                                    - /url: /maps/org/britanskiye_pekarni/36535005724/
+                                    - generic [ref=e735]:
+                                      - button [ref=e737]
+                                      - generic [ref=e740]:
+                                        - generic [ref=e741]:
+                                          - text: Британские пекарни
+                                          - img [ref=e744]
+                                        - generic [ref=e748]:
+                                          - generic "Оценка 4.9 Из 5" [ref=e749]:
+                                            - img [ref=e751]
+                                            - img [ref=e754]
+                                            - img [ref=e757]
+                                            - img [ref=e760]
+                                            - img [ref=e763]
+                                          - generic [ref=e765]:
+                                            - generic [ref=e766]: Рейтинг
+                                            - text: 4,9
+                                - listitem [ref=e767]:
+                                  - link "Буше" [ref=e768] [cursor=pointer]:
+                                    - /url: /maps/org/bushe/1286629981/
+                                    - generic [ref=e769]:
+                                      - button [ref=e771]
+                                      - generic [ref=e774]:
+                                        - generic [ref=e775]:
+                                          - text: Буше
+                                          - img [ref=e778]
+                                        - generic [ref=e782]:
+                                          - generic "Оценка 4.9 Из 5" [ref=e783]:
+                                            - img [ref=e785]
+                                            - img [ref=e788]
+                                            - img [ref=e791]
+                                            - img [ref=e794]
+                                            - img [ref=e797]
+                                          - generic [ref=e799]:
+                                            - generic [ref=e800]: Рейтинг
+                                            - text: 4,9
+                                - listitem [ref=e801]:
+                                  - link "Пироговый дворик" [ref=e802] [cursor=pointer]:
+                                    - /url: /maps/org/pirogovy_dvorik/1017013943/
+                                    - generic [ref=e803]:
+                                      - button [ref=e805]
+                                      - generic [ref=e808]:
+                                        - generic [ref=e809]:
+                                          - text: Пироговый дворик
+                                          - img [ref=e812]
+                                        - generic [ref=e816]:
+                                          - generic "Оценка 4.8 Из 5" [ref=e817]:
+                                            - img [ref=e819]
+                                            - img [ref=e822]
+                                            - img [ref=e825]
+                                            - img [ref=e828]
+                                            - img [ref=e831]
+                                          - generic [ref=e833]:
+                                            - generic [ref=e834]: Рейтинг
+                                            - text: 4,8
+                                - listitem [ref=e835]:
+                                  - link "Камея" [ref=e836] [cursor=pointer]:
+                                    - /url: /maps/org/kameya/1101243878/
+                                    - generic [ref=e837]:
+                                      - button [ref=e839]
+                                      - generic [ref=e842]:
+                                        - generic [ref=e843]:
+                                          - text: Камея
+                                          - img [ref=e846]
+                                        - generic [ref=e850]:
+                                          - generic "Оценка 4.9 Из 5" [ref=e851]:
+                                            - img [ref=e853]
+                                            - img [ref=e856]
+                                            - img [ref=e859]
+                                            - img [ref=e862]
+                                            - img [ref=e865]
+                                          - generic [ref=e867]:
+                                            - generic [ref=e868]: Рейтинг
+                                            - text: 4,9
+                                - listitem [ref=e869]:
+                                  - link "Кондитерский магазин фабрики им. Крупской" [ref=e870] [cursor=pointer]:
+                                    - /url: /maps/org/konditerskiy_magazin_fabriki_im_krupskoy/174384234523/
+                                    - generic [ref=e871]:
+                                      - button [ref=e873]
+                                      - generic [ref=e876]:
+                                        - generic [ref=e877]:
+                                          - text: Кондитерский магазин фабрики им. Крупской
+                                          - img [ref=e880]
+                                        - generic [ref=e884]:
+                                          - generic "Оценка 5 Из 5" [ref=e885]:
+                                            - img [ref=e887]
+                                            - img [ref=e890]
+                                            - img [ref=e893]
+                                            - img [ref=e896]
+                                            - img [ref=e899]
+                                          - generic [ref=e901]:
+                                            - generic [ref=e902]: Рейтинг
+                                            - text: 5,0
+                                - iframe [ref=e903]:
+                                  
+                              - img [ref=e906] [cursor=pointer]
+                          - generic [ref=e909]:
+                            - heading "Награды" [level=2] [ref=e910]
+                            - link "Хорошее место 2026 Награда для любимых мест пользователей Яндекс Карт" [ref=e911] [cursor=pointer]:
+                              - /url: https://yandex.ru/project/maps/goodplace/
+                              - img [ref=e914]
+                              - generic [ref=e926]:
+                                - generic [ref=e927]: Хорошее место 2026
+                                - generic [ref=e928]: Награда для любимых мест пользователей Яндекс Карт
+                          - generic [ref=e931]:
+                            - generic [ref=e934]:
+                              - generic [ref=e938]:
+                                - generic [ref=e939]:
+                                  - generic [ref=e940]: Рейтинг
+                                  - text: 5,0
+                                - generic [ref=e941]:
+                                  - generic "Оценка 5 Из 5" [ref=e943]:
+                                    - img [ref=e945]
+                                    - img [ref=e947]
+                                    - img [ref=e949]
+                                    - img [ref=e951]
+                                    - img [ref=e953]
+                                  - generic [ref=e954]: 64193 оценки
+                              - generic [ref=e960]:
+                                - generic [ref=e961]: Оцените и напишите отзыв
+                                - generic [ref=e962]:
+                                  - button "1 звезда" [ref=e963] [cursor=pointer]:
+                                    - img [ref=e964]
+                                  - button "2 звезды" [ref=e965] [cursor=pointer]:
+                                    - img [ref=e966]
+                                  - button "3 звезды" [ref=e967] [cursor=pointer]:
+                                    - img [ref=e968]
+                                  - button "4 звезды" [ref=e969] [cursor=pointer]:
+                                    - img [ref=e970]
+                                  - button "5 звезд" [ref=e971] [cursor=pointer]:
+                                    - img [ref=e972]
+                            - generic [ref=e974]:
+                              - generic [ref=e975]:
+                                - generic [ref=e977]:
+                                  - heading "27737 отзывов" [level=2] [ref=e978]
+                                  - button "По умолчанию" [ref=e981] [cursor=pointer]:
+                                    - text: По умолчанию
+                                    - img [ref=e983]
+                                - menu [ref=e985]:
+                                  - generic [ref=e986]:
+                                    - list [ref=e987]:
+                                      - listitem [ref=e988]:
+                                        - menuitem "Еда • 95% положительный 23089 отзывов" [ref=e989] [cursor=pointer]:
+                                          - generic [ref=e991]:
+                                            - generic [ref=e992]:
+                                              - text: Еда •
+                                              - generic [ref=e993]: 95%
+                                              - generic [ref=e994]: положительный
+                                              - img [ref=e996]
+                                            - generic [ref=e997]: 23089 отзывов
+                                      - listitem [ref=e998]:
+                                        - menuitem "Пончики • 94% положительный 18805 отзывов" [ref=e999] [cursor=pointer]:
+                                          - generic [ref=e1001]:
+                                            - generic [ref=e1002]:
+                                              - text: Пончики •
+                                              - generic [ref=e1003]: 94%
+                                              - generic [ref=e1004]: положительный
+                                              - img [ref=e1006]
+                                            - generic [ref=e1007]: 18805 отзывов
+                                      - listitem [ref=e1008]:
+                                        - menuitem "Выпечка • 96% положительный 10709 отзывов" [ref=e1009] [cursor=pointer]:
+                                          - generic [ref=e1011]:
+                                            - generic [ref=e1012]:
+                                              - text: Выпечка •
+                                              - generic [ref=e1013]: 96%
+                                              - generic [ref=e1014]: положительный
+                                              - img [ref=e1016]
+                                            - generic [ref=e1017]: 10709 отзывов
+                                      - listitem [ref=e1018]:
+                                        - menuitem "Очереди • 47% положительный 9914 отзывов" [ref=e1019] [cursor=pointer]:
+                                          - generic [ref=e1021]:
+                                            - generic [ref=e1022]:
+                                              - text: Очереди •
+                                              - generic [ref=e1023]: 47%
+                                              - generic [ref=e1024]: положительный
+                                              - img [ref=e1026]
+                                            - generic [ref=e1027]: 9914 отзывов
+                                      - listitem [ref=e1028]:
+                                        - menuitem "Напитки • 85% положительный 5724 отзыва" [ref=e1029] [cursor=pointer]:
+                                          - generic [ref=e1031]:
+                                            - generic [ref=e1032]:
+                                              - text: Напитки •
+                                              - generic [ref=e1033]: 85%
+                                              - generic [ref=e1034]: положительный
+                                              - img [ref=e1036]
+                                            - generic [ref=e1037]: 5724 отзыва
+                                      - listitem [ref=e1038]:
+                                        - menuitem "Десерты • 93% положительный 5161 отзыв" [ref=e1039] [cursor=pointer]:
+                                          - generic [ref=e1041]:
+                                            - generic [ref=e1042]:
+                                              - text: Десерты •
+                                              - generic [ref=e1043]: 93%
+                                              - generic [ref=e1044]: положительный
+                                              - img [ref=e1046]
+                                            - generic [ref=e1047]: 5161 отзыв
+                                      - listitem [ref=e1048]:
+                                        - menuitem "Кофе • 86% положительный 5100 отзывов" [ref=e1049] [cursor=pointer]:
+                                          - generic [ref=e1051]:
+                                            - generic [ref=e1052]:
+                                              - text: Кофе •
+                                              - generic [ref=e1053]: 86%
+                                              - generic [ref=e1054]: положительный
+                                              - img [ref=e1056]
+                                            - generic [ref=e1057]: 5100 отзывов
+                                      - listitem [ref=e1058]:
+                                        - menuitem "Персонал • 76% положительный 3064 отзыва" [ref=e1059] [cursor=pointer]:
+                                          - generic [ref=e1061]:
+                                            - generic [ref=e1062]:
+                                              - text: Персонал •
+                                              - generic [ref=e1063]: 76%
+                                              - generic [ref=e1064]: положительный
+                                              - img [ref=e1066]
+                                            - generic [ref=e1067]: 3064 отзыва
+                                      - listitem [ref=e1068]:
+                                        - menuitem "Кассы • 45% положительный 1158 отзывов" [ref=e1069] [cursor=pointer]:
+                                          - generic [ref=e1071]:
+                                            - generic [ref=e1072]:
+                                              - text: Кассы •
+                                              - generic [ref=e1073]: 45%
+                                              - generic [ref=e1074]: положительный
+                                              - img [ref=e1076]
+                                            - generic [ref=e1077]: 1158 отзывов
+                                      - listitem [ref=e1078]:
+                                        - menuitem "Интерьер • 77% положительный 1027 отзывов" [ref=e1079] [cursor=pointer]:
+                                          - generic [ref=e1081]:
+                                            - generic [ref=e1082]:
+                                              - text: Интерьер •
+                                              - generic [ref=e1083]: 77%
+                                              - generic [ref=e1084]: положительный
+                                              - img [ref=e1086]
+                                            - generic [ref=e1087]: 1027 отзывов
+                                      - listitem [ref=e1088]:
+                                        - menuitem "Чай • 63% положительный 743 отзыва" [ref=e1089] [cursor=pointer]:
+                                          - generic [ref=e1091]:
+                                            - generic [ref=e1092]:
+                                              - text: Чай •
+                                              - generic [ref=e1093]: 63%
+                                              - generic [ref=e1094]: положительный
+                                              - img [ref=e1096]
+                                            - generic [ref=e1097]: 743 отзыва
+                                      - listitem [ref=e1098]:
+                                        - menuitem "Чистота • 53% положительный 542 отзыва" [ref=e1099] [cursor=pointer]:
+                                          - generic [ref=e1101]:
+                                            - generic [ref=e1102]:
+                                              - text: Чистота •
+                                              - generic [ref=e1103]: 53%
+                                              - generic [ref=e1104]: положительный
+                                              - img [ref=e1106]
+                                            - generic [ref=e1107]: 542 отзыва
+                                      - listitem [ref=e1108]:
+                                        - menuitem "Расположение • 91% положительный 359 отзывов" [ref=e1109] [cursor=pointer]:
+                                          - generic [ref=e1111]:
+                                            - generic [ref=e1112]:
+                                              - text: Расположение •
+                                              - generic [ref=e1113]: 91%
+                                              - generic [ref=e1114]: положительный
+                                              - img [ref=e1116]
+                                            - generic [ref=e1117]: 359 отзывов
+                                      - listitem [ref=e1118]:
+                                        - menuitem "Выбор товаров • 47% положительный 193 отзыва" [ref=e1119] [cursor=pointer]:
+                                          - generic [ref=e1121]:
+                                            - generic [ref=e1122]:
+                                              - text: Выбор товаров •
+                                              - generic [ref=e1123]: 47%
+                                              - generic [ref=e1124]: положительный
+                                              - img [ref=e1126]
+                                            - generic [ref=e1127]: 193 отзыва
+                                      - listitem [ref=e1128]:
+                                        - menuitem "Скидки и акции • 97% положительный 179 отзывов" [ref=e1129] [cursor=pointer]:
+                                          - generic [ref=e1131]:
+                                            - generic [ref=e1132]:
+                                              - text: Скидки и акции •
+                                              - generic [ref=e1133]: 97%
+                                              - generic [ref=e1134]: положительный
+                                              - img [ref=e1136]
+                                            - generic [ref=e1137]: 179 отзывов
+                                      - listitem [ref=e1138]:
+                                        - menuitem "Завтраки • 99% положительный 164 отзыва" [ref=e1139] [cursor=pointer]:
+                                          - generic [ref=e1141]:
+                                            - generic [ref=e1142]:
+                                              - text: Завтраки •
+                                              - generic [ref=e1143]: 99%
+                                              - generic [ref=e1144]: положительный
+                                              - img [ref=e1146]
+                                            - generic [ref=e1147]: 164 отзыва
+                                      - listitem [ref=e1148]:
+                                        - menuitem "Парковка • 10% отрицательный 107 отзывов" [ref=e1149] [cursor=pointer]:
+                                          - generic [ref=e1151]:
+                                            - generic [ref=e1152]:
+                                              - text: Парковка •
+                                              - generic [ref=e1153]: 10%
+                                              - generic [ref=e1154]: отрицательный
+                                              - img [ref=e1156]
+                                            - generic [ref=e1157]: 107 отзывов
+                                      - listitem [ref=e1158]:
+                                        - menuitem "Музыка • 100% положительный 53 отзыва" [ref=e1159] [cursor=pointer]:
+                                          - generic [ref=e1161]:
+                                            - generic [ref=e1162]:
+                                              - text: Музыка •
+                                              - generic [ref=e1163]: 100%
+                                              - generic [ref=e1164]: положительный
+                                              - img [ref=e1166]
+                                            - generic [ref=e1167]: 53 отзыва
+                                      - listitem [ref=e1168]:
+                                        - menuitem "Пироги • 95% положительный 26 отзывов" [ref=e1169] [cursor=pointer]:
+                                          - generic [ref=e1171]:
+                                            - generic [ref=e1172]:
+                                              - text: Пироги •
+                                              - generic [ref=e1173]: 95%
+                                              - generic [ref=e1174]: положительный
+                                              - img [ref=e1176]
+                                            - generic [ref=e1177]: 26 отзывов
+                                      - listitem [ref=e1178]:
+                                        - menuitem "Хлеб • 85% положительный 17 отзывов" [ref=e1179] [cursor=pointer]:
+                                          - generic [ref=e1181]:
+                                            - generic [ref=e1182]:
+                                              - text: Хлеб •
+                                              - generic [ref=e1183]: 85%
+                                              - generic [ref=e1184]: положительный
+                                              - img [ref=e1186]
+                                            - generic [ref=e1187]: 17 отзывов
+                                      - listitem [ref=e1188]:
+                                        - menuitem "Мясо • 86% положительный 16 отзывов" [ref=e1189] [cursor=pointer]:
+                                          - generic [ref=e1191]:
+                                            - generic [ref=e1192]:
+                                              - text: Мясо •
+                                              - generic [ref=e1193]: 86%
+                                              - generic [ref=e1194]: положительный
+                                              - img [ref=e1196]
+                                            - generic [ref=e1197]: 16 отзывов
+                                      - listitem [ref=e1198]:
+                                        - menuitem "Мороженое • 90% положительный 16 отзывов" [ref=e1199] [cursor=pointer]:
+                                          - generic [ref=e1201]:
+                                            - generic [ref=e1202]:
+                                              - text: Мороженое •
+                                              - generic [ref=e1203]: 90%
+                                              - generic [ref=e1204]: положительный
+                                              - img [ref=e1206]
+                                            - generic [ref=e1207]: 16 отзывов
+                                      - iframe [ref=e1208]:
+                                        
+                                    - img [ref=e1211] [cursor=pointer]
+                              - list [ref=e1212]:
+                                - button "Посмотреть все 27737 отзывов" [ref=e1216] [cursor=pointer]
+                        - generic [ref=e1217]:
+                          - link "Разместить рекламу" [ref=e1219] [cursor=pointer]:
+                            - /url: https://yandex.ru/business/priority-promo/web-maps-promo?utm_source=webmaps&utm_medium=org_card_link&utm_campaign=webmaps_org_card&permalink=1036708171
+                          - button "Источники данных" [ref=e1222] [cursor=pointer]:
+                            - generic [ref=e1223]: Источники данных
+                            - img [ref=e1226]
+                - generic "подвал блока" [ref=e1228]:
+                  - generic [ref=e1229]:
+                    - generic [ref=e1230]:
+                      - link "Сообщить об ошибке" [ref=e1232] [cursor=pointer]
+                      - link "Мобильное приложение" [ref=e1234] [cursor=pointer]:
+                        - /url: https://mobile.yandex.ru/apps/maps/
+                    - button "Сервисы" [ref=e1237] [cursor=pointer]:
+                      - generic [ref=e1238]:
+                        - generic [ref=e1241]: Сервисы
+                        - img [ref=e1245]
+                    - button "Персональное" [ref=e1249] [cursor=pointer]:
+                      - generic [ref=e1250]:
+                        - generic [ref=e1253]: Персональное
+                        - img [ref=e1257]
+                    - button "Для бизнеса" [ref=e1261] [cursor=pointer]:
+                      - generic [ref=e1262]:
+                        - generic [ref=e1265]: Для бизнеса
+                        - img [ref=e1269]
+                  - generic [ref=e1272]:
+                    - link "vkontakte" [ref=e1273] [cursor=pointer]:
+                      - /url: https://vk.com/yandex.maps
+                      - img [ref=e1274]
+                    - link "telegram" [ref=e1276] [cursor=pointer]:
+                      - /url: https://t.me/mapsyandex
+                      - img [ref=e1277]
+                    - link "zen" [ref=e1279] [cursor=pointer]:
+                      - /url: https://zen.yandex.ru/yandexmaps
+                      - img [ref=e1280]
+                  - generic [ref=e1282]:
+                    - generic [ref=e1283]: Яндекс Карты — выбирайте, где поесть, куда сходить, чем заняться.
+                    - generic [ref=e1284]: © 2001–2026 ООО «Яндекс»
+                    - generic [ref=e1285]:
+                      - link "Справка" [ref=e1287] [cursor=pointer]:
+                        - /url: //yandex.ru/support/maps/?lang=ru
+                      - generic [ref=e1288]:
+                        - text: "|"
+                        - link "О сервисе" [ref=e1289] [cursor=pointer]:
+                          - /url: //yandex.ru/support/maps/
+                      - generic [ref=e1290]:
+                        - text: "|"
+                        - link "Пользовательское соглашение" [ref=e1291] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+                      - generic [ref=e1292]:
+                        - text: "|"
+                        - link "Правила рекомендаций" [ref=e1293] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/recommendations/#index__geo
+              - iframe [ref=e1294]:
+                
+            - iframe [ref=e1295]:
+              
+        - img [ref=e1301] [cursor=pointer]
+      - navigation:
+        - generic [ref=e1304]:
+          - button "Пробки в Санкт‑Петербурге" [ref=e1307] [cursor=pointer]:
+            - generic [ref=e1308]:
+              - generic:
+                - img
+          - button "Панорамы улиц и фотографии" [ref=e1312] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Зеркала" [ref=e1315] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Движущийся транспорт" [ref=e1318] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Слои" [ref=e1321] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e1323]:
+          - button "Линейка и планиметр" [ref=e1326] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Детали" [ref=e1329] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - button "Профиль" [ref=e1332] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e1336]:
+                - button "Приблизить" [ref=e1338] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                - button "Отдалить" [ref=e1340] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+              - button "Моё местоположение" [ref=e1344] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+              - button "Наклон карты" [ref=e1351] [cursor=pointer]: 3D
+      - contentinfo:
+        - generic [ref=e1353]:
+          - generic [ref=e1354]: © Яндекс
+          - link "Справка" [ref=e1355] [cursor=pointer]:
+            - /url: //yandex.ru/support/maps/?lang=ru
+          - link "Условия использования" [ref=e1356] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+        - link "Яндекс" [ref=e1359] [cursor=pointer]:
+          - /url: https://ya.ru
+          - img [ref=e1361]
+        - generic:
+          - generic:
+            - generic:
+              - generic: 90 м
+      - iframe [ref=e1362]:
+        
+    - iframe [ref=e1363]:
+      
+  - iframe [ref=e1364]:
+    
+  - generic [ref=e1367]:
+    - generic [ref=e1368]: Пироговый
+    - generic [ref=e1369]: дворик

@@ -1,0 +1,231 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+      - generic [ref=e6]:
+        - generic [ref=e7] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: Эрарта
+            - generic [ref=e13]:
+              - img [ref=e14]
+              - text: 4,9
+          - generic [ref=e17]: "Билет: от 900 ₽"
+    - generic:
+      - generic:
+        - banner
+      - generic:
+        - complementary [ref=e18]:
+          - generic [ref=e21]:
+            - generic [ref=e22]:
+              - generic [ref=e23]:
+                - generic [ref=e25]:
+                  - button "Назад" [ref=e26] [cursor=pointer]:
+                    - img [ref=e27]
+                  - generic [ref=e29]:
+                    - button "Яндекс Карты" [ref=e30] [cursor=pointer]:
+                      - img [ref=e31]
+                    - generic [ref=e39]:
+                      - link "Поиск" [ref=e40] [cursor=pointer]:
+                        - img [ref=e42]
+                        - generic [ref=e44]: Поиск
+                      - link "Маршруты" [ref=e45] [cursor=pointer]:
+                        - /url: /maps/2/saint-petersburg/routes/
+                        - img [ref=e47]
+                        - generic [ref=e51]: Маршруты
+                  - button "Закрыть" [ref=e52] [cursor=pointer]:
+                    - img [ref=e54]
+                - generic [ref=e57]:
+                  - heading "Эрарта" [level=1] [ref=e60]:
+                    - text: Эрарта
+                    - img [ref=e63]
+                  - generic [ref=e68]:
+                    - tablist [ref=e73]:
+                      - tab "Обзор," [ref=e75]:
+                        - link:
+                          - /url: /maps/org/erarta/1002014829/
+                          - text: Обзор
+                      - tab "Товары и услуги," [selected] [ref=e77]:
+                        - link:
+                          - /url: /maps/org/erarta/1002014829/prices/
+                          - text: Товары и услуги
+                      - tab "Фото, 694" [ref=e79]:
+                        - link:
+                          - /url: /maps/org/erarta/1002014829/gallery/
+                          - text: Фото
+                        - generic: "694"
+                      - tab "Отзывы, 14532" [ref=e81]:
+                        - link:
+                          - /url: /maps/org/erarta/1002014829/reviews/
+                          - text: Отзывы
+                        - generic: "14532"
+                      - tab "Особенности," [ref=e83]:
+                        - link:
+                          - /url: /maps/org/erarta/1002014829/?tab=features
+                          - text: Особенности
+                      - iframe [ref=e84]:
+                        
+                    - generic [ref=e91]:
+                      - generic [ref=e92]:
+                        - textbox "Поиск по названию" [ref=e94]
+                        - button "Очистить" [ref=e97] [cursor=pointer]:
+                          - img [ref=e99]
+                      - list [ref=e102]:
+                        - listitem "Без категории" [ref=e103] [cursor=pointer]
+                        - listitem "Клубные билеты" [ref=e104] [cursor=pointer]
+                        - listitem "Разовое посещение (1 визит)" [ref=e105] [cursor=pointer]
+                      - generic [ref=e106]:
+                        - generic [ref=e107]:
+                          - heading "Без категории" [level=2] [ref=e108]
+                          - generic [ref=e109]:
+                            - button "Билет на 6 месяцев Приобрести билет можно как онлайн, так и в кассах музея в порядке очереди. 2000 ₽" [ref=e111]:
+                              - generic [ref=e112]:
+                                - generic [ref=e113]:
+                                  - generic "Билет на 6 месяцев" [ref=e114]
+                                  - generic [ref=e115]: Приобрести билет можно как онлайн, так и в кассах музея в порядке очереди.
+                                - generic [ref=e116]: 2000 ₽
+                            - button "Льготный билет (от 60 лет) 900 ₽" [ref=e118]:
+                              - generic [ref=e119]:
+                                - generic "Льготный билет (от 60 лет)" [ref=e121]
+                                - generic [ref=e122]: 900 ₽
+                        - generic [ref=e123]:
+                          - heading "Клубные билеты" [level=2] [ref=e124]
+                          - generic [ref=e125]:
+                            - button "Клубный билет 6 месяцев Приобретите билет онлайн или в кассе 1 или 2 без очереди. 3950 ₽" [ref=e127]:
+                              - generic [ref=e128]:
+                                - generic [ref=e129]:
+                                  - generic "Клубный билет 6 месяцев" [ref=e130]
+                                  - generic [ref=e131]: Приобретите билет онлайн или в кассе 1 или 2 без очереди.
+                                - generic [ref=e132]: 3950 ₽
+                            - button "Клубный билет на один день Приобретите билет в кассе 1 или 2 без очереди. 2950 ₽" [ref=e134]:
+                              - generic [ref=e135]:
+                                - generic [ref=e136]:
+                                  - generic "Клубный билет на один день" [ref=e137]
+                                  - generic [ref=e138]: Приобретите билет в кассе 1 или 2 без очереди.
+                                - generic [ref=e139]: 2950 ₽
+                        - generic [ref=e140]:
+                          - heading "Разовое посещение (1 визит)" [level=2] [ref=e141]
+                          - generic [ref=e142]:
+                            - button "Основной билет Приобрести билет можно как онлайн, так и в кассах музея в порядке очереди. 1500 ₽" [ref=e144]:
+                              - generic [ref=e145]:
+                                - generic [ref=e146]:
+                                  - generic "Основной билет" [ref=e147]
+                                  - generic [ref=e148]: Приобрести билет можно как онлайн, так и в кассах музея в порядке очереди.
+                                - generic [ref=e149]: 1500 ₽
+                            - button "Детский билет (от 4 до 15 лет) Приобрести билет можно в кассах музея. 600 ₽" [ref=e151]:
+                              - generic [ref=e152]:
+                                - generic [ref=e153]:
+                                  - generic "Детский билет (от 4 до 15 лет)" [ref=e154]
+                                  - generic [ref=e155]: Приобрести билет можно в кассах музея.
+                                - generic [ref=e156]: 600 ₽
+                        - generic [ref=e159]: "Давно не обновлялось. Источник: Представитель организации"
+              - iframe [ref=e160]:
+                
+            - iframe [ref=e161]:
+              
+        - img [ref=e167] [cursor=pointer]
+      - navigation:
+        - generic [ref=e170]:
+          - button "Пробки в Санкт‑Петербурге" [ref=e173] [cursor=pointer]:
+            - generic [ref=e174]:
+              - generic:
+                - img
+          - button "Панорамы улиц и фотографии" [ref=e178] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Зеркала" [ref=e181] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Движущийся транспорт" [ref=e184] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Слои" [ref=e187] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e189]:
+          - button "Линейка и планиметр" [ref=e192] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Детали" [ref=e195] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - button "Профиль" [ref=e198] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e202]:
+                - button "Приблизить" [ref=e204] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                - button "Отдалить" [ref=e206] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+              - button "Моё местоположение" [ref=e210] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+      - contentinfo:
+        - generic [ref=e214]:
+          - generic [ref=e215]: © Яндекс
+          - link "Справка" [ref=e216] [cursor=pointer]:
+            - /url: //yandex.ru/support/maps/?lang=ru
+          - link "Условия использования" [ref=e217] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+        - link "Яндекс" [ref=e220] [cursor=pointer]:
+          - /url: https://ya.ru
+          - img [ref=e222]
+        - generic:
+          - generic:
+            - generic:
+              - generic: 200 м
+      - iframe [ref=e223]:
+        
+    - iframe [ref=e224]:
+      
+  - iframe [ref=e225]:
+    
+  - generic [ref=e228]:
+    - generic [ref=e229]:
+      - generic [ref=e230]: Эрарта
+      - generic [ref=e232]:
+        - img [ref=e233]
+        - text: 4,9
+    - generic [ref=e236]: "Билет: от 900 ₽"

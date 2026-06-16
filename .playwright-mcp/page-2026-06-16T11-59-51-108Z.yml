@@ -1,0 +1,1020 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+      - generic [ref=e6]:
+        - generic [ref=e7] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: Екатерининский дворец
+            - generic [ref=e13]:
+              - img [ref=e15]
+              - text: "5"
+              - img [ref=e18]
+          - generic [ref=e21]: "Билет: от 400 ₽"
+    - generic:
+      - generic:
+        - banner:
+          - generic [ref=e25]:
+            - button "Назад" [ref=e26] [cursor=pointer]:
+              - img [ref=e29]
+            - generic [ref=e31]:
+              - textbox "Поиск и выбор мест" [ref=e34]: Царское село Екатерининский дворец
+              - iframe [ref=e35]:
+                
+            - button "Найти" [ref=e37] [cursor=pointer]:
+              - img [ref=e40]
+            - button "Закрыть" [ref=e44] [cursor=pointer]:
+              - img [ref=e47]
+      - generic:
+        - complementary [ref=e49]:
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e54]:
+                - generic [ref=e55]:
+                  - generic [ref=e56]:
+                    - generic [ref=e57]:
+                      - list [ref=e60]:
+                        - listitem [ref=e61]:
+                          - button "Музей Государственный музей-заповедник Царское Село, Екатерининский дворец, Пушкин, фото" [ref=e63] [cursor=pointer]:
+                            - img "Музей Государственный музей-заповедник Царское Село, Екатерининский дворец, Пушкин, фото" [ref=e64]
+                        - listitem [ref=e65]:
+                          - button "Государственный музей-заповедник Царское Село, Екатерининский дворец (Садовая ул., 7, Пушкин), музей в Пушкине" [ref=e67] [cursor=pointer]:
+                            - generic [ref=e68]:
+                              - img [ref=e70]
+                              - img "Государственный музей-заповедник Царское Село, Екатерининский дворец (Садовая ул., 7, Пушкин), музей в Пушкине" [ref=e72]
+                        - listitem [ref=e73]:
+                          - button "Музей Государственный музей-заповедник Царское Село, Екатерининский дворец, Пушкин, фото" [ref=e75] [cursor=pointer]:
+                            - img "Музей Государственный музей-заповедник Царское Село, Екатерининский дворец, Пушкин, фото" [ref=e76]
+                        - listitem [ref=e77]:
+                          - button [ref=e79] [cursor=pointer]:
+                            - img [ref=e82]
+                        - listitem [ref=e85]:
+                          - button [ref=e87] [cursor=pointer]:
+                            - img [ref=e90]
+                        - listitem [ref=e93]:
+                          - button [ref=e95] [cursor=pointer]
+                        - listitem [ref=e97]:
+                          - button [ref=e99] [cursor=pointer]:
+                            - img [ref=e102]
+                        - listitem [ref=e105]:
+                          - button [ref=e107] [cursor=pointer]:
+                            - img [ref=e110]
+                        - listitem [ref=e113]:
+                          - button [ref=e115] [cursor=pointer]:
+                            - img [ref=e118]
+                        - listitem [ref=e121]:
+                          - button [ref=e123] [cursor=pointer]:
+                            - img [ref=e126]
+                        - iframe [ref=e129]:
+                          
+                      - generic:
+                        - generic:
+                          - img
+                        - text: "556"
+                    - generic:
+                      - img "Логотип"
+                  - generic [ref=e131]:
+                    - heading "Государственный музей-заповедник Царское Село, Екатерининский дворец" [level=1] [ref=e134]:
+                      - generic [ref=e135]:
+                        - link "Государственный музей-заповедник Царское Село, Екатерининский дворец" [ref=e136] [cursor=pointer]:
+                          - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo_yekaterininskiy_dvorets/157278814536/
+                        - img [ref=e139]
+                    - generic [ref=e143]:
+                      - generic [ref=e146]:
+                        - link "Входит в категорию Музей, поиск по категории" [ref=e147] [cursor=pointer]:
+                          - /url: /maps/10884/pushkin/category/museum/184105894/
+                          - text: Музей,
+                        - link "Входит в категорию памятник архитектуры, поиск по категории" [ref=e148] [cursor=pointer]:
+                          - /url: /maps/10884/pushkin/category/an_architectural_monument/143552239408/
+                          - text: памятник архитектуры,
+                        - link "Входит в категорию достопримечательность, поиск по категории" [ref=e149] [cursor=pointer]:
+                          - /url: /maps/10884/pushkin/category/landmark_attraction/89683368508/
+                          - text: достопримечательность
+                      - generic [ref=e150]:
+                        - generic [ref=e152]:
+                          - generic [ref=e153]:
+                            - generic "Оценка 1 Из 1" [ref=e154]:
+                              - img [ref=e156]
+                            - generic [ref=e158]:
+                              - generic [ref=e159]: Рейтинг
+                              - text: 5,0
+                          - button "(105637)" [ref=e160] [cursor=pointer]
+                        - generic [ref=e161]:
+                          - generic: "Награды:"
+                          - button "Хорошее место" [ref=e162] [cursor=pointer]:
+                            - img [ref=e165]
+                            - generic [ref=e184]: Хорошее место 2026
+                      - button [ref=e186] [cursor=pointer]:
+                        - generic [ref=e187]: Коротко о месте
+                        - generic [ref=e188]: Екатерининский дворец — это один из самых красивых и величественных дворцов Санкт-Петербурга. Он был построен по приказу императрицы Елизаветы Петровны и выполнен в стиле барокко.
+                        - img [ref=e192]
+                      - button "Закрыто до завтра" [ref=e195]:
+                        - button "Закрыто до завтра" [ref=e197] [cursor=pointer]:
+                          - generic [ref=e199]: Закрыто до завтра
+                          - img [ref=e202]
+                      - list [ref=e206]:
+                        - listitem [ref=e207]:
+                          - button "Маршрут" [ref=e209] [cursor=pointer]:
+                            - img [ref=e212]
+                            - generic [ref=e216]: Маршрут
+                        - listitem [ref=e217]:
+                          - button "Сайт" [ref=e219] [cursor=pointer]:
+                            - img [ref=e222]
+                        - listitem [ref=e224]:
+                          - generic [ref=e225]:
+                            - status [ref=e226]: Сохранить
+                            - button "Закладки" [ref=e228] [cursor=pointer]:
+                              - img [ref=e231]
+                        - listitem [ref=e233]:
+                          - button "Поделиться" [ref=e235] [cursor=pointer]:
+                            - img [ref=e238]
+                        - iframe [ref=e241]:
+                          
+                      - button "Небанальный Петербург от местных гидов Tripster" [ref=e246] [cursor=pointer]:
+                        - generic [ref=e247]:
+                          - generic [ref=e248]:
+                            - img [ref=e251]
+                            - generic [ref=e258]:
+                              - text: Небанальный Петербург от местных гидов Tripster
+                              - button [ref=e260]:
+                                - button [ref=e262]: Реклама
+                          - img [ref=e266]
+                      - button "Выбрать экскурсию" [ref=e270] [cursor=pointer]:
+                        - generic [ref=e271]: Выбрать экскурсию
+                    - generic [ref=e273]:
+                      - generic [ref=e277]:
+                        - tablist [ref=e278]:
+                          - tab "Обзор," [selected] [ref=e280]:
+                            - link:
+                              - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo_yekaterininskiy_dvorets/157278814536/
+                              - text: Обзор
+                          - tab "Товары и услуги," [ref=e282]:
+                            - link:
+                              - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo_yekaterininskiy_dvorets/157278814536/prices/
+                              - text: Товары и услуги
+                          - tab "Фото, 556" [ref=e284]:
+                            - link:
+                              - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo_yekaterininskiy_dvorets/157278814536/gallery/
+                              - text: Фото
+                            - generic: "556"
+                          - tab "Отзывы, 22556" [ref=e286]:
+                            - link:
+                              - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo_yekaterininskiy_dvorets/157278814536/reviews/
+                              - text: Отзывы
+                            - generic: "22556"
+                          - tab "Филиалы," [ref=e288]:
+                            - link:
+                              - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo_yekaterininskiy_dvorets/157278814536/?tab=chain
+                              - text: Филиалы
+                          - tab "Особенности," [ref=e290]:
+                            - link:
+                              - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo_yekaterininskiy_dvorets/157278814536/?tab=features
+                              - text: Особенности
+                          - tab "Похожие места," [ref=e292]:
+                            - link:
+                              - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo_yekaterininskiy_dvorets/157278814536/related/
+                              - text: Похожие места
+                          - iframe [ref=e293]:
+                            
+                        - img [ref=e297] [cursor=pointer]
+                      - generic [ref=e301]:
+                        - generic [ref=e302]:
+                          - list [ref=e306]:
+                            - listitem [ref=e307]:
+                              - generic [ref=e312] [cursor=pointer]: Хорошее место
+                            - iframe [ref=e313]:
+                              
+                          - generic [ref=e315]:
+                            - generic [ref=e316]:
+                              - heading "Витрина" [level=2] [ref=e319]
+                              - generic [ref=e320]:
+                                - list [ref=e321]:
+                                  - listitem [ref=e322]:
+                                    - link "Необычные экскурсии" [ref=e323] [cursor=pointer]:
+                                      - /url: https://experience.tripster.ru/?utm_source=yandex.maps&utm_medium=imc&utm_campaign=imc-maps&utm_content=vitrina_1&erid=3MtFQRkqfB2huzBcHHttRt1d2ypJwV
+                                      - button [ref=e325]:
+                                        - img [ref=e327]
+                                      - generic [ref=e329]: Необычные экскурсии
+                                  - listitem [ref=e330]:
+                                    - link "Экскурсии в России" [ref=e331] [cursor=pointer]:
+                                      - /url: https://experience.tripster.ru/destinations/russia/?utm_source=yandex.maps&utm_medium=imc&utm_campaign=imc-maps&utm_content=vitrina_2&erid=3MtFQRkqfB2huzBcHHttRt1d2ypKPu
+                                      - button [ref=e333]:
+                                        - img [ref=e335]
+                                      - generic [ref=e337]: Экскурсии в России
+                                  - listitem [ref=e338]:
+                                    - link "Авторские туры" [ref=e339] [cursor=pointer]:
+                                      - /url: https://experience.tripster.ru/tours/?utm_source=yandex.maps&utm_medium=imc&utm_campaign=imc-maps&utm_content=vitrina_3&erid=3MtFQRkqfB2huzBcHHttRt1d2ypeM2
+                                      - button [ref=e341]:
+                                        - img [ref=e343]
+                                      - generic [ref=e345]: Авторские туры
+                                  - listitem [ref=e346]:
+                                    - link "Аудиогиды" [ref=e347] [cursor=pointer]:
+                                      - /url: https://promo.tripster.ru/audioguides/?utm_source=yandex.maps&utm_medium=imc&utm_campaign=imc-maps&utm_content=vitrina_4&erid=3MtFQRkqfB2huzBcHHttRt1d2ypeVo
+                                      - button [ref=e349]
+                                      - generic [ref=e352]: Аудиогиды
+                                  - listitem [ref=e353]:
+                                    - link "Трансфер" [ref=e354] [cursor=pointer]:
+                                      - /url: https://promo.tripster.ru/transfers/?utm_source=yandex.maps&utm_medium=imc&utm_campaign=imc-maps&utm_content=vitrina_5&erid=3MtFQRkqfB2huzBcHHttRt1d2ypeaG
+                                      - button [ref=e356]
+                                      - generic [ref=e359]: Трансфер
+                                  - listitem [ref=e360]:
+                                    - link "Журнал о путешествиях" [ref=e361] [cursor=pointer]:
+                                      - /url: https://experience.tripster.ru/journal/?utm_source=yandex.maps&utm_medium=imc&utm_campaign=imc-maps&utm_content=vitrina_6&erid=3MtFQRkqfB2huzBcHHttRt1d2ypeoV
+                                      - button [ref=e363]
+                                      - generic [ref=e366]: Журнал о путешествиях
+                                  - iframe [ref=e367]:
+                                    
+                                - img [ref=e370] [cursor=pointer]
+                            - button "Посмотреть все товары и услуги" [ref=e373] [cursor=pointer]:
+                              - generic [ref=e375]:
+                                - img [ref=e378]
+                                - generic [ref=e381]: Посмотреть все товары и услуги
+                          - generic [ref=e384]:
+                            - button "Панорама — музей Государственный музей-заповедник Царское Село, Екатерининский дворец, Пушкин" [ref=e385] [cursor=pointer]:
+                              - img "Панорама — музей Государственный музей-заповедник Царское Село, Екатерининский дворец, Пушкин" [ref=e388]
+                              - generic:
+                                - img
+                              - generic: Панорама
+                            - link "Панорама":
+                              - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo_yekaterininskiy_dvorets/157278814536/panorama/
+                          - generic [ref=e389]:
+                            - generic [ref=e390]:
+                              - generic [ref=e391]:
+                                - img [ref=e394]
+                                - heading "Адрес" [level=3] [ref=e397]
+                              - generic [ref=e403]:
+                                - link "Садовая ул., 7, Пушкин" [ref=e405]
+                                - generic [ref=e406]:
+                                  - button "Показать входы" [ref=e407] [cursor=pointer]
+                                  - generic [ref=e408]: "|"
+                                  - button "Маршрут" [ref=e409] [cursor=pointer]
+                            - generic [ref=e410]:
+                              - generic [ref=e411]:
+                                - img [ref=e414]
+                                - heading "Контакты" [level=3] [ref=e417]
+                              - generic [ref=e425]:
+                                - generic [ref=e426]: Информационный центр
+                                - generic [ref=e430]:
+                                  - text: +7 (812) 415-76-67
+                                  - button "Показать телефон" [ref=e431] [cursor=pointer]:
+                                    - generic [ref=e432]: Показать телефон
+                              - button "tzar.ru" [ref=e436] [cursor=pointer]:
+                                - generic [ref=e437]:
+                                  - link "tzar.ru" [ref=e443]:
+                                    - /url: https://tzar.ru/
+                                  - generic [ref=e444]:
+                                    - generic [ref=e445]: "2"
+                                    - img [ref=e448]
+                              - generic [ref=e455]:
+                                - button "Соцсети, telegram" [ref=e457] [cursor=pointer]:
+                                  - img [ref=e460]
+                                - button "Соцсети, vkontakte" [ref=e463] [cursor=pointer]:
+                                  - img [ref=e466]
+                                - button "Соцсети, ok" [ref=e469] [cursor=pointer]:
+                                  - img [ref=e472]
+                            - generic [ref=e474]:
+                              - generic [ref=e475]:
+                                - img [ref=e478]
+                                - heading "Время работы" [level=3] [ref=e481]
+                              - button "Закрыто до завтра" [ref=e485] [cursor=pointer]:
+                                - generic [ref=e486]:
+                                  - generic "Закрыто до завтра" [ref=e492]
+                                  - generic [ref=e493]:
+                                    - generic [ref=e494]: График
+                                    - img [ref=e497]
+                            - button "Все филиалы сети" [ref=e499] [cursor=pointer]:
+                              - generic [ref=e501]:
+                                - img [ref=e504]
+                                - link "Все филиалы сети" [ref=e513]:
+                                  - /url: /maps/10884/pushkin/chain/gosudarstvennyj_muzej_zapovednik_carskoe_selo/192555708473/
+                            - button "Добавить фото или видео" [ref=e514] [cursor=pointer]:
+                              - generic [ref=e516]:
+                                - img [ref=e519]
+                                - generic [ref=e523]: Добавить фото или видео
+                            - button "Исправить неточность" [ref=e525] [cursor=pointer]:
+                              - img [ref=e528]
+                              - generic [ref=e530]: Исправить неточность
+                          - generic [ref=e532]:
+                            - heading "Входит в подборки" [level=2] [ref=e534]
+                            - generic [ref=e537]:
+                              - list [ref=e538]:
+                                - listitem [ref=e539]:
+                                  - 'button "Подборка · 14 мест Места для прогулок в Пушкине: парки и дворцово‑парковые ансамбли Яндекс Карты Яндекс Карты" [ref=e541]':
+                                    - generic [ref=e542]:
+                                      - button [ref=e543]
+                                      - generic [ref=e546]: Подборка · 14 мест
+                                    - 'link "Места для прогулок в Пушкине: парки и дворцово‑парковые ансамбли" [ref=e548] [cursor=pointer]':
+                                      - /url: /maps/discovery/podborka_dosug_progulki_pushkin-10884/
+                                    - generic [ref=e549]:
+                                      - img "Яндекс Карты" [ref=e550]
+                                      - generic [ref=e551]: Яндекс Карты
+                                - listitem [ref=e552]:
+                                  - 'button "Подборка · 5 мест Достопримечательности мира: топ мест, которые нужно посетить хотя бы раз в жизни Журнал Путешествий Журнал Путешествий" [ref=e554]':
+                                    - generic [ref=e555]:
+                                      - button [ref=e556]
+                                      - generic [ref=e559]: Подборка · 5 мест
+                                    - 'link "Достопримечательности мира: топ мест, которые нужно посетить хотя бы раз в жизни" [ref=e561] [cursor=pointer]':
+                                      - /url: /maps/discovery/travel-dostoprimechatelnosti-mira-vosem-mest/
+                                    - generic [ref=e562]:
+                                      - img "Журнал Путешествий" [ref=e563]
+                                      - generic [ref=e564]: Журнал Путешествий
+                                - listitem [ref=e565]:
+                                  - button "Подборка · 7 мест Места для детского досуга в Пушкине Яндекс Карты Яндекс Карты" [ref=e567]:
+                                    - generic [ref=e568]:
+                                      - button [ref=e569]
+                                      - generic [ref=e572]: Подборка · 7 мест
+                                    - link "Места для детского досуга в Пушкине" [ref=e574] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_dosug_deti_pushkin-10884/
+                                    - generic [ref=e575]:
+                                      - img "Яндекс Карты" [ref=e576]
+                                      - generic [ref=e577]: Яндекс Карты
+                                - listitem [ref=e578]:
+                                  - 'button "Подборка · 8 мест Исторические достопримечательности Пушкина: дворцы, музеи и парки Яндекс Карты Яндекс Карты" [ref=e580]':
+                                    - generic [ref=e581]:
+                                      - button [ref=e582]
+                                      - generic [ref=e585]: Подборка · 8 мест
+                                    - 'link "Исторические достопримечательности Пушкина: дворцы, музеи и парки" [ref=e587] [cursor=pointer]':
+                                      - /url: /maps/discovery/podborka_dosug_istoricheskoe-mesto_pushkin-10884/
+                                    - generic [ref=e588]:
+                                      - img "Яндекс Карты" [ref=e589]
+                                      - generic [ref=e590]: Яндекс Карты
+                                - listitem [ref=e591]:
+                                  - 'button "Подборка · 10 мест Архитектурные достопримечательности Пушкина: дворцы и парки Яндекс Карты Яндекс Карты" [ref=e593]':
+                                    - generic [ref=e594]:
+                                      - button [ref=e595]
+                                      - generic [ref=e598]: Подборка · 10 мест
+                                    - 'link "Архитектурные достопримечательности Пушкина: дворцы и парки" [ref=e600] [cursor=pointer]':
+                                      - /url: /maps/discovery/podborka_dosug_arkhitektura_pushkin-10884/
+                                    - generic [ref=e601]:
+                                      - img "Яндекс Карты" [ref=e602]
+                                      - generic [ref=e603]: Яндекс Карты
+                                - listitem [ref=e604]:
+                                  - button "Подборка · 10 мест Места для семейного досуга в Пушкине Яндекс Карты Яндекс Карты" [ref=e606]:
+                                    - generic [ref=e607]:
+                                      - button [ref=e608]
+                                      - generic [ref=e611]: Подборка · 10 мест
+                                    - link "Места для семейного досуга в Пушкине" [ref=e613] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_dosug_s-sem-ej_pushkin-10884/
+                                    - generic [ref=e614]:
+                                      - img "Яндекс Карты" [ref=e615]
+                                      - generic [ref=e616]: Яндекс Карты
+                                - listitem [ref=e617]:
+                                  - 'button "Подборка · 8 мест Художественные сокровища Пушкина: места с картинами и произведениями искусства Яндекс Карты Яндекс Карты" [ref=e619]':
+                                    - generic [ref=e620]:
+                                      - button [ref=e621]
+                                      - generic [ref=e624]: Подборка · 8 мест
+                                    - 'link "Художественные сокровища Пушкина: места с картинами и произведениями искусства" [ref=e626] [cursor=pointer]':
+                                      - /url: /maps/discovery/podborka_dosug_kartiny_pushkin-10884/
+                                    - generic [ref=e627]:
+                                      - img "Яндекс Карты" [ref=e628]
+                                      - generic [ref=e629]: Яндекс Карты
+                                - listitem [ref=e630]:
+                                  - 'button "Подборка · 19 мест Экскурсии в Пушкине: музеи и исторические места Яндекс Карты Яндекс Карты" [ref=e632]':
+                                    - generic [ref=e633]:
+                                      - button [ref=e634]
+                                      - generic [ref=e637]: Подборка · 19 мест
+                                    - 'link "Экскурсии в Пушкине: музеи и исторические места" [ref=e639] [cursor=pointer]':
+                                      - /url: /maps/discovery/podborka_dosug_ehkskursii_pushkin-10884/
+                                    - generic [ref=e640]:
+                                      - img "Яндекс Карты" [ref=e641]
+                                      - generic [ref=e642]: Яндекс Карты
+                                - listitem [ref=e643]:
+                                  - 'button "Подборка · 5 мест Музеи и парки Царского Села: погружение в эпоху Эрмитажа Яндекс Карты Яндекс Карты" [ref=e645]':
+                                    - generic [ref=e646]:
+                                      - button [ref=e647]
+                                      - generic [ref=e650]: Подборка · 5 мест
+                                    - 'link "Музеи и парки Царского Села: погружение в эпоху Эрмитажа" [ref=e652] [cursor=pointer]':
+                                      - /url: /maps/discovery/podborka_dosug_ehrmitazh_pushkin-10884/
+                                    - generic [ref=e653]:
+                                      - img "Яндекс Карты" [ref=e654]
+                                      - generic [ref=e655]: Яндекс Карты
+                                - listitem [ref=e656]:
+                                  - 'button "Подборка · 14 мест Музеи города Пушкина: погружение в историю и культуру Яндекс Карты Яндекс Карты" [ref=e658]':
+                                    - generic [ref=e659]:
+                                      - button [ref=e660]
+                                      - generic [ref=e663]: Подборка · 14 мест
+                                    - 'link "Музеи города Пушкина: погружение в историю и культуру" [ref=e665] [cursor=pointer]':
+                                      - /url: /maps/discovery/podborka_dosug_muzej_pushkin-10884/
+                                    - generic [ref=e666]:
+                                      - img "Яндекс Карты" [ref=e667]
+                                      - generic [ref=e668]: Яндекс Карты
+                                - iframe [ref=e669]:
+                                  
+                              - img [ref=e672] [cursor=pointer]
+                          - generic "Как добраться" [ref=e675]:
+                            - heading "Как добраться" [level=2] [ref=e677]
+                            - button "Остановки рядом" [ref=e681] [cursor=pointer]:
+                              - generic [ref=e682]:
+                                - generic [ref=e683]:
+                                  - generic "На автобусе" [ref=e686]:
+                                    - img [ref=e687]
+                                  - generic [ref=e694]:
+                                    - generic [ref=e695]: Средняя улица
+                                    - button "Средняя улица Построить маршрут Пешком 330 м" [ref=e696]:
+                                      - img [ref=e698]
+                                      - generic [ref=e700]: 330 м
+                                - generic [ref=e701]:
+                                  - generic [ref=e702]: "4"
+                                  - img [ref=e705]
+                            - button [ref=e707] [cursor=pointer]:
+                              - generic [ref=e709]:
+                                - img [ref=e712]
+                                - generic [ref=e716]: Показать парковки
+                          - generic [ref=e718]:
+                            - heading "Особенности" [level=2] [ref=e720]
+                            - generic [ref=e721]:
+                              - generic [ref=e722]:
+                                - generic [ref=e724]:
+                                  - img [ref=e727]
+                                  - generic [ref=e730]: Оплата картой
+                                - generic [ref=e732]:
+                                  - img [ref=e735]
+                                  - generic [ref=e737]: Льготные билеты
+                              - generic [ref=e740]:
+                                - img [ref=e743]
+                                - generic [ref=e745]: Аудиогид
+                            - generic [ref=e748]:
+                              - generic [ref=e749]: "Билеты:"
+                              - text: 400–1500 ₽
+                            - button "Подробнее об организации" [ref=e750] [cursor=pointer]:
+                              - generic [ref=e752]:
+                                - img [ref=e755]
+                                - link [ref=e759]:
+                                  - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo_yekaterininskiy_dvorets/157278814536/?tab=features
+                                  - text: Подробнее об организации
+                          - button "Владелец следит за актуальностью информации" [ref=e765] [cursor=pointer]:
+                            - generic [ref=e766]:
+                              - generic [ref=e767]:
+                                - img [ref=e770]
+                                - generic [ref=e775]: Владелец следит за актуальностью информации
+                              - img [ref=e779]
+                          - generic [ref=e782]:
+                            - heading "Посещаемость и график работы" [level=2] [ref=e784]
+                            - generic [ref=e785]:
+                              - generic [ref=e786]:
+                                - generic [ref=e787]: 14:00
+                                - text: Закрыто
+                              - generic [ref=e788]:
+                                - button "Понедельник" [ref=e789] [cursor=pointer]: Пн
+                                - button "Вторник" [ref=e790] [cursor=pointer]: Вт
+                                - button "Среда" [ref=e791] [cursor=pointer]: Ср
+                                - button "Четверг" [ref=e792] [cursor=pointer]: Чт
+                                - button "Пятница" [ref=e793] [cursor=pointer]: Пт
+                                - button "Суббота" [ref=e794] [cursor=pointer]: Сб
+                                - button "Воскресенье" [ref=e795] [cursor=pointer]: Вс
+                              - generic [ref=e796]: 00:00 04:00 08:00 12:00 16:00 20:00 00:00
+                          - generic [ref=e797]:
+                            - generic [ref=e798]:
+                              - heading "Похожие места рядом" [level=2] [ref=e800]:
+                                - generic [ref=e801]: Похожие места рядом
+                              - generic [ref=e802]:
+                                - list [ref=e803]:
+                                  - listitem [ref=e804]:
+                                    - link "Царское Село" [ref=e805] [cursor=pointer]:
+                                      - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo/120687725622/
+                                      - generic [ref=e806]:
+                                        - button [ref=e808]
+                                        - generic [ref=e811]:
+                                          - generic [ref=e812]: Царское Село
+                                          - generic [ref=e813]:
+                                            - generic [ref=e814]:
+                                              - generic "Оценка 5 Из 5" [ref=e815]:
+                                                - img [ref=e817]
+                                                - img [ref=e820]
+                                                - img [ref=e823]
+                                                - img [ref=e826]
+                                                - img [ref=e829]
+                                              - generic [ref=e831]:
+                                                - generic [ref=e832]: Рейтинг
+                                                - text: 5,0
+                                            - generic [ref=e833]: Музей
+                                  - listitem [ref=e834]:
+                                    - link "Агатовые комнаты" [ref=e835] [cursor=pointer]:
+                                      - /url: /maps/org/kholodnaya_banya_i_agatovyye_komnaty/119388910764/
+                                      - generic [ref=e836]:
+                                        - button [ref=e838]
+                                        - generic [ref=e841]:
+                                          - generic [ref=e842]: Агатовые комнаты
+                                          - generic [ref=e843]:
+                                            - generic [ref=e844]:
+                                              - generic "Оценка 4.4 Из 5" [ref=e845]:
+                                                - img [ref=e847]
+                                                - img [ref=e850]
+                                                - img [ref=e853]
+                                                - img [ref=e856]
+                                                - img [ref=e859]
+                                              - generic [ref=e862]:
+                                                - generic [ref=e863]: Рейтинг
+                                                - text: 4,4
+                                            - generic [ref=e864]: Музей
+                                  - listitem [ref=e865]:
+                                    - link "Придворный экипаж" [ref=e866] [cursor=pointer]:
+                                      - /url: /maps/org/gosudarstvenny_muzey_zapovednik_tsarskoye_selo_vystavka_pridvorny_ekipazh_v_tsarskom_sele/1280036726/
+                                      - generic [ref=e867]:
+                                        - button [ref=e869]
+                                        - generic [ref=e872]:
+                                          - generic [ref=e873]: Придворный экипаж
+                                          - generic [ref=e874]:
+                                            - generic [ref=e875]:
+                                              - generic "Оценка 4.7 Из 5" [ref=e876]:
+                                                - img [ref=e878]
+                                                - img [ref=e881]
+                                                - img [ref=e884]
+                                                - img [ref=e887]
+                                                - img [ref=e890]
+                                              - generic [ref=e893]:
+                                                - generic [ref=e894]: Рейтинг
+                                                - text: 4,7
+                                            - generic [ref=e895]: Музей
+                                  - listitem [ref=e896]:
+                                    - link "Александровский дворец" [ref=e897] [cursor=pointer]:
+                                      - /url: /maps/org/aleksandrovskiy_dvorets/1058172216/
+                                      - generic [ref=e898]:
+                                        - button [ref=e900]
+                                        - generic [ref=e903]:
+                                          - generic [ref=e904]: Александровский дворец
+                                          - generic [ref=e905]:
+                                            - generic [ref=e906]:
+                                              - generic "Оценка 5 Из 5" [ref=e907]:
+                                                - img [ref=e909]
+                                                - img [ref=e912]
+                                                - img [ref=e915]
+                                                - img [ref=e918]
+                                                - img [ref=e921]
+                                              - generic [ref=e923]:
+                                                - generic [ref=e924]: Рейтинг
+                                                - text: 5,0
+                                            - generic [ref=e925]: Музей
+                                  - listitem [ref=e926]:
+                                    - link "Ратная палата" [ref=e927] [cursor=pointer]:
+                                      - /url: /maps/org/ratnaya_palata/1757281606/
+                                      - generic [ref=e928]:
+                                        - button [ref=e930]
+                                        - generic [ref=e933]:
+                                          - generic [ref=e934]: Ратная палата
+                                          - generic [ref=e935]:
+                                            - generic [ref=e936]:
+                                              - generic "Оценка 5 Из 5" [ref=e937]:
+                                                - img [ref=e939]
+                                                - img [ref=e942]
+                                                - img [ref=e945]
+                                                - img [ref=e948]
+                                                - img [ref=e951]
+                                              - generic [ref=e953]:
+                                                - generic [ref=e954]: Рейтинг
+                                                - text: 5,0
+                                            - generic [ref=e955]: Музей
+                                  - listitem [ref=e956]:
+                                    - link "Александровский парк" [ref=e957] [cursor=pointer]:
+                                      - /url: /maps/org/aleksandrovskiy_park/99370940769/
+                                      - generic [ref=e958]:
+                                        - button [ref=e960]
+                                        - generic [ref=e963]:
+                                          - generic [ref=e964]: Александровский парк
+                                          - generic [ref=e965]:
+                                            - generic [ref=e966]:
+                                              - generic "Оценка 5 Из 5" [ref=e967]:
+                                                - img [ref=e969]
+                                                - img [ref=e972]
+                                                - img [ref=e975]
+                                                - img [ref=e978]
+                                                - img [ref=e981]
+                                              - generic [ref=e983]:
+                                                - generic [ref=e984]: Рейтинг
+                                                - text: 5,0
+                                            - generic [ref=e985]: Музей
+                                  - listitem [ref=e986]:
+                                    - link "Музей А. С. Пушкина" [ref=e987] [cursor=pointer]:
+                                      - /url: /maps/org/vserossiyskiy_muzey_a_s_pushkina_memorialny_muzey_litsey/1632625193/
+                                      - generic [ref=e988]:
+                                        - button [ref=e990]
+                                        - generic [ref=e993]:
+                                          - generic [ref=e994]: Музей А. С. Пушкина
+                                          - generic [ref=e995]:
+                                            - generic [ref=e996]:
+                                              - generic "Оценка 5 Из 5" [ref=e997]:
+                                                - img [ref=e999]
+                                                - img [ref=e1002]
+                                                - img [ref=e1005]
+                                                - img [ref=e1008]
+                                                - img [ref=e1011]
+                                              - generic [ref=e1013]:
+                                                - generic [ref=e1014]: Рейтинг
+                                                - text: 5,0
+                                            - generic [ref=e1015]: Музей
+                                  - iframe [ref=e1016]:
+                                    
+                                - img [ref=e1019] [cursor=pointer]
+                            - button "Посмотреть все" [ref=e1022] [cursor=pointer]:
+                              - generic [ref=e1026]: Посмотреть все
+                          - generic [ref=e1028]:
+                            - heading "Награды" [level=2] [ref=e1029]
+                            - link "Хорошее место 2026 Награда для любимых мест пользователей Яндекс Карт" [ref=e1030] [cursor=pointer]:
+                              - /url: https://yandex.ru/project/maps/goodplace/
+                              - img [ref=e1033]
+                              - generic [ref=e1045]:
+                                - generic [ref=e1046]: Хорошее место 2026
+                                - generic [ref=e1047]: Награда для любимых мест пользователей Яндекс Карт
+                          - generic [ref=e1050]:
+                            - generic [ref=e1053]:
+                              - generic [ref=e1057]:
+                                - generic [ref=e1058]:
+                                  - generic [ref=e1059]: Рейтинг
+                                  - text: 5,0
+                                - generic [ref=e1060]:
+                                  - generic "Оценка 5 Из 5" [ref=e1062]:
+                                    - img [ref=e1064]
+                                    - img [ref=e1066]
+                                    - img [ref=e1068]
+                                    - img [ref=e1070]
+                                    - img [ref=e1072]
+                                  - generic [ref=e1073]: 105637 оценок
+                              - generic [ref=e1079]:
+                                - generic [ref=e1080]: Оцените и напишите отзыв
+                                - generic [ref=e1081]:
+                                  - button "1 звезда" [ref=e1082] [cursor=pointer]:
+                                    - img [ref=e1083]
+                                  - button "2 звезды" [ref=e1084] [cursor=pointer]:
+                                    - img [ref=e1085]
+                                  - button "3 звезды" [ref=e1086] [cursor=pointer]:
+                                    - img [ref=e1087]
+                                  - button "4 звезды" [ref=e1088] [cursor=pointer]:
+                                    - img [ref=e1089]
+                                  - button "5 звезд" [ref=e1090] [cursor=pointer]:
+                                    - img [ref=e1091]
+                            - generic [ref=e1093]:
+                              - generic [ref=e1094]:
+                                - generic [ref=e1096]:
+                                  - heading "22556 отзывов" [level=2] [ref=e1097]
+                                  - button "По умолчанию" [ref=e1100] [cursor=pointer]:
+                                    - text: По умолчанию
+                                    - img [ref=e1102]
+                                - menu [ref=e1104]:
+                                  - generic [ref=e1105]:
+                                    - list [ref=e1106]:
+                                      - listitem [ref=e1107]:
+                                        - menuitem "Впечатления • 97% положительный 23839 отзывов" [ref=e1108] [cursor=pointer]:
+                                          - generic [ref=e1110]:
+                                            - generic [ref=e1111]:
+                                              - text: Впечатления •
+                                              - generic [ref=e1112]: 97%
+                                              - generic [ref=e1113]: положительный
+                                              - img [ref=e1115]
+                                            - generic [ref=e1116]: 23839 отзывов
+                                      - listitem [ref=e1117]:
+                                        - menuitem "Экскурсии • 84% положительный 6558 отзывов" [ref=e1118] [cursor=pointer]:
+                                          - generic [ref=e1120]:
+                                            - generic [ref=e1121]:
+                                              - text: Экскурсии •
+                                              - generic [ref=e1122]: 84%
+                                              - generic [ref=e1123]: положительный
+                                              - img [ref=e1125]
+                                            - generic [ref=e1126]: 6558 отзывов
+                                      - listitem [ref=e1127]:
+                                        - menuitem "Персонал • 79% положительный 3485 отзывов" [ref=e1128] [cursor=pointer]:
+                                          - generic [ref=e1130]:
+                                            - generic [ref=e1131]:
+                                              - text: Персонал •
+                                              - generic [ref=e1132]: 79%
+                                              - generic [ref=e1133]: положительный
+                                              - img [ref=e1135]
+                                            - generic [ref=e1136]: 3485 отзывов
+                                      - listitem [ref=e1137]:
+                                        - menuitem "Интерьер • 94% положительный 3298 отзывов" [ref=e1138] [cursor=pointer]:
+                                          - generic [ref=e1140]:
+                                            - generic [ref=e1141]:
+                                              - text: Интерьер •
+                                              - generic [ref=e1142]: 94%
+                                              - generic [ref=e1143]: положительный
+                                              - img [ref=e1145]
+                                            - generic [ref=e1146]: 3298 отзывов
+                                      - listitem [ref=e1147]:
+                                        - menuitem "Архитектура • 96% положительный 2678 отзывов" [ref=e1148] [cursor=pointer]:
+                                          - generic [ref=e1150]:
+                                            - generic [ref=e1151]:
+                                              - text: Архитектура •
+                                              - generic [ref=e1152]: 96%
+                                              - generic [ref=e1153]: положительный
+                                              - img [ref=e1155]
+                                            - generic [ref=e1156]: 2678 отзывов
+                                      - listitem [ref=e1157]:
+                                        - menuitem "Билет • 67% положительный 2585 отзывов" [ref=e1158] [cursor=pointer]:
+                                          - generic [ref=e1160]:
+                                            - generic [ref=e1161]:
+                                              - text: Билет •
+                                              - generic [ref=e1162]: 67%
+                                              - generic [ref=e1163]: положительный
+                                              - img [ref=e1165]
+                                            - generic [ref=e1166]: 2585 отзывов
+                                      - listitem [ref=e1167]:
+                                        - menuitem "Время ожидания • 35% отрицательный 2336 отзывов" [ref=e1168] [cursor=pointer]:
+                                          - generic [ref=e1170]:
+                                            - generic [ref=e1171]:
+                                              - text: Время ожидания •
+                                              - generic [ref=e1172]: 35%
+                                              - generic [ref=e1173]: отрицательный
+                                              - img [ref=e1175]
+                                            - generic [ref=e1176]: 2336 отзывов
+                                      - listitem [ref=e1177]:
+                                        - menuitem "Аудиогид • 82% положительный 1070 отзывов" [ref=e1178] [cursor=pointer]:
+                                          - generic [ref=e1180]:
+                                            - generic [ref=e1181]:
+                                              - text: Аудиогид •
+                                              - generic [ref=e1182]: 82%
+                                              - generic [ref=e1183]: положительный
+                                              - img [ref=e1185]
+                                            - generic [ref=e1186]: 1070 отзывов
+                                      - listitem [ref=e1187]:
+                                        - menuitem "Групповые экскурсии • 67% положительный 1060 отзывов" [ref=e1188] [cursor=pointer]:
+                                          - generic [ref=e1190]:
+                                            - generic [ref=e1191]:
+                                              - text: Групповые экскурсии •
+                                              - generic [ref=e1192]: 67%
+                                              - generic [ref=e1193]: положительный
+                                              - img [ref=e1195]
+                                            - generic [ref=e1196]: 1060 отзывов
+                                      - listitem [ref=e1197]:
+                                        - menuitem "Выставка • 93% положительный 890 отзывов" [ref=e1198] [cursor=pointer]:
+                                          - generic [ref=e1200]:
+                                            - generic [ref=e1201]:
+                                              - text: Выставка •
+                                              - generic [ref=e1202]: 93%
+                                              - generic [ref=e1203]: положительный
+                                              - img [ref=e1205]
+                                            - generic [ref=e1206]: 890 отзывов
+                                      - listitem [ref=e1207]:
+                                        - menuitem "Расположение • 88% положительный 529 отзывов" [ref=e1208] [cursor=pointer]:
+                                          - generic [ref=e1210]:
+                                            - generic [ref=e1211]:
+                                              - text: Расположение •
+                                              - generic [ref=e1212]: 88%
+                                              - generic [ref=e1213]: положительный
+                                              - img [ref=e1215]
+                                            - generic [ref=e1216]: 529 отзывов
+                                      - listitem [ref=e1217]:
+                                        - menuitem "Кафе • 53% положительный 384 отзыва" [ref=e1218] [cursor=pointer]:
+                                          - generic [ref=e1220]:
+                                            - generic [ref=e1221]:
+                                              - text: Кафе •
+                                              - generic [ref=e1222]: 53%
+                                              - generic [ref=e1223]: положительный
+                                              - img [ref=e1225]
+                                            - generic [ref=e1226]: 384 отзыва
+                                      - listitem [ref=e1227]:
+                                        - menuitem "Творчество • 99% положительный 288 отзывов" [ref=e1228] [cursor=pointer]:
+                                          - generic [ref=e1230]:
+                                            - generic [ref=e1231]:
+                                              - text: Творчество •
+                                              - generic [ref=e1232]: 99%
+                                              - generic [ref=e1233]: положительный
+                                              - img [ref=e1235]
+                                            - generic [ref=e1236]: 288 отзывов
+                                      - listitem [ref=e1237]:
+                                        - menuitem "График работы • 38% отрицательный 253 отзыва" [ref=e1238] [cursor=pointer]:
+                                          - generic [ref=e1240]:
+                                            - generic [ref=e1241]:
+                                              - text: График работы •
+                                              - generic [ref=e1242]: 38%
+                                              - generic [ref=e1243]: отрицательный
+                                              - img [ref=e1245]
+                                            - generic [ref=e1246]: 253 отзыва
+                                      - listitem [ref=e1247]:
+                                        - menuitem "Парковка • 37% отрицательный 248 отзывов" [ref=e1248] [cursor=pointer]:
+                                          - generic [ref=e1250]:
+                                            - generic [ref=e1251]:
+                                              - text: Парковка •
+                                              - generic [ref=e1252]: 37%
+                                              - generic [ref=e1253]: отрицательный
+                                              - img [ref=e1255]
+                                            - generic [ref=e1256]: 248 отзывов
+                                      - listitem [ref=e1257]:
+                                        - menuitem "Скульптура • 76% положительный 233 отзыва" [ref=e1258] [cursor=pointer]:
+                                          - generic [ref=e1260]:
+                                            - generic [ref=e1261]:
+                                              - text: Скульптура •
+                                              - generic [ref=e1262]: 76%
+                                              - generic [ref=e1263]: положительный
+                                              - img [ref=e1265]
+                                            - generic [ref=e1266]: 233 отзыва
+                                      - listitem [ref=e1267]:
+                                        - menuitem "Гардероб • 37% отрицательный 199 отзывов" [ref=e1268] [cursor=pointer]:
+                                          - generic [ref=e1270]:
+                                            - generic [ref=e1271]:
+                                              - text: Гардероб •
+                                              - generic [ref=e1272]: 37%
+                                              - generic [ref=e1273]: отрицательный
+                                              - img [ref=e1275]
+                                            - generic [ref=e1276]: 199 отзывов
+                                      - listitem [ref=e1277]:
+                                        - menuitem "Живопись • 98% положительный 95 отзывов" [ref=e1278] [cursor=pointer]:
+                                          - generic [ref=e1280]:
+                                            - generic [ref=e1281]:
+                                              - text: Живопись •
+                                              - generic [ref=e1282]: 98%
+                                              - generic [ref=e1283]: положительный
+                                              - img [ref=e1285]
+                                            - generic [ref=e1286]: 95 отзывов
+                                      - listitem [ref=e1287]:
+                                        - menuitem "Доступность • 48% положительный 34 отзыва" [ref=e1288] [cursor=pointer]:
+                                          - generic [ref=e1290]:
+                                            - generic [ref=e1291]:
+                                              - text: Доступность •
+                                              - generic [ref=e1292]: 48%
+                                              - generic [ref=e1293]: положительный
+                                              - img [ref=e1295]
+                                            - generic [ref=e1296]: 34 отзыва
+                                      - listitem [ref=e1297]:
+                                        - menuitem "Интерактив • 63% положительный 17 отзывов" [ref=e1298] [cursor=pointer]:
+                                          - generic [ref=e1300]:
+                                            - generic [ref=e1301]:
+                                              - text: Интерактив •
+                                              - generic [ref=e1302]: 63%
+                                              - generic [ref=e1303]: положительный
+                                              - img [ref=e1305]
+                                            - generic [ref=e1306]: 17 отзывов
+                                      - iframe [ref=e1307]:
+                                        
+                                    - img [ref=e1310] [cursor=pointer]
+                              - list [ref=e1311]:
+                                - button "Посмотреть все 22556 отзывов" [ref=e1315] [cursor=pointer]
+                        - generic [ref=e1316]:
+                          - link "Разместить рекламу" [ref=e1318] [cursor=pointer]:
+                            - /url: https://yandex.ru/business/priority-promo/web-maps-promo?utm_source=webmaps&utm_medium=org_card_link&utm_campaign=webmaps_org_card&permalink=157278814536
+                          - button "Источники данных" [ref=e1321] [cursor=pointer]:
+                            - generic [ref=e1322]: Источники данных
+                            - img [ref=e1325]
+                - generic "подвал блока" [ref=e1327]:
+                  - generic [ref=e1328]:
+                    - generic [ref=e1329]:
+                      - link "Сообщить об ошибке" [ref=e1331] [cursor=pointer]
+                      - link "Мобильное приложение" [ref=e1333] [cursor=pointer]:
+                        - /url: https://mobile.yandex.ru/apps/maps/
+                    - button "Сервисы" [ref=e1336] [cursor=pointer]:
+                      - generic [ref=e1337]:
+                        - generic [ref=e1340]: Сервисы
+                        - img [ref=e1344]
+                    - button "Персональное" [ref=e1348] [cursor=pointer]:
+                      - generic [ref=e1349]:
+                        - generic [ref=e1352]: Персональное
+                        - img [ref=e1356]
+                    - button "Для бизнеса" [ref=e1360] [cursor=pointer]:
+                      - generic [ref=e1361]:
+                        - generic [ref=e1364]: Для бизнеса
+                        - img [ref=e1368]
+                  - generic [ref=e1371]:
+                    - link "vkontakte" [ref=e1372] [cursor=pointer]:
+                      - /url: https://vk.com/yandex.maps
+                      - img [ref=e1373]
+                    - link "telegram" [ref=e1375] [cursor=pointer]:
+                      - /url: https://t.me/mapsyandex
+                      - img [ref=e1376]
+                    - link "zen" [ref=e1378] [cursor=pointer]:
+                      - /url: https://zen.yandex.ru/yandexmaps
+                      - img [ref=e1379]
+                  - generic [ref=e1381]:
+                    - generic [ref=e1382]: Яндекс Карты — выбирайте, где поесть, куда сходить, чем заняться.
+                    - generic [ref=e1383]: © 2001–2026 ООО «Яндекс»
+                    - generic [ref=e1384]:
+                      - link "Справка" [ref=e1386] [cursor=pointer]:
+                        - /url: //yandex.ru/support/maps/?lang=ru
+                      - generic [ref=e1387]:
+                        - text: "|"
+                        - link "О сервисе" [ref=e1388] [cursor=pointer]:
+                          - /url: //yandex.ru/support/maps/
+                      - generic [ref=e1389]:
+                        - text: "|"
+                        - link "Пользовательское соглашение" [ref=e1390] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+                      - generic [ref=e1391]:
+                        - text: "|"
+                        - link "Правила рекомендаций" [ref=e1392] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/recommendations/#index__geo
+              - iframe [ref=e1393]:
+                
+            - iframe [ref=e1394]:
+              
+        - img [ref=e1400] [cursor=pointer]
+      - navigation:
+        - generic [ref=e1403]:
+          - button "Пробки в Санкт‑Петербурге" [ref=e1406] [cursor=pointer]:
+            - generic [ref=e1407]:
+              - generic:
+                - img
+          - button "Панорамы улиц и фотографии" [ref=e1411] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Зеркала" [ref=e1414] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Движущийся транспорт" [ref=e1417] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Слои" [ref=e1420] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e1422]:
+          - button "Линейка и планиметр" [ref=e1425] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Детали" [ref=e1428] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - button "Профиль" [ref=e1431] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e1435]:
+                - button "Приблизить" [ref=e1437] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                - button "Отдалить" [ref=e1439] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+              - button "Моё местоположение" [ref=e1443] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+              - button "Наклон карты" [ref=e1450] [cursor=pointer]: 3D
+      - contentinfo:
+        - generic [ref=e1452]:
+          - generic [ref=e1453]: © Яндекс
+          - link "Справка" [ref=e1454] [cursor=pointer]:
+            - /url: //yandex.ru/support/maps/?lang=ru
+          - link "Условия использования" [ref=e1455] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+        - link "Яндекс" [ref=e1458] [cursor=pointer]:
+          - /url: https://ya.ru
+          - img [ref=e1460]
+        - generic:
+          - generic:
+            - generic:
+              - generic: 90 м
+      - iframe [ref=e1461]:
+        
+    - iframe [ref=e1462]:
+      
+  - iframe [ref=e1463]:
+    
+  - generic [ref=e1466]:
+    - generic [ref=e1467]:
+      - generic [ref=e1468]: Екатерининский дворец
+      - generic [ref=e1470]:
+        - img [ref=e1472]
+        - text: "5"
+        - img [ref=e1475]
+    - generic [ref=e1478]: "Билет: от 400 ₽"

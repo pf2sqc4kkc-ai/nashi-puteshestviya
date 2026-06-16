@@ -1,0 +1,486 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+      - generic [ref=e6]:
+        - generic [ref=e7] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: Eggsellent
+            - generic [ref=e13]:
+              - img [ref=e15]
+              - text: "5"
+              - img [ref=e18]
+          - generic [ref=e21]: "Ср. чек: от 1000 ₽"
+        - generic [ref=e22] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]:
+            - generic [ref=e26]: Eggsellent
+            - generic [ref=e28]:
+              - img [ref=e30]
+              - text: 4,5
+              - img [ref=e33]
+          - generic [ref=e36]: "Ср. чек: от 1000 ₽"
+    - generic:
+      - generic:
+        - banner:
+          - generic [ref=e42]:
+            - link [ref=e43] [cursor=pointer]:
+              - /url: /maps/2/saint-petersburg/
+              - img [ref=e45]
+            - generic [ref=e48]:
+              - textbox "Поиск и выбор мест" [ref=e51]: Eggsellent Санкт-Петербург
+              - iframe [ref=e52]:
+                
+            - button "Найти" [ref=e54] [cursor=pointer]:
+              - img [ref=e57]
+            - button "Закрыть" [ref=e61] [cursor=pointer]:
+              - img [ref=e64]
+      - generic:
+        - generic:
+          - complementary [ref=e66]:
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - generic [ref=e71]:
+                  - heading "Eggsellent Санкт-Петербург" [level=1] [ref=e73]
+                  - generic [ref=e74]:
+                    - button "Все фильтры Открыто" [ref=e76]:
+                      - generic [ref=e78]:
+                        - list [ref=e80]:
+                          - listitem [ref=e81]:
+                            - button "Все фильтры" [ref=e85] [cursor=pointer]:
+                              - img [ref=e88]
+                          - listitem [ref=e90]:
+                            - button "Открыто" [expanded] [ref=e93] [cursor=pointer]:
+                              - generic [ref=e94]: Открыто
+                              - generic:
+                                - img
+                          - iframe [ref=e95]:
+                            
+                        - iframe [ref=e96]:
+                          
+                    - list [ref=e97]:
+                      - listitem [ref=e98]:
+                        - 'button "Eggsellent Eggsellent Оценка 1 Из 1 Рейтинг 5,0 2093 оценки Награды: Хорошее место 2026 Открыто до 18:00 · , наб. реки Мойки, 102 Комментарий «вафельки очень вкусные и сытные, приготовили за 10 минут.» Меню В подборке : Кафе и кофейни Санкт‑Петербурга с панкейками" [ref=e99] [cursor=pointer]':
+                          - link "Eggsellent" [ref=e100]:
+                            - /url: /maps/org/eggsellent/224098193479/
+                          - generic [ref=e102]:
+                            - generic [ref=e104]:
+                              - text: Eggsellent
+                              - img [ref=e107]
+                            - generic [ref=e110]:
+                              - link "Оценка 1 Из 1 Рейтинг 5,0 2093 оценки" [ref=e111]:
+                                - /url: /maps/org/eggsellent/224098193479/reviews/
+                                - generic [ref=e112]:
+                                  - generic [ref=e113]:
+                                    - generic "Оценка 1 Из 1" [ref=e114]:
+                                      - img [ref=e116]
+                                    - generic [ref=e118]:
+                                      - generic [ref=e119]: Рейтинг
+                                      - text: 5,0
+                                  - generic [ref=e120]: 2093 оценки
+                                  - generic [ref=e122]: (2093)
+                              - generic [ref=e123]:
+                                - generic: "Награды:"
+                                - generic [ref=e124]:
+                                  - img [ref=e127]
+                                  - generic [ref=e146]: Хорошее место 2026
+                            - generic [ref=e147]:
+                              - generic [ref=e149]: Открыто до 18:00
+                              - generic [ref=e150]:
+                                - text: ·
+                                - generic [ref=e151]:
+                                  - link [ref=e152]:
+                                    - /url: /maps/2/saint-petersburg/category/cafe/184106390/
+                                    - text: Кафе
+                                  - text: ","
+                                  - link [ref=e153]:
+                                    - /url: /maps/2/saint-petersburg/category/restaurant/184106394/
+                                    - text: ресторан
+                            - link "наб. реки Мойки, 102" [ref=e156]:
+                              - /url: /maps/2/saint-petersburg/house/Z0kYdA5jSU0AQFtjfXVzdnhrYg==/
+                            - generic [ref=e159]:
+                              - generic [ref=e160]: Комментарий
+                              - text: «вафельки очень вкусные и сытные, приготовили за 10 минут.»
+                            - generic [ref=e161]:
+                              - link [ref=e163]:
+                                - /url: /maps/org/eggsellent/224098193479/gallery/
+                                - text: Фото
+                              - generic [ref=e164]:
+                                - list [ref=e166]:
+                                  - listitem [ref=e167]:
+                                    - img [ref=e169]
+                                  - listitem [ref=e170]:
+                                    - img [ref=e174]
+                                  - listitem [ref=e177]:
+                                    - img [ref=e179]
+                                  - listitem [ref=e180]:
+                                    - img [ref=e184]
+                                  - listitem [ref=e187]:
+                                    - img [ref=e191]
+                                  - listitem [ref=e194]:
+                                    - generic [ref=e197]:
+                                      - img [ref=e199]
+                                      - generic [ref=e202]: Еще 1171
+                                  - iframe [ref=e203]:
+                                    
+                                - button "Меню" [ref=e205]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                                  - generic [ref=e206]: Меню
+                            - generic [ref=e208]:
+                              - img [ref=e209]
+                              - 'link "В подборке : Кафе и кофейни Санкт‑Петербурга с панкейками" [ref=e210]':
+                                - /url: /maps/discovery/podborka_eda_pankejki_sankt-peterburg-2/
+                                - text: В подборке
+                                - generic [ref=e211]: ":"
+                                - text: Кафе и кофейни Санкт‑Петербурга с панкейками
+                      - listitem [ref=e212]:
+                        - 'button "Eggsellent Eggsellent Оценка 1 Из 1 Рейтинг 4,5 1213 оценок Награды: Хорошее место 2026 Открыто до 17:00 · , Большой просп. Васильевского острова, 16/14Б, этаж 1 Комментарий «Интересное меню,каждый месяц добавляют сезонные блюда.» Меню В подборке : Заведения Санкт‑Петербурга с блюдами из яйца пашот" [ref=e213] [cursor=pointer]':
+                          - link "Eggsellent" [ref=e214]:
+                            - /url: /maps/org/eggsellent/133486533111/
+                          - generic [ref=e216]:
+                            - generic [ref=e218]:
+                              - text: Eggsellent
+                              - img [ref=e221]
+                            - generic [ref=e224]:
+                              - link "Оценка 1 Из 1 Рейтинг 4,5 1213 оценок" [ref=e225]:
+                                - /url: /maps/org/eggsellent/133486533111/reviews/
+                                - generic [ref=e226]:
+                                  - generic [ref=e227]:
+                                    - generic "Оценка 1 Из 1" [ref=e228]:
+                                      - img [ref=e230]
+                                    - generic [ref=e232]:
+                                      - generic [ref=e233]: Рейтинг
+                                      - text: 4,5
+                                  - generic [ref=e234]: 1213 оценок
+                                  - generic [ref=e236]: (1213)
+                              - generic [ref=e237]:
+                                - generic: "Награды:"
+                                - generic [ref=e238]:
+                                  - img [ref=e241]
+                                  - generic [ref=e260]: Хорошее место 2026
+                            - generic [ref=e261]:
+                              - generic [ref=e263]: Открыто до 17:00
+                              - generic [ref=e264]:
+                                - text: ·
+                                - generic [ref=e265]:
+                                  - link [ref=e266]:
+                                    - /url: /maps/2/saint-petersburg/category/cafe/184106390/
+                                    - text: Кафе
+                                  - text: ","
+                                  - link [ref=e267]:
+                                    - /url: /maps/2/saint-petersburg/category/restaurant/184106394/
+                                    - text: ресторан
+                            - link "Большой просп. Васильевского острова, 16/14Б, этаж 1" [ref=e270]:
+                              - /url: /maps/2/saint-petersburg/house/Z0kYdA9lSkMGQFtjfXVyeH9nZw==/
+                            - generic [ref=e273]:
+                              - generic [ref=e274]: Комментарий
+                              - text: «Интересное меню,каждый месяц добавляют сезонные блюда.»
+                            - generic [ref=e275]:
+                              - link [ref=e277]:
+                                - /url: /maps/org/eggsellent/133486533111/gallery/
+                                - text: Фото
+                              - generic [ref=e278]:
+                                - list [ref=e280]:
+                                  - listitem [ref=e281]:
+                                    - img [ref=e283]
+                                  - listitem [ref=e284]:
+                                    - img [ref=e288]
+                                  - listitem [ref=e291]:
+                                    - img [ref=e293]
+                                  - listitem [ref=e294]:
+                                    - img [ref=e298]
+                                  - listitem [ref=e301]:
+                                    - img [ref=e305]
+                                  - listitem [ref=e308]:
+                                    - generic [ref=e311]:
+                                      - img [ref=e313]
+                                      - generic [ref=e316]: Еще 279
+                                  - iframe [ref=e317]:
+                                    
+                                - button "Меню" [ref=e319]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                                  - generic [ref=e320]: Меню
+                            - generic [ref=e322]:
+                              - img [ref=e323]
+                              - 'link "В подборке : Заведения Санкт‑Петербурга с блюдами из яйца пашот" [ref=e324]':
+                                - /url: /maps/discovery/podborka_eda_pashot_sankt-peterburg-2/
+                                - text: В подборке
+                                - generic [ref=e325]: ":"
+                                - text: Заведения Санкт‑Петербурга с блюдами из яйца пашот
+                      - generic [ref=e326]:
+                        - generic [ref=e328]: Похожие организации
+                        - generic [ref=e329]:
+                          - list [ref=e330]:
+                            - listitem [ref=e331]:
+                              - listitem [ref=e333]:
+                                - 'button "Траттория Лимончелло Траттория Лимончелло Оценка 1 Из 1 Рейтинг 4,7 2196 оценок Награды: Хорошее место 2026 Открыто до 23:00 Акция: Пицца с собой - 20%" [ref=e334] [cursor=pointer]':
+                                  - link "Траттория Лимончелло" [ref=e335]:
+                                    - /url: /maps/org/trattoriya_limonchello/1472652013/
+                                  - generic [ref=e337]:
+                                    - generic [ref=e338]:
+                                      - generic [ref=e340]:
+                                        - text: Траттория Лимончелло
+                                        - img [ref=e343]
+                                      - generic [ref=e346]:
+                                        - link "Оценка 1 Из 1 Рейтинг 4,7 2196 оценок" [ref=e347]:
+                                          - /url: /maps/org/trattoriya_limonchello/1472652013/reviews/
+                                          - generic [ref=e348]:
+                                            - generic [ref=e349]:
+                                              - generic "Оценка 1 Из 1" [ref=e350]:
+                                                - img [ref=e352]
+                                              - generic [ref=e354]:
+                                                - generic [ref=e355]: Рейтинг
+                                                - text: 4,7
+                                            - generic [ref=e356]: 2196 оценок
+                                            - generic [ref=e358]: (2196)
+                                        - generic [ref=e359]:
+                                          - generic: "Награды:"
+                                          - generic [ref=e360]:
+                                            - img [ref=e363]
+                                            - generic [ref=e382]: Хорошее место 2026
+                                      - generic [ref=e385]: Открыто до 23:00
+                                      - generic [ref=e386]:
+                                        - link [ref=e388]:
+                                          - /url: /maps/org/trattoriya_limonchello/1472652013/gallery/
+                                          - text: Фото
+                                        - generic [ref=e389]:
+                                          - list [ref=e391]:
+                                            - listitem [ref=e392]:
+                                              - img [ref=e394]
+                                            - listitem [ref=e395]
+                                            - listitem [ref=e402]
+                                            - listitem [ref=e405]:
+                                              - img [ref=e409]
+                                            - listitem [ref=e412]
+                                            - listitem [ref=e415]:
+                                              - generic [ref=e418]:
+                                                - img [ref=e420]
+                                                - generic [ref=e423]: Еще 336
+                                            - iframe [ref=e424]:
+                                              
+                                          - button [ref=e428]:
+                                            - generic:
+                                              - generic:
+                                                - img
+                                            - generic [ref=e430]: Бронь
+                                    - generic [ref=e433]:
+                                      - generic [ref=e434]: "Акция:"
+                                      - generic [ref=e435]: Пицца с собой - 20%
+                            - listitem [ref=e436]:
+                              - listitem [ref=e438]:
+                                - 'button "Суши White Суши White Оценка 4.2 Из 5 Рейтинг 4,2 236 оценок Открыто до 23:00 Реклама: Санкт-Петербург. Новинки меню. Попробуйте новинки нашего меню!" [ref=e439] [cursor=pointer]':
+                                  - link "Суши White" [ref=e440]:
+                                    - /url: /maps/org/sushi_white/25137056658/
+                                  - generic [ref=e442]:
+                                    - generic [ref=e443]:
+                                      - generic [ref=e445]:
+                                        - text: Суши White
+                                        - img [ref=e448]
+                                      - link "Оценка 4.2 Из 5 Рейтинг 4,2 236 оценок" [ref=e452]:
+                                        - /url: /maps/org/sushi_white/25137056658/reviews/
+                                        - generic [ref=e453]:
+                                          - generic [ref=e454]:
+                                            - generic "Оценка 4.2 Из 5" [ref=e455]:
+                                              - img [ref=e457]
+                                              - img [ref=e460]
+                                              - img [ref=e463]
+                                              - img [ref=e466]
+                                              - img [ref=e469]
+                                            - generic [ref=e471]:
+                                              - generic [ref=e472]: Рейтинг
+                                              - text: 4,2
+                                          - generic [ref=e473]: 236 оценок
+                                          - generic [ref=e475]: 236 оценок
+                                      - generic [ref=e478]: Открыто до 23:00
+                                      - generic [ref=e479]:
+                                        - link [ref=e481]:
+                                          - /url: /maps/org/sushi_white/25137056658/gallery/
+                                          - text: Фото
+                                        - generic [ref=e482]:
+                                          - list [ref=e484]:
+                                            - listitem [ref=e485]
+                                            - listitem [ref=e488]
+                                            - listitem [ref=e495]
+                                            - listitem [ref=e498]
+                                            - listitem [ref=e501]
+                                            - listitem [ref=e504]:
+                                              - generic [ref=e507]:
+                                                - img [ref=e509]
+                                                - generic [ref=e512]: Еще 103
+                                            - iframe [ref=e513]:
+                                              
+                                          - button [ref=e517]:
+                                            - generic:
+                                              - generic:
+                                                - img
+                                            - generic [ref=e519]: Бронь
+                                    - generic [ref=e522]:
+                                      - generic [ref=e523]: "Реклама:"
+                                      - generic [ref=e524]: Санкт-Петербург. Новинки меню. Попробуйте новинки нашего меню! Промо
+                            - iframe [ref=e525]:
+                              
+                          - img [ref=e528] [cursor=pointer]
+                    - generic [ref=e530]:
+                      - text: Добавьте
+                      - link "организацию" [ref=e532] [cursor=pointer]
+                      - text: или
+                      - generic [ref=e533]: объект
+                      - text: ", если не нашли их на карте."
+                    - text: "1"
+                    - link [ref=e534] [cursor=pointer]:
+                      - /url: https://yandex.ru/maps/2/saint-petersburg/chain/eggsellent/84030309116/?page=2
+                      - text: "2"
+                    - generic [ref=e537]:
+                      - link "Карты" [ref=e538] [cursor=pointer]:
+                        - /url: https://yandex.ru/maps/
+                      - text: ·
+                      - link "Санкт-Петербург" [ref=e539] [cursor=pointer]:
+                        - /url: https://yandex.ru/maps/2/saint-petersburg/
+                - iframe [ref=e540]:
+                  
+              - iframe [ref=e541]:
+                
+          - img [ref=e547] [cursor=pointer]
+      - navigation:
+        - generic [ref=e550]:
+          - button "Пробки в Санкт‑Петербурге" [ref=e553] [cursor=pointer]:
+            - generic [ref=e554]:
+              - generic:
+                - img
+          - button "Панорамы улиц и фотографии" [ref=e558] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Зеркала" [ref=e561] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Движущийся транспорт" [ref=e564] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Слои" [ref=e567] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e569]:
+          - button "Линейка и планиметр" [ref=e572] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Детали" [ref=e575] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - button "Профиль" [ref=e578] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e582]:
+                - button "Приблизить" [ref=e584] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                - button "Отдалить" [ref=e586] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+              - button "Моё местоположение" [ref=e590] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+              - button "Наклон карты" [ref=e597] [cursor=pointer]: 3D
+      - contentinfo:
+        - generic [ref=e599]:
+          - generic [ref=e600]: © Яндекс
+          - link "Справка" [ref=e601] [cursor=pointer]:
+            - /url: //yandex.ru/support/maps/?lang=ru
+          - link "Условия использования" [ref=e602] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+        - link "Яндекс" [ref=e605] [cursor=pointer]:
+          - /url: https://ya.ru
+          - img [ref=e607]
+        - generic:
+          - generic:
+            - generic:
+              - generic: 400 м
+      - iframe [ref=e608]:
+        
+    - iframe [ref=e609]:
+      
+  - iframe [ref=e610]:
+    
+  - generic [ref=e613]:
+    - generic [ref=e614]:
+      - generic [ref=e615]: Eggsellent
+      - generic [ref=e617]:
+        - img [ref=e619]
+        - text: 4,5
+        - img [ref=e622]
+    - generic [ref=e625]: "Ср. чек: от 1000 ₽"

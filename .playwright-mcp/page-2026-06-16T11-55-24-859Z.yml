@@ -1,0 +1,1059 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+      - generic [ref=e6]:
+        - generic [ref=e7] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: Tartarbar
+            - generic [ref=e13]:
+              - img [ref=e15]
+              - text: "5"
+              - img [ref=e18]
+          - generic [ref=e21]: "Ср. чек: от 2300 ₽"
+    - generic:
+      - generic:
+        - banner:
+          - generic [ref=e25]:
+            - button "Назад" [ref=e26] [cursor=pointer]:
+              - img [ref=e29]
+            - generic [ref=e31]:
+              - textbox "Поиск и выбор мест" [ref=e34]: Tartarbar Санкт-Петербург
+              - iframe [ref=e35]:
+                
+            - button "Найти" [ref=e37] [cursor=pointer]:
+              - img [ref=e40]
+            - button "Закрыть" [ref=e44] [cursor=pointer]:
+              - img [ref=e47]
+      - generic:
+        - complementary [ref=e49]:
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e54]:
+                - generic [ref=e55]:
+                  - generic [ref=e56]:
+                    - generic [ref=e57]:
+                      - generic [ref=e59]:
+                        - button "Tartarbar (Виленский пер., 15), ресторан в Санкт‑Петербурге" [ref=e61] [cursor=pointer]:
+                          - img "Tartarbar (Виленский пер., 15), ресторан в Санкт‑Петербурге" [ref=e62]
+                        - iframe [ref=e63]:
+                          
+                      - generic:
+                        - generic:
+                          - img
+                        - text: "454"
+                    - generic:
+                      - img "Логотип"
+                  - generic [ref=e64]:
+                    - heading "Tartarbar" [level=1] [ref=e67]:
+                      - generic [ref=e68]:
+                        - link "Tartarbar" [ref=e69] [cursor=pointer]:
+                          - /url: /maps/org/tartarbar/1736371961/
+                        - img [ref=e72]
+                    - generic [ref=e76]:
+                      - link "Входит в категорию Ресторан, поиск по категории" [ref=e80] [cursor=pointer]:
+                        - /url: /maps/2/saint-petersburg/category/restaurant/184106394/
+                        - text: Ресторан
+                      - generic [ref=e81]:
+                        - generic [ref=e84]:
+                          - generic "Оценка 1 Из 1" [ref=e85]:
+                            - img [ref=e87]
+                          - generic [ref=e89]:
+                            - generic [ref=e90]: Рейтинг
+                            - text: 5,0
+                        - generic [ref=e91]:
+                          - generic: "Награды:"
+                          - button "Хорошее место" [ref=e92] [cursor=pointer]:
+                            - img [ref=e95]
+                            - generic [ref=e114]: Хорошее место 2026
+                          - button "Ultima Guide" [ref=e115] [cursor=pointer]:
+                            - img [ref=e118]
+                            - generic [ref=e120]: Ultima Guide
+                      - button "Открыто до 00:00" [ref=e121]:
+                        - button "Открыто до 00:00" [ref=e123] [cursor=pointer]:
+                          - generic [ref=e125]: Открыто до 00:00
+                          - img [ref=e128]
+                      - list [ref=e132]:
+                        - listitem [ref=e133]:
+                          - button "Маршрут" [ref=e135] [cursor=pointer]:
+                            - img [ref=e138]
+                            - generic [ref=e142]: Маршрут
+                        - listitem [ref=e143]:
+                          - button "Сайт" [ref=e145] [cursor=pointer]:
+                            - img [ref=e148]
+                        - listitem [ref=e150]:
+                          - generic [ref=e151]:
+                            - status [ref=e152]: Сохранить
+                            - button "Закладки" [ref=e154] [cursor=pointer]:
+                              - img [ref=e157]
+                        - listitem [ref=e159]:
+                          - button "Поделиться" [ref=e161] [cursor=pointer]:
+                            - img [ref=e164]
+                        - iframe [ref=e167]:
+                          
+                      - button "Завтраки каждый день!" [ref=e172] [cursor=pointer]:
+                        - generic [ref=e173]:
+                          - generic [ref=e174]:
+                            - img [ref=e177]
+                            - generic [ref=e184]: Завтраки каждый день!
+                          - img [ref=e188]
+                      - button "Забронировать" [ref=e192] [cursor=pointer]:
+                        - generic [ref=e193]: Забронировать
+                    - generic [ref=e195]:
+                      - generic [ref=e199]:
+                        - tablist [ref=e200]:
+                          - tab "Обзор," [selected] [ref=e202]:
+                            - link:
+                              - /url: /maps/org/tartarbar/1736371961/
+                              - text: Обзор
+                          - tab "Меню," [ref=e204]:
+                            - link:
+                              - /url: /maps/org/tartarbar/1736371961/menu/
+                              - text: Меню
+                          - tab "Новости, 1" [ref=e206]:
+                            - link:
+                              - /url: /maps/org/tartarbar/1736371961/?tab=posts
+                              - text: Новости
+                            - generic: "1"
+                          - tab "Фото, 453" [ref=e208]:
+                            - link:
+                              - /url: /maps/org/tartarbar/1736371961/gallery/
+                              - text: Фото
+                            - generic: "453"
+                          - tab "Отзывы, 4164" [ref=e210]:
+                            - link:
+                              - /url: /maps/org/tartarbar/1736371961/reviews/
+                              - text: Отзывы
+                            - generic: "4164"
+                          - tab "Особенности," [ref=e212]:
+                            - link:
+                              - /url: /maps/org/tartarbar/1736371961/?tab=features
+                              - text: Особенности
+                          - iframe [ref=e213]:
+                            
+                        - img [ref=e217] [cursor=pointer]
+                      - generic [ref=e221]:
+                        - generic [ref=e222]:
+                          - generic [ref=e225]:
+                            - list [ref=e226]:
+                              - listitem [ref=e227]:
+                                - generic [ref=e232] [cursor=pointer]: Обновление меню
+                              - listitem [ref=e233]:
+                                - generic [ref=e238] [cursor=pointer]: Схема проезда
+                              - listitem [ref=e239]:
+                                - generic [ref=e244] [cursor=pointer]: Атмосфера
+                              - listitem [ref=e245]:
+                                - generic [ref=e250] [cursor=pointer]: Завтраки
+                              - listitem [ref=e251]:
+                                - generic [ref=e256] [cursor=pointer]: Еда
+                              - listitem [ref=e257]:
+                                - generic [ref=e262] [cursor=pointer]: Бар
+                              - listitem [ref=e263]:
+                                - generic [ref=e268] [cursor=pointer]: Команда
+                              - iframe [ref=e269]:
+                                
+                            - img [ref=e272] [cursor=pointer]
+                          - generic [ref=e275]:
+                            - generic [ref=e276]:
+                              - heading "Витрина" [level=2] [ref=e279]
+                              - generic [ref=e280]:
+                                - list [ref=e281]:
+                                  - listitem [ref=e282]:
+                                    - link "Тартар из говядины с пармезаном 850 ₽" [ref=e283] [cursor=pointer]:
+                                      - /url: https://tartarbar.ru/?erid=3MtFQRkqfB2huzBcHHtt6nDxkUW7Vi
+                                      - button [ref=e285]:
+                                        - img [ref=e287]
+                                      - generic [ref=e289]: Тартар из говядины с пармезаном
+                                      - generic [ref=e290]: 850 ₽
+                                  - listitem [ref=e291]:
+                                    - link "Севиче из тунца с кимчи редисом 690 ₽" [ref=e292] [cursor=pointer]:
+                                      - /url: https://tartarbar.ru/?erid=3MtFQRkqfB2huzBcHHtt6nEScko8b5
+                                      - button [ref=e294]:
+                                        - img [ref=e296]
+                                      - generic [ref=e298]: Севиче из тунца с кимчи редисом
+                                      - generic [ref=e299]: 690 ₽
+                                  - listitem [ref=e300]:
+                                    - link "Тартар из говядины с шиитаке и кешью 650 ₽" [ref=e301] [cursor=pointer]:
+                                      - /url: https://tartarbar.ru/?erid=3MtFQRkqfB2huzBcHHtt6nDxkUWnEL
+                                      - button [ref=e303]:
+                                        - img [ref=e305]
+                                      - generic [ref=e307]: Тартар из говядины с шиитаке и кешью
+                                      - generic [ref=e308]: 650 ₽
+                                  - listitem [ref=e309]:
+                                    - link "Татаки из говядины с фуа-гра 1 350 ₽" [ref=e310] [cursor=pointer]:
+                                      - /url: https://tartarbar.ru/?erid=3MtFQRkqfB2huzBcHHtt6nESckoUDv
+                                      - button [ref=e312]
+                                      - generic [ref=e315]: Татаки из говядины с фуа-гра
+                                      - generic [ref=e316]: 1 350 ₽
+                                  - listitem [ref=e317]:
+                                    - generic [ref=e318]:
+                                      - button [ref=e320]
+                                      - generic [ref=e323]: Костный мозг на хлебе
+                                      - generic [ref=e324]: 850 ₽
+                                  - listitem [ref=e325]:
+                                    - generic [ref=e326]:
+                                      - button [ref=e328]
+                                      - generic [ref=e331]: Бедро бычка с муссом из зобной железы
+                                      - generic [ref=e332]: 1 350 ₽
+                                  - listitem [ref=e333]:
+                                    - link "Палтус с шучьей икрой и копченым пюре 1 750 ₽" [ref=e334] [cursor=pointer]:
+                                      - /url: https://tartarbar.ru/?erid=3MtFQRkqfB2huzBcHHtt6nESckpUDA
+                                      - button [ref=e336]
+                                      - generic [ref=e339]: Палтус с шучьей икрой и копченым пюре
+                                      - generic [ref=e340]: 1 750 ₽
+                                  - listitem [ref=e341]:
+                                    - generic [ref=e342]:
+                                      - button [ref=e344]
+                                      - generic [ref=e347]: Тартар из оленины с щучьей икрой и хреном
+                                      - generic [ref=e348]: 950 ₽
+                                  - listitem [ref=e349]:
+                                    - generic [ref=e350]:
+                                      - button [ref=e352]
+                                      - generic [ref=e355]: Камбала с северными креветками
+                                      - generic [ref=e356]: 990 ₽
+                                  - listitem [ref=e357]:
+                                    - generic [ref=e358]:
+                                      - button [ref=e360]
+                                      - generic [ref=e363]: Лопатка ягненка с ромеско
+                                      - generic [ref=e364]: 1 450 ₽
+                                  - iframe [ref=e365]:
+                                    
+                                - img [ref=e368] [cursor=pointer]
+                            - button "Посмотреть всё меню" [ref=e371] [cursor=pointer]:
+                              - generic [ref=e373]:
+                                - img [ref=e376]
+                                - generic [ref=e379]: Посмотреть всё меню
+                          - generic [ref=e382]:
+                            - button "Панорама — ресторан Tartarbar, Санкт‑Петербург" [ref=e383] [cursor=pointer]:
+                              - img "Панорама — ресторан Tartarbar, Санкт‑Петербург" [ref=e386]
+                              - generic:
+                                - img
+                              - generic: Панорама
+                            - link "Панорама":
+                              - /url: /maps/org/tartarbar/1736371961/panorama/
+                          - generic [ref=e387]:
+                            - generic [ref=e388]:
+                              - generic [ref=e389]:
+                                - img [ref=e392]
+                                - heading "Адрес" [level=3] [ref=e395]
+                              - generic [ref=e401]:
+                                - generic [ref=e402]:
+                                  - link "Виленский пер., 15" [ref=e403]
+                                  - text: • этаж 1
+                                - generic [ref=e404]:
+                                  - button "Показать входы" [ref=e405] [cursor=pointer]
+                                  - generic [ref=e406]: "|"
+                                  - button "Маршрут" [ref=e407] [cursor=pointer]
+                            - generic [ref=e408]:
+                              - generic [ref=e409]:
+                                - img [ref=e412]
+                                - heading "Контакты" [level=3] [ref=e415]
+                              - generic [ref=e427]:
+                                - text: +7 (911) 922-56-06
+                                - button "Показать телефон" [ref=e428] [cursor=pointer]:
+                                  - generic [ref=e429]: Показать телефон
+                              - link "tartarbar.ru" [ref=e440] [cursor=pointer]:
+                                - /url: https://tartarbar.ru/?utm_campaign=yandex_card_site_button&utm_medium=profile&utm_source=yandex
+                              - button "Соцсети, telegram" [ref=e448] [cursor=pointer]:
+                                - img [ref=e451]
+                            - generic [ref=e453]:
+                              - generic [ref=e454]:
+                                - img [ref=e457]
+                                - heading "Время работы" [level=3] [ref=e460]
+                              - button "Открыто до 00:00" [ref=e464] [cursor=pointer]:
+                                - generic [ref=e465]:
+                                  - generic "Открыто до 00:00" [ref=e471]
+                                  - generic [ref=e472]:
+                                    - generic [ref=e473]: График
+                                    - img [ref=e476]
+                            - button "Добавить фото или видео" [ref=e478] [cursor=pointer]:
+                              - generic [ref=e480]:
+                                - img [ref=e483]
+                                - generic [ref=e487]: Добавить фото или видео
+                            - button "Исправить неточность" [ref=e489] [cursor=pointer]:
+                              - img [ref=e492]
+                              - generic [ref=e494]: Исправить неточность
+                          - generic [ref=e496]:
+                            - heading "Входит в подборки" [level=2] [ref=e498]
+                            - generic [ref=e501]:
+                              - list [ref=e502]:
+                                - listitem [ref=e503]:
+                                  - button "Подборка · 50 мест Петербург - куда сходить Владислав Угрюмов Владислав Угрюмов" [ref=e505]:
+                                    - generic [ref=e506]:
+                                      - button [ref=e507]
+                                      - generic [ref=e510]: Подборка · 50 мест
+                                    - link "Петербург - куда сходить" [ref=e512] [cursor=pointer]:
+                                      - /url: /maps/discovery/ugc_b30c2ce2-0036-410f-872f-a8ae9494d6f6/
+                                    - generic [ref=e513]:
+                                      - img "Владислав Угрюмов" [ref=e514]
+                                      - generic [ref=e515]: Владислав Угрюмов
+                                - listitem [ref=e516]:
+                                  - button "Подборка · 72 места Ultima Guide Яндекс Еда Ultima Ultima" [ref=e518]:
+                                    - generic [ref=e519]:
+                                      - button [ref=e520]
+                                      - generic [ref=e523]: Подборка · 72 места
+                                    - link "Ultima Guide Яндекс Еда" [ref=e525] [cursor=pointer]:
+                                      - /url: /maps/discovery/ultima-guide-saint-petersburg/
+                                    - generic [ref=e526]:
+                                      - img "Ultima" [ref=e527]
+                                      - generic [ref=e528]: Ultima
+                                - listitem [ref=e529]:
+                                  - button "Подборка · 50 мест Рестораны и бары Санкт-Петербурга с уникальной концепцией Яндекс Карты Яндекс Карты" [ref=e531]:
+                                    - generic [ref=e532]:
+                                      - button [ref=e533]
+                                      - generic [ref=e536]: Подборка · 50 мест
+                                    - link "Рестораны и бары Санкт-Петербурга с уникальной концепцией" [ref=e538] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_koncepciya_sankt-peterburg-2/
+                                    - generic [ref=e539]:
+                                      - img "Яндекс Карты" [ref=e540]
+                                      - generic [ref=e541]: Яндекс Карты
+                                - listitem [ref=e542]:
+                                  - button "Подборка · 12 мест Гастрономические рестораны Петербурга Яндекс Карты Яндекс Карты" [ref=e544]:
+                                    - generic [ref=e545]:
+                                      - button [ref=e546]
+                                      - generic [ref=e549]: Подборка · 12 мест
+                                    - link "Гастрономические рестораны Петербурга" [ref=e551] [cursor=pointer]:
+                                      - /url: /maps/discovery/gastronomicheskie-restorany-peterburga/
+                                    - generic [ref=e552]:
+                                      - img "Яндекс Карты" [ref=e553]
+                                      - generic [ref=e554]: Яндекс Карты
+                                - listitem [ref=e555]:
+                                  - button "Подборка · 14 мест Рестораны и бары Санкт‑Петербурга с блюдами из костного мозга Яндекс Карты Яндекс Карты" [ref=e557]:
+                                    - generic [ref=e558]:
+                                      - button [ref=e559]
+                                      - generic [ref=e562]: Подборка · 14 мест
+                                    - link "Рестораны и бары Санкт‑Петербурга с блюдами из костного мозга" [ref=e564] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_kostnyj-mozg_sankt-peterburg-2/
+                                    - generic [ref=e565]:
+                                      - img "Яндекс Карты" [ref=e566]
+                                      - generic [ref=e567]: Яндекс Карты
+                                - listitem [ref=e568]:
+                                  - button "Подборка · 26 мест Винные бары и рестораны Санкт‑Петербурга Яндекс Карты Яндекс Карты" [ref=e570]:
+                                    - generic [ref=e571]:
+                                      - button [ref=e572]
+                                      - generic [ref=e575]: Подборка · 26 мест
+                                    - link "Винные бары и рестораны Санкт‑Петербурга" [ref=e577] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_vinnyj-bar_sankt-peterburg-2/
+                                    - generic [ref=e578]:
+                                      - img "Яндекс Карты" [ref=e579]
+                                      - generic [ref=e580]: Яндекс Карты
+                                - listitem [ref=e581]:
+                                  - button "Подборка · 12 мест Гид по модным ресторанам Петербурга Яндекс Карты Яндекс Карты" [ref=e583]:
+                                    - generic [ref=e584]:
+                                      - button [ref=e585]
+                                      - generic [ref=e588]: Подборка · 12 мест
+                                    - link "Гид по модным ресторанам Петербурга" [ref=e590] [cursor=pointer]:
+                                      - /url: /maps/discovery/gastronomicheskie-restorany-peterburga-4ca1e0d2f62bclemlhlc2/
+                                    - generic [ref=e591]:
+                                      - img "Яндекс Карты" [ref=e592]
+                                      - generic [ref=e593]: Яндекс Карты
+                                - listitem [ref=e594]:
+                                  - button "Подборка · 41 место Рестораны и бары для свиданий в Санкт‑Петербурге Яндекс Карты Яндекс Карты" [ref=e596]:
+                                    - generic [ref=e597]:
+                                      - button [ref=e598]
+                                      - generic [ref=e601]: Подборка · 41 место
+                                    - link "Рестораны и бары для свиданий в Санкт‑Петербурге" [ref=e603] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_svidaniya_sankt-peterburg-2/
+                                    - generic [ref=e604]:
+                                      - img "Яндекс Карты" [ref=e605]
+                                      - generic [ref=e606]: Яндекс Карты
+                                - listitem [ref=e607]:
+                                  - button "Подборка · 50 мест Лучшие места в Санкт‑Петербурге с мороженым Яндекс Карты Яндекс Карты" [ref=e609]:
+                                    - generic [ref=e610]:
+                                      - button [ref=e611]
+                                      - generic [ref=e614]: Подборка · 50 мест
+                                    - link "Лучшие места в Санкт‑Петербурге с мороженым" [ref=e616] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_morozhenoe_sankt-peterburg-2/
+                                    - generic [ref=e617]:
+                                      - img "Яндекс Карты" [ref=e618]
+                                      - generic [ref=e619]: Яндекс Карты
+                                - listitem [ref=e620]:
+                                  - button "Подборка · 28 мест Рестораны и бары Санкт-Петербурга с блюдами из оленины Яндекс Карты Яндекс Карты" [ref=e622]:
+                                    - generic [ref=e623]:
+                                      - button [ref=e624]
+                                      - generic [ref=e627]: Подборка · 28 мест
+                                    - link "Рестораны и бары Санкт-Петербурга с блюдами из оленины" [ref=e629] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_olenina_sankt-peterburg-2/
+                                    - generic [ref=e630]:
+                                      - img "Яндекс Карты" [ref=e631]
+                                      - generic [ref=e632]: Яндекс Карты
+                                - iframe [ref=e633]:
+                                  
+                              - img [ref=e636] [cursor=pointer]
+                          - generic "Как добраться" [ref=e639]:
+                            - heading "Как добраться" [level=2] [ref=e641]
+                            - button "Метро рядом" [ref=e645] [cursor=pointer]:
+                              - generic [ref=e646]:
+                                - generic [ref=e647]:
+                                  - generic "На метро" [ref=e650]:
+                                    - img [ref=e651]
+                                  - generic [ref=e656]:
+                                    - generic [ref=e657]: Чернышевская
+                                    - button "Чернышевская Построить маршрут Пешком 870 м" [ref=e658]:
+                                      - img [ref=e660]
+                                      - generic [ref=e662]: 870 м
+                                - generic [ref=e663]:
+                                  - generic [ref=e664]: "2"
+                                  - img [ref=e667]
+                            - button "Остановки рядом" [ref=e672] [cursor=pointer]:
+                              - generic [ref=e673]:
+                                - generic [ref=e674]:
+                                  - generic "На автобусе" [ref=e677]:
+                                    - img [ref=e678]
+                                  - generic [ref=e685]:
+                                    - generic [ref=e686]: Мальцевский рынок
+                                    - button "Мальцевский рынок Построить маршрут Пешком 259 м" [ref=e687]:
+                                      - img [ref=e689]
+                                      - generic [ref=e691]: 259 м
+                                - generic [ref=e692]:
+                                  - generic [ref=e693]: "4"
+                                  - img [ref=e696]
+                            - button [ref=e698] [cursor=pointer]:
+                              - generic [ref=e700]:
+                                - img [ref=e703]
+                                - generic [ref=e707]: Показать парковки
+                          - generic [ref=e709]:
+                            - heading "Особенности" [level=2] [ref=e711]
+                            - generic [ref=e713]:
+                              - generic [ref=e715]:
+                                - img [ref=e718]
+                                - generic [ref=e721]: Еда навынос
+                              - generic [ref=e723]:
+                                - img [ref=e726]
+                                - generic [ref=e728]: Кофе с собой
+                            - generic [ref=e729]:
+                              - generic [ref=e731]:
+                                - generic [ref=e732]: "Средний счёт:"
+                                - text: 2300–2500 ₽
+                              - generic [ref=e734]:
+                                - generic [ref=e735]: "Цены:"
+                                - text: высокие
+                            - button "Подробнее об организации" [ref=e736] [cursor=pointer]:
+                              - generic [ref=e738]:
+                                - img [ref=e741]
+                                - link [ref=e745]:
+                                  - /url: /maps/org/tartarbar/1736371961/?tab=features
+                                  - text: Подробнее об организации
+                          - button "Акция" [ref=e752] [cursor=pointer]:
+                            - generic [ref=e753]:
+                              - generic [ref=e754]:
+                                - img [ref=e757]
+                                - generic [ref=e764]: Акция
+                              - img [ref=e768]
+                          - button "Рекламировать компанию в Яндекс Картах" [ref=e775] [cursor=pointer]:
+                            - generic [ref=e776]:
+                              - generic [ref=e777]:
+                                - img [ref=e780]
+                                - generic [ref=e785]: Рекламировать компанию в Яндекс Картах
+                              - img [ref=e789]
+                          - generic [ref=e792]:
+                            - heading "Посещаемость и график работы" [level=2] [ref=e794]
+                            - generic [ref=e795]:
+                              - generic [ref=e796]:
+                                - generic [ref=e797]: 14:00
+                                - text: Обычно средняя загруженность
+                              - generic [ref=e798]:
+                                - button "Понедельник" [ref=e799] [cursor=pointer]: Пн
+                                - button "Вторник" [ref=e800] [cursor=pointer]: Вт
+                                - button "Среда" [ref=e801] [cursor=pointer]: Ср
+                                - button "Четверг" [ref=e802] [cursor=pointer]: Чт
+                                - button "Пятница" [ref=e803] [cursor=pointer]: Пт
+                                - button "Суббота" [ref=e804] [cursor=pointer]: Сб
+                                - button "Воскресенье" [ref=e805] [cursor=pointer]: Вс
+                              - generic [ref=e806]:
+                                - text: 00:00 04:00 08:00
+                                - button "09:00" [ref=e807] [cursor=pointer]
+                                - button "10:00" [ref=e809] [cursor=pointer]
+                                - button "11:00" [ref=e811] [cursor=pointer]
+                                - button "12:00" [ref=e813] [cursor=pointer]: 12:00
+                                - button "13:00" [ref=e815] [cursor=pointer]
+                                - button "14:00" [ref=e817] [cursor=pointer]
+                                - button "15:00" [ref=e819] [cursor=pointer]
+                                - button "16:00" [ref=e821] [cursor=pointer]: 16:00
+                                - button "17:00" [ref=e823] [cursor=pointer]
+                                - button "18:00" [ref=e825] [cursor=pointer]
+                                - button "19:00" [ref=e827] [cursor=pointer]
+                                - button "20:00" [ref=e829] [cursor=pointer]: 20:00
+                                - button "21:00" [ref=e831] [cursor=pointer]
+                                - button "22:00" [ref=e833] [cursor=pointer]
+                                - button "23:00" [ref=e835] [cursor=pointer]: 00:00
+                          - generic [ref=e838]:
+                            - heading "Награды" [level=2] [ref=e839]
+                            - link "Хорошее место 2026 Награда для любимых мест пользователей Яндекс Карт" [ref=e840] [cursor=pointer]:
+                              - /url: https://yandex.ru/project/maps/goodplace/
+                              - img [ref=e843]
+                              - generic [ref=e855]:
+                                - generic [ref=e856]: Хорошее место 2026
+                                - generic [ref=e857]: Награда для любимых мест пользователей Яндекс Карт
+                            - link "Входит в Ultima Guide Первый ресторанный гид, созданный с помощью нейросети Яндекса" [ref=e858] [cursor=pointer]:
+                              - img [ref=e861]
+                              - generic [ref=e863]:
+                                - generic [ref=e864]: Входит в Ultima Guide
+                                - generic [ref=e865]: Первый ресторанный гид, созданный с помощью нейросети Яндекса
+                          - generic [ref=e868]:
+                            - generic [ref=e871]:
+                              - generic [ref=e875]:
+                                - generic [ref=e876]:
+                                  - generic [ref=e877]: Рейтинг
+                                  - text: 5,0
+                                - generic [ref=e878]:
+                                  - generic "Оценка 5 Из 5" [ref=e880]:
+                                    - img [ref=e882]
+                                    - img [ref=e884]
+                                    - img [ref=e886]
+                                    - img [ref=e888]
+                                    - img [ref=e890]
+                                  - generic [ref=e891]: 8682 оценки
+                              - generic [ref=e897]:
+                                - generic [ref=e898]: Оцените и напишите отзыв
+                                - generic [ref=e899]:
+                                  - button "1 звезда" [ref=e900] [cursor=pointer]:
+                                    - img [ref=e901]
+                                  - button "2 звезды" [ref=e902] [cursor=pointer]:
+                                    - img [ref=e903]
+                                  - button "3 звезды" [ref=e904] [cursor=pointer]:
+                                    - img [ref=e905]
+                                  - button "4 звезды" [ref=e906] [cursor=pointer]:
+                                    - img [ref=e907]
+                                  - button "5 звезд" [ref=e908] [cursor=pointer]:
+                                    - img [ref=e909]
+                            - generic [ref=e911]:
+                              - generic [ref=e912]:
+                                - generic [ref=e914]:
+                                  - heading "4164 отзыва" [level=2] [ref=e915]
+                                  - button "По умолчанию" [ref=e918] [cursor=pointer]:
+                                    - text: По умолчанию
+                                    - img [ref=e920]
+                                - menu [ref=e922]:
+                                  - generic [ref=e923]:
+                                    - list [ref=e924]:
+                                      - listitem [ref=e925]:
+                                        - menuitem "Еда • 93% положительный 3557 отзывов" [ref=e926] [cursor=pointer]:
+                                          - generic [ref=e928]:
+                                            - generic [ref=e929]:
+                                              - text: Еда •
+                                              - generic [ref=e930]: 93%
+                                              - generic [ref=e931]: положительный
+                                              - img [ref=e933]
+                                            - generic [ref=e934]: 3557 отзывов
+                                      - listitem [ref=e935]:
+                                        - menuitem "Персонал • 89% положительный 2022 отзыва" [ref=e936] [cursor=pointer]:
+                                          - generic [ref=e938]:
+                                            - generic [ref=e939]:
+                                              - text: Персонал •
+                                              - generic [ref=e940]: 89%
+                                              - generic [ref=e941]: положительный
+                                              - img [ref=e943]
+                                            - generic [ref=e944]: 2022 отзыва
+                                      - listitem [ref=e945]:
+                                        - menuitem "Атмосфера • 83% положительный 930 отзывов" [ref=e946] [cursor=pointer]:
+                                          - generic [ref=e948]:
+                                            - generic [ref=e949]:
+                                              - text: Атмосфера •
+                                              - generic [ref=e950]: 83%
+                                              - generic [ref=e951]: положительный
+                                              - img [ref=e953]
+                                            - generic [ref=e954]: 930 отзывов
+                                      - listitem [ref=e955]:
+                                        - menuitem "Время ожидания • 90% положительный 626 отзывов" [ref=e956] [cursor=pointer]:
+                                          - generic [ref=e958]:
+                                            - generic [ref=e959]:
+                                              - text: Время ожидания •
+                                              - generic [ref=e960]: 90%
+                                              - generic [ref=e961]: положительный
+                                              - img [ref=e963]
+                                            - generic [ref=e964]: 626 отзывов
+                                      - listitem [ref=e965]:
+                                        - menuitem "Напитки • 82% положительный 621 отзыв" [ref=e966] [cursor=pointer]:
+                                          - generic [ref=e968]:
+                                            - generic [ref=e969]:
+                                              - text: Напитки •
+                                              - generic [ref=e970]: 82%
+                                              - generic [ref=e971]: положительный
+                                              - img [ref=e973]
+                                            - generic [ref=e974]: 621 отзыв
+                                      - listitem [ref=e975]:
+                                        - menuitem "Мясо • 88% положительный 599 отзывов" [ref=e976] [cursor=pointer]:
+                                          - generic [ref=e978]:
+                                            - generic [ref=e979]:
+                                              - text: Мясо •
+                                              - generic [ref=e980]: 88%
+                                              - generic [ref=e981]: положительный
+                                              - img [ref=e983]
+                                            - generic [ref=e984]: 599 отзывов
+                                      - listitem [ref=e985]:
+                                        - menuitem "Интерьер • 90% положительный 355 отзывов" [ref=e986] [cursor=pointer]:
+                                          - generic [ref=e988]:
+                                            - generic [ref=e989]:
+                                              - text: Интерьер •
+                                              - generic [ref=e990]: 90%
+                                              - generic [ref=e991]: положительный
+                                              - img [ref=e993]
+                                            - generic [ref=e994]: 355 отзывов
+                                      - listitem [ref=e995]:
+                                        - menuitem "Алкоголь • 88% положительный 347 отзывов" [ref=e996] [cursor=pointer]:
+                                          - generic [ref=e998]:
+                                            - generic [ref=e999]:
+                                              - text: Алкоголь •
+                                              - generic [ref=e1000]: 88%
+                                              - generic [ref=e1001]: положительный
+                                              - img [ref=e1003]
+                                            - generic [ref=e1004]: 347 отзывов
+                                      - listitem [ref=e1005]:
+                                        - menuitem "Столы • 53% положительный 283 отзыва" [ref=e1006] [cursor=pointer]:
+                                          - generic [ref=e1008]:
+                                            - generic [ref=e1009]:
+                                              - text: Столы •
+                                              - generic [ref=e1010]: 53%
+                                              - generic [ref=e1011]: положительный
+                                              - img [ref=e1013]
+                                            - generic [ref=e1014]: 283 отзыва
+                                      - listitem [ref=e1015]:
+                                        - menuitem "Вино • 92% положительный 260 отзывов" [ref=e1016] [cursor=pointer]:
+                                          - generic [ref=e1018]:
+                                            - generic [ref=e1019]:
+                                              - text: Вино •
+                                              - generic [ref=e1020]: 92%
+                                              - generic [ref=e1021]: положительный
+                                              - img [ref=e1023]
+                                            - generic [ref=e1024]: 260 отзывов
+                                      - listitem [ref=e1025]:
+                                        - menuitem "Десерты • 87% положительный 230 отзывов" [ref=e1026] [cursor=pointer]:
+                                          - generic [ref=e1028]:
+                                            - generic [ref=e1029]:
+                                              - text: Десерты •
+                                              - generic [ref=e1030]: 87%
+                                              - generic [ref=e1031]: положительный
+                                              - img [ref=e1033]
+                                            - generic [ref=e1034]: 230 отзывов
+                                      - listitem [ref=e1035]:
+                                        - menuitem "Музыка • 31% отрицательный 150 отзывов" [ref=e1036] [cursor=pointer]:
+                                          - generic [ref=e1038]:
+                                            - generic [ref=e1039]:
+                                              - text: Музыка •
+                                              - generic [ref=e1040]: 31%
+                                              - generic [ref=e1041]: отрицательный
+                                              - img [ref=e1043]
+                                            - generic [ref=e1044]: 150 отзывов
+                                      - listitem [ref=e1045]:
+                                        - menuitem "Красивая подача блюд • 99% положительный 148 отзывов" [ref=e1046] [cursor=pointer]:
+                                          - generic [ref=e1048]:
+                                            - generic [ref=e1049]:
+                                              - text: Красивая подача блюд •
+                                              - generic [ref=e1050]: 99%
+                                              - generic [ref=e1051]: положительный
+                                              - img [ref=e1053]
+                                            - generic [ref=e1054]: 148 отзывов
+                                      - listitem [ref=e1055]:
+                                        - menuitem "Рыба • 81% положительный 131 отзыв" [ref=e1056] [cursor=pointer]:
+                                          - generic [ref=e1058]:
+                                            - generic [ref=e1059]:
+                                              - text: Рыба •
+                                              - generic [ref=e1060]: 81%
+                                              - generic [ref=e1061]: положительный
+                                              - img [ref=e1063]
+                                            - generic [ref=e1064]: 131 отзыв
+                                      - listitem [ref=e1065]:
+                                        - menuitem "Хлеб • 82% положительный 127 отзывов" [ref=e1066] [cursor=pointer]:
+                                          - generic [ref=e1068]:
+                                            - generic [ref=e1069]:
+                                              - text: Хлеб •
+                                              - generic [ref=e1070]: 82%
+                                              - generic [ref=e1071]: положительный
+                                              - img [ref=e1073]
+                                            - generic [ref=e1074]: 127 отзывов
+                                      - listitem [ref=e1075]:
+                                        - menuitem "Морепродукты • 82% положительный 125 отзывов" [ref=e1076] [cursor=pointer]:
+                                          - generic [ref=e1078]:
+                                            - generic [ref=e1079]:
+                                              - text: Морепродукты •
+                                              - generic [ref=e1080]: 82%
+                                              - generic [ref=e1081]: положительный
+                                              - img [ref=e1083]
+                                            - generic [ref=e1084]: 125 отзывов
+                                      - listitem [ref=e1085]:
+                                        - menuitem "Коктейли • 80% положительный 117 отзывов" [ref=e1086] [cursor=pointer]:
+                                          - generic [ref=e1088]:
+                                            - generic [ref=e1089]:
+                                              - text: Коктейли •
+                                              - generic [ref=e1090]: 80%
+                                              - generic [ref=e1091]: положительный
+                                              - img [ref=e1093]
+                                            - generic [ref=e1094]: 117 отзывов
+                                      - listitem [ref=e1095]:
+                                        - menuitem "Помещение • 35% отрицательный 95 отзывов" [ref=e1096] [cursor=pointer]:
+                                          - generic [ref=e1098]:
+                                            - generic [ref=e1099]:
+                                              - text: Помещение •
+                                              - generic [ref=e1100]: 35%
+                                              - generic [ref=e1101]: отрицательный
+                                              - img [ref=e1103]
+                                            - generic [ref=e1104]: 95 отзывов
+                                      - listitem [ref=e1105]:
+                                        - menuitem "Завтраки • 90% положительный 82 отзыва" [ref=e1106] [cursor=pointer]:
+                                          - generic [ref=e1108]:
+                                            - generic [ref=e1109]:
+                                              - text: Завтраки •
+                                              - generic [ref=e1110]: 90%
+                                              - generic [ref=e1111]: положительный
+                                              - img [ref=e1113]
+                                            - generic [ref=e1114]: 82 отзыва
+                                      - listitem [ref=e1115]:
+                                        - menuitem "Закуски • 92% положительный 79 отзывов" [ref=e1116] [cursor=pointer]:
+                                          - generic [ref=e1118]:
+                                            - generic [ref=e1119]:
+                                              - text: Закуски •
+                                              - generic [ref=e1120]: 92%
+                                              - generic [ref=e1121]: положительный
+                                              - img [ref=e1123]
+                                            - generic [ref=e1124]: 79 отзывов
+                                      - listitem [ref=e1125]:
+                                        - menuitem "Супы • 71% положительный 62 отзыва" [ref=e1126] [cursor=pointer]:
+                                          - generic [ref=e1128]:
+                                            - generic [ref=e1129]:
+                                              - text: Супы •
+                                              - generic [ref=e1130]: 71%
+                                              - generic [ref=e1131]: положительный
+                                              - img [ref=e1133]
+                                            - generic [ref=e1134]: 62 отзыва
+                                      - listitem [ref=e1135]:
+                                        - menuitem "Итальянская кухня • 74% положительный 50 отзывов" [ref=e1136] [cursor=pointer]:
+                                          - generic [ref=e1138]:
+                                            - generic [ref=e1139]:
+                                              - text: Итальянская кухня •
+                                              - generic [ref=e1140]: 74%
+                                              - generic [ref=e1141]: положительный
+                                              - img [ref=e1143]
+                                            - generic [ref=e1144]: 50 отзывов
+                                      - listitem [ref=e1145]:
+                                        - menuitem "Расположение • 78% положительный 47 отзывов" [ref=e1146] [cursor=pointer]:
+                                          - generic [ref=e1148]:
+                                            - generic [ref=e1149]:
+                                              - text: Расположение •
+                                              - generic [ref=e1150]: 78%
+                                              - generic [ref=e1151]: положительный
+                                              - img [ref=e1153]
+                                            - generic [ref=e1154]: 47 отзывов
+                                      - listitem [ref=e1155]:
+                                        - menuitem "День рождения • 74% положительный 38 отзывов" [ref=e1156] [cursor=pointer]:
+                                          - generic [ref=e1158]:
+                                            - generic [ref=e1159]:
+                                              - text: День рождения •
+                                              - generic [ref=e1160]: 74%
+                                              - generic [ref=e1161]: положительный
+                                              - img [ref=e1163]
+                                            - generic [ref=e1164]: 38 отзывов
+                                      - listitem [ref=e1165]:
+                                        - menuitem "Для большой компании • 78% положительный 37 отзывов" [ref=e1166] [cursor=pointer]:
+                                          - generic [ref=e1168]:
+                                            - generic [ref=e1169]:
+                                              - text: Для большой компании •
+                                              - generic [ref=e1170]: 78%
+                                              - generic [ref=e1171]: положительный
+                                              - img [ref=e1173]
+                                            - generic [ref=e1174]: 37 отзывов
+                                      - listitem [ref=e1175]:
+                                        - menuitem "С детьми • 66% положительный 37 отзывов" [ref=e1176] [cursor=pointer]:
+                                          - generic [ref=e1178]:
+                                            - generic [ref=e1179]:
+                                              - text: С детьми •
+                                              - generic [ref=e1180]: 66%
+                                              - generic [ref=e1181]: положительный
+                                              - img [ref=e1183]
+                                            - generic [ref=e1184]: 37 отзывов
+                                      - listitem [ref=e1185]:
+                                        - menuitem "Кофе • 70% положительный 37 отзывов" [ref=e1186] [cursor=pointer]:
+                                          - generic [ref=e1188]:
+                                            - generic [ref=e1189]:
+                                              - text: Кофе •
+                                              - generic [ref=e1190]: 70%
+                                              - generic [ref=e1191]: положительный
+                                              - img [ref=e1193]
+                                            - generic [ref=e1194]: 37 отзывов
+                                      - listitem [ref=e1195]:
+                                        - menuitem "Чистота • 52% положительный 36 отзывов" [ref=e1196] [cursor=pointer]:
+                                          - generic [ref=e1198]:
+                                            - generic [ref=e1199]:
+                                              - text: Чистота •
+                                              - generic [ref=e1200]: 52%
+                                              - generic [ref=e1201]: положительный
+                                              - img [ref=e1203]
+                                            - generic [ref=e1204]: 36 отзывов
+                                      - listitem [ref=e1205]:
+                                        - menuitem "Пиво • 57% положительный 33 отзыва" [ref=e1206] [cursor=pointer]:
+                                          - generic [ref=e1208]:
+                                            - generic [ref=e1209]:
+                                              - text: Пиво •
+                                              - generic [ref=e1210]: 57%
+                                              - generic [ref=e1211]: положительный
+                                              - img [ref=e1213]
+                                            - generic [ref=e1214]: 33 отзыва
+                                      - listitem [ref=e1215]:
+                                        - menuitem "Шеф-повар • 96% положительный 27 отзывов" [ref=e1216] [cursor=pointer]:
+                                          - generic [ref=e1218]:
+                                            - generic [ref=e1219]:
+                                              - text: Шеф-повар •
+                                              - generic [ref=e1220]: 96%
+                                              - generic [ref=e1221]: положительный
+                                              - img [ref=e1223]
+                                            - generic [ref=e1224]: 27 отзывов
+                                      - listitem [ref=e1225]:
+                                        - menuitem "Романтическая атмосфера • 88% положительный 27 отзывов" [ref=e1226] [cursor=pointer]:
+                                          - generic [ref=e1228]:
+                                            - generic [ref=e1229]:
+                                              - text: Романтическая атмосфера •
+                                              - generic [ref=e1230]: 88%
+                                              - generic [ref=e1231]: положительный
+                                              - img [ref=e1233]
+                                            - generic [ref=e1234]: 27 отзывов
+                                      - listitem [ref=e1235]:
+                                        - menuitem "Мороженое • 95% положительный 22 отзыва" [ref=e1236] [cursor=pointer]:
+                                          - generic [ref=e1238]:
+                                            - generic [ref=e1239]:
+                                              - text: Мороженое •
+                                              - generic [ref=e1240]: 95%
+                                              - generic [ref=e1241]: положительный
+                                              - img [ref=e1243]
+                                            - generic [ref=e1244]: 22 отзыва
+                                      - listitem [ref=e1245]:
+                                        - menuitem "Паста • 47% положительный 20 отзывов" [ref=e1246] [cursor=pointer]:
+                                          - generic [ref=e1248]:
+                                            - generic [ref=e1249]:
+                                              - text: Паста •
+                                              - generic [ref=e1250]: 47%
+                                              - generic [ref=e1251]: положительный
+                                              - img [ref=e1253]
+                                            - generic [ref=e1254]: 20 отзывов
+                                      - listitem [ref=e1255]:
+                                        - menuitem "Стейки • 83% положительный 20 отзывов" [ref=e1256] [cursor=pointer]:
+                                          - generic [ref=e1258]:
+                                            - generic [ref=e1259]:
+                                              - text: Стейки •
+                                              - generic [ref=e1260]: 83%
+                                              - generic [ref=e1261]: положительный
+                                              - img [ref=e1263]
+                                            - generic [ref=e1264]: 20 отзывов
+                                      - listitem [ref=e1265]:
+                                        - menuitem "Чай • 57% положительный 19 отзывов" [ref=e1266] [cursor=pointer]:
+                                          - generic [ref=e1268]:
+                                            - generic [ref=e1269]:
+                                              - text: Чай •
+                                              - generic [ref=e1270]: 57%
+                                              - generic [ref=e1271]: положительный
+                                              - img [ref=e1273]
+                                            - generic [ref=e1274]: 19 отзывов
+                                      - listitem [ref=e1275]:
+                                        - menuitem "Фаст-фуд • 57% положительный 15 отзывов" [ref=e1276] [cursor=pointer]:
+                                          - generic [ref=e1278]:
+                                            - generic [ref=e1279]:
+                                              - text: Фаст-фуд •
+                                              - generic [ref=e1280]: 57%
+                                              - generic [ref=e1281]: положительный
+                                              - img [ref=e1283]
+                                            - generic [ref=e1284]: 15 отзывов
+                                      - listitem [ref=e1285]:
+                                        - menuitem "Торты • 100% положительный 13 отзывов" [ref=e1286] [cursor=pointer]:
+                                          - generic [ref=e1288]:
+                                            - generic [ref=e1289]:
+                                              - text: Торты •
+                                              - generic [ref=e1290]: 100%
+                                              - generic [ref=e1291]: положительный
+                                              - img [ref=e1293]
+                                            - generic [ref=e1294]: 13 отзывов
+                                      - listitem [ref=e1295]:
+                                        - menuitem "Пироги • 92% положительный 13 отзывов" [ref=e1296] [cursor=pointer]:
+                                          - generic [ref=e1298]:
+                                            - generic [ref=e1299]:
+                                              - text: Пироги •
+                                              - generic [ref=e1300]: 92%
+                                              - generic [ref=e1301]: положительный
+                                              - img [ref=e1303]
+                                            - generic [ref=e1304]: 13 отзывов
+                                      - listitem [ref=e1305]:
+                                        - menuitem "Мероприятия • 92% положительный 12 отзывов" [ref=e1306] [cursor=pointer]:
+                                          - generic [ref=e1308]:
+                                            - generic [ref=e1309]:
+                                              - text: Мероприятия •
+                                              - generic [ref=e1310]: 92%
+                                              - generic [ref=e1311]: положительный
+                                              - img [ref=e1313]
+                                            - generic [ref=e1314]: 12 отзывов
+                                      - iframe [ref=e1315]:
+                                        
+                                    - img [ref=e1318] [cursor=pointer]
+                              - list [ref=e1319]:
+                                - button "Посмотреть все 4164 отзыва" [ref=e1323] [cursor=pointer]
+                        - button "Источники данных" [ref=e1327] [cursor=pointer]:
+                          - generic [ref=e1328]: Источники данных
+                          - img [ref=e1331]
+                - generic "подвал блока" [ref=e1333]:
+                  - generic [ref=e1334]:
+                    - generic [ref=e1335]:
+                      - link "Сообщить об ошибке" [ref=e1337] [cursor=pointer]
+                      - link "Мобильное приложение" [ref=e1339] [cursor=pointer]:
+                        - /url: https://mobile.yandex.ru/apps/maps/
+                    - button "Сервисы" [ref=e1342] [cursor=pointer]:
+                      - generic [ref=e1343]:
+                        - generic [ref=e1346]: Сервисы
+                        - img [ref=e1350]
+                    - button "Персональное" [ref=e1354] [cursor=pointer]:
+                      - generic [ref=e1355]:
+                        - generic [ref=e1358]: Персональное
+                        - img [ref=e1362]
+                    - button "Для бизнеса" [ref=e1366] [cursor=pointer]:
+                      - generic [ref=e1367]:
+                        - generic [ref=e1370]: Для бизнеса
+                        - img [ref=e1374]
+                  - generic [ref=e1377]:
+                    - link "vkontakte" [ref=e1378] [cursor=pointer]:
+                      - /url: https://vk.com/yandex.maps
+                      - img [ref=e1379]
+                    - link "telegram" [ref=e1381] [cursor=pointer]:
+                      - /url: https://t.me/mapsyandex
+                      - img [ref=e1382]
+                    - link "zen" [ref=e1384] [cursor=pointer]:
+                      - /url: https://zen.yandex.ru/yandexmaps
+                      - img [ref=e1385]
+                  - generic [ref=e1387]:
+                    - generic [ref=e1388]: Яндекс Карты — выбирайте, где поесть, куда сходить, чем заняться.
+                    - generic [ref=e1389]: © 2001–2026 ООО «Яндекс»
+                    - generic [ref=e1390]:
+                      - link "Справка" [ref=e1392] [cursor=pointer]:
+                        - /url: //yandex.ru/support/maps/?lang=ru
+                      - generic [ref=e1393]:
+                        - text: "|"
+                        - link "О сервисе" [ref=e1394] [cursor=pointer]:
+                          - /url: //yandex.ru/support/maps/
+                      - generic [ref=e1395]:
+                        - text: "|"
+                        - link "Пользовательское соглашение" [ref=e1396] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+                      - generic [ref=e1397]:
+                        - text: "|"
+                        - link "Правила рекомендаций" [ref=e1398] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/recommendations/#index__geo
+              - iframe [ref=e1399]:
+                
+            - iframe [ref=e1400]:
+              
+        - img [ref=e1406] [cursor=pointer]
+      - navigation:
+        - generic [ref=e1409]:
+          - button "Пробки в Санкт‑Петербурге" [ref=e1412] [cursor=pointer]:
+            - generic [ref=e1413]:
+              - generic:
+                - img
+          - button "Панорамы улиц и фотографии" [ref=e1417] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Зеркала" [ref=e1420] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Движущийся транспорт" [ref=e1423] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Слои" [ref=e1426] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e1428]:
+          - button "Линейка и планиметр" [ref=e1431] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Детали" [ref=e1434] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - button "Профиль" [ref=e1437] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e1441]:
+                - button "Приблизить" [ref=e1443] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                - button "Отдалить" [ref=e1445] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+              - button "Моё местоположение" [ref=e1449] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+              - button "Наклон карты" [ref=e1456] [cursor=pointer]: 3D
+      - contentinfo:
+        - generic [ref=e1458]:
+          - generic [ref=e1459]: © Яндекс
+          - link "Справка" [ref=e1460] [cursor=pointer]:
+            - /url: //yandex.ru/support/maps/?lang=ru
+          - link "Условия использования" [ref=e1461] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+        - link "Яндекс" [ref=e1464] [cursor=pointer]:
+          - /url: https://ya.ru
+          - img [ref=e1466]
+        - generic:
+          - generic:
+            - generic:
+              - generic: 90 м
+      - iframe [ref=e1467]:
+        
+    - iframe [ref=e1468]:
+      
+  - iframe [ref=e1469]:
+    
+  - generic [ref=e1472]:
+    - generic [ref=e1473]:
+      - generic [ref=e1474]: Tartarbar
+      - generic [ref=e1476]:
+        - img [ref=e1478]
+        - text: "5"
+        - img [ref=e1481]
+    - generic [ref=e1484]: "Ср. чек: от 2300 ₽"

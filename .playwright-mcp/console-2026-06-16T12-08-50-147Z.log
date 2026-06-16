@@ -1,0 +1,4 @@
+[     157ms] [WARNING] (Yandex Maps JS API): Invalid API key @ https://api-maps.yandex.ru/2.1/?lang=ru_RU:0
+[     175ms] [LOG] %cHello, V! font: 2.5em/1 Arial; color: #298DA4; @ https://fabergemuseum.ru/assets/built/js/min/built.js?505041518:0
+[     197ms] [LOG] 9900 @ https://fabergemuseum.ru/assets/built/js/min/built.js?505041518:18
+[     844ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://fabergemuseum.ru/:0

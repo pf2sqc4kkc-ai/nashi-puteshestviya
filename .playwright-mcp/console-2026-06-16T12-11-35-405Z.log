@@ -1,0 +1,14 @@
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.spb-guide.ru/stoimost-biletov-v-ermitazh:0
+[    3321ms] [ERROR] CONTAINER_NOT_FOUND Container with id "yandex_rtb_R-A-13461-95" is not found (init) @ https://yandex.ru/ads/system/context.js:1
+[    3321ms] [ERROR] CONTAINER_NOT_FOUND Container with id "yandex_rtb_R-A-13461-97" is not found (init) @ https://yandex.ru/ads/system/context.js:1
+[    3321ms] [ERROR] CONTAINER_NOT_FOUND Container with id "yandex_rtb_R-A-13461-98" is not found (init) @ https://yandex.ru/ads/system/context.js:1
+[    3321ms] [ERROR] CONTAINER_NOT_FOUND Container with id "yandex_rtb_R-A-13461-99" is not found (init) @ https://yandex.ru/ads/system/context.js:1
+[    3321ms] [ERROR] CONTAINER_NOT_FOUND Container with id "yandex_rtb_R-A-13461-100" is not found (init) @ https://yandex.ru/ads/system/context.js:1
+[    4087ms] [WARNING] jQuery.Deferred exception: load_map_555 is not defined ReferenceError: load_map_555 is not defined
+    at HTMLDocument.<anonymous> (https://www.spb-guide.ru/inc/java_5_67.js:952:1)
+    at e (https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:30038)
+    at t (https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:2:30340) undefined @ https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:1
+[    4088ms] Uncaught ReferenceError: load_map_555 is not defined
+    at <anonymous> (https://www.spb-guide.ru/inc/java_5_67.js:951:0)
+    at e (https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:1:30037)
+    at t (https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js:1:30339)

@@ -1,0 +1,550 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - alert
+    - link "К дополнительным результатам" [ref=e3] [cursor=pointer]:
+      - /url: "#search-result-aside"
+    - link "К основным результатам" [ref=e4] [cursor=pointer]:
+      - /url: "#search-result"
+    - link "Обратная связь о специальных возможностях" [ref=e5] [cursor=pointer]:
+      - /url: //yandex.ru/support/search/troubleshooting/accessibility.html
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - search "Поиск в интернете" [ref=e9]:
+        - generic [ref=e10]:
+          - link "Яндекс" [ref=e11] [cursor=pointer]:
+            - /url: //ya.ru
+            - img [ref=e12]
+          - generic [ref=e15]:
+            - textbox [ref=e16]: Музей Фаберже СПб цена билета 2026
+            - combobox [ref=e17]: Музей Фаберже СПб цена билета 2026
+          - button [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+      - generic [ref=e21]:
+        - button "Голосовой поиск" [ref=e22] [cursor=pointer]:
+          - generic:
+            - img
+        - button "Поиск по картинке" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Расширенный поиск" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+        - link "Маркет" [ref=e30] [cursor=pointer]:
+          - /url: https://market.yandex.ru/my/cart?utm_source=serp_header_cart&clid=957&purchase-referrer=serp_cart
+          - img [ref=e31]
+        - button "Избранное" [ref=e33] [cursor=pointer]:
+          - img [ref=e34]
+        - link "Заказы" [ref=e36] [cursor=pointer]:
+          - /url: https://yandex.ru/products/my/orders?lr=47
+          - img [ref=e37]
+      - generic [ref=e39]:
+        - link "Войти" [ref=e40] [cursor=pointer]:
+          - /url: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fyandex.ru%2Fsearch%2F%3Ftext%3D%25D0%259C%25D1%2583%25D0%25B7%25D0%25B5%25D0%25B9%2520%25D0%25A4%25D0%25B0%25D0%25B1%25D0%25B5%25D1%2580%25D0%25B6%25D0%25B5%2520%25D0%25A1%25D0%259F%25D0%25B1%2520%25D1%2586%25D0%25B5%25D0%25BD%25D0%25B0%2520%25D0%25B1%25D0%25B8%25D0%25BB%25D0%25B5%25D1%2582%25D0%25B0%25202026%26ncrnd%3D10130%26ncrnd%3D6854&origin=serp_desktop_auth_new
+        - button "Меню" [ref=e41] [cursor=pointer]:
+          - img [ref=e42]
+    - navigation [ref=e44]:
+      - generic [ref=e45]:
+        - link "Поиск" [ref=e46] [cursor=pointer]:
+          - /url: //ya.ru?source=tabbar
+          - generic [ref=e47]: Поиск
+          - text: Поиск
+        - link "Алиса AI" [ref=e48] [cursor=pointer]:
+          - /url: //yandex.ru/alice?reqid=1781611735945202-828098012397276171-balancer-l7leveler-kubr-yp-vla-43-BAL&utm_source=yandex&utm_campaign=serp_alicetab_chat&utm_medium=interface&alice_deeplink=%7B%22text%22%3A%22%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026%22%7D&source_query=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&theme=serp
+        - link "Картинки" [ref=e49] [cursor=pointer]:
+          - /url: //yandex.ru/images/search?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&parent-reqid=1781611735945202-828098012397276171-balancer-l7leveler-kubr-yp-vla-43-BAL&from=tabbar
+        - link "Видео" [ref=e50] [cursor=pointer]:
+          - /url: //yandex.ru/video/search?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&parent-reqid=1781611735945202-828098012397276171-balancer-l7leveler-kubr-yp-vla-43-BAL&from=tabbar
+        - link "Карты" [ref=e51] [cursor=pointer]:
+          - /url: //yandex.ru/maps/?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&source=serp_navig
+        - link "Товары" [ref=e52] [cursor=pointer]:
+          - /url: //yandex.ru/search?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&products_mode=1&from=tabbar&serp-reload-from=tab
+        - link "Финансы" [ref=e53] [cursor=pointer]:
+          - /url: //yandex.ru/finance?lr=47&from=tabbar
+        - link "Квартиры" [ref=e54] [cursor=pointer]:
+          - /url: //yandex.ru/realty?lr=47&from=tabbar
+        - link "Переводчик" [ref=e55] [cursor=pointer]:
+          - /url: //translate.yandex.ru?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&from=tabbar
+      - link "Все" [ref=e57] [cursor=pointer]:
+        - /url: //yandex.ru/all?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&from=tabbar
+  - main [ref=e59]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - list "Результаты поиска" [ref=e65]:
+          - listitem
+          - listitem [ref=e66]:
+            - generic [ref=e67]:
+              - link "Музей Фаберже в Санкт-Петербурге — официальный..." [ref=e69] [cursor=pointer]:
+                - /url: https://www.tourister.ru/world/europe/russia/city/saint_petersburg/museum/26690
+                - heading "Музей Фаберже в Санкт-Петербурге — официальный..." [level=2] [ref=e71]:
+                  - generic [ref=e72]: Музей Фаберже в Санкт-Петербурге — официальный...
+              - link "tourister.ruСанкт-ПетербургМузеи" [ref=e75] [cursor=pointer]:
+                - /url: https://www.tourister.ru/world/europe/russia/city/saint_petersburg/museum/26690
+                - text: tourister.ru›Санкт-Петербург›Музеи
+              - button "Действия" [ref=e76] [cursor=pointer]:
+                - img [ref=e78]
+              - generic [ref=e84]: Музей Фаберже в Санкт-Петербурге (дворец Шувалова). Выставки, цены на билеты, режим работы, экскурсии в 2026 году. Фото, видео, отзывы.
+          - listitem [ref=e85]:
+            - generic [ref=e86]:
+              - link "Информация для посетителей - Приобрести билеты..." [ref=e88] [cursor=pointer]:
+                - /url: https://fabergemuseum.ru/posetitelyam/biletyi-v-muzej
+                - heading "Информация для посетителей - Приобрести билеты..." [level=2] [ref=e90]:
+                  - generic [ref=e91]: Информация для посетителей - Приобрести билеты...
+              - link "fabergemuseum.ruПосетителям" [ref=e94] [cursor=pointer]:
+                - /url: https://fabergemuseum.ru/posetitelyam/biletyi-v-muzej
+                - text: fabergemuseum.ru›Посетителям
+              - button "Действия" [ref=e95] [cursor=pointer]:
+                - img [ref=e97]
+              - generic [ref=e101]:
+                - generic [ref=e103]: "Тип билета и стоимость билета: Полный входной билет. Стоимость 700 руб. Льготный входной билет*. Стоимость 350 руб. Билет на экскурсионный сеанс «Шедевры коллекции Музея Фаберже»."
+                - generic [ref=e104]:
+                  - text: "Не найдено:"
+                  - link "2026" [ref=e105] [cursor=pointer]:
+                    - /url: /search/?text=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D1%81%D0%BF%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%20%2B2026&lr=47&missword=1
+          - listitem [ref=e106]:
+            - generic [ref=e107]:
+              - link "Музей Фаберже в Санкт-Петербурге - билеты, цена..." [ref=e109] [cursor=pointer]:
+                - /url: https://www.spbmuzei.ru/muzej-faberzhe-v-sankt-peterburge
+                - heading "Музей Фаберже в Санкт-Петербурге - билеты, цена..." [level=2] [ref=e111]:
+                  - generic [ref=e112]: Музей Фаберже в Санкт-Петербурге - билеты, цена...
+              - 'link "spbmuzei.ruМузей Фаберже в Санкт-Петербурге: билеты и режим работы в 2026 год…" [ref=e115] [cursor=pointer]':
+                - /url: https://www.spbmuzei.ru/muzej-faberzhe-v-sankt-peterburge
+                - text: "spbmuzei.ru›Музей Фаберже в Санкт-Петербурге: билеты и режим работы в 2026 год…"
+              - button "Действия" [ref=e116] [cursor=pointer]:
+                - img [ref=e118]
+              - generic [ref=e124]: "Все музеи Санкт-Петербурга. Музей Фаберже в Санкт-Петербурге: билеты и режим работы в 2026 году. ... Цены на билеты. Перед посещением музея, узнайте, сколько стоят билеты в 2026 году: стандартный – 700 рублей"
+          - listitem [ref=e125]:
+            - generic [ref=e126]:
+              - link "Входной билет на основ. экспозицию Музей Фаберже" [ref=e128] [cursor=pointer]:
+                - /url: https://spb.kassir.ru/muzey/osnovnaya-ekspozitsiya-muzeya-faberje
+                - heading "Входной билет на основ. экспозицию Музей Фаберже" [level=2] [ref=e130]:
+                  - generic [ref=e131]: Входной билет на основ. экспозицию Музей Фаберже
+              - link "spb.kassir.ruИскусствоведче…Входной билет на основную экспозицию Музея Фаберже" [ref=e134] [cursor=pointer]:
+                - /url: https://spb.kassir.ru/muzey/osnovnaya-ekspozitsiya-muzeya-faberje
+                - text: spb.kassir.ru›Искусствоведче…›Входной билет на основную экспозицию Музея Фаберже
+              - button "Действия" [ref=e135] [cursor=pointer]:
+                - img [ref=e137]
+              - generic [ref=e143]: Санкт-Петербург. ... Основная экспозиция Музея Фаберже. Музей Фаберже в Санкт-Петербурге открылся 19 ноября 2013 года, став первым в современной России частным музеем федерального значения.
+          - listitem [ref=e144]:
+            - generic [ref=e145]:
+              - link "Музей Фаберже в Санкт-Петербурге – часы работы лето..." [ref=e147] [cursor=pointer]:
+                - /url: https://www.spb-guide.ru/muzej-faberge-chasy-raboty-cena-biletov-metro-kak-dobratsya.htm
+                - heading "Музей Фаберже в Санкт-Петербурге – часы работы лето..." [level=2] [ref=e149]:
+                  - generic [ref=e150]: Музей Фаберже в Санкт-Петербурге – часы работы лето...
+              - link "spb-guide.ruМузей Фаберже – часы работы и цена билетов, ближайшее метро и как…" [ref=e153] [cursor=pointer]:
+                - /url: https://www.spb-guide.ru/muzej-faberge-chasy-raboty-cena-biletov-metro-kak-dobratsya.htm
+                - text: spb-guide.ru›Музей Фаберже – часы работы и цена билетов, ближайшее метро и как…
+              - button "Действия" [ref=e154] [cursor=pointer]:
+                - img [ref=e156]
+              - generic [ref=e162]: Цена билетов в музей Фаберже – лето 2026. Билет без экскурсии. Взрослый — 700 рублей. Пенсионеры РФ, студенты дневных отделений ВУЗов РФ и школьники — 350 рублей.
+          - listitem [ref=e163]:
+            - generic [ref=e164]:
+              - 'link "15 лучших музеев Санкт-Петербурга: описание, часы..." [ref=e166] [cursor=pointer]':
+                - /url: https://lenta.ru/articles/2026/02/18/top-15-muzeev-sankt-peterburga/
+                - 'heading "15 лучших музеев Санкт-Петербурга: описание, часы..." [level=2] [ref=e168]':
+                  - generic [ref=e169]: "15 лучших музеев Санкт-Петербурга: описание, часы..."
+              - link "lenta.ruarticles/2026/02/18/top-15-muzeev-sankt-…" [ref=e172] [cursor=pointer]:
+                - /url: https://lenta.ru/articles/2026/02/18/top-15-muzeev-sankt-peterburga/
+                - text: lenta.ru›articles/2026/02/18/top-15-muzeev-sankt-…
+              - button "Действия" [ref=e173] [cursor=pointer]:
+                - img [ref=e175]
+              - generic [ref=e181]: «Лента.ру» рассказывает, какие музеи Санкт-Петербурга стоит посетить в 2026 году, чем они знамениты, сколько стоят билеты и что за развлечения они предлагают.
+          - listitem [ref=e182]:
+            - generic [ref=e183]:
+              - link "Музей Фаберже — цены, расписание, льготы, адрес..." [ref=e185] [cursor=pointer]:
+                - /url: https://peterburg.center/museum/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5-n
+                - heading "Музей Фаберже — цены, расписание, льготы, адрес..." [level=2] [ref=e187]:
+                  - generic [ref=e188]: Музей Фаберже — цены, расписание, льготы, адрес...
+              - link "peterburg.centermuseum/Музей_Фаберже-n" [ref=e191] [cursor=pointer]:
+                - /url: https://peterburg.center/museum/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5-n
+                - text: peterburg.center›museum/Музей_Фаберже-n
+              - button "Действия" [ref=e192] [cursor=pointer]:
+                - img [ref=e194]
+              - generic [ref=e200]: Цена билета. Взрослый - 500 Детский - 250 Стоимость на официальном сайте перейти. ... Музей Фаберже — частный музей, который разместился во дворце Нарышкиных-Шуваловых.
+          - listitem [ref=e201]:
+            - generic [ref=e202]:
+              - link "Музей Фаберже на Фонтанке 21|Экскурсии..." [ref=e204] [cursor=pointer]:
+                - /url: https://hermitage-visit.ru/muzey-faberzhe-v-sankt-peterburge
+                - heading "Музей Фаберже на Фонтанке 21|Экскурсии..." [level=2] [ref=e206]:
+                  - generic [ref=e207]: Музей Фаберже на Фонтанке 21|Экскурсии...
+              - link "hermitage-visit.rumuzey-faberzhe-v-sankt-…" [ref=e210] [cursor=pointer]:
+                - /url: https://hermitage-visit.ru/muzey-faberzhe-v-sankt-peterburge
+                - text: hermitage-visit.ru›muzey-faberzhe-v-sankt-…
+              - button "Действия" [ref=e211] [cursor=pointer]:
+                - img [ref=e213]
+              - generic [ref=e219]: "Музей Фаберже в Санкт-Петербурге. ... Цена билетов в музей Фаберже 2026. Без экскурсии: взрослый — 600 рублей пенсионеры РФ, студенты дневных отделений ВУЗов РФ и школьники — 300 рублей."
+          - listitem [ref=e220]:
+            - generic [ref=e222]:
+              - button "Действия" [ref=e223] [cursor=pointer]:
+                - img [ref=e225]
+              - heading "Картинки по запросу Музей Фаберже СПб цена билета 2026" [level=2] [ref=e230]:
+                - link "Картинки по запросу Музей Фаберже СПб цена билета 2026" [ref=e231] [cursor=pointer]:
+                  - /url: /images/search?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&stype=image&lr=47&parent-reqid=1781611735945202-828098012397276171-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                  - generic [ref=e233]: Картинки
+              - list [ref=e239]:
+                - generic [ref=e240]:
+                  - generic:
+                    - 'link "Картинка Феерия Ювелиров: Коллекция Музея Фаберже (билеты включены) -" [ref=e242] [cursor=pointer]':
+                      - /url: /images/search?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D0%A1%D0%9F%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026&img_url=https%3A%2F%2Fhorosho-tam.ru%2Fthumb%2F800%2Fexpics%2Fa6%2Ff7%2F46a641ac96b9da50c1c51caddcd8f7a6.jpg&pos=0&rpt=simage&stype=image&lr=47&parent-reqid=1781611735945202-828098012397276171-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                      - img [ref=e243]
+                    - 'link "Картинка Музей Фаберже: знакомство с сокровищами (без билетов) 🧭" [ref=e245] [cursor=pointer]':
+                      - /url: /images/search?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D0%A1%D0%9F%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026&img_url=https%3A%2F%2Firecommend.ru%2Fsites%2Fdefault%2Ffiles%2Fimagecache%2Fcopyright1%2Fuser-images%2F21957%2FPOAi8l4l0JdIZnMe4TOLg.JPG&pos=1&rpt=simage&stype=image&lr=47&parent-reqid=1781611735945202-828098012397276171-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                      - img [ref=e246]
+                    - link "Картинка Faberge Museum - All You SHOULD Know Before Going 2026 (with" [ref=e248] [cursor=pointer]:
+                      - /url: /images/search?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D0%A1%D0%9F%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026&img_url=https%3A%2F%2Fkuda-spb.ru%2Fuploads%2F28629a7d1dd127e78f796a497ad726f5.jpg&pos=2&rpt=simage&stype=image&lr=47&parent-reqid=1781611735945202-828098012397276171-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                      - img [ref=e249]
+                    - link "Картинка Билеты в Музей Фаберже\" - билеты на экскурсию в" [ref=e251] [cursor=pointer]:
+                      - /url: /images/search?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D0%A1%D0%9F%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026&img_url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-afishanew%2F35821%2F9db533245f391dd1da0253930850f54d%2F1200x628_wmark_tickets&pos=3&rpt=simage&stype=image&lr=47&parent-reqid=1781611735945202-828098012397276171-balancer-l7leveler-kubr-yp-vla-43-BAL&source=serp
+                      - img [ref=e252]
+          - listitem [ref=e254]:
+            - generic [ref=e255]:
+              - link "Входной билет на основную экспозицию «Музей Фаберже»" [ref=e257] [cursor=pointer]:
+                - /url: https://spb.ticketland.ru/muzei/muzey-faberzhe/vkhodnoy-bilet-na-osnovnuyu-ekspoziciyu-muzey-faberzhe/
+                - heading "Входной билет на основную экспозицию «Музей Фаберже»" [level=2] [ref=e259]:
+                  - generic [ref=e260]: Входной билет на основную экспозицию «Музей Фаберже»
+              - link "spb.ticketland.ruМузей Фа…Входной билет на основную экспозицию «Музей Фаберже»" [ref=e263] [cursor=pointer]:
+                - /url: https://spb.ticketland.ru/muzei/muzey-faberzhe/vkhodnoy-bilet-na-osnovnuyu-ekspoziciyu-muzey-faberzhe/
+                - text: spb.ticketland.ru›Музей Фа…›Входной билет на основную экспозицию «Музей Фаберже»
+              - button "Действия" [ref=e264] [cursor=pointer]:
+                - img [ref=e266]
+              - generic [ref=e272]: Музей Фаберже санкт-петербург. ИНН. ... Адрес. 191011, г. Санкт-Петербург, наб. Реки Фонтанки, д. 21.
+          - listitem [ref=e273]:
+            - generic [ref=e274]:
+              - 'link "Музей Фаберже в Санкт-Петербурге: описание, что..." [ref=e276] [cursor=pointer]':
+                - /url: https://www.eurotraveler.ru/europe/russia/faberge-museum/
+                - 'heading "Музей Фаберже в Санкт-Петербурге: описание, что..." [level=2] [ref=e278]':
+                  - generic [ref=e279]: "Музей Фаберже в Санкт-Петербурге: описание, что..."
+              - link "eurotraveler.rueurope/russia/faberge-museum/" [ref=e282] [cursor=pointer]:
+                - /url: https://www.eurotraveler.ru/europe/russia/faberge-museum/
+                - text: eurotraveler.ru›europe/russia/faberge-museum/
+              - button "Действия" [ref=e283] [cursor=pointer]:
+                - img [ref=e285]
+              - generic [ref=e291]: "Музей Фаберже в Санкт-Петербурге: история, описание, где находится, как добраться, что посмотреть? Время работы, цены на билеты 2026."
+          - listitem [ref=e292]:
+            - generic [ref=e293]:
+              - link "Загрузка... - Афиша" [ref=e295] [cursor=pointer]:
+                - /url: https://tickets.fsv.ru/?id=1&sid=1
+                - heading "Загрузка... - Афиша" [level=2] [ref=e297]
+              - link "tickets.fsv.ru?id=1&sid=1" [ref=e300] [cursor=pointer]:
+                - /url: https://tickets.fsv.ru/?id=1&sid=1
+                - text: tickets.fsv.ru›?id=1&sid=1
+              - button "Действия" [ref=e301] [cursor=pointer]:
+                - img [ref=e303]
+              - generic [ref=e307]:
+                - generic [ref=e309]: Купить билет. Билеты и экскурсии. ... Входные билеты. Входной билет на основную экспозицию "Музей Фаберже" по сеансам.
+                - generic [ref=e310]:
+                  - text: "Не найдено:"
+                  - link "2026" [ref=e311] [cursor=pointer]:
+                    - /url: /search/?text=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D1%81%D0%BF%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%20%2B2026&lr=47&missword=1
+          - listitem [ref=e312]:
+            - generic [ref=e313]:
+              - 'link "Обзор: сколько стоят билеты в популярные музеи..." [ref=e315] [cursor=pointer]':
+                - /url: https://www.rus-tourist.ru/news/803/
+                - 'heading "Обзор: сколько стоят билеты в популярные музеи..." [level=2] [ref=e317]':
+                  - generic [ref=e318]: "Обзор: сколько стоят билеты в популярные музеи..."
+              - link "rus-tourist.runews/803/" [ref=e321] [cursor=pointer]:
+                - /url: https://www.rus-tourist.ru/news/803/
+                - text: rus-tourist.ru›news/803/
+              - button "Действия" [ref=e322] [cursor=pointer]:
+                - img [ref=e324]
+              - generic [ref=e330]: Посещение музеев входит в программу дня многих туристов в Санкт-Петербург. Сколько стоит? Мы подготовили обзор стоимости билетов в самые популярные музеи Петербурга в 2026 году.
+          - listitem [ref=e331]:
+            - generic [ref=e332]:
+              - 'link "Выставки в Музее Фаберже в 2026 году: Какие проходят..." [ref=e334] [cursor=pointer]':
+                - /url: https://experience.tripster.ru/experience/Saint_Petersburg/78072-vystavki-v-muzee-faberzhe/
+                - 'heading "Выставки в Музее Фаберже в 2026 году: Какие проходят..." [level=2] [ref=e336]':
+                  - generic [ref=e337]: "Выставки в Музее Фаберже в 2026 году: Какие проходят..."
+              - link "experience.tripster.ruexperience/Saint_…" [ref=e340] [cursor=pointer]:
+                - /url: https://experience.tripster.ru/experience/Saint_Petersburg/78072-vystavki-v-muzee-faberzhe/
+                - text: experience.tripster.ru›experience/Saint_…
+              - button "Действия" [ref=e341] [cursor=pointer]:
+                - img [ref=e343]
+              - generic [ref=e347]:
+                - generic [ref=e349]: "Выставки в Музее Фаберже в Санкт-Петербурге: какие проходят сейчас, расписание в 2026 году. Стоимость билетов от 1080 ₽, отзывы — Tripster.ru."
+                - 'button "Рейтинг: 4,8 из 5 ⁠ 1,6K отзывов на агрегатор" [ref=e352] [cursor=pointer]':
+                  - generic [ref=e353]:
+                    - generic [ref=e354]: "Рейтинг: 4,8 из 5"
+                    - text: ⁠4,8
+                  - generic [ref=e357]:
+                    - text: 1,6K отзывов
+                    - generic [ref=e358]: на агрегатор
+          - listitem [ref=e359]:
+            - generic [ref=e360]:
+              - link "Музей Фаберже. Покупайте билеты от 700 ₽ на RUSSPASS" [ref=e362] [cursor=pointer]:
+                - /url: https://yabs.yandex.ru/count/WzOejI_zOoVX2Lcz14KU00FqnnvFh9U0EO4gFW6kDqn0R_hXTHaZuFK8w1Ii0i62IO8e-M70raHS3o0zu12lA1gWXJwVovqzs-_S-QwldQ_VyNh37QuJ6hrj5Ja86mM87gSzXKhl78ID0iG97wYTuyYeciEPuserGifHT2CfX_NeXjAC82Kg4UvCSQEOvb4V44uKKn1E521oM8ceHL8yHrNefyX8I8OLAOTI45AIaWob73cKYeHoE7Ce8GNbaE9F7CUbEHI7vgWA7UMmfT8ydzgvy_cKFkqfFitj75KXQWweCuhVj_H-GdDKXMJao9tHMtexfpcgGa4vSXf8-PC8HGGO_11LVwf5I415FqD8HJ9-Rlm44Vq0MMty60q17INz85c1gDUV7o6YdsZr6eJZKzlfT3gjqMS-jKBjADGA9Q5KPArX9R64D28fYNgKbBI4vDq1KpPVUD1NPiUez2QC_7nkD811nv6gLrM0bgf7LO2MgiUZ02rLRwe0BLLFgW0jzMv80Lhg7Li1MX2Uv1MW1U79aGAq83p1Aq0BmXCZ1MX1U79NW1Q49qKAq8Bm15o05WITISxNX9i7JLI8B8TokZEEY6dTU4qTgc5BxQZqAPtUJzkPJvtvCw-VpYSKdq9lgMr7xLngHu23zLdAYZpYoJtv8NNZVPg2TX24olbymsJZ_S1czu606y01RE3QHinRac8_DHzQ3NjJl0LBgs5BJzMKVPOEHYyrOWw3KjJci4CO8McuJPhjcfKd3zyB5WFu0k49NW3R7gpM2mALk5m4yPi5R65hmkskgeC3jXYni8CEgr2-kGAcO7PIs5RuOJQE8ME0yZ4w3MF-EintX0Sgfb0tJ80mm0aKE5GvkAd7R78_QEx-DmPWIyaFBnlTY7nmJ9xL_owpX7tlCalOvp890_zEm98bNtiXhClFNWZhmZJxhJjcUNbrPewPIw-VqkIRj-kwhjFcvjQKFeHkfEdn12tUBhku7LyAQJ27D2TUUkUGviHBRvTrlkpNziXfdkpTyho8_PZsO0EmK7Pi-IzEg9MYDssrO5xhaw1rjpz2i1aOsp4wXa-d_3b5BBXWGLG06GG-_C0ts3_zv5rUKdmv_gWSbeYAfRom1j74Q6qzVgAgVgXc4-iAxieAZUHYVhwhP4fYWJWroDwxpmRajC2Y6JRMoEEbX2d969RB6CvGSnmKhZ214F3pA8qSfMKFgvFpxtNYvcMM23bffgvsvABAILqdq2fVAJS32Co3zQBbAVnT-2dSi9GKqNnXxIxBSktUd6C99VG7fOUOFuJAMhnz9r4BfQlVe8aA~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - heading "Музей Фаберже. Покупайте билеты от 700 ₽ на RUSSPASS" [level=2] [ref=e364]:
+                  - generic [ref=e365]: Музей Фаберже. Покупайте билеты от 700 ₽ на RUSSPASS
+              - link "russpass.ruМузей Фаберже. Покупайте билеты от 700 ₽ на RUSSPASS…" [ref=e368] [cursor=pointer]:
+                - /url: https://yabs.yandex.ru/count/WzOejI_zOoVX2Lcz14KU00FqnnvFh9U0EO4gFW6kDqn0R_hXTHaZuFK8w1Ii0i62IO8e-M70raHS3o0zu12lA1gWXJwVovqzs-_S-QwldQ_VyNh37QuJ6hrj5Ja86mM87gSzXKhl78ID0iG97wYTuyYeciEPuserGifHT2CfX_NeXjAC82Kg4UvCSQEOvb4V44uKKn1E521oM8ceHL8yHrNefyX8I8OLAOTI45AIaWob73cKYeHoE7Ce8GNbaE9F7CUbEHI7vgWA7UMmfT8ydzgvy_cKFkqfFitj75KXQWweCuhVj_H-GdDKXMJao9tHMtexfpcgGa4vSXf8-PC8HGGO_11LVwf5I415FqD8HJ9-Rlm44Vq0MMty60q17INz85c1gDUV7o6YdsZr6eJZKzlfT3gjqMS-jKBjADGA9Q5KPArX9R64D28fYNgKbBI4vDq1KpPVUD1NPiUez2QC_7nkD811nv6gLrM0bgf7LO2MgiUZ02rLRwe0BLLFgW0jzMv80Lhg7Li1MX2Uv1MW1U79aGAq83p1Aq0BmXCZ1MX1U79NW1Q49qKAq8Bm15o05WITISxNX9i7JLI8B8TokZEEY6dTU4qTgc5BxQZqAPtUJzkPJvtvCw-VpYSKdq9lgMr7xLngHu23zLdAYZpYoJtv8NNZVPg2TX24olbymsJZ_S1czu606y01RE3QHinRac8_DHzQ3NjJl0LBgs5BJzMKVPOEHYyrOWw3KjJci4CO8McuJPhjcfKd3zyB5WFu0k49NW3R7gpM2mALk5m4yPi5R65hmkskgeC3jXYni8CEgr2-kGAcO7PIs5RuOJQE8ME0yZ4w3MF-EintX0Sgfb0tJ80mm0aKE5GvkAd7R78_QEx-DmPWIyaFBnlTY7nmJ9xL_owpX7tlCalOvp890_zEm98bNtiXhClFNWZhmZJxhJjcUNbrPewPIw-VqkIRj-kwhjFcvjQKFeHkfEdn12tUBhku7LyAQJ27D2TUUkUGviHBRvTrlkpNziXfdkpTyho8_PZsO0EmK7Pi-IzEg9MYDssrO5xhaw1rjpz2i1aOsp4wXa-d_3b5BBXWGLG06GG-_C0ts3_zv5rUKdmv_gWSbeYAfRom1j74Q6qzVgAgVgXc4-iAxieAZUHYVhwhP4fYWJWroDwxpmRajC2Y6JRMoEEbX2d969RB6CvGSnmKhZ214F3pA8qSfMKFgvFpxtNYvcMM23bffgvsvABAILqdq2fVAJS32Co3zQBbAVnT-2dSi9GKqNnXxIxBSktUd6C99VG7fOUOFuJAMhnz9r4BfQlVe8aA~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - text: russpass.ru›Музей Фаберже. Покупайте билеты от 700 ₽ на RUSSPASS…
+              - button "Действия" [ref=e369] [cursor=pointer]:
+                - img [ref=e371]
+              - generic [ref=e375]:
+                - generic [ref=e376]: Шедевры ювелирного искусства и уникальные исторические памятники XIX века.
+                - generic [ref=e377]:
+                  - link "Музей Фаберже" [ref=e379] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WzOejI_zOoVX2Lcz14KU00FqnnvFh9U0EO4gFW6kDqn0R_hXTHaZuFK8w1Ii0i62IO8e-M70raHS3o0zu12lA1gWXJwVovqzs-_S-QwldQ_VyNh37QuJ6hrj5Ja86mM87gSzXKhl78ID0iG97wYTuyYeciEPuserGifHT2CfX_NeXjAC82Kg4UvCSQEOvb4V44uKKn1E521oM8ceHL8yHrNefyX8I8OLAOTI45AIaWob73cKYeHoE7Ce8GNbaE9F7CUbEHI7vgWA7UMmfT8ydzgvy_cKFkqfFitj75KXQWweCuhVj_H-GdDKXMJao9tHMtexfpcgGa4vSXf8-PC8HGGO_11LVwf5I415FqD8HJ9-Rlm44Vq0MMty60q17INz85c1gDUV7o6YdsZr6eJZKzlfT3gjqMS-jKBjADGA9Q5KPArX9R64D28fYNgKbBI4vDq1KpPVUD1NPiUez2QC_7nkD811nv6gLrM0bgf7LO2MgiUZ02rLRwe0BLLFgW0jzMv80Lhg7Li1MX2Uv1MW1U79aGAq83p1Aq0BmXCZ1MX1U79NW1Q49qKAq8Bm15o05WITISxNX9i7JLI8B8TokZEEY6dTU4qTgc5BxQZqAPtUJzkPJvtvCw-VpYSKdq9lgMr7xLngHu23zLdAYZpYoJtv8NNZVPg2TX24olbymsJZ_S1czu606y01RE3QHinRac8_DHzQ3NjJl0LBgs5BJzMKVPOEHYyrOWw3KjJci4CO8McuJPhjcfKd3zyB5WFu0k49NW3R7gpM2mALk5m4yPi5R65hmkskgeC3jXYni8CEgr2-kGAcO7PIs5RuOJQE8ME0yZ4w3MF-EintX0Sgfb0tJ80mm0aKE5GvkAd7R78_QEx-DmPWIyaFBnlTY7nmJ9xL_owpX7tlCalOvp890_zEm98bNtiXhClFNWZhmZJxhJjcUNbrPewPIw-VqkIRj-kwhjFcvjQKFeHkfEdn12tUBhku7LyAQJ27D2TUUkUGviHBRvTrlkpNziXfdkpTyho8_RY21nk0XR9ZotznGgqKlMch1VDQdmIjk_qHWit0s8xHCNmwvIUx88tCWgW0CWW-_C0ts3_zv5rUKdmv_gWSbeYAfRom1j74Q6qzVgAgVgXc4-iAxieAZUHYVhwhP4fYWJWroDwxpmRajC2Y6JRMoEEbX2d969RB6CvGSnmKhZ214F3pA8qSfMKFgvFpxtNYvcMM23bffgvsvABAILqdq2fVAJS32Co3zQBbAVnT-2dSi9GKqNnXxIxBSktUd6C99VG7fOUOFuJAMhnz9r4BfQlVe8aA~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                  - link "Адрес" [ref=e381] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WzOejI_zOoVX2Lcz14KU00FqnnvFh9U0EO4gFW6kDqn0R_hXTHaZuFK8w1Ii0i62IO8e-M70raHS3o0zu12lA1gWXJwVovqzs-_S-QwldQ_VyNh37QuJ6hrj5Ja86mM87gSzXKhl78ID0iG97wYTuyYeciEPuserGifHT2CfX_NeXjAC82Kg4UvCSQEOvb4V44uKKn1E521oM8ceHL8yHrNefyX8I8OLAOTI45AIaWob73cKYeHoE7Ce8GNbaE9F7CUbEHI7vgWA7UMmfT8ydzgvy_cKFkqfFitj75KXQWweCuhVj_H-GdDKXMJao9tHMtexfpcgGa4vSXf8-PC8HGGO_11LVwf5I415FqD8HJ9-Rlm44Vq0MMty60q17INz85c1gDUV7o6YdsZr6eJZKzlfT3gjqMS-jKBjADGA9Q5KPArX9R64D28fYNgKbBI4vDq1KpPVUD1NPiUez2QC_7nkD811nv6gLrM0bgf7LO2MgiUZ02rLRwe0BLLFgW0jzMv80Lhg7Li1MX2Uv1MW1U79aGAq83p1Aq0BmXCZ1MX1U79NW1Q49qKAq8Bm15o05WITISxNX9i7JLI8B8TokZEEY6dTU4qTgc5BxQZqAPtUJzkPJvtvCw-VpYSKdq9lgMr7xLngHu23zLdAYZpYoJtv8NNZVPg2TX24olbymsJZ_S1czu606y01RE3QHinRac8_DHzQ3NjJl0LBgs5BJzMKVPOEHYyrOWw3KjJci4CO8McuJPhjcfKd3zyB5WFu0k49NW3R7gpM2mALk5m4yPi5R65hmkskgeC3jXYni8CEgr2-kGAcO7PIs5RuOJQE8ME0yZ4w3MF-EintX0Sgfb0tJ80mm0aKE5GvkAd7R78_QEx-DmPWIyaFBnlTY7nmJ9xL_owpX7tlCalOvp890_zEm98bNtiXhClFNWZhmZJxhJjcUNbrPewPIw-VqkIRj-kwhjFcvjQKFeHkfEdn12tUBhku7LyAQJ27D2TUUkUGviHBRvTrlkpNziXfdkpTyho8_HY31nk0XR9ZotznGgqKlMch1VDQdmIjk_qHWit0s8xHCNmwvI_NAA2s82g0308-_C0ts3_zv5rUKdmv_gWSbeYAfRom1j74Q6qzVgAgVgXc4-iAxieAZUHYVhwhP4fYWJWroDwxpmRajC2Y6JRMoEEbX2d969RB6CvGSnmKhZ214F3pA8qSfMKFgvFpxtNYvcMM23bffgvsvABAILqdq2fVAJS32Co3zQBbAVnT-2dSi9GKqNnXxIxBSktUd6C99VG7fOUOFuJAMhnz9r4BfQlVe8aA~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                  - link "Шуваловский дворец" [ref=e383] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WzOejI_zOoVX2Lcz14KU00FqnnvFh9U0EO4gFW6kDqn0R_hXTHaZuFK8w1Ii0i62IO8e-M70raHS3o0zu12lA1gWXJwVovqzs-_S-QwldQ_VyNh37QuJ6hrj5Ja86mM87gSzXKhl78ID0iG97wYTuyYeciEPuserGifHT2CfX_NeXjAC82Kg4UvCSQEOvb4V44uKKn1E521oM8ceHL8yHrNefyX8I8OLAOTI45AIaWob73cKYeHoE7Ce8GNbaE9F7CUbEHI7vgWA7UMmfT8ydzgvy_cKFkqfFitj75KXQWweCuhVj_H-GdDKXMJao9tHMtexfpcgGa4vSXf8-PC8HGGO_11LVwf5I415FqD8HJ9-Rlm44Vq0MMty60q17INz85c1gDUV7o6YdsZr6eJZKzlfT3gjqMS-jKBjADGA9Q5KPArX9R64D28fYNgKbBI4vDq1KpPVUD1NPiUez2QC_7nkD811nv6gLrM0bgf7LO2MgiUZ02rLRwe0BLLFgW0jzMv80Lhg7Li1MX2Uv1MW1U79aGAq83p1Aq0BmXCZ1MX1U79NW1Q49qKAq8Bm15o05WITISxNX9i7JLI8B8TokZEEY6dTU4qTgc5BxQZqAPtUJzkPJvtvCw-VpYSKdq9lgMr7xLngHu23zLdAYZpYoJtv8NNZVPg2TX24olbymsJZ_S1czu606y01RE3QHinRac8_DHzQ3NjJl0LBgs5BJzMKVPOEHYyrOWw3KjJci4CO8McuJPhjcfKd3zyB5WFu0k49NW3R7gpM2mALk5m4yPi5R65hmkskgeC3jXYni8CEgr2-kGAcO7PIs5RuOJQE8ME0yZ4w3MF-EintX0Sgfb0tJ80mm0aKE5GvkAd7R78_QEx-DmPWIyaFBnlTY7nmJ9xL_owpX7tlCalOvp890_zEm98bNtiXhClFNWZhmZJxhJjcUNbrPewPIw-VqkIRj-kwhjFcvjQKFeHkfEdn12tUBhku7LyAQJ27D2TUUkUGviHBRvTrlkpNziXfdkpTyho8_RZ6Wmt0GjcnvRyueLQAthJLWdcjJuBMtVu8mMPWRCVe63wTyW_UME74WgW0CWW-_C0ts3_zv5rUKdmv_gWSbeYAfRom1j74Q6qzVgAgVgXc4-iAxieAZUHYVhwhP4fYWJWroDwxpmRajC2Y6JRMoEEbX2d969RB6CvGSnmKhZ214F3pA8qSfMKFgvFpxtNYvcMM23bffgvsvABAILqdq2fVAJS32Co3zQBbAVnT-2dSi9GKqNnXxIxBSktUd6C99VG7fOUOFuJAMhnz9r4BfQlVe8aA~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                  - link "Пасхальные яйца Фаберже" [ref=e385] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WzOejI_zOoVX2Lcz14KU00FqnnvFh9U0EO4gFW6kDqn0R_hXTHaZuFK8w1Ii0i62IO8e-M70raHS3o0zu12lA1gWXJwVovqzs-_S-QwldQ_VyNh37QuJ6hrj5Ja86mM87gSzXKhl78ID0iG97wYTuyYeciEPuserGifHT2CfX_NeXjAC82Kg4UvCSQEOvb4V44uKKn1E521oM8ceHL8yHrNefyX8I8OLAOTI45AIaWob73cKYeHoE7Ce8GNbaE9F7CUbEHI7vgWA7UMmfT8ydzgvy_cKFkqfFitj75KXQWweCuhVj_H-GdDKXMJao9tHMtexfpcgGa4vSXf8-PC8HGGO_11LVwf5I415FqD8HJ9-Rlm44Vq0MMty60q17INz85c1gDUV7o6YdsZr6eJZKzlfT3gjqMS-jKBjADGA9Q5KPArX9R64D28fYNgKbBI4vDq1KpPVUD1NPiUez2QC_7nkD811nv6gLrM0bgf7LO2MgiUZ02rLRwe0BLLFgW0jzMv80Lhg7Li1MX2Uv1MW1U79aGAq83p1Aq0BmXCZ1MX1U79NW1Q49qKAq8Bm15o05WITISxNX9i7JLI8B8TokZEEY6dTU4qTgc5BxQZqAPtUJzkPJvtvCw-VpYSKdq9lgMr7xLngHu23zLdAYZpYoJtv8NNZVPg2TX24olbymsJZ_S1czu606y01RE3QHinRac8_DHzQ3NjJl0LBgs5BJzMKVPOEHYyrOWw3KjJci4CO8McuJPhjcfKd3zyB5WFu0k49NW3R7gpM2mALk5m4yPi5R65hmkskgeC3jXYni8CEgr2-kGAcO7PIs5RuOJQE8ME0yZ4w3MF-EintX0Sgfb0tJ80mm0aKE5GvkAd7R78_QEx-DmPWIyaFBnlTY7nmJ9xL_owpX7tlCalOvp890_zEm98bNtiXhClFNWZhmZJxhJjcUNbrPewPIw-VqkIRj-kwhjFcvjQKFeHkfEdn12tUBhku7LyAQJ27D2TUUkUGviHBRvTrlkpNziXfdkpTyho8_TY31nk0XR9ZotznGgqKlMch1VDQdmIjk_qHWit0s8xHCNmwvJTA77oo82g0308-_C0ts3_zv5rUKdmv_gWSbeYAfRom1j74Q6qzVgAgVgXc4-iAxieAZUHYVhwhP4fYWJWroDwxpmRajC2Y6JRMoEEbX2d969RB6CvGSnmKhZ214F3pA8qSfMKFgvFpxtNYvcMM23bffgvsvABAILqdq2fVAJS32Co3zQBbAVnT-2dSi9GKqNnXxIxBSktUd6C99VG7fOUOFuJAMhnz9r4BfQlVe8aA~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+              - generic [ref=e386]: Промо
+          - listitem [ref=e387]:
+            - generic [ref=e388]:
+              - link "Купите билет на развод мостов с борта экохода!" [ref=e390] [cursor=pointer]:
+                - /url: https://yabs.yandex.ru/count/WhWejI_zOoVX2LbH0bKL08EdcRxMqd5FvGJC2LJn2N2zOG9wqm-lonW1hqT05-2mIg-Cx1NODM0hm66LdbeG8LNk3D12dy_bpfxjT-wyuSxNxtYzuGxNMZMQOKJ3MbEBI51b82q18LcLh4Ur4eqYQbADGuW4zOPGaLM6qL3LYdH4OWbf19AHLSbAH2q2KpPVUD1NPiUez2QC_7nkD811nz41PbK71sovgz9XAlBLPLP0asK1OQfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q4CHOELy7bWKKxkG9VJbT-c_AYU2DrzIX6hRKZagVqkdzj9tvr9a_y_hfV4BnAVIMsdRKpgLs13XOdwMio2EUt9CVKZVU03YesV54mlbymsJZ_S1czu606y01RE3I62hITVcf-T1gs9lYBLXQ3LjwggPCmuiVXq4fQdFO8OoGDDmcpNRDofE7xmMB0No1y0GlWAq3ODel9XWcAdztVHVC8529oqKGlrd05hOcl25I82O6QLhOGOTLADzS0LCmDtdeKTWUmcN5a9iwriVeD8nPmmWFL4oXRfW0OO0JA72eSd1JZzdaVj3S_M_yOQmV5Y3BrGTRQ0hytvZl_hqnt_rpAGXv_BiqwylN4h2T_5a2jfDCiuWzPlaQX3bcBhtCvRxhkgxJvkRMb3v403p7CteN0C_nZDvwC5-c4K86wSbV262UxiUq1oVmo0Mbpd-XEoAhpFgE8sMl_PD5Zl0eB7CXTy6gtSTZ23O3Opj6nx2yGFant1aEMX0LG0O15Vnrdlj3G6ttzvLzKVSu5Y_886SyTuw1F-ZcPlLa6UPokFmxHwcBOzoFFoboVt0lSQ0MF_V6ebYqkMqjkXh7jgW0~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - heading "Купите билет на развод мостов с борта экохода!" [level=2] [ref=e392]:
+                  - generic [ref=e393]: Купите билет на развод мостов с борта экохода!
+              - link "nameteor.ruКупите билет на развод мостов с борта экохода!" [ref=e396] [cursor=pointer]:
+                - /url: https://yabs.yandex.ru/count/WhWejI_zOoVX2LbH0bKL08EdcRxMqd5FvGJC2LJn2N2zOG9wqm-lonW1hqT05-2mIg-Cx1NODM0hm66LdbeG8LNk3D12dy_bpfxjT-wyuSxNxtYzuGxNMZMQOKJ3MbEBI51b82q18LcLh4Ur4eqYQbADGuW4zOPGaLM6qL3LYdH4OWbf19AHLSbAH2q2KpPVUD1NPiUez2QC_7nkD811nz41PbK71sovgz9XAlBLPLP0asK1OQfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q4CHOELy7bWKKxkG9VJbT-c_AYU2DrzIX6hRKZagVqkdzj9tvr9a_y_hfV4BnAVIMsdRKpgLs13XOdwMio2EUt9CVKZVU03YesV54mlbymsJZ_S1czu606y01RE3I62hITVcf-T1gs9lYBLXQ3LjwggPCmuiVXq4fQdFO8OoGDDmcpNRDofE7xmMB0No1y0GlWAq3ODel9XWcAdztVHVC8529oqKGlrd05hOcl25I82O6QLhOGOTLADzS0LCmDtdeKTWUmcN5a9iwriVeD8nPmmWFL4oXRfW0OO0JA72eSd1JZzdaVj3S_M_yOQmV5Y3BrGTRQ0hytvZl_hqnt_rpAGXv_BiqwylN4h2T_5a2jfDCiuWzPlaQX3bcBhtCvRxhkgxJvkRMb3v403p7CteN0C_nZDvwC5-c4K86wSbV262UxiUq1oVmo0Mbpd-XEoAhpFgE8sMl_PD5Zl0eB7CXTy6gtSTZ23O3Opj6nx2yGFant1aEMX0LG0O15Vnrdlj3G6ttzvLzKVSu5Y_886SyTuw1F-ZcPlLa6UPokFmxHwcBOzoFFoboVt0lSQ0MF_V6ebYqkMqjkXh7jgW0~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - text: nameteor.ru›Купите билет на развод мостов с борта экохода!
+              - button "Действия" [ref=e397] [cursor=pointer]:
+                - img [ref=e399]
+              - generic [ref=e403]:
+                - generic [ref=e405]: Развод мостов, закат и панорамы Петербурга с борта электросудна.
+                - 'button "Рейтинг: 4,9 из 5 ⁠ 44 отзыва" [ref=e408] [cursor=pointer]':
+                  - generic [ref=e409]:
+                    - generic [ref=e410]: "Рейтинг: 4,9 из 5"
+                    - text: ⁠4,9
+                  - generic [ref=e413]: 44 отзыва
+                - generic [ref=e414]:
+                  - link "Развод мостов" [ref=e416] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WhWejI_zOoVX2LbH0bKL08EdcRxMqd5FvGJC2LJn2N2zOG9wqm-lonW1hqT05-2mIg-Cx1NODM0hm66LdbeG8LNk3D12dy_bpfxjT-wyuSxNxtYzuGxNMZMQOKJ3MbEBI51b82q18LcLh4Ur4eqYQbADGuW4zOPGaLM6qL3LYdH4OWbf19AHLSbAH2q2KpPVUD1NPiUez2QC_7nkD811nz41PbK71sovgz9XAlBLPLP0asK1OQfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q4CHOELy7bWKKxkG9VJbT-c_AYU2DrzIX6hRKZagVqkdzj9tvr9a_y_hfV4BnAVIMsdRKpgLs13XOdwMio2EUt9CVKZVU03YesV54mlbymsJZ_S1czu606y01RE3I62hITVcf-T1gs9lYBLXQ3LjwggPCmuiVXq4fQdFO8OoGDDmcpNRDofE7xmMB0No1y0GlWAq3ODel9XWcAdztVHVC8529oqKGlrd05hOcl25I82O6QLhOGOTLADzS0LCmDtdeKTWUmcN5a9iwriVeD8nPmmWFL4oXRfW0OO0JA72eSd1JZzdaVj3S_M_yOQmV5Y3BrGTRQ0hytvZl_hqnt_rpAGXv_BiqwylN4h2T_5a2jfDCiuWzPlaQX3bcBhtCvRxhkgxJvkRMb3v403p7CteN0C_nZDvwC5-c4K86wSbV262UxiSDU702ZrnGwlmNkYEoogplE5BssZzPv0YFmZ8NSXUisdqyXc0pCBPZT0pB2vIV1a0B0Yo82Y235Vnrdlj3G6ttzvLzKVSu5Y_886SyTuw1F-ZcPlLa6UPokFmxHwcBOzoFFoboVt0lSQ0MF_V6ebYqkMqjkXh7jgW0~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                  - link "Финский залив" [ref=e418] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WhSejI_zOoVX2LbH0aqL08DdcRxMqd5FvGJC2LJn2N2zOG9wqm-lonW1hqT05-2mIg-Cx1NODM0hm66LdbeG8LNk3D12dy_bpfxjT-wyuSxNxtYzuGxNMZMQOKJ3MbEBI51b82q18LcLh4Ur4eqYQbADGuW4zOPGaLM6qL3LYdH4OWbf19AHLSbAH2q2KpPVUD1NPiUez2QC_7nkD811nz41PbK71sovgz9XAlBLPLP0asK1OQfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q4CHOELy7bWKKxkG9VJbT-c_AYU2DrzIX6hRKZagVqkdzj9tvr9a_y_hfV4BnAVIMsdRKpgLs13XOdwMio2EUt9CVKZVU03YesV54mlbymsJZ_S1czu606y01RE3I62hITVcf-T1gs9lYBLXQ3LjwggPCmuiVXq4fQdFO8OoGDDmcpNRDofE7xmMB0No1y0GlWAq3ODel9XWcAdztVHVC8529oqKGlrd05hOcl25I82O6QLhOGOTLADzS0LCmDtdeKTWUmcN5a9iwriVeD8nPmmWFL4oXRfW0OO0JA72eSd1JZzdaVj3S_M_yOQmV5Y3BrGTRQ0hytvZl_hqnt_rpAGXv_BiqwylN4h2T_5a2jfDCiuWzPlaQX3bcBhtCvRxhkgxJvkRMb3v403p7CteN0C_nZDvwC5-c4K86wSbV262UxiS-7fp08nUKEl-5xeYiCkixZfIzzayMESAZiCo5t0MhTX-F8TWCZEqO7SFo0kM_0qp3BOWA88CL_7MU-qD0RVVtbNrHzpWMByWWPpntZe4_wEPczMGPvdAu_3j7gOjZt8y_AN9_S2zne1O_zyQYMBIvRIsw6iUsg000~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                  - link "Прогулки на экоходе" [ref=e420] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WhSejI_zOoVX2LbH0aqL08DdcRxMqd5FvGJC2LJn2N2zOG9wqm-lonW1hqT05-2mIg-Cx1NODM0hm66LdbeG8LNk3D12dy_bpfxjT-wyuSxNxtYzuGxNMZMQOKJ3MbEBI51b82q18LcLh4Ur4eqYQbADGuW4zOPGaLM6qL3LYdH4OWbf19AHLSbAH2q2KpPVUD1NPiUez2QC_7nkD811nz41PbK71sovgz9XAlBLPLP0asK1OQfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q4CHOELy7bWKKxkG9VJbT-c_AYU2DrzIX6hRKZagVqkdzj9tvr9a_y_hfV4BnAVIMsdRKpgLs13XOdwMio2EUt9CVKZVU03YesV54mlbymsJZ_S1czu606y01RE3I62hITVcf-T1gs9lYBLXQ3LjwggPCmuiVXq4fQdFO8OoGDDmcpNRDofE7xmMB0No1y0GlWAq3ODel9XWcAdztVHVC8529oqKGlrd05hOcl25I82O6QLhOGOTLADzS0LCmDtdeKTWUmcN5a9iwriVeD8nPmmWFL4oXRfW0OO0JA72eSd1JZzdaVj3S_M_yOQmV5Y3BrGTRQ0hytvZl_hqnt_rpAGXv_BiqwylN4h2T_5a2jfDCiuWzPlaQX3bcBhtCvRxhkgxJvkRMb3v403p7CteN0C_nZDvwC5-c4K86wSbV262UxiSgF3Y1HoueTVuBtH5PPTPt72bxxPyiSeH7OPaBkGjMxJuUGx0P6DinEeRb1SeluwFm5aG5a44L_7MU-qD0RVVtbNrHzpWMByWWPpntZe4_wEPczMGPvdAu_3j7gOjZt8y_AN9_S2zne1O_zyQYMBIvRIsw6iUsg000~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                  - link "Закаты на воде" [ref=e422] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WhWejI_zOoVX2LbH0bKL08EdcRxMqd5FvGJC2LJn2N2zOG9wqm-lonW1hqT05-2mIg-Cx1NODM0hm66LdbeG8LNk3D12dy_bpfxjT-wyuSxNxtYzuGxNMZMQOKJ3MbEBI51b82q18LcLh4Ur4eqYQbADGuW4zOPGaLM6qL3LYdH4OWbf19AHLSbAH2q2KpPVUD1NPiUez2QC_7nkD811nz41PbK71sovgz9XAlBLPLP0asK1OQfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q4CHOELy7bWKKxkG9VJbT-c_AYU2DrzIX6hRKZagVqkdzj9tvr9a_y_hfV4BnAVIMsdRKpgLs13XOdwMio2EUt9CVKZVU03YesV54mlbymsJZ_S1czu606y01RE3I62hITVcf-T1gs9lYBLXQ3LjwggPCmuiVXq4fQdFO8OoGDDmcpNRDofE7xmMB0No1y0GlWAq3ODel9XWcAdztVHVC8529oqKGlrd05hOcl25I82O6QLhOGOTLADzS0LCmDtdeKTWUmcN5a9iwriVeD8nPmmWFL4oXRfW0OO0JA72eSd1JZzdaVj3S_M_yOQmV5Y3BrGTRQ0hytvZl_hqnt_rpAGXv_BiqwylN4h2T_5a2jfDCiuWzPlaQX3bcBhtCvRxhkgxJvkRMb3v403p7CteN0C_nZDvwC5-c4K86wSbV262UxiSmF3Y1HoueTVuBtH5PPTPt72bxxPyiSeH7OPaBkGjMxJuUGx0P6DinEeRb1SglvGIMG0kY0iWW5Vnrdlj3G6ttzvLzKVSu5Y_886SyTuw1F-ZcPlLa6UPokFmxHwcBOzoFFoboVt0lSQ0MF_V6ebYqkMqjkXh7jgW0~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - generic [ref=e424]:
+                  - link "Контактная информация" [ref=e426] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WhaejI_zOoVX2LbK0bqL09FdcRxMqd5FvGJC2LJn2N2zOG9wqm-lonW1hqT05-2mIg-Cx1NODM0hm66LdbeG8LNk3D12dy_bpfxjT-wyuSxNxtYzuGxNMZMQOKJ3MbEBI51b82q18LcLh4Ur4eqYQbADGuW4zOPGaLM6qL3LYdH4OWbf19AHLSbAH2q2KpPVUD1NPiUez2QC_7nkD811nz41PbK71sovgz9XAlBLPLP0asK1OQfULG5QgXvL0Lgg7ey2j5IzgGAqL3sf0hJKko45QAbtR0LeGNYILu0MX2T72j22y0Il02q8JumKe0NXoLq1MX2U52b02y8JS05Q4CHOELy7bWKKxkG9VJbT-c_AYU2DrzIX6hRKZagVqkdzj9tvr9a_y_hfV4BnAVIMsdRKpgLs13XOdwMio2EUt9CVKZVU03YesV54mlbymsJZ_S1czu606y01RE3I62hITVcf-T1gs9lYBLXQ3LjwggPCmuiVcSEW5BKvx116I1fkasQxPkN9m_U2nG2-G7Y25y3M0J3j5nCC4vM_kxuBPX2enEKYYDyiO0jR4zuGAH0JWpGjxA33AfHlhe0fc9iyz2Xi3-6oOiXD7UjZT1h6h6641ogcK3TCW3302HGuL3cugSTiSZzexlut_Z3M3mkGvUg3BJG5_c_CT__UcE_-kHI4FFvTclNbQmdOJlui0Tj9fbd47hDy3S8SCvTUvdBVTLtNQNDpQqeV8W2Uuncz2u3dU4PlFPWlqmWXW_JaBmGmJ_TZ2nwSm2CNb3h_XUw8h3BhEuwKlVPF5Zd2ex3CXTm5gtOVZo7O38pj61t3yeNoTy5mOWCBeWB881NyDP_xGw1jztUNVL7tE2ulo3XdF8EEWJy4vsOxlB-vt0h_pf6nYsF2uq_glrTeb3XGYuBRO54iAhgZ5brT3r1K~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B
+                  - generic [ref=e427]:
+                    - heading "Телефон" [level=3] [ref=e428]
+                    - button "Показать телефон" [ref=e430] [cursor=pointer]: +7 (800) 200-XX-XX Показать
+                  - generic [ref=e431]:
+                    - heading "Время работы" [level=3] [ref=e432]
+                    - text: ежедневно 9:00-18:00
+              - generic [ref=e433]: Промо
+          - listitem [ref=e434]:
+            - generic [ref=e435]:
+              - link "Водные экскурсии в Санкт-Петербурге с видом на Эрмитаж" [ref=e437] [cursor=pointer]:
+                - /url: https://yabs.yandex.ru/count/WfmejI_zOoVX2Lc60dKK0DFaZa5Pn18m9r359y3rXWdeJJ-yBcC4l1KGqA7Fvt9dp_OxTzvmv-jtlDvmXtjFdROpjvrIgL9zWrez4a9IejQm5f6m0wPill2WhyoEKUbD6Fdvt6W0WuwZ2KG-FZu-FYKwJ7VCcIO5DA4B27yWM02NgbTLW9QgHrM0bgh7em0jLM-g02rLJwe0BVLkI05QwXrR0LeGdkGLe0NXoP42j20ymIj02y8J8mLeGNXoLu0MX2T52j22y0HSW1O4CLREryJZXmzOVE21NKwNzZFI_N7ZDNMeXYsrezAdT7e_RMS-TURFl7uwdr1y2hsbjXsrSwaT0GxMPoahyeWdz-I7r8stwCWEmYay7tnGRlR7FIGDofhEvnic6-y7DhiF1Dm03c03TsatreP1-gdvq6hOc-8jM5eDMtggfinXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWwu1M-yLKWObTbkg26GGgSRa8uZSBsCBMn9aF3WbeEUiixA33AfHlhe0fc9iymXIsde8ECw7Cd28VYI4tTQoFqMaOiuOH7gYOGjqm0S809r3WKENWfXwpoVsWkVlVUE47aHzUO13hWskkvlwNGjQFxwMGzUDpAxG1_hs2horVUm3JuyyUmFJ8D8kuOfPX866EcKjlSxdlkgxhjBcvDQKFYT4g4aNlCLf5ekZjSi-N_xv7vSbVp4nhp8zf3qvW2fIfh__wfYnajYYcfYnajYYl_PDnOebT8TWCZEqO7SCIIlcN3AcI5aG5a44Q_51rerpmme1c5zWyxGX7Ja4MPN87An8MbCQfFkw8BwQ5FjxDM4-57ouKf9CdK3fJ8DqnVp8ePNhCBdO7Q_55ZyHLYyQZkPt4YGnTxKk4Gm00~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - heading "Водные экскурсии в Санкт-Петербурге с видом на Эрмитаж" [level=2] [ref=e439]:
+                  - generic [ref=e440]: Водные экскурсии в Санкт-Петербурге с видом на Эрмитаж
+              - link "nevatrip.ruВодные экскурсии в Санкт-Петербурге с видом на Эрмитаж…" [ref=e443] [cursor=pointer]:
+                - /url: https://yabs.yandex.ru/count/WfmejI_zOoVX2Lc60dKK0DFaZa5Pn18m9r359y3rXWdeJJ-yBcC4l1KGqA7Fvt9dp_OxTzvmv-jtlDvmXtjFdROpjvrIgL9zWrez4a9IejQm5f6m0wPill2WhyoEKUbD6Fdvt6W0WuwZ2KG-FZu-FYKwJ7VCcIO5DA4B27yWM02NgbTLW9QgHrM0bgh7em0jLM-g02rLJwe0BVLkI05QwXrR0LeGdkGLe0NXoP42j20ymIj02y8J8mLeGNXoLu0MX2T52j22y0HSW1O4CLREryJZXmzOVE21NKwNzZFI_N7ZDNMeXYsrezAdT7e_RMS-TURFl7uwdr1y2hsbjXsrSwaT0GxMPoahyeWdz-I7r8stwCWEmYay7tnGRlR7FIGDofhEvnic6-y7DhiF1Dm03c03TsatreP1-gdvq6hOc-8jM5eDMtggfinXK8hQ77O88oGDjqcpNRFovE5xmM80No0ymGjWwu1M-yLKWObTbkg26GGgSRa8uZSBsCBMn9aF3WbeEUiixA33AfHlhe0fc9iymXIsde8ECw7Cd28VYI4tTQoFqMaOiuOH7gYOGjqm0S809r3WKENWfXwpoVsWkVlVUE47aHzUO13hWskkvlwNGjQFxwMGzUDpAxG1_hs2horVUm3JuyyUmFJ8D8kuOfPX866EcKjlSxdlkgxhjBcvDQKFYT4g4aNlCLf5ekZjSi-N_xv7vSbVp4nhp8zf3qvW2fIfh__wfYnajYYcfYnajYYl_PDnOebT8TWCZEqO7SCIIlcN3AcI5aG5a44Q_51rerpmme1c5zWyxGX7Ja4MPN87An8MbCQfFkw8BwQ5FjxDM4-57ouKf9CdK3fJ8DqnVp8ePNhCBdO7Q_55ZyHLYyQZkPt4YGnTxKk4Gm00~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - text: nevatrip.ru›Водные экскурсии в Санкт-Петербурге с видом на Эрмитаж…
+              - button "Действия" [ref=e444] [cursor=pointer]:
+                - img [ref=e446]
+              - generic [ref=e450]:
+                - generic [ref=e452]: Прогулки на теплоходе по Фонтанке и Неве до Финского залива. Билеты от 1390₽. Едем...
+                - 'button "Рейтинг: 4,6 из 5 ⁠ 870 отзывов" [ref=e455] [cursor=pointer]':
+                  - generic [ref=e456]:
+                    - generic [ref=e457]: "Рейтинг: 4,6 из 5"
+                    - text: ⁠4,6
+                  - generic [ref=e460]: 870 отзывов
+                - generic [ref=e461]:
+                  - link "Прогулка «Северная Венеция»" [ref=e463] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WheejI_zOoVX2LcU0cKL06DcbK5Pn18m9r359y3rXWdeJJ-yBcC4l1KGqA7Fvt9dp_OxTzvmv-jtlDvmXtjFdROpjvrIgL9zWrebeWvHYwWqQgEZcafZQ4c64T8HYHlKAeabf157GaXAr1hM8Z1byuK7VMLsZ4flmiZFvqO367GSJI3oyV7nyIdHORfZpZGfe0bTGFW3mGAuLBsg0hHKFQe2j5Gz7WLegNfJ1MYfUb85QAbtGmhGKk_O2j22y2Il02q8JuuKe0NX2Lu1MX2U62b02yAJkmAq83mfKe0MX2VW0hGWYB5olYOUFtp0uWCFx7Awj9-HxeyRhwb3DMof7PK-fTFxQJlpgJD_vlNJ-OJYK-WjjUsedKlj272mFajPaKSykIS_f6wyHKTs44xX-U23ShC_xY5fKDPqFjymsNW_iDbz8E06S00Rk4kxiJOCqa_DXrR3tXHlmT9gsD9JDMKEWrBKvh13625fk4sQxPgL9m_V2nO3-0BX2Lu0MmUqsY-c2apiibGNp21GYSj54BzPm1Qs9ivyS4X0orbdOGSTLg5ySmLCmTpa4QQmzHHqc0bbvXJvI0ovgMDzZ4x3c3MCy4355Eg62H06E842Xoe7D_MOJUu7pTt_nWi_YFpm0eDO7rnpDVU_5B9-V2-5h1-VMw4DyEyLV6tvsWEO7d_s0AP7fbd45RCC0mbpp5nwcyjzrtLTfytDhIbzI8nMaIXwZz4g4aLlbtk-_FSzAa_-OcPQOtxSW0SdC0NArDT_VLCMCbiKKrCMCbkKr_x9EB74hX1i1iPsZ8vXwQNy0SXmj6X1L00P11ly47QZN_32i6ONspnj2aTE1Y2JJDyv1uKs5Mb1gOegoHtnnTJGXzoC-UdpmpL1EdaFIcS4f3lc9eDIdcViRdUm5d_fNLorQ6VqjvCudQ6h0uXm2000~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                  - link "Реки и каналы на теплоходе" [ref=e465] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WiCejI_zOoVX2Lcc0gqL00Edbq5Pn18m9r359y3rXWdeJJ-yBcC4l1KGqA7Fvt9dp_OxTzvmv-jtlDvmXtjFdROpjvrIgL9zWrgrLercq30QEh8grTIY-iOGjOXAenQgXMXOaKZSe5P9B26DE192KgBMi1PjxO0fcoyyw2kpOrHw4qP-FZSQmA3ZQ0AHZu-FZq-93jCTSwP90Kte0i8V21R0fUfL5Q2bwb4LeANgyIX0IzMRAa1BrPCgG4kz6rA0bdh7Le0MX2Tv1MX1U7Aa02q8J_0Aq8Bmn4W1MX2Ut1MW1U59aGAq83m15w05GOoLypNn-E435XzuO9VJfVsCT7_SU4qTgc5BxQZqAPtUJzkPJvtvCw-VpYSKdq9lgMr7xLngHu23zLdAYZpYoJtv8NNZBJgoWt0ApmSVb9lzSGz9WxAcy_c6oSRxWStk0m4tW0FOm5tQZRLXa7vgFhGQzgPu2vPMmvQUgYbp69IYDeSTmWX9mstIRDUiF7duNh0Om1S8J_02s3gWrNunLM1YbwMwO0Q1IbmkWlZD0hQmDN7cWqC2Miuw2plei0hbcojW2kOcZp25hQUWmqmeCwV8HsB8JHthOtGQngnXX0Sgfb0tJ80mm0aKE5GvkAd7R78_QEx-DrxuGUI75nZ4-k2Qgxd_fP3rutifPFtut0fjW7-lu6lBrnx0zFYp1p0zCiqYhfXb64YOO-RIsrpkkwxhEcrkRatfGsAqYaJHUunMaIXwkzppvR_lKNdo5pFJ6lDZ7mzEO0gKgQ__-gOiPBOefgOiPBOeh_sJSMA9NI7O38pj61t3SapvDO1IZs11L00P11lyK7QZOF32m6ONt3pj2aTE2Y2JcC1p4uV5voyeBL3TkYE-c1hwa9inFtr-k2P89-z1wOo0TCVSP53AyupTxGxMuY-zYwiMxOp-TXAdCtHr014E0G00~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                  - link "Ужин-круиз при свечах" [ref=e467] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WiGejI_zOoVX2Lcf0hKL01Fdbq5Pn18m9r359y3rXWdeJJ-yBcC4l1KGqA7Fvt9dp_OxTzvmv-jtlDvmXtjFdROpjvrIgL9zWrfTgY4qHCLHBn4PqKWg4hhMHaSr3g4b91fraT0C74iaRb2h99QGHXm98IbHQrYBm9JD5nxqbTanAhq98p-V6mrWq74qWSZ7nyV7fqI7wOuvqwI09dG1uGy42-1IzQeAq5Brg0hGKlLu5A2bwaqLeANgIHMWfTuDAK1BlMChG0l2axm2j20yELA05eGdU0LeGNXYf00j24_k2j22yAH80LeGde0Bq88WnihvcdZyy06B3pomo-dIVaQwFswyfWxLiALsLFgKJk-dxSodploPrq_d4ufFeRVKjgDsBhKZmC7wB6L57l7adloGkl4M7Tb1E8NdWm_ApVwuXwH1MTFvVCDau_t0PlU1W1l00MpWBkt6sZ18FpKVMWrxKxm5IwjXIq_Lb3aCIb6RmmvXXAJXDccsQrQUF7mlM0pW2uGdU05i7T1glvWgCB7BKbqmWq0bBXT1_6O1MzYQEFF18G4jPvs57NHOXVBD5J05SvD7cCBMKz1X9fIPK-GZCUIcZlKnEWrZrZ320nLJg1icG1ZW10eSgXpSr6CskHyqT_yRB_mWyiCB369zSCtLtFzIoFhnlHIoVdnkXJR0lrVmjULh3s1w_Da3c1wPPX5Np38C9CmnS-bjBlTTrtMTDZUtflGXCLf5ekWzHgj85BrTxldot_UeFFcBcMcD-R4A3qvW2fIfh__wfYnajYYcfYnajYYl_PDnOebT8TWCZEqO7SEog_pEcu8K2w82o20R_6Xs0s7mmiPcTzmy7Gj7pWiWat31SoOAk2NIWb8LLP8xuekfeG-v6VFJvuThWdJo7fJE493dpIQ3Kf_5M6rti1P_wLzSjIXdb6ydCPsXgmEWSGW0~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                  - link "Прогулка на катере Blueberry" [ref=e469] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WiCejI_zOoVX2Lcd0gqL01Edbq5Pn18m9r359y3rXWdeJJ-yBcC4l1KGqA7Fvt9dp_OxTzvmv-jtlDvmXtjFdROpjvrIgL9zWrebeWvHYwWqQg6QY4h3YbGR7TLM9AiIbKPDBI9nWrebiOGquaW8IObQmrh4jGEcRBxmeA_CZb7fJHZv-Tne08EEemb4FZu-FZubEantp9ac1JIX2mX_85W0bwfNLO2MgaTLW9QgnwC0BLLlgW0jLK-g02trRaW1MkeTMm5Q49xa5Q05uScH0hGWFC4hG0l24oC5Q45uSbU05eGdHGhGWl04N80M135MpjV4uuSFM7pWWLrEb_OpqlrnupLrg8OjjQFIftHwFsrdFdNcpxn-EfzGV0gzfROTjNEf7G4ErcSfA_A89_VaXzIDj-Z83i8fF1zyK6xsnpqa3SgQpkSR9Xll1pQx3mJS00vW0tTfDzQ6GVgf-T1gs9lYBLXQ3LjwggRCOL2AsXns22Ca3RT9irspykJXUy5Y05yWFC4BOEk0Lll5L869NPRgWXa4Ad6v2E8t2zZ2riIP3mu9Q3dhBEoWmogKRww0APYRFC8Kjfw23ZEXp9mY7uaXDtMiZz5f6BE64Hwec4BTC07202TGu53buAOUiydzeBdxttZX1v4VNc0GwuDhhkR-bqBMZ--baFNZSokq0VwzWgyjNti0q-FF7i3qo3IBk6AMOI1XZfbBRtEvxxgkwxIvkJMb3udHAX95xp5QHQBexNBFb_--H-N9NynCQyoFONXm0bEWJ7tzrpTb8RD5CJLb8RD5UUsVZ1DBx0h1Pc1in-WObcJAVm-XwreG5K060HpyM7R3OF32mcOtt3pz2aTEFPfuGUJ0Jzh3uaSNb7fJEDqHNtWBtRoRgTu8FxmeI6SaK3gXGBhZVZ8enRIOTUmErk95cyHLYux7Spk9Y0nTxOkOGm00~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - generic [ref=e471]:
+                  - link "Контактная информация" [ref=e473] [cursor=pointer]:
+                    - /url: https://yabs.yandex.ru/count/WfuejI_zOoVX2Lc90eKK0EDaZq5Pn18m9r359y3rXWdeJJ-yBcC4l1KGqA7Fvt9dp_OxTzvmv-jtlDvmXtjFdROpjvrIgL9zWrez4a9IejQm5f6m0wPill2WhyoEKUbD6Fdvt6W0WuwZ2KG-FZu-FYKwJ7VCcIO5DA4B27yWM02NgbTLW9QgHrM0bgh7em0jLM-g02rLJwe0BVLkI05QwXrR0LeGdkGLe0NXoP42j20ymIj02y8J8mLeGNXoLu0MX2T52j22y0HSW1O4CLREryJZXmzOVE21NKwNzZFI_N7ZDNMeXYsrezAdT7e_RMS-TURFl7uwdr1y2hsbjXsrSwaT0GxMPoahyeWdz-I7r8stwCWEmYay7tnGRlR7FIGDofhEvnic6-y7DhiF1Dm03c03TsatreP1-gdvq6hOc-8jM5eDMtggfZp3OL2AsXns22Ca3RT9irspykJXUy5Y05yWFC4BOEk0Lll5L869NPRgWXa4Ad6v2E8t2zZ2riIP3mu9Q3dhBEoWmogKRww0APYRFC8Kjfw23ZEXp9mY7uaXDtMiZz5f6BE64Hwec4BTC07202TGu53buAOUiydzeBdxttZX1v4VNc0GwuDhhkR-bqBMZ--baFNZSokq0VwzWgyjNti0q-FF7i3qo3IBk6AMOI1XZfbBRtEvxxgkwxIvkJMb3udHAX95xp5QHQBexNBFb_--H-N9NynCQyoFBNXm0bEWJ7tzrpTb8RD5CJLb8RD5UUsVZ1DBx0h1Pc1in-WObZkKVsRfpio2g00o21hyQ7K3NV32XcPts3mT2KTE0HTbSeSi4YwKnga-xg0lfhK-tkLOJuKZ5xA5-9YoT11skgEMDIX5YmOOUmxMObIPJAeMBOzETXB76RfQjWY7~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B
+                  - generic [ref=e474]:
+                    - heading "Телефон" [level=3] [ref=e475]
+                    - button "Показать телефон" [ref=e477] [cursor=pointer]: +7 (812) 213-XX-XX Показать
+                  - generic [ref=e478]:
+                    - heading "Время работы" [level=3] [ref=e479]
+                    - text: ежедневно 9:00-1:00
+                  - generic [ref=e480]:
+                    - heading "Метро" [level=3] [ref=e481]
+                    - text: м. Адмиралтейская
+              - generic [ref=e482]: Промо
+          - listitem [ref=e483]:
+            - generic [ref=e484]:
+              - link "Галерея дизайна Bulthaup. Ваза Where are my glasses" [ref=e486] [cursor=pointer]:
+                - /url: https://yabs.yandex.ru/count/WfKejI_zOoVX2LaV0ZqK09FbaSn3D3q1Sm9LV09SRvY0tlJ3wp96m0k3W0vzFfSxUxRVkVE6Er-_u_M6Ezmbf14taAn3GrGPTP4CeIHhTOGD6pO6s05JDbzuq5TcnwZq9epyV6uqW477qSGK4ZT1wchewJ0LuKfb5D24BY3yGRW0BbMlgW0jLO-g02rLZqS1MghUL05QgfvK0LhgtP02jDGxjWAq83p9Aq0BmfCZ1MX1U89NW1Q49qOAq8BmvAu0BGXFYXIW1U49k00j26AidA-9o2LRDA25eCZfqakcG7Bv46P-y7eFt1klgKCrRAaTbJwbq_jfE_EfCt_czTFvXE9Jw2srxQYTI-q8SB0-IrcHHpov9p-aRhn8KN-IXLMsDDcwsO5uz2NbDixd6oORxmSskmy4t00EO0FNULRIH5Bif-P3gs5lYhTWQJLi7T1rNTVr6ft3e1IrEUmGHaWQRfDcksRboSFtWiK0la1uWXV0rW6jzei912fnkGZYDmlOmjP4cHMEagoS6HPsq64LoZTNm1JCJHvw5BP0jFfYo4qT2sRIiTuOiO_HQHWpp7U41ogcK3TCW3302HGuL3cugSTiSZzexlutMg12yiFI8eWVp84mo_zcA9lytWnbav-hGQtxTogtxMiXg9hxMGYgvfXc0lwOvG-WCCVCfJTckU-whkkqkRarfG_H43UaYzurn0tfehT7lkpH4jS6FVdlPsSiFwOzE87kOrgM_qAZT7JBJb70l5xx9xlMY4Wv6bdIjyMhyaKi19k1iHsZOrX-K7wZ9Ris2w82o20J_AtaVE31XFiV5Rj_vo68aVBkwLwoDyHVD_hQmnSwd1VTi5iK-YYeA2XKxa0j5ZB2Hx4e2LD5wUfw8ee2~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                - heading "Галерея дизайна Bulthaup. Ваза Where are my glasses" [level=2] [ref=e488]
+              - generic [ref=e489]:
+                - link "design-gallery.ruГалерея дизайна Bulthaup. Ваза Where are my glasses…" [ref=e491] [cursor=pointer]:
+                  - /url: https://yabs.yandex.ru/count/WfKejI_zOoVX2LaV0ZqK09FbaSn3D3q1Sm9LV09SRvY0tlJ3wp96m0k3W0vzFfSxUxRVkVE6Er-_u_M6Ezmbf14taAn3GrGPTP4CeIHhTOGD6pO6s05JDbzuq5TcnwZq9epyV6uqW477qSGK4ZT1wchewJ0LuKfb5D24BY3yGRW0BbMlgW0jLO-g02rLZqS1MghUL05QgfvK0LhgtP02jDGxjWAq83p9Aq0BmfCZ1MX1U89NW1Q49qOAq8BmvAu0BGXFYXIW1U49k00j26AidA-9o2LRDA25eCZfqakcG7Bv46P-y7eFt1klgKCrRAaTbJwbq_jfE_EfCt_czTFvXE9Jw2srxQYTI-q8SB0-IrcHHpov9p-aRhn8KN-IXLMsDDcwsO5uz2NbDixd6oORxmSskmy4t00EO0FNULRIH5Bif-P3gs5lYhTWQJLi7T1rNTVr6ft3e1IrEUmGHaWQRfDcksRboSFtWiK0la1uWXV0rW6jzei912fnkGZYDmlOmjP4cHMEagoS6HPsq64LoZTNm1JCJHvw5BP0jFfYo4qT2sRIiTuOiO_HQHWpp7U41ogcK3TCW3302HGuL3cugSTiSZzexlutMg12yiFI8eWVp84mo_zcA9lytWnbav-hGQtxTogtxMiXg9hxMGYgvfXc0lwOvG-WCCVCfJTckU-whkkqkRarfG_H43UaYzurn0tfehT7lkpH4jS6FVdlPsSiFwOzE87kOrgM_qAZT7JBJb70l5xx9xlMY4Wv6bdIjyMhyaKi19k1iHsZOrX-K7wZ9Ris2w82o20J_AtaVE31XFiV5Rj_vo68aVBkwLwoDyHVD_hQmnSwd1VTi5iK-YYeA2XKxa0j5ZB2Hx4e2LD5wUfw8ee2~2?etext=2202.o41TmgrWsFF9SGGDgMha8iM3ZbUVLuKbqRWbqAozGJMpQ2vmoVuexLOIFSzfrJ56FCrjtBu4og6sdGGCMb-_lEt1eP3CPMAkqII7k1-QCO1tcGd5aHlheXNnaWVhYW1k.46f0347f959edcd3fbc6d5b3bcfbaed5b3ac78ae&from=yandex.ru%3Bsearch%26%23x2F%3B%3Bweb%3B%3B0%3B&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%84%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D1%81%D0%BF%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026
+                  - text: design-gallery.ru›Галерея дизайна Bulthaup. Ваза Where are my glasses…
+                - generic [ref=e495]: Сайт специализируется на продаже товаров
+              - button "Действия" [ref=e496] [cursor=pointer]:
+                - img [ref=e498]
+              - generic [ref=e504]: Предметы дизайна мировых фабрик, выставки, концерты, музей
+              - generic [ref=e505]: Промо
+        - navigation "Страницы результатов поиска" [ref=e506]:
+          - heading "Страницы результатов поиска" [level=2] [ref=e507]
+          - list [ref=e508]:
+            - listitem [ref=e509]:
+              - button "Текущая страница 1" [ref=e510]:
+                - generic: "1"
+            - listitem [ref=e511]:
+              - link "Страница 2" [ref=e512] [cursor=pointer]:
+                - /url: /search/?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&lr=47&p=1
+                - generic: "2"
+            - listitem [ref=e513]:
+              - link "Страница 3" [ref=e514] [cursor=pointer]:
+                - /url: /search/?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&lr=47&p=2
+                - generic: "3"
+            - listitem [ref=e515]:
+              - link "Страница 4" [ref=e516] [cursor=pointer]:
+                - /url: /search/?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&lr=47&p=3
+                - generic: "4"
+            - listitem [ref=e517]:
+              - link "Страница 5" [ref=e518] [cursor=pointer]:
+                - /url: /search/?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&lr=47&p=4
+                - generic: "5"
+            - listitem [ref=e519]:
+              - link "Следующая страница" [ref=e520] [cursor=pointer]:
+                - /url: /search/?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&lr=47&p=1&rnd=15639
+                - generic: дальше
+      - complementary "Дополнительная информация по запросу" [ref=e522]:
+        - region "Подробная информация" [ref=e524]:
+          - generic [ref=e527]:
+            - heading "Музей Фаберже в Санкт-Петербурге" [level=2] [ref=e529]
+            - link "fabergemuseum.ru" [ref=e532] [cursor=pointer]:
+              - /url: http://fabergemuseum.ru
+          - list [ref=e539]:
+            - generic [ref=e540]:
+              - generic [ref=e543]:
+                - button [ref=e545] [cursor=pointer]
+                - button [ref=e546] [cursor=pointer]
+              - link "Изображение с сайта en.wikipedia.org" [ref=e548] [cursor=pointer]:
+                - /url: https://yandex.ru/images/search?rpt=simage&noreask=1&source=qa&text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D0%B2+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D0%B5&img_url=http%3A//upload.wikimedia.org/wikipedia/commons/2/20/Faberg%25C3%25A9_Museum_in_St._Petersburg_01.JPG
+                - img "Изображение с сайта en.wikipedia.org" [ref=e549]
+          - generic [ref=e553]:
+            - link "Сайт" [ref=e554] [cursor=pointer]:
+              - /url: http://fabergemuseum.ru
+              - generic: Сайт
+            - link "Построить маршрут на Яндекс.Картах" [ref=e555] [cursor=pointer]:
+              - /url: //yandex.ru/maps/?source=entity_search&ll=30.342900%2C59.934700&rtext=~59.934700%2C30.342900&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D1181267939&rtt=auto&z=14&profile-mode=1&no-distribution=1
+              - generic: Как добраться
+          - generic [ref=e560]:
+            - generic [ref=e561]:
+              - link "Быстрый ответ Алисы AI" [ref=e562] [cursor=pointer]:
+                - /url: https://yandex.ru/alice/?utm_source=yandex&utm_medium=interface&utm_campaign=serp_aliseicon_chat&reqid=1781611735945202-828098012397276171-balancer-l7leveler-kubr-yp-vla-43-BAL&theme=serp&source_query=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D0%A1%D0%9F%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026&alice_deeplink=%7B%22text%22%3A%22%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5+%D0%A1%D0%9F%D0%B1+%D1%86%D0%B5%D0%BD%D0%B0+%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0+2026%22%7D
+                - generic [ref=e563]:
+                  - img [ref=e566]
+                  - heading "Быстрый ответ Алисы AI" [level=3] [ref=e570]
+              - button "Действия" [ref=e572] [cursor=pointer]:
+                - img [ref=e574]
+            - generic [ref=e578]:
+              - article [ref=e580]:
+                - generic [ref=e582]:
+                  - heading "Содержимое ответа" [level=3] [ref=e583]
+                  - generic [ref=e585]:
+                    - generic [ref=e586]:
+                      - strong [ref=e587]: Музей Фаберже в Санкт-Петербурге
+                      - text: располагается в Шуваловском дворце на набережной реки Фонтанки, 21.
+                      - link "tourister.ru" [ref=e588] [cursor=pointer]:
+                        - /url: https://www.tourister.ru/world/europe/russia/city/saint_petersburg/museum/26690
+                        - text: tourister.ru
+                      - link "fabergemuseum.ru" [ref=e590] [cursor=pointer]:
+                        - /url: https://fabergemuseum.ru/
+                        - text: fabergemuseum.ru
+                    - generic [ref=e592]:
+                      - strong [ref=e593]: Режим работы
+                      - text: ": ежедневно с 10:00 до 20:45, касса с 09:30 до 20:15."
+                      - link "tourister.ru" [ref=e594] [cursor=pointer]:
+                        - /url: https://www.tourister.ru/world/europe/russia/city/saint_petersburg/museum/26690
+                        - text: tourister.ru
+                    - generic [ref=e596]:
+                      - strong [ref=e597]: Стоимость билетов
+                      - text: ": билет с экскурсией — 1300 рублей, билет для индивидуальных посетителей — 700 рублей, льготный — 350 рублей."
+                      - link "tourister.ru" [ref=e598] [cursor=pointer]:
+                        - /url: https://www.tourister.ru/world/europe/russia/city/saint_petersburg/museum/26690
+                        - text: tourister.ru
+                    - generic [ref=e600]:
+                      - strong [ref=e601]: Телефон
+                      - text: ": +7 (812) 333-26-55."
+                      - link "tourister.ru" [ref=e602] [cursor=pointer]:
+                        - /url: https://www.tourister.ru/world/europe/russia/city/saint_petersburg/museum/26690
+                        - text: tourister.ru
+                    - generic [ref=e604]:
+                      - strong [ref=e605]: Официальный сайт
+                      - text: ": fabergemuseum.ru."
+                      - link "tourister.ru" [ref=e606] [cursor=pointer]:
+                        - /url: https://www.tourister.ru/world/europe/russia/city/saint_petersburg/museum/26690
+                        - text: tourister.ru
+              - button "Показать полностью" [ref=e608] [cursor=pointer]:
+                - img [ref=e610]
+            - generic [ref=e613]:
+              - heading "2 источника" [level=3] [ref=e614]
+              - list [ref=e617]:
+                - generic [ref=e618]:
+                  - listitem [ref=e619]:
+                    - link "tourister.ru" [ref=e620] [cursor=pointer]:
+                      - /url: https://www.tourister.ru/world/europe/russia/city/saint_petersburg/museum/26690
+                      - generic [ref=e624]: tourister.ru
+                  - listitem [ref=e625]:
+                    - link "fabergemuseum.ru" [ref=e626] [cursor=pointer]:
+                      - /url: https://fabergemuseum.ru/
+                      - generic [ref=e630]: fabergemuseum.ru
+            - status
+          - generic [ref=e631]:
+            - heading "Факты" [level=2] [ref=e632]
+            - list "Факты об объекте" [ref=e635]:
+              - listitem [ref=e636]:
+                - generic [ref=e637]: "Дата основания:"
+                - generic [ref=e638]: 2013 год
+              - listitem [ref=e639]:
+                - generic [ref=e640]: "Адрес:"
+                - link "Россия, Санкт-Петербург, набережная реки Фонтанки, 21" [ref=e643] [cursor=pointer]:
+                  - /url: //yandex.ru/maps/?ll=&oid=1181267939&ol=biz&source=entity_search
+              - listitem [ref=e644]:
+                - generic [ref=e645]: "Сайт:"
+                - link "fabergemuseum.ru" [ref=e648] [cursor=pointer]:
+                  - /url: http://fabergemuseum.ru
+          - generic [ref=e651]:
+            - status
+            - generic [ref=e653]:
+              - textbox "Уточнить" [ref=e655]
+              - generic [ref=e656]:
+                - button "Голосовой поиск" [ref=e658] [cursor=pointer]:
+                  - generic:
+                    - img
+                - button "Найти в нейро" [ref=e659] [cursor=pointer]:
+                  - generic:
+                    - img
+          - generic [ref=e662]:
+            - generic [ref=e663]: Ответ сформирован искусственным интеллектом на основе текстов с разных сайтов. В нём могут быть неточности.
+            - generic [ref=e664]:
+              - button "Об Алисе" [ref=e665] [cursor=pointer]
+              - button "ru.wikipedia.org" [ref=e666] [cursor=pointer]
+              - button "tourister.ru" [ref=e667] [cursor=pointer]
+              - button "Сообщить об ошибке" [ref=e668] [cursor=pointer]
+  - contentinfo [ref=e671]:
+    - generic [ref=e673]:
+      - button "Ваш регион Нижний Новгород" [ref=e675] [cursor=pointer]:
+        - generic: Нижний Новгород
+      - generic [ref=e676]:
+        - link "Google" [ref=e677] [cursor=pointer]:
+          - /url: //www.google.com/search?ie=UTF-8&q=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026
+        - link "Bing" [ref=e678] [cursor=pointer]:
+          - /url: //www.bing.com/search?q=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026
+      - button "Обратная связь" [ref=e680] [cursor=pointer]:
+        - generic: Обратная связь
+      - button "Настройки" [ref=e682] [cursor=pointer]:
+        - generic: Настройки
+      - link "ya.ru" [ref=e684] [cursor=pointer]:
+        - /url: //ya.ru/?from=serp_footer
+      - generic [ref=e685]:
+        - link "О компании" [ref=e686] [cursor=pointer]:
+          - /url: https://company.yandex.ru
+        - link "Коммерческие предложения" [ref=e687] [cursor=pointer]:
+          - /url: /search/direct?text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%A4%D0%B0%D0%B1%D0%B5%D1%80%D0%B6%D0%B5%20%D0%A1%D0%9F%D0%B1%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0%202026&filters_docs=direct_cm
+        - link "Вакансии" [ref=e688] [cursor=pointer]:
+          - /url: //yandex.ru/jobs
+        - link "Лицензия на использование" [ref=e689] [cursor=pointer]:
+          - /url: //yandex.ru/legal/termsofuse/
+        - link "Политика конфиденциальности" [ref=e690] [cursor=pointer]:
+          - /url: //yandex.ru/legal/confidential/
+        - link "Правила рекомендаций" [ref=e691] [cursor=pointer]:
+          - /url: //yandex.ru/legal/recommendations/#index__search

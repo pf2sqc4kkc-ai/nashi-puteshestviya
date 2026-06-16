@@ -1,0 +1,929 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+      - generic [ref=e6]:
+        - generic [ref=e7] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: Nola Jazz Bar
+            - generic [ref=e13]:
+              - img [ref=e14]
+              - text: "5"
+          - generic [ref=e17]: Закрыто до 16:00
+    - generic:
+      - generic:
+        - banner:
+          - generic [ref=e21]:
+            - button "Назад" [ref=e22] [cursor=pointer]:
+              - img [ref=e25]
+            - generic [ref=e27]:
+              - textbox "Поиск и выбор мест" [ref=e30]: Nola Jazz Bar Санкт-Петербург
+              - iframe [ref=e31]:
+                
+            - button "Найти" [ref=e33] [cursor=pointer]:
+              - img [ref=e36]
+            - button "Закрыть" [ref=e40] [cursor=pointer]:
+              - img [ref=e43]
+      - generic:
+        - complementary [ref=e45]:
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51]:
+                  - generic [ref=e52]:
+                    - generic [ref=e53]:
+                      - list [ref=e56]:
+                        - listitem [ref=e57]:
+                          - button "Бар Nola Jazz Bar, Санкт‑Петербург, фото" [ref=e59] [cursor=pointer]:
+                            - img "Бар Nola Jazz Bar, Санкт‑Петербург, фото" [ref=e60]
+                        - listitem [ref=e61]:
+                          - button "Nola Jazz Bar (Волынский пер., 2), бар в Санкт‑Петербурге" [ref=e63] [cursor=pointer]:
+                            - generic [ref=e64]:
+                              - img [ref=e66]
+                              - img "Nola Jazz Bar (Волынский пер., 2), бар в Санкт‑Петербурге" [ref=e68]
+                        - listitem [ref=e69]:
+                          - button "Бар Nola Jazz Bar, Санкт‑Петербург, фото" [ref=e71] [cursor=pointer]:
+                            - img "Бар Nola Jazz Bar, Санкт‑Петербург, фото" [ref=e72]
+                        - listitem [ref=e73]:
+                          - button [ref=e75] [cursor=pointer]:
+                            - img [ref=e78]
+                        - listitem [ref=e81]:
+                          - button [ref=e83] [cursor=pointer]:
+                            - img [ref=e86]
+                        - listitem [ref=e89]:
+                          - button [ref=e91] [cursor=pointer]
+                        - listitem [ref=e93]:
+                          - button [ref=e95] [cursor=pointer]:
+                            - img [ref=e98]
+                        - listitem [ref=e101]:
+                          - button [ref=e103] [cursor=pointer]:
+                            - img [ref=e106]
+                        - listitem [ref=e109]:
+                          - button [ref=e111] [cursor=pointer]:
+                            - img [ref=e114]
+                        - listitem [ref=e117]:
+                          - button [ref=e119] [cursor=pointer]:
+                            - img [ref=e122]
+                        - iframe [ref=e125]:
+                          
+                      - generic:
+                        - generic:
+                          - img
+                        - text: "589"
+                    - generic:
+                      - img "Логотип"
+                  - generic [ref=e127]:
+                    - heading "Nola Jazz Bar" [level=1] [ref=e130]:
+                      - generic [ref=e131]:
+                        - link "Nola Jazz Bar" [ref=e132] [cursor=pointer]:
+                          - /url: /maps/org/nola_jazz_bar/233512176817/
+                        - img [ref=e135]
+                    - generic [ref=e139]:
+                      - link "Входит в категорию Бар, поиск по категории" [ref=e143] [cursor=pointer]:
+                        - /url: /maps/2/saint-petersburg/category/bar_pub/184106384/
+                        - text: Бар
+                      - generic [ref=e144]:
+                        - generic [ref=e146]:
+                          - generic [ref=e147]:
+                            - generic "Оценка 1 Из 1" [ref=e148]:
+                              - img [ref=e150]
+                            - generic [ref=e152]:
+                              - generic [ref=e153]: Рейтинг
+                              - text: 5,0
+                          - button "(1068)" [ref=e154] [cursor=pointer]
+                        - generic [ref=e155]:
+                          - generic: "Награды:"
+                          - button "Ultima Guide" [ref=e156] [cursor=pointer]:
+                            - img [ref=e159]
+                            - generic [ref=e161]: Ultima Guide
+                      - button "Закрыто до 16:00" [ref=e162]:
+                        - button "Закрыто до 16:00" [ref=e164] [cursor=pointer]:
+                          - generic [ref=e166]: Закрыто до 16:00
+                          - img [ref=e169]
+                      - list [ref=e173]:
+                        - listitem [ref=e174]:
+                          - button "Маршрут" [ref=e176] [cursor=pointer]:
+                            - img [ref=e179]
+                            - generic [ref=e183]: Маршрут
+                        - listitem [ref=e184]:
+                          - button "Сайт" [ref=e186] [cursor=pointer]:
+                            - img [ref=e189]
+                        - listitem [ref=e191]:
+                          - generic [ref=e192]:
+                            - status [ref=e193]: Сохранить
+                            - button "Закладки" [ref=e195] [cursor=pointer]:
+                              - img [ref=e198]
+                        - listitem [ref=e200]:
+                          - button "Поделиться" [ref=e202] [cursor=pointer]:
+                            - img [ref=e205]
+                        - iframe [ref=e208]:
+                          
+                    - generic [ref=e210]:
+                      - generic [ref=e214]:
+                        - tablist [ref=e215]:
+                          - tab "Обзор," [selected] [ref=e217]:
+                            - link:
+                              - /url: /maps/org/nola_jazz_bar/233512176817/
+                              - text: Обзор
+                          - tab "Меню," [ref=e219]:
+                            - link:
+                              - /url: /maps/org/nola_jazz_bar/233512176817/menu/
+                              - text: Меню
+                          - tab "Новости, 4" [ref=e221]:
+                            - link:
+                              - /url: /maps/org/nola_jazz_bar/233512176817/?tab=posts
+                              - text: Новости
+                            - generic: "4"
+                          - tab "Фото, 589" [ref=e223]:
+                            - link:
+                              - /url: /maps/org/nola_jazz_bar/233512176817/gallery/
+                              - text: Фото
+                            - generic: "589"
+                          - tab "Отзывы, 581" [ref=e225]:
+                            - link:
+                              - /url: /maps/org/nola_jazz_bar/233512176817/reviews/
+                              - text: Отзывы
+                            - generic: "581"
+                          - tab "Особенности," [ref=e227]:
+                            - link:
+                              - /url: /maps/org/nola_jazz_bar/233512176817/?tab=features
+                              - text: Особенности
+                          - tab "Похожие места," [ref=e229]:
+                            - link:
+                              - /url: /maps/org/nola_jazz_bar/233512176817/related/
+                              - text: Похожие места
+                          - iframe [ref=e230]:
+                            
+                        - img [ref=e234] [cursor=pointer]
+                      - generic [ref=e238]:
+                        - generic [ref=e239]:
+                          - generic [ref=e242]:
+                            - list [ref=e243]:
+                              - listitem [ref=e244]:
+                                - generic [ref=e248] [cursor=pointer]:
+                                  - generic [ref=e249]: 12.06 в Nola
+                                  - generic [ref=e250]: 4 дня назад
+                              - listitem [ref=e251]:
+                                - generic [ref=e255] [cursor=pointer]:
+                                  - generic [ref=e256]: Меню Nola Jazz
+                                  - generic [ref=e257]: 6 дней назад
+                              - listitem [ref=e258]:
+                                - generic [ref=e263] [cursor=pointer]: Мероприятия
+                              - listitem [ref=e264]:
+                                - generic [ref=e269] [cursor=pointer]: Nola Jazz Bar
+                              - listitem [ref=e270]:
+                                - generic [ref=e275] [cursor=pointer]: Хорошее место
+                              - iframe [ref=e276]:
+                                
+                            - img [ref=e279] [cursor=pointer]
+                          - generic [ref=e282]:
+                            - generic [ref=e283]:
+                              - generic [ref=e284]:
+                                - heading "Меню" [level=2] [ref=e286]
+                                - generic [ref=e287]: Давно не обновлялось
+                              - generic [ref=e290]:
+                                - list [ref=e291]:
+                                  - listitem [ref=e292]:
+                                    - generic [ref=e293] [cursor=pointer]:
+                                      - button [ref=e295]:
+                                        - img [ref=e297]
+                                      - generic [ref=e299]:
+                                        - generic "Фаланга камчатского краба 100гр" [ref=e301]
+                                        - generic [ref=e302]:
+                                          - generic [ref=e303]: 1690 ₽
+                                          - generic [ref=e304]: •100 г
+                                  - listitem [ref=e305]:
+                                    - generic [ref=e306] [cursor=pointer]:
+                                      - button [ref=e308]:
+                                        - img [ref=e310]
+                                      - generic [ref=e312]:
+                                        - generic "Устрица Люмьер 1 шт" [ref=e314]
+                                        - generic [ref=e316]: 770 ₽
+                                  - listitem [ref=e317]:
+                                    - generic [ref=e318] [cursor=pointer]:
+                                      - button [ref=e320]:
+                                        - img [ref=e322]
+                                      - generic [ref=e324]:
+                                        - generic "Устрица Розовая Джоли 1 шт" [ref=e326]
+                                        - generic [ref=e328]: 790 ₽
+                                  - listitem [ref=e329]:
+                                    - generic [ref=e330] [cursor=pointer]:
+                                      - button [ref=e332]
+                                      - generic [ref=e335]:
+                                        - generic "Буйабес - марсельская уха с треской, креветкой, мидиями и соусом Руй на крутонах" [ref=e337]
+                                        - generic [ref=e338]:
+                                          - generic [ref=e339]: 890 ₽
+                                          - generic [ref=e340]: •450 г
+                                  - listitem [ref=e341]:
+                                    - generic [ref=e342] [cursor=pointer]:
+                                      - button [ref=e344]
+                                      - generic [ref=e347]:
+                                        - generic "Нисуаз с тунцом, анчоусами и картофелем Стоун" [ref=e349]
+                                        - generic [ref=e351]: 990 ₽
+                                  - listitem [ref=e352]:
+                                    - generic [ref=e356] [cursor=pointer]:
+                                      - generic "Пряные свиные ребра с соусом BBQ и Коул-слоу" [ref=e358]
+                                      - generic [ref=e359]:
+                                        - generic [ref=e360]: 990 ₽
+                                        - generic [ref=e361]: •330 г
+                                  - listitem [ref=e362]:
+                                    - generic [ref=e366] [cursor=pointer]:
+                                      - generic "Соте из мидий томлёных в белом вине" [ref=e368]
+                                      - generic [ref=e370]: 990 ₽
+                                  - listitem [ref=e371]:
+                                    - generic [ref=e375] [cursor=pointer]:
+                                      - generic "Джамбалайя новоорлеанская паэлья с Чоризо, креветками и креольскими специями" [ref=e377]
+                                      - generic [ref=e379]: 990 ₽
+                                  - listitem [ref=e380]:
+                                    - generic [ref=e384] [cursor=pointer]:
+                                      - generic "Sloppy Joe бургер с пряным жареным фаршем в томатном соусе" [ref=e386]
+                                      - generic [ref=e388]: 990 ₽
+                                  - listitem [ref=e389]:
+                                    - button "Посмотреть всё меню" [ref=e390] [cursor=pointer]:
+                                      - generic "Посмотреть всё меню" [ref=e391]:
+                                        - generic [ref=e392]:
+                                          - button [ref=e394]:
+                                            - img [ref=e398]
+                                          - generic "Посмотреть всё меню" [ref=e402]
+                                  - iframe [ref=e403]:
+                                    
+                                - img [ref=e406] [cursor=pointer]
+                            - button "Посмотреть всё меню" [ref=e409] [cursor=pointer]:
+                              - generic [ref=e411]:
+                                - img [ref=e414]
+                                - generic [ref=e417]: Посмотреть всё меню
+                          - generic [ref=e420]:
+                            - button "Панорама — бар Nola Jazz Bar, Санкт‑Петербург" [ref=e421] [cursor=pointer]:
+                              - img "Панорама — бар Nola Jazz Bar, Санкт‑Петербург" [ref=e424]
+                              - generic:
+                                - img
+                              - generic: Панорама
+                            - link "Панорама":
+                              - /url: /maps/org/nola_jazz_bar/233512176817/panorama/
+                          - generic [ref=e425]:
+                            - generic [ref=e426]:
+                              - generic [ref=e427]:
+                                - img [ref=e430]
+                                - heading "Адрес" [level=3] [ref=e433]
+                              - generic [ref=e439]:
+                                - generic [ref=e440]:
+                                  - link "Волынский пер., 2" [ref=e441]
+                                  - text: • этаж 1
+                                - generic [ref=e442]:
+                                  - button "Показать входы" [ref=e443] [cursor=pointer]
+                                  - generic [ref=e444]: "|"
+                                  - button "Маршрут" [ref=e445] [cursor=pointer]
+                            - generic [ref=e446]:
+                              - generic [ref=e447]:
+                                - img [ref=e450]
+                                - heading "Контакты" [level=3] [ref=e453]
+                              - generic [ref=e465]:
+                                - text: +7 (981) 916-79-33
+                                - button "Показать телефон" [ref=e466] [cursor=pointer]:
+                                  - generic [ref=e467]: Показать телефон
+                              - button "booking.airesto.ru" [ref=e471] [cursor=pointer]:
+                                - generic [ref=e472]:
+                                  - link "booking.airesto.ru" [ref=e478]:
+                                    - /url: https://booking.airesto.ru/111352
+                                  - generic [ref=e479]:
+                                    - generic [ref=e480]: "1"
+                                    - img [ref=e483]
+                              - generic [ref=e490]:
+                                - button "Соцсети, vkontakte" [ref=e492] [cursor=pointer]:
+                                  - img [ref=e495]
+                                - button "Соцсети, telegram" [ref=e498] [cursor=pointer]:
+                                  - img [ref=e501]
+                            - generic [ref=e503]:
+                              - generic [ref=e504]:
+                                - img [ref=e507]
+                                - heading "Время работы" [level=3] [ref=e510]
+                              - button "Закрыто до 16:00" [ref=e514] [cursor=pointer]:
+                                - generic [ref=e515]:
+                                  - generic "Закрыто до 16:00" [ref=e521]
+                                  - generic [ref=e522]:
+                                    - generic [ref=e523]: График
+                                    - img [ref=e526]
+                            - button "Добавить фото или видео" [ref=e528] [cursor=pointer]:
+                              - generic [ref=e530]:
+                                - img [ref=e533]
+                                - generic [ref=e537]: Добавить фото или видео
+                            - button "Исправить неточность" [ref=e539] [cursor=pointer]:
+                              - img [ref=e542]
+                              - generic [ref=e544]: Исправить неточность
+                          - generic [ref=e546]:
+                            - heading "Входит в подборки" [level=2] [ref=e548]
+                            - generic [ref=e551]:
+                              - list [ref=e552]:
+                                - listitem [ref=e553]:
+                                  - button "Подборка · 72 места Ultima Guide Яндекс Еда Ultima Ultima" [ref=e555]:
+                                    - generic [ref=e556]:
+                                      - button [ref=e557]
+                                      - generic [ref=e560]: Подборка · 72 места
+                                    - link "Ultima Guide Яндекс Еда" [ref=e562] [cursor=pointer]:
+                                      - /url: /maps/discovery/ultima-guide-saint-petersburg/
+                                    - generic [ref=e563]:
+                                      - img "Ultima" [ref=e564]
+                                      - generic [ref=e565]: Ultima
+                                - listitem [ref=e566]:
+                                  - button "Подборка · 25 мест Кафе с пышками в историческом центре Санкт‑Петербурга Яндекс Карты Яндекс Карты" [ref=e568]:
+                                    - generic [ref=e569]:
+                                      - button [ref=e570]
+                                      - generic [ref=e573]: Подборка · 25 мест
+                                    - link "Кафе с пышками в историческом центре Санкт‑Петербурга" [ref=e575] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_pyshki_istoricheskij-centr-sankt-peterburga-sankt-peterburg-2/
+                                    - generic [ref=e576]:
+                                      - img "Яндекс Карты" [ref=e577]
+                                      - generic [ref=e578]: Яндекс Карты
+                                - listitem [ref=e579]:
+                                  - button "Подборка · 50 мест Рестораны Санкт‑Петербурга с луковым супом Яндекс Карты Яндекс Карты" [ref=e581]:
+                                    - generic [ref=e582]:
+                                      - button [ref=e583]
+                                      - generic [ref=e586]: Подборка · 50 мест
+                                    - link "Рестораны Санкт‑Петербурга с луковым супом" [ref=e588] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_lukovyj-sup_sankt-peterburg-2/
+                                    - generic [ref=e589]:
+                                      - img "Яндекс Карты" [ref=e590]
+                                      - generic [ref=e591]: Яндекс Карты
+                                - listitem [ref=e592]:
+                                  - button "Подборка · 50 мест Заведения Санкт‑Петербурга с живой музыкой Яндекс Карты Яндекс Карты" [ref=e594]:
+                                    - generic [ref=e595]:
+                                      - button [ref=e596]
+                                      - generic [ref=e599]: Подборка · 50 мест
+                                    - link "Заведения Санкт‑Петербурга с живой музыкой" [ref=e601] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_muzykanty_sankt-peterburg-2/
+                                    - generic [ref=e602]:
+                                      - img "Яндекс Карты" [ref=e603]
+                                      - generic [ref=e604]: Яндекс Карты
+                                - listitem [ref=e605]:
+                                  - 'button "Подборка · 50 мест Заведения Санкт‑Петербурга с барной стойкой: от баров до ресторанов Яндекс Карты Яндекс Карты" [ref=e607]':
+                                    - generic [ref=e608]:
+                                      - button [ref=e609]
+                                      - generic [ref=e612]: Подборка · 50 мест
+                                    - 'link "Заведения Санкт‑Петербурга с барной стойкой: от баров до ресторанов" [ref=e614] [cursor=pointer]':
+                                      - /url: /maps/discovery/podborka_eda_barnaya-stojka_sankt-peterburg-2/
+                                    - generic [ref=e615]:
+                                      - img "Яндекс Карты" [ref=e616]
+                                      - generic [ref=e617]: Яндекс Карты
+                                - listitem [ref=e618]:
+                                  - button "Подборка · 42 места Заведения с живой музыкой в историческом центре Санкт‑Петербурга Яндекс Карты Яндекс Карты" [ref=e620]:
+                                    - generic [ref=e621]:
+                                      - button [ref=e622]
+                                      - generic [ref=e625]: Подборка · 42 места
+                                    - link "Заведения с живой музыкой в историческом центре Санкт‑Петербурга" [ref=e627] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_muzykanty_istoricheskij-centr-sankt-peterburga-sankt-peterburg-2/
+                                    - generic [ref=e628]:
+                                      - img "Яндекс Карты" [ref=e629]
+                                      - generic [ref=e630]: Яндекс Карты
+                                - listitem [ref=e631]:
+                                  - button "Подборка · 50 мест Рестораны Санкт‑Петербурга с устрицами Яндекс Карты Яндекс Карты" [ref=e633]:
+                                    - generic [ref=e634]:
+                                      - button [ref=e635]
+                                      - generic [ref=e638]: Подборка · 50 мест
+                                    - link "Рестораны Санкт‑Петербурга с устрицами" [ref=e640] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_ustricy_sankt-peterburg-2/
+                                    - generic [ref=e641]:
+                                      - img "Яндекс Карты" [ref=e642]
+                                      - generic [ref=e643]: Яндекс Карты
+                                - listitem [ref=e644]:
+                                  - button "Подборка · 50 мест Рестораны Санкт‑Петербурга с тартаром из говядины Яндекс Карты Яндекс Карты" [ref=e646]:
+                                    - generic [ref=e647]:
+                                      - button [ref=e648]
+                                      - generic [ref=e651]: Подборка · 50 мест
+                                    - link "Рестораны Санкт‑Петербурга с тартаром из говядины" [ref=e653] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_tartar-iz-govyadiny_sankt-peterburg-2/
+                                    - generic [ref=e654]:
+                                      - img "Яндекс Карты" [ref=e655]
+                                      - generic [ref=e656]: Яндекс Карты
+                                - listitem [ref=e657]:
+                                  - button "Подборка · 50 мест Рестораны Санкт‑Петербурга с блюдами из осьминога Яндекс Карты Яндекс Карты" [ref=e659]:
+                                    - generic [ref=e660]:
+                                      - button [ref=e661]
+                                      - generic [ref=e664]: Подборка · 50 мест
+                                    - link "Рестораны Санкт‑Петербурга с блюдами из осьминога" [ref=e666] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_os-minog_sankt-peterburg-2/
+                                    - generic [ref=e667]:
+                                      - img "Яндекс Карты" [ref=e668]
+                                      - generic [ref=e669]: Яндекс Карты
+                                - listitem [ref=e670]:
+                                  - button "Подборка · 50 мест Рестораны с устрицами в историческом центре Санкт‑Петербурга Яндекс Карты Яндекс Карты" [ref=e672]:
+                                    - generic [ref=e673]:
+                                      - button [ref=e674]
+                                      - generic [ref=e677]: Подборка · 50 мест
+                                    - link "Рестораны с устрицами в историческом центре Санкт‑Петербурга" [ref=e679] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_eda_ustricy_istoricheskij-centr-sankt-peterburga-sankt-peterburg-2/
+                                    - generic [ref=e680]:
+                                      - img "Яндекс Карты" [ref=e681]
+                                      - generic [ref=e682]: Яндекс Карты
+                                - iframe [ref=e683]:
+                                  
+                              - img [ref=e686] [cursor=pointer]
+                          - generic "Как добраться" [ref=e689]:
+                            - heading "Как добраться" [level=2] [ref=e691]
+                            - button "Метро рядом" [ref=e695] [cursor=pointer]:
+                              - generic [ref=e696]:
+                                - generic [ref=e697]:
+                                  - generic "На метро" [ref=e700]:
+                                    - img [ref=e701]
+                                  - generic [ref=e706]:
+                                    - generic [ref=e707]: Адмиралтейская
+                                    - button "Адмиралтейская Построить маршрут Пешком 690 м" [ref=e708]:
+                                      - img [ref=e710]
+                                      - generic [ref=e712]: 690 м
+                                - generic [ref=e713]:
+                                  - generic [ref=e714]: "2"
+                                  - img [ref=e717]
+                            - button "Остановки рядом" [ref=e722] [cursor=pointer]:
+                              - generic [ref=e723]:
+                                - generic [ref=e724]:
+                                  - generic "На автобусе" [ref=e727]:
+                                    - img [ref=e728]
+                                  - generic [ref=e735]:
+                                    - generic [ref=e736]: Большая Конюшенная улица
+                                    - button "Большая Конюшенная улица Построить маршрут Пешком 370 м" [ref=e737]:
+                                      - img [ref=e739]
+                                      - generic [ref=e741]: 370 м
+                                - generic [ref=e742]:
+                                  - generic [ref=e743]: "4"
+                                  - img [ref=e746]
+                            - button [ref=e748] [cursor=pointer]:
+                              - generic [ref=e750]:
+                                - img [ref=e753]
+                                - generic [ref=e757]: Показать парковки
+                          - generic [ref=e759]:
+                            - heading "Особенности" [level=2] [ref=e761]
+                            - generic [ref=e763]:
+                              - generic [ref=e765]:
+                                - img [ref=e768]
+                                - generic [ref=e771]: Еда навынос
+                              - generic [ref=e773]:
+                                - img [ref=e776]
+                                - generic [ref=e778]: Можно с собакой
+                            - generic [ref=e779]:
+                              - generic [ref=e781]:
+                                - generic [ref=e782]: "Музыка:"
+                                - text: джаз
+                              - generic [ref=e784]:
+                                - generic [ref=e785]: "Цены:"
+                                - text: высокие
+                            - button "Подробнее об организации" [ref=e786] [cursor=pointer]:
+                              - generic [ref=e788]:
+                                - img [ref=e791]
+                                - link [ref=e795]:
+                                  - /url: /maps/org/nola_jazz_bar/233512176817/?tab=features
+                                  - text: Подробнее об организации
+                          - button "Владелец следит за актуальностью информации" [ref=e801] [cursor=pointer]:
+                            - generic [ref=e802]:
+                              - generic [ref=e803]:
+                                - img [ref=e806]
+                                - generic [ref=e811]: Владелец следит за актуальностью информации
+                              - img [ref=e815]
+                          - generic [ref=e818]:
+                            - heading "Посещаемость и график работы" [level=2] [ref=e820]
+                            - generic [ref=e821]:
+                              - generic [ref=e822]:
+                                - generic [ref=e823]: 14:00
+                                - text: Закрыто
+                              - generic [ref=e824]:
+                                - button "Понедельник" [ref=e825] [cursor=pointer]: Пн
+                                - button "Вторник" [ref=e826] [cursor=pointer]: Вт
+                                - button "Среда" [ref=e827] [cursor=pointer]: Ср
+                                - button "Четверг" [ref=e828] [cursor=pointer]: Чт
+                                - button "Пятница" [ref=e829] [cursor=pointer]: Пт
+                                - button "Суббота" [ref=e830] [cursor=pointer]: Сб
+                                - button "Воскресенье" [ref=e831] [cursor=pointer]: Вс
+                              - generic [ref=e832]:
+                                - text: 00:00 04:00 08:00 12:00
+                                - button "16:00" [ref=e833] [cursor=pointer]: 16:00
+                                - button "17:00" [ref=e835] [cursor=pointer]
+                                - button "18:00" [ref=e837] [cursor=pointer]
+                                - button "19:00" [ref=e839] [cursor=pointer]
+                                - button "20:00" [ref=e841] [cursor=pointer]: 20:00
+                                - button "21:00" [ref=e843] [cursor=pointer]
+                                - button "22:00" [ref=e845] [cursor=pointer]
+                                - button "23:00" [ref=e847] [cursor=pointer]: 00:00
+                          - generic [ref=e850]:
+                            - heading "Награды" [level=2] [ref=e851]
+                            - link "Входит в Ultima Guide Первый ресторанный гид, созданный с помощью нейросети Яндекса" [ref=e852] [cursor=pointer]:
+                              - img [ref=e855]
+                              - generic [ref=e857]:
+                                - generic [ref=e858]: Входит в Ultima Guide
+                                - generic [ref=e859]: Первый ресторанный гид, созданный с помощью нейросети Яндекса
+                          - generic [ref=e862]:
+                            - generic [ref=e865]:
+                              - generic [ref=e869]:
+                                - generic [ref=e870]:
+                                  - generic [ref=e871]: Рейтинг
+                                  - text: 5,0
+                                - generic [ref=e872]:
+                                  - generic "Оценка 5 Из 5" [ref=e874]:
+                                    - img [ref=e876]
+                                    - img [ref=e878]
+                                    - img [ref=e880]
+                                    - img [ref=e882]
+                                    - img [ref=e884]
+                                  - generic [ref=e885]: 1068 оценок
+                              - generic [ref=e891]:
+                                - generic [ref=e892]: Оцените и напишите отзыв
+                                - generic [ref=e893]:
+                                  - button "1 звезда" [ref=e894] [cursor=pointer]:
+                                    - img [ref=e895]
+                                  - button "2 звезды" [ref=e896] [cursor=pointer]:
+                                    - img [ref=e897]
+                                  - button "3 звезды" [ref=e898] [cursor=pointer]:
+                                    - img [ref=e899]
+                                  - button "4 звезды" [ref=e900] [cursor=pointer]:
+                                    - img [ref=e901]
+                                  - button "5 звезд" [ref=e902] [cursor=pointer]:
+                                    - img [ref=e903]
+                            - generic [ref=e905]:
+                              - generic [ref=e906]:
+                                - generic [ref=e908]:
+                                  - heading "581 отзыв" [level=2] [ref=e909]
+                                  - button "По умолчанию" [ref=e912] [cursor=pointer]:
+                                    - text: По умолчанию
+                                    - img [ref=e914]
+                                - menu [ref=e916]:
+                                  - generic [ref=e917]:
+                                    - list [ref=e918]:
+                                      - listitem [ref=e919]:
+                                        - menuitem "Еда • 81% положительный 389 отзывов" [ref=e920] [cursor=pointer]:
+                                          - generic [ref=e922]:
+                                            - generic [ref=e923]:
+                                              - text: Еда •
+                                              - generic [ref=e924]: 81%
+                                              - generic [ref=e925]: положительный
+                                              - img [ref=e927]
+                                            - generic [ref=e928]: 389 отзывов
+                                      - listitem [ref=e929]:
+                                        - menuitem "Персонал • 81% положительный 350 отзывов" [ref=e930] [cursor=pointer]:
+                                          - generic [ref=e932]:
+                                            - generic [ref=e933]:
+                                              - text: Персонал •
+                                              - generic [ref=e934]: 81%
+                                              - generic [ref=e935]: положительный
+                                              - img [ref=e937]
+                                            - generic [ref=e938]: 350 отзывов
+                                      - listitem [ref=e939]:
+                                        - menuitem "Напитки • 88% положительный 334 отзыва" [ref=e940] [cursor=pointer]:
+                                          - generic [ref=e942]:
+                                            - generic [ref=e943]:
+                                              - text: Напитки •
+                                              - generic [ref=e944]: 88%
+                                              - generic [ref=e945]: положительный
+                                              - img [ref=e947]
+                                            - generic [ref=e948]: 334 отзыва
+                                      - listitem [ref=e949]:
+                                        - menuitem "Атмосфера • 96% положительный 318 отзывов" [ref=e950] [cursor=pointer]:
+                                          - generic [ref=e952]:
+                                            - generic [ref=e953]:
+                                              - text: Атмосфера •
+                                              - generic [ref=e954]: 96%
+                                              - generic [ref=e955]: положительный
+                                              - img [ref=e957]
+                                            - generic [ref=e958]: 318 отзывов
+                                      - listitem [ref=e959]:
+                                        - menuitem "Коктейли • 87% положительный 273 отзыва" [ref=e960] [cursor=pointer]:
+                                          - generic [ref=e962]:
+                                            - generic [ref=e963]:
+                                              - text: Коктейли •
+                                              - generic [ref=e964]: 87%
+                                              - generic [ref=e965]: положительный
+                                              - img [ref=e967]
+                                            - generic [ref=e968]: 273 отзыва
+                                      - listitem [ref=e969]:
+                                        - menuitem "Музыка • 93% положительный 211 отзывов" [ref=e970] [cursor=pointer]:
+                                          - generic [ref=e972]:
+                                            - generic [ref=e973]:
+                                              - text: Музыка •
+                                              - generic [ref=e974]: 93%
+                                              - generic [ref=e975]: положительный
+                                              - img [ref=e977]
+                                            - generic [ref=e978]: 211 отзывов
+                                      - listitem [ref=e979]:
+                                        - menuitem "Алкоголь • 87% положительный 192 отзыва" [ref=e980] [cursor=pointer]:
+                                          - generic [ref=e982]:
+                                            - generic [ref=e983]:
+                                              - text: Алкоголь •
+                                              - generic [ref=e984]: 87%
+                                              - generic [ref=e985]: положительный
+                                              - img [ref=e987]
+                                            - generic [ref=e988]: 192 отзыва
+                                      - listitem [ref=e989]:
+                                        - menuitem "Интерьер • 97% положительный 119 отзывов" [ref=e990] [cursor=pointer]:
+                                          - generic [ref=e992]:
+                                            - generic [ref=e993]:
+                                              - text: Интерьер •
+                                              - generic [ref=e994]: 97%
+                                              - generic [ref=e995]: положительный
+                                              - img [ref=e997]
+                                            - generic [ref=e998]: 119 отзывов
+                                      - listitem [ref=e999]:
+                                        - menuitem "Живая музыка • 89% положительный 110 отзывов" [ref=e1000] [cursor=pointer]:
+                                          - generic [ref=e1002]:
+                                            - generic [ref=e1003]:
+                                              - text: Живая музыка •
+                                              - generic [ref=e1004]: 89%
+                                              - generic [ref=e1005]: положительный
+                                              - img [ref=e1007]
+                                            - generic [ref=e1008]: 110 отзывов
+                                      - listitem [ref=e1009]:
+                                        - menuitem "Морепродукты • 57% положительный 49 отзывов" [ref=e1010] [cursor=pointer]:
+                                          - generic [ref=e1012]:
+                                            - generic [ref=e1013]:
+                                              - text: Морепродукты •
+                                              - generic [ref=e1014]: 57%
+                                              - generic [ref=e1015]: положительный
+                                              - img [ref=e1017]
+                                            - generic [ref=e1018]: 49 отзывов
+                                      - listitem [ref=e1019]:
+                                        - menuitem "Время ожидания • 16% отрицательный 38 отзывов" [ref=e1020] [cursor=pointer]:
+                                          - generic [ref=e1022]:
+                                            - generic [ref=e1023]:
+                                              - text: Время ожидания •
+                                              - generic [ref=e1024]: 16%
+                                              - generic [ref=e1025]: отрицательный
+                                              - img [ref=e1027]
+                                            - generic [ref=e1028]: 38 отзывов
+                                      - listitem [ref=e1029]:
+                                        - menuitem "Столы • 29% отрицательный 37 отзывов" [ref=e1030] [cursor=pointer]:
+                                          - generic [ref=e1032]:
+                                            - generic [ref=e1033]:
+                                              - text: Столы •
+                                              - generic [ref=e1034]: 29%
+                                              - generic [ref=e1035]: отрицательный
+                                              - img [ref=e1037]
+                                            - generic [ref=e1038]: 37 отзывов
+                                      - listitem [ref=e1039]:
+                                        - menuitem "Десерты • 81% положительный 37 отзывов" [ref=e1040] [cursor=pointer]:
+                                          - generic [ref=e1042]:
+                                            - generic [ref=e1043]:
+                                              - text: Десерты •
+                                              - generic [ref=e1044]: 81%
+                                              - generic [ref=e1045]: положительный
+                                              - img [ref=e1047]
+                                            - generic [ref=e1048]: 37 отзывов
+                                      - listitem [ref=e1049]:
+                                        - menuitem "День рождения • 57% положительный 27 отзывов" [ref=e1050] [cursor=pointer]:
+                                          - generic [ref=e1052]:
+                                            - generic [ref=e1053]:
+                                              - text: День рождения •
+                                              - generic [ref=e1054]: 57%
+                                              - generic [ref=e1055]: положительный
+                                              - img [ref=e1057]
+                                            - generic [ref=e1058]: 27 отзывов
+                                      - listitem [ref=e1059]:
+                                        - menuitem "Мясо • 47% положительный 22 отзыва" [ref=e1060] [cursor=pointer]:
+                                          - generic [ref=e1062]:
+                                            - generic [ref=e1063]:
+                                              - text: Мясо •
+                                              - generic [ref=e1064]: 47%
+                                              - generic [ref=e1065]: положительный
+                                              - img [ref=e1067]
+                                            - generic [ref=e1068]: 22 отзыва
+                                      - listitem [ref=e1069]:
+                                        - menuitem "Супы • 71% положительный 19 отзывов" [ref=e1070] [cursor=pointer]:
+                                          - generic [ref=e1072]:
+                                            - generic [ref=e1073]:
+                                              - text: Супы •
+                                              - generic [ref=e1074]: 71%
+                                              - generic [ref=e1075]: положительный
+                                              - img [ref=e1077]
+                                            - generic [ref=e1078]: 19 отзывов
+                                      - listitem [ref=e1079]:
+                                        - menuitem "Красивая подача блюд • 100% положительный 19 отзывов" [ref=e1080] [cursor=pointer]:
+                                          - generic [ref=e1082]:
+                                            - generic [ref=e1083]:
+                                              - text: Красивая подача блюд •
+                                              - generic [ref=e1084]: 100%
+                                              - generic [ref=e1085]: положительный
+                                              - img [ref=e1087]
+                                            - generic [ref=e1088]: 19 отзывов
+                                      - listitem [ref=e1089]:
+                                        - menuitem "Устрицы • 76% положительный 18 отзывов" [ref=e1090] [cursor=pointer]:
+                                          - generic [ref=e1092]:
+                                            - generic [ref=e1093]:
+                                              - text: Устрицы •
+                                              - generic [ref=e1094]: 76%
+                                              - generic [ref=e1095]: положительный
+                                              - img [ref=e1097]
+                                            - generic [ref=e1098]: 18 отзывов
+                                      - listitem [ref=e1099]:
+                                        - menuitem "Закуски • 50% положительный 16 отзывов" [ref=e1100] [cursor=pointer]:
+                                          - generic [ref=e1102]:
+                                            - generic [ref=e1103]:
+                                              - text: Закуски •
+                                              - generic [ref=e1104]: 50%
+                                              - generic [ref=e1105]: положительный
+                                              - img [ref=e1107]
+                                            - generic [ref=e1108]: 16 отзывов
+                                      - listitem [ref=e1109]:
+                                        - menuitem "Бургеры • 77% положительный 16 отзывов" [ref=e1110] [cursor=pointer]:
+                                          - generic [ref=e1112]:
+                                            - generic [ref=e1113]:
+                                              - text: Бургеры •
+                                              - generic [ref=e1114]: 77%
+                                              - generic [ref=e1115]: положительный
+                                              - img [ref=e1117]
+                                            - generic [ref=e1118]: 16 отзывов
+                                      - listitem [ref=e1119]:
+                                        - menuitem "Пончики • 82% положительный 14 отзывов" [ref=e1120] [cursor=pointer]:
+                                          - generic [ref=e1122]:
+                                            - generic [ref=e1123]:
+                                              - text: Пончики •
+                                              - generic [ref=e1124]: 82%
+                                              - generic [ref=e1125]: положительный
+                                              - img [ref=e1127]
+                                            - generic [ref=e1128]: 14 отзывов
+                                      - iframe [ref=e1129]:
+                                        
+                                    - img [ref=e1132] [cursor=pointer]
+                              - list [ref=e1133]:
+                                - button "Посмотреть все 581 отзыв" [ref=e1137] [cursor=pointer]
+                        - generic [ref=e1138]:
+                          - link "Разместить рекламу" [ref=e1140] [cursor=pointer]:
+                            - /url: https://yandex.ru/business/priority-promo/web-maps-promo?utm_source=webmaps&utm_medium=org_card_link&utm_campaign=webmaps_org_card&permalink=233512176817
+                          - button "Источники данных" [ref=e1143] [cursor=pointer]:
+                            - generic [ref=e1144]: Источники данных
+                            - img [ref=e1147]
+                - generic "подвал блока" [ref=e1149]:
+                  - generic [ref=e1150]:
+                    - generic [ref=e1151]:
+                      - link "Сообщить об ошибке" [ref=e1153] [cursor=pointer]
+                      - link "Мобильное приложение" [ref=e1155] [cursor=pointer]:
+                        - /url: https://mobile.yandex.ru/apps/maps/
+                    - button "Сервисы" [ref=e1158] [cursor=pointer]:
+                      - generic [ref=e1159]:
+                        - generic [ref=e1162]: Сервисы
+                        - img [ref=e1166]
+                    - button "Персональное" [ref=e1170] [cursor=pointer]:
+                      - generic [ref=e1171]:
+                        - generic [ref=e1174]: Персональное
+                        - img [ref=e1178]
+                    - button "Для бизнеса" [ref=e1182] [cursor=pointer]:
+                      - generic [ref=e1183]:
+                        - generic [ref=e1186]: Для бизнеса
+                        - img [ref=e1190]
+                  - generic [ref=e1193]:
+                    - link "vkontakte" [ref=e1194] [cursor=pointer]:
+                      - /url: https://vk.com/yandex.maps
+                      - img [ref=e1195]
+                    - link "telegram" [ref=e1197] [cursor=pointer]:
+                      - /url: https://t.me/mapsyandex
+                      - img [ref=e1198]
+                    - link "zen" [ref=e1200] [cursor=pointer]:
+                      - /url: https://zen.yandex.ru/yandexmaps
+                      - img [ref=e1201]
+                  - generic [ref=e1203]:
+                    - generic [ref=e1204]: Яндекс Карты — выбирайте, где поесть, куда сходить, чем заняться.
+                    - generic [ref=e1205]: © 2001–2026 ООО «Яндекс»
+                    - generic [ref=e1206]:
+                      - link "Справка" [ref=e1208] [cursor=pointer]:
+                        - /url: //yandex.ru/support/maps/?lang=ru
+                      - generic [ref=e1209]:
+                        - text: "|"
+                        - link "О сервисе" [ref=e1210] [cursor=pointer]:
+                          - /url: //yandex.ru/support/maps/
+                      - generic [ref=e1211]:
+                        - text: "|"
+                        - link "Пользовательское соглашение" [ref=e1212] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+                      - generic [ref=e1213]:
+                        - text: "|"
+                        - link "Правила рекомендаций" [ref=e1214] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/recommendations/#index__geo
+              - iframe [ref=e1215]:
+                
+            - iframe [ref=e1216]:
+              
+        - img [ref=e1222] [cursor=pointer]
+      - navigation:
+        - generic [ref=e1225]:
+          - button "Пробки в Санкт‑Петербурге" [ref=e1228] [cursor=pointer]:
+            - generic [ref=e1229]:
+              - generic:
+                - img
+          - button "Панорамы улиц и фотографии" [ref=e1233] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Зеркала" [ref=e1236] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Движущийся транспорт" [ref=e1239] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Слои" [ref=e1242] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e1244]:
+          - button "Линейка и планиметр" [ref=e1247] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Детали" [ref=e1250] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - button "Профиль" [ref=e1253] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e1257]:
+                - button "Приблизить" [ref=e1259] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                - button "Отдалить" [ref=e1261] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+              - button "Моё местоположение" [ref=e1265] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+              - button "Наклон карты" [ref=e1272] [cursor=pointer]: 3D
+      - contentinfo:
+        - generic [ref=e1274]:
+          - generic [ref=e1275]: © Яндекс
+          - link "Справка" [ref=e1276] [cursor=pointer]:
+            - /url: //yandex.ru/support/maps/?lang=ru
+          - link "Условия использования" [ref=e1277] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+        - link "Яндекс" [ref=e1280] [cursor=pointer]:
+          - /url: https://ya.ru
+          - img [ref=e1282]
+        - generic:
+          - generic:
+            - generic:
+              - generic: 90 м
+      - iframe [ref=e1283]:
+        
+    - iframe [ref=e1284]:
+      
+  - iframe [ref=e1285]:
+    
+  - generic [ref=e1288]:
+    - generic [ref=e1289]:
+      - generic [ref=e1290]: Nola Jazz Bar
+      - generic [ref=e1292]:
+        - img [ref=e1293]
+        - text: "5"
+    - generic [ref=e1296]: Закрыто до 16:00

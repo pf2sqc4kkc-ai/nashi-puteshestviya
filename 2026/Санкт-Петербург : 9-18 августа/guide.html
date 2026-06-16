@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Санкт-Петербург · 9–18 августа 2026 · Путеводитель для двоих</title>
+<style>
+  :root{
+    --cream:#F6F1E6; --paper:#FFFCF4; --ink:#22201C; --muted:#5A5446;
+    --gold:#A86C1E; --gold-soft:#C8923D; --terra:#8E3B43; --green:#46566B;
+    --tg:#2AABEE; --tg-dark:#1779b8;
+    --line:#E2DAC7; --shadow:0 10px 34px rgba(34,32,28,.13);
+    --serif:Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--cream);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.68;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+  h1,h2,h3,h4{font-family:var(--serif);font-weight:700;line-height:1.18}
+  em{font-style:italic;color:var(--terra)}
+  a{color:var(--gold);text-decoration:none}
+  .ic{width:1em;height:1em;fill:currentColor;vertical-align:-.12em}
+
+  nav{position:sticky;top:0;z-index:50;background:rgba(246,241,230,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;align-items:center;padding:11px 22px}
+  nav .brand{font-family:var(--serif);font-weight:700;color:var(--terra);margin-right:auto;font-size:17px}
+  nav a{font-size:13.5px;color:var(--muted);padding:6px 10px;border-radius:20px;transition:.2s}
+  nav a:hover{background:var(--gold);color:#fff}
+
+  .hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;color:#fff;
+    background:linear-gradient(180deg,rgba(18,16,12,.16) 0%,rgba(18,16,12,.10) 38%,rgba(18,16,12,.86) 100%),url('images/hero.webp') center/cover}
+  .hero .wrap{padding-bottom:54px;width:100%}
+  .hero .kicker{letter-spacing:.34em;text-transform:uppercase;font-size:13px;color:#f6deaa;font-weight:700}
+  .hero h1{font-size:clamp(44px,9vw,100px);margin:10px 0 4px;color:#fff;text-shadow:0 4px 30px rgba(0,0,0,.5)}
+  .hero .dates{font-size:clamp(19px,3.4vw,27px);font-family:var(--serif);font-style:italic;color:#f8e8c8}
+  .hero .sub{margin-top:16px;max-width:620px;color:#f4ecdd;font-size:17px;text-shadow:0 1px 12px rgba(0,0,0,.55)}
+
+  .stats{background:var(--ink);color:#efe4cd}
+  .stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+  .stat{text-align:center;padding:28px 12px;border-right:1px solid rgba(255,255,255,.1)}
+  .stat:last-child{border-right:none}
+  .stat svg{width:28px;height:28px;fill:var(--gold-soft);margin-bottom:8px}
+  .stat .n{font-family:var(--serif);font-size:27px;color:#fff;font-weight:700;line-height:1}
+  .stat .l{font-size:13px;color:#d8c9a4;text-transform:uppercase;letter-spacing:.05em;margin-top:7px}
+
+  section{padding:58px 0}
+  .sec-head{display:flex;align-items:center;gap:15px;margin-bottom:16px}
+  .sec-head .num{font-family:var(--serif);font-size:15px;color:#fff;background:var(--terra);min-width:40px;height:40px;padding:0 8px;border-radius:22px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .sec-head h2{font-size:clamp(28px,5vw,42px)}
+  .lead{color:var(--muted);max-width:740px;margin-bottom:28px;font-size:17px}
+</style>
+</head>
+<body>
+<style>
+  .grid{display:grid;gap:18px}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:var(--shadow)}
+  .card h3{font-size:19px;margin-bottom:4px;display:flex;align-items:center;gap:9px}
+  .card h3 svg{width:22px;height:22px;fill:var(--gold);flex:0 0 auto}
+  .card .meta{font-size:14px;color:var(--gold);font-weight:600;margin-bottom:10px}
+  .card p{font-size:15.5px;color:#3e3a30}
+  .tag{display:inline-block;font-size:12.5px;background:#ece2cc;color:var(--terra);padding:4px 11px;border-radius:20px;margin:7px 5px 0 0;font-weight:600}
+  .price{font-family:var(--serif);color:var(--green);font-weight:700}
+
+  .route{display:flex;align-items:flex-start;flex-wrap:wrap;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:var(--shadow)}
+  .route .stop{text-align:center;flex:1;min-width:100px}
+  .route .stop .dot{width:15px;height:15px;border-radius:50%;background:var(--gold);margin:0 auto 9px}
+  .route .stop b{font-family:var(--serif);font-size:16px;display:block}
+  .route .stop span{display:block;font-size:12.5px;color:var(--muted)}
+  .route .leg{flex:0 0 auto;text-align:center;color:var(--terra);font-size:12.5px;font-weight:700;padding:0 10px;margin-top:2px}
+  .route .leg svg{display:block;width:38px;height:14px;margin:0 auto 3px;fill:none;stroke:var(--gold-soft);stroke-width:2}
+
+  .finds-head{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+  .finds-head .tg-badge{display:inline-flex;align-items:center;gap:8px;background:var(--tg);color:#fff;font-size:13px;font-weight:700;padding:7px 14px;border-radius:22px}
+  .find-card{background:var(--paper);border:1px solid #d3e6f4;border-left:5px solid var(--tg);border-radius:14px;padding:20px 22px;box-shadow:var(--shadow);margin-bottom:16px;display:flex;gap:18px;align-items:flex-start}
+  .find-card .when{flex:0 0 84px;font-family:var(--serif);color:var(--tg-dark);font-weight:700;font-size:15px;line-height:1.25}
+  .find-card h4{font-size:18px;margin-bottom:5px}
+  .find-card p{font-size:15.5px;color:#3e3a30}
+  .find-card .ch{font-size:13px;color:var(--tg-dark);margin-top:7px;font-weight:600}
+
+  .day{background:var(--paper);border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:var(--shadow);margin-bottom:30px}
+  .day-img{position:relative;height:230px;background-size:cover;background-position:center;display:flex;align-items:flex-end}
+  .day-img.plain{height:auto;background:linear-gradient(120deg,var(--terra),var(--gold))}
+  .day-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.62))}
+  .day-img.plain::after{display:none}
+  .day-img .cap{position:relative;z-index:2;color:#fff;padding:24px 30px}
+  .day-img .cap .dow{font-style:italic;font-family:var(--serif);color:#f8e8c8;font-size:16px}
+  .day-img .cap h3{font-size:clamp(22px,4vw,30px);text-shadow:0 2px 16px rgba(0,0,0,.55)}
+  .day-img.plain .cap h3{text-shadow:none}
+  .day-img .dno{position:absolute;top:18px;right:24px;z-index:2;font-family:var(--serif);font-size:66px;color:rgba(255,255,255,.9);font-weight:700;line-height:1;text-shadow:0 2px 20px rgba(0,0,0,.45)}
+  .day-body{padding:26px 30px 30px}
+  .day-theme{color:var(--muted);font-size:16px;margin-bottom:22px}
+  .tl{position:relative;border-left:2px solid var(--line);margin-left:6px;padding-left:26px}
+  .tl-item{position:relative;padding-bottom:22px}
+  .tl-item:last-child{padding-bottom:0}
+  .tl-item::before{content:"";position:absolute;left:-33px;top:5px;width:14px;height:14px;border-radius:50%;background:var(--gold);border:3px solid var(--paper)}
+  .tl-item.star::before{background:var(--terra);box-shadow:0 0 0 3px #ecd6d8}
+  .tl-time{font-family:var(--serif);font-weight:700;color:var(--terra);font-size:14.5px}
+  .tl-item h4{font-size:18px;margin:3px 0 6px}
+  .tl-item p{font-size:15.5px;color:#3e3a30}
+  .tl-item .how{font-size:14px;color:var(--gold);font-weight:600;margin:4px 0}
+  .tl-item .how svg{width:15px;height:15px;fill:currentColor;vertical-align:-.15em}
+  .tl-item .note{font-size:14.5px;color:#5a5446;margin-top:7px;padding:8px 12px;background:#f2ead7;border-radius:8px}
+  .tl-item .note b{color:var(--terra)}
+  .pill{display:inline-block;font-size:12px;font-weight:700;padding:3px 9px;border-radius:11px;margin-left:5px;vertical-align:middle}
+  .pill.free{background:#d3e3cc;color:#3c5230}
+  .pill.event{background:#f0d3d6;color:var(--terra)}
+  .pill.pay{background:#eddfbf;color:#8a5d12}
+  .pill.tg{background:#d3e9f8;color:var(--tg-dark)}
+  .pill.warn{background:#f6dcc0;color:#9a5a18}
+  .choice{background:#f7eeda;border:1px dashed var(--gold);border-radius:14px;padding:18px 20px;margin-top:10px;font-size:15.5px}
+  .choice b{color:var(--terra)}
+
+  .budget-table{width:100%;border-collapse:collapse;background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);font-size:16px}
+  .budget-table th,.budget-table td{padding:13px 15px;text-align:left;border-bottom:1px solid var(--line)}
+  .budget-table th{background:#eddfbf;font-family:var(--serif);font-size:16px}
+  .budget-table td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .budget-table tr.total td{font-weight:700;font-family:var(--serif);font-size:18px;color:var(--terra);background:#f7eeda;border-bottom:none}
+  .budget-table .pick{background:#f3ead4}
+
+  .callout{background:#f7eeda;border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:18px 22px;margin:20px 0;font-size:16px}
+  .callout strong{color:var(--terra)}
+  .checklist{columns:2;column-gap:32px;font-size:16px;list-style:none}
+  .checklist li{margin-bottom:11px;padding-left:30px;position:relative;break-inside:avoid}
+  .checklist li svg{position:absolute;left:0;top:3px;width:19px;height:19px;fill:var(--gold)}
+  footer{background:var(--ink);color:#e2d6bd;text-align:center;padding:46px 22px;font-size:15px;margin-top:20px}
+  footer em{color:var(--gold-soft)}
+  .src{font-size:13px;color:#b4a684;max-width:740px;margin:14px auto 0;line-height:1.5}
+  .tvar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0}
+  .wake-box{background:var(--ink);color:#efe4cd;border-radius:14px;padding:14px 20px;margin-bottom:20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+  .wake-box .wake-items{display:flex;gap:20px;flex-wrap:wrap}
+  .wake-box .wi .wn{font-family:var(--serif);font-size:20px;color:#f8d77a;font-weight:700;line-height:1}
+  .wake-box .wi .wl{font-size:11px;color:#c0a86a;text-transform:uppercase;letter-spacing:.05em;margin-top:3px}
+  .rb{font-size:11.5px;font-weight:700;padding:2px 6px;border-radius:7px;margin-left:4px;vertical-align:middle;white-space:nowrap}
+  .rb.ya{background:#fc3f1d;color:#fff} .rb.gi{background:#00adef;color:#fff}
+  @media(max-width:760px){.g2,.g3,.stats .wrap{grid-template-columns:1fr 1fr}.checklist{columns:1}.stat{border-right:none;border-bottom:1px solid rgba(255,255,255,.1)}.find-card{flex-direction:column;gap:6px}.find-card .when{flex-basis:auto}.tvar-grid{grid-template-columns:1fr}.wake-box .wake-items{gap:14px}}
+</style>
+<svg style="display:none">
+  <symbol id="i-cal" viewBox="0 0 24 24"><path d="M7 2v2H5a2 2 0 00-2 2v13a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2h-2V2h-2v2H9V2H7zm12 7v10H5V9h14z"/></symbol>
+  <symbol id="i-people" viewBox="0 0 24 24"><path d="M16 11a3 3 0 100-6 3 3 0 000 6zm-8 0a3 3 0 100-6 3 3 0 000 6zm0 2c-2.7 0-8 1.3-8 4v3h10v-3c0-1 .4-1.9 1-2.6C9.9 13.1 8.8 13 8 13zm8 0c-.3 0-.7 0-1.1.1 1.3 1 2.1 2.2 2.1 3.9v3h7v-3c0-2.7-5.3-4-8-4z"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><path d="M18.9 6c-.2-.6-.8-1-1.4-1H6.5c-.6 0-1.2.4-1.4 1L3 12v8a1 1 0 001 1h1a1 1 0 001-1v-1h12v1a1 1 0 001 1h1a1 1 0 001-1v-8l-2.1-6zM6.8 7h10.4l1 3H5.8l1-3zM6.5 16a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm11 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></symbol>
+  <symbol id="i-rub" viewBox="0 0 24 24"><path d="M7 3h6a5 5 0 010 10H9v2h5v2H9v2H7v-2H5v-2h2v-2H5v-2h2V3zm2 2v6h4a3 3 0 000-6H9z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1112 6a2.5 2.5 0 010 5.5z"/></symbol>
+  <symbol id="i-metro" viewBox="0 0 24 24"><path d="M12 3C7 3 3 6 3 11v6a2 2 0 002 2h1l-1 2h2l1-2h8l1 2h2l-1-2h1a2 2 0 002-2v-6c0-5-4-8-9-8zm-6 9V9a4 4 0 014-4h4a4 4 0 014 4v3H6zm1.5 5a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm9 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></symbol>
+  <symbol id="i-boat" viewBox="0 0 24 24"><path d="M4 11l8-3 8 3-1 2H5l-1-2zm-2 5c1.5 0 1.5 1 3 1s1.5-1 3-1 1.5 1 3 1 1.5-1 3-1 1.5 1 3 1 1.5-1 3-1v2c-1.5 0-1.5 1-3 1s-1.5-1-3-1-1.5 1-3 1-1.5-1-3-1-1.5 1-3 1-1.5-1-3-1v-2zM11 4h2v3h-2z"/></symbol>
+  <symbol id="i-food" viewBox="0 0 24 24"><path d="M8 2v8a2 2 0 11-2 2V2H4v8a4 4 0 003 3.9V22h2v-8.1A4 4 0 0012 10V2h-2v8a2 2 0 11-2 2V2zM18 2c-1.7 0-3 2.7-3 6 0 2.6.8 4.8 2 5.6V22h2V2z"/></symbol>
+  <symbol id="i-mask" viewBox="0 0 24 24"><path d="M12 2C7 2 3 4 3 9c0 4 3 8 6 10 1 .7 3 .7 4 0 3-2 6-6 6-10 0-5-4-7-9-7zM8.5 11a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm7 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zM9 15h6c-.5 1.3-1.7 2-3 2s-2.5-.7-3-2z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M9 16.2l-3.5-3.5L4 14.2 9 19l11-11-1.4-1.4z"/></symbol>
+  <symbol id="i-tg" viewBox="0 0 24 24"><path d="M21.9 4.3l-3.3 15.6c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6 13.4l-4.9-1.5c-1-.3-1-1 .2-1.5L20.6 2.8c.9-.3 1.6.2 1.3 1.5z"/></symbol>
+</svg>
+
+<nav><div class="wrap">
+  <span class="brand">Петербург ’26</span>
+  <a href="#road">Дорога</a>
+  <a href="#finds">Находки</a>
+  <a href="#days">Маршрут</a>
+  <a href="#food">Еда</a>
+  <a href="#money">Смета</a>
+  <a href="#tips">Чек-лист</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="kicker">Семейное путешествие · 2026</div>
+  <h1>Санкт-Петербург</h1>
+  <div class="dates">9–18 августа · десять дней вдвоём</div>
+  <p class="sub">Эрмитаж и дворцы, крыши и бары, теплоходы и развод мостов. Маршрут учитывает выходные дни музеев, привязан к жилью на Заозёрной и уложен в 100 000 ₽ с дорогой.</p>
+</div></header>
+
+<div class="stats"><div class="wrap">
+  <div class="stat"><svg><use href="#i-cal"/></svg><div class="n">10 дней</div><div class="l">9 ночей</div></div>
+  <div class="stat"><svg><use href="#i-people"/></svg><div class="n">2</div><div class="l">взрослых</div></div>
+  <div class="stat"><svg><use href="#i-car"/></svg><div class="n">~1120 км</div><div class="l">по платным М-12 + М-11</div></div>
+  <div class="stat"><svg><use href="#i-rub"/></svg><div class="n">≤ 100 000</div><div class="l">с бензином, без жилья</div></div>
+</div></div>
+
+<div class="wrap">
+
+<section id="road">
+  <div class="sec-head"><span class="num">00</span><h2>Дорога и база</h2></div>
+  <p class="lead">Из Нижнего Новгорода (Верхне-Волжская наб., 14) по платным трассам: М-12 «Восток» до Москвы → М-11 «Нева» до Петербурга. ~1120 км в одну сторону — реально с одной ночёвкой в Москве/по пути. База: Заозёрная ул., 3к3 (автобус 50 до ст. <b>Технологический институт</b>, 2–3 мин). <b>⚠ Фрунзенская закрыта на ремонт до июня 2027.</b></p>
+  <div class="route">
+    <div class="stop"><div class="dot"></div><b>Нижний Новгород</b><span>В.-Волжская наб., 14</span></div>
+    <div class="leg"><svg viewBox="0 0 38 14"><path d="M1 7h36M31 2l6 5-6 5"/></svg>М-12 · ~440 км</div>
+    <div class="stop"><div class="dot"></div><b>Москва</b><span>возможна ночёвка</span></div>
+    <div class="leg"><svg viewBox="0 0 38 14"><path d="M1 7h36M31 2l6 5-6 5"/></svg>М-11 · ~680 км</div>
+    <div class="stop"><div class="dot"></div><b>Санкт-Петербург</b><span>Заозёрная ул., 3к3</span></div>
+  </div>
+  <div class="grid g3" style="margin-top:20px">
+    <div class="card">
+      <h3><svg><use href="#i-car"/></svg>Дорога ≈ 36 000 ₽</h3>
+      <div class="meta">бензин + платные участки</div>
+      <p>Пробег туда-обратно с разъездами ~2440 км. Бензин (АИ-100, 8,5 л/100) ≈ <span class="price">20 700 ₽</span>. Платные М-12 + М-11 ≈ <span class="price">15 800 ₽</span> (с транспондером дешевле на ~1600 ₽).</p>
+      <p style="margin-top:8px"><b>Совет:</b> на АИ-95 двигатель 1.5 TFSI тоже едет ровно — это −4 000 ₽ к дороге.</p>
+    </div>
+    <div class="card">
+      <h3><svg><use href="#i-metro"/></svg>По городу — метро</h3>
+      <div class="meta">авто в центр не нужно</div>
+      <p>В центре парковка платная и тесная — машину лучше оставить у жилья. Берите <b>«Подорожник»</b> (≈46 ₽/поездка в метро). От дома: авт. 50 → ст. <b>Технологический институт</b> (2–3 мин), далее метро до центра ещё 5–10 мин. ⚠ Фрунзенская закрыта до июня 2027.</p>
+      <p style="margin-top:8px">Транспорт по городу на 10 дней вдвоём ≈ 8 000–9 000 ₽ с учётом такси.</p>
+    </div>
+    <div class="card">
+      <h3><svg><use href="#i-pin"/></svg>Район жилья</h3>
+      <div class="meta">Заозёрная, 3к3 · авт. 50 → м. Технологический институт</div>
+      <p>До Сенной/Рубинштейна — 5 мин на метро; до Балтийского вокзала (электрички в Гатчину) — 1 станция; Витебский вокзал (в Царское Село) рядом. Московский пр-т и парк Победы — пешком.</p>
+    </div>
+  </div>
+  <div class="callout"><strong>Брони заранее (за 3–4 недели!):</strong> Эрмитаж онлайн (иначе очередь 2–4 ч), Янтарная комната в Царском Селе (билеты разбирают), Большой дворец Петергофа. Репертуар Мариинского на август появится в начале июля — следите на mariinsky.ru.</div>
+</section>
+<section id="finds">
+  <div class="finds-head">
+    <span class="num" style="font-family:var(--serif);font-size:16px;color:#fff;background:var(--terra);width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto">★</span>
+    <span class="tg-badge"><svg class="ic" style="fill:#fff" viewBox="0 0 24 24"><use href="#i-tg"/></svg>Из местных Telegram-каналов</span>
+  </div>
+  <h2 style="font-size:clamp(28px,5vw,40px);margin-bottom:6px">Чего нет на больших афишах</h2>
+  <p class="lead">Питерские каналы (@sobaka_ru, @kudagospb, @newinspb, @afishapeterburga) подсказали камерные события на наши даты и неочевидные места. Часть анонсов уточнится в конце июля — стоит пробежать каналы перед выездом.</p>
+  <div class="find-card">
+    <div class="when">14–16 авг</div>
+    <div><h4>Летний театр в Новой Голландии <span class="pill event">по пт–вс</span></h4>
+    <p>Спектакли «Москва. Петушки» (реж. Горчилин), рейв-спектакль «Квадрат» о 90-х, кинопоказы на газоне под открытым небом (бесплатно вечером по выходным). Атмосфера острова — само по себе впечатление.</p>
+    <div class="ch">@sobaka_ru · newhollandsp.ru</div></div>
+  </div>
+  <div class="find-card">
+    <div class="when">14–16 авг</div>
+    <div><h4>DreamFest · Юсуповский сад <span class="pill pay">~1500 ₽</span></h4>
+    <p>Фонарики на пруду, световые инсталляции, исторический бал. Нишевый романтичный формат на вечер — то, что хорошо вдвоём.</p>
+    <div class="ch">@dreamfestme · kudago.com</div></div>
+  </div>
+  <div class="find-card">
+    <div class="when">15–16 авг</div>
+    <div><h4>Фестиваль воздушных змеев «Фортолет» · Кронштадт <span class="pill pay">500 ₽</span></h4>
+    <p>Форт «Константин», небо в сотнях змеев над Финским заливом. Идеально совместить с поездкой в Кронштадт (Морской собор, Остров фортов).</p>
+    <div class="ch">по данным афиш · совместить с Кронштадтом 15 авг</div></div>
+  </div>
+  <div class="find-card">
+    <div class="when">еженед.</div>
+    <div><h4>Roof Fest · концерты на крыше <span class="pill pay">от 1500 ₽</span></h4>
+    <p>Кожевенная линия, 30 (Васильевский). Концерты на крыше с видом на Финский залив, до 25 августа. Закат + музыка над водой.</p>
+    <div class="ch">@kudagospb · roof-fest</div></div>
+  </div>
+  <div class="find-card">
+    <div class="when">места</div>
+    <div><h4>Неочевидное: бары и дворы <span class="pill free">советы местных</span></h4>
+    <p><b>Art Lab Medovarus</b> (Мучной пер., 5) — бар-лаборатория с сидрами и медовухой, джаз и кинопоказы. <b>Двор Духов</b> (6-я линия В.О., 5) — нетуристический двор-колодец с керамическими фигурками. <b>Рюмочные «Звонок»</b> (Некрасова, 34) и <b>«Интеллигент»</b> (Фонтанка, 38) — местный формат, не для туристов.</p>
+    <div class="ch">@Lenus_YaVseUberu, @eatpeterburg</div></div>
+  </div>
+  <div class="find-card">
+    <div class="when">вылазка</div>
+    <div><h4>Выборг · средневековые дни (13–16 авг) <span class="pill pay">~350 ₽ «Ласточка»</span></h4>
+    <p>Рыцарские турниры у Выборгского замка, ярмарка мастеров. Однодневная вылазка на «Ласточке» (1,5 ч от Финляндского вокзала) — если захочется сменить картинку.</p>
+    <div class="ch">allfest.ru · опционально вместо одного городского дня</div></div>
+  </div>
+</section>
+<section id="days">
+  <div class="sec-head"><span class="num">МАРШРУТ</span><h2>10 дней по дням</h2></div>
+  <p class="lead">Порядок выстроен под выходные дни музеев: Эрмитаж — во вторник (в понедельник закрыт), Царское Село и Русский музей — не во вторник, Петергоф — не в понедельник. Пригороды и ночной развод мостов расставлены по событиям августа.</p>
+
+  <div class="day">
+    <div class="day-img plain"><span class="dno">01</span>
+      <div class="cap"><span class="dow">воскресенье, 9 августа</span><h3>Дорога и заселение</h3></div>
+    </div>
+    <div class="day-body">
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">4:30</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">5:00</div><div class="wl">Выезд из НН</div></div>
+          <div class="wi"><div class="wn">~18–19</div><div class="wl">Петербург</div></div>
+        </div>
+        <span style="font-size:13px;color:#c4ad7e">М-12 → Москва → М-11 → Петербург · ~1120 км · ~13 ч за рулём</span>
+      </div>
+      <p class="day-theme">Перегон Нижний → Петербург. Длинный, поэтому день целиком на дорогу и спокойный вечер у новой базы.</p>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-time">утро</div>
+          <h4>Выезд из Нижнего Новгорода</h4>
+          <p>М-12 «Восток» → Москва → М-11 «Нева» → Петербург, ~1120 км. Чисто за рулём ~13 ч — поэтому разумно либо стартовать накануне вечером с <b>ночёвкой в Москве</b>, либо выехать затемно.</p>
+          <div class="how"><svg><use href="#i-car"/></svg> Заправка АИ-100 перед Москвой и на М-11 · платные участки по транспондеру дешевле</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">вечер</div>
+          <h4>Заселение · Заозёрная ул., 3к3</h4>
+          <p>Бросаем вещи, паркуем машину у дома (в центр на ней не едем). Дальше всё — авт. 50 → ст. Технологический институт (2–3 мин) → метро.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">21:00</div>
+          <h4>Лёгкий вечер рядом с домом <span class="pill cheap" style="background:#dbe9f0;color:#2a6a8a">без нагрузки</span></h4>
+          <p>Прогулка по Московскому проспекту или в парк Победы (15 мин пешком), ужин в кафе поблизости. Купить «Подорожник» и продукты на завтраки.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-img" style="background-image:url('images/canals.webp')"><span class="dno">02</span>
+      <div class="cap"><span class="dow">понедельник, 10 августа</span><h3>Сердце города пешком</h3></div>
+    </div>
+    <div class="day-body">
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">9:00</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">авт.&thinsp;50</div><div class="wl">от дома</div></div>
+          <div class="wi"><div class="wn">Тех.Инст</div><div class="wl">пересадка</div></div>
+          <div class="wi"><div class="wn">~15 мин</div><div class="wl">до Невского</div></div>
+        </div>
+      </div>
+      <p class="day-theme">Эрмитаж по понедельникам закрыт — поэтому первый полный день отдаём центру, каналам и смотровой. Знакомимся с городом ногами.</p>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-time">10:30</div>
+          <h4>Невский проспект + Казанский собор <span class="pill free">бесплатно</span></h4>
+          <p>Стартуем с главной артерии: Казанский собор (вход свободный), Дом Зингера, виды на канал. Кофе в Smena или классической кофейне по пути.</p>
+          <div class="how"><svg><use href="#i-metro"/></svg> от Фрунзенской до «Невский проспект» / «Гостиный двор», ~10 мин</div>
+        </div>
+        <div class="tl-item star"><div class="tl-time">12:00</div>
+          <h4>Спас на Крови + канал Грибоедова <span class="pill pay">~550 ₽/чел</span></h4>
+          <p>Главная мозаичная церковь города (внутри — 7000 м² мозаики). Снаружи особенно хорош с канала и с того ракурса, что на обложке этого гайда.</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">14:30</div>
+          <h4>Исаакиевский собор + колоннада <span class="pill pay">~600/700 ₽</span></h4>
+          <p>Поднимаемся на колоннаду — лучшая обзорная площадка в центре, виды на крыши и Неву. Сам собор внутри — малахит, мозаики, золото.</p>
+          <div class="how"><svg><use href="#i-pin"/></svg> работает в пн · подъём ~150 ступеней</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">16:30</div>
+          <h4>Дневная прогулка по каналам <span class="pill pay">от 500 ₽/чел</span></h4>
+          <p>45–60 мин по Мойке/Фонтанке/Грибоедова — город с воды читается совсем иначе. Причалы у Спаса на Крови и Аничкова моста.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">19:30</div>
+          <h4>Ужин и бары · улица Рубинштейна <span class="pill pay">средний чек</span></h4>
+          <p>30+ баров на 500 метрах: «Счастье», «Лимб», «Архитектор». Барная столица города — то, что нужно вечером вдвоём.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="day">
+    <div class="day-img" style="background-image:url('images/ermitage.webp')"><span class="dno">03</span>
+      <div class="cap"><span class="dow">вторник, 11 августа</span><h3>Эрмитаж и Дворцовая</h3></div>
+    </div>
+    <div class="day-body">
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">8:00</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">авт.&thinsp;50</div><div class="wl">от дома</div></div>
+          <div class="wi"><div class="wn">Тех.Инст</div><div class="wl">→ Адмиралтейская</div></div>
+          <div class="wi"><div class="wn">10:30</div><div class="wl">Эрмитаж открыт</div></div>
+        </div>
+        <span style="font-size:13px;color:#c4ad7e">~15 мин от дома до входа</span>
+      </div>
+      <p class="day-theme">Вторник — Эрмитаж работает до 20:00 (а в понедельник был бы закрыт). Главный музейный день, без спешки.</p>
+      <div class="tl">
+        <div class="tl-item star"><div class="tl-time">10:00</div>
+          <h4>Государственный Эрмитаж <span class="pill pay">~700 ₽/чел</span> <span class="pill warn">бронь онлайн!</span></h4>
+          <p>Зимний дворец, Иорданская лестница, залы Рембрандта, рыцарский зал, павлин-часы. На обход «по верхам» — 3–4 часа; не пытайтесь увидеть всё. <b>Билет купить онлайн за 1–2 недели</b> — иначе очередь 2–4 ч.</p>
+          <div class="how"><svg><use href="#i-pin"/></svg> Дворцовая пл., 2 · вт до 20:00 · вход по сеансам</div>
+          <div class="note">Идут выставки: «Китай. Три императора» (Зимний), искусство Индии (Главный штаб) — проверьте на hermitagemuseum.org.</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">14:30</div>
+          <h4>Главный штаб — импрессионисты <span class="pill pay">по тому же билету</span></h4>
+          <p>Через Дворцовую площадь: Моне, Матисс, Гоген, Пикассо. Часто почти пусто — приятный контраст шумному Зимнему.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">16:30</div>
+          <h4>Стрелка Васильевского острова <span class="pill free">бесплатно</span></h4>
+          <p>Ростральные колонны, панорама на Зимний и Петропавловку — лучший открыточный вид на Неву. Пешком через Дворцовый мост.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">19:30</div>
+          <h4>Ужин с видом <span class="pill pay">высокий чек</span></h4>
+          <p>«Мансарда» — терраса с видом на купол Исаакия, или крыша из раздела «Находки». Вечер-впечатление.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-img" style="background-image:url('images/petergof.webp')"><span class="dno">04</span>
+      <div class="cap"><span class="dow">среда, 12 августа</span><h3>Петергоф · фонтаны</h3></div>
+    </div>
+    <div class="day-body">
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">7:30</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">9:30</div><div class="wl">«Метеор»</div></div>
+          <div class="wi"><div class="wn">2 причал</div><div class="wl">Адмиралтейская наб.</div></div>
+        </div>
+        <span style="font-size:13px;color:#c4ad7e">Метеор 2700 ₽/чел RT · nameteor.ru · бронь за 2 дня | альт: электричка с Балтийского 65 ₽ · 32 мин</span>
+      </div>
+      <p class="day-theme">Загородный день. Дорога на «Метеоре» по заливу — половина впечатления. Дворец открыт (по понедельникам был бы выходной).</p>
+      <div class="tl">
+        <div class="tl-item star"><div class="tl-time">10:00</div>
+          <h4>«Метеор» в Петергоф <span class="pill pay">~900 ₽/чел</span></h4>
+          <p>От Дворцовой набережной, 30 минут по Финскому заливу. Сама поездка на подводных крыльях — аттракцион.</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">11:00</div>
+          <h4>Нижний парк · Большой каскад <span class="pill pay">~1100 ₽/чел</span></h4>
+          <p>147 фонтанов, золочёные статуи, Самсон, шутихи. Фонтаны работают 10:00–19:45. Закладывайте 3–4 часа на парк.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">14:30</div>
+          <h4>Большой дворец <span class="pill pay">~1000 ₽/чел</span> <span class="pill warn">бронь</span></h4>
+          <p>Парадные залы, Тронный зал, Картинный зал. Вход по слотам — бронировать онлайн заранее.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">17:00</div>
+          <h4>Возвращение и спокойный вечер</h4>
+          <p>«Метеором» или электричкой обратно. После насыщенного дня — ужин ближе к дому, ранний отбой перед Царским Селом.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="day">
+    <div class="day-img plain"><span class="dno">05</span>
+      <div class="cap"><span class="dow">четверг, 13 августа</span><h3>Царское Село · Янтарная комната</h3></div>
+    </div>
+    <div class="day-body">
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">8:00</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">авт.&thinsp;50</div><div class="wl">→ Тех.Инст</div></div>
+          <div class="wi"><div class="wn">Пушкинская</div><div class="wl">→ Витебский вокзал</div></div>
+          <div class="wi"><div class="wn">9:хх</div><div class="wl">электр. 30 мин</div></div>
+        </div>
+        <span style="font-size:13px;color:#c4ad7e">⚠ Маршрут 2 (через Купчино) закрыт с 18 июня 2026 — брать только маршрут 1 с Витебского</span>
+      </div>
+      <p class="day-theme">Пушкин (Царское Село). Четверг выбран намеренно: Екатерининский дворец закрыт по вторникам. Янтарную комнату бронируем заранее — иначе не попасть.</p>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-time">9:30</div>
+          <h4>Дорога в Пушкин</h4>
+          <p>Электричка с Витебского/Балтийского вокзала (рядом с домом) ~30 мин + автобус, или на машине ~40 мин. Выезжать пораньше — к открытию.</p>
+          <div class="how"><svg><use href="#i-metro"/></svg> Балтийский вокзал — 1 станция от Фрунзенской</div>
+        </div>
+        <div class="tl-item star"><div class="tl-time">11:00</div>
+          <h4>Екатерининский дворец + Янтарная комната <span class="pill pay">~1600 ₽/чел</span> <span class="pill warn">бронь за 3–4 нед!</span></h4>
+          <p>Знаменитый бирюзово-золотой фасад, Большой зал, легендарная Янтарная комната. Билеты разбирают заранее — бронируйте на tkt.tzar.ru сразу как определитесь с датой.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">14:00</div>
+          <h4>Екатерининский парк <span class="pill pay">~300 ₽/чел</span></h4>
+          <p>Большой пруд, Камеронова галерея, павильоны, лодки. Неспешно гуляем после дворца — парк огромный и тихий.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">17:30</div>
+          <h4>Возвращение и ужин в городе</h4>
+          <p>Назад в Петербург. Вечер — что-то лёгкое: рюмочные из «Находок» или бистро на Рубинштейна.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-img" style="background-image:url('images/novaya.webp')"><span class="dno">06</span>
+      <div class="cap"><span class="dow">пятница, 14 августа</span><h3>Русский музей и Новая Голландия</h3></div>
+    </div>
+    <div class="day-body">
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">9:30</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">авт.&thinsp;50</div><div class="wl">→ Тех.Инст</div></div>
+          <div class="wi"><div class="wn">Гостиный двор</div><div class="wl">Невская линия</div></div>
+        </div>
+      </div>
+      <p class="day-theme">Утро — русское искусство, вечер — остров-парк с летним театром и кино под открытым небом (как раз пятница–воскресенье).</p>
+      <div class="tl">
+        <div class="tl-item star"><div class="tl-time">11:00</div>
+          <h4>Русский музей · Михайловский дворец <span class="pill pay">~700 ₽/чел</span></h4>
+          <p>Брюллов, Айвазовский, Репин, «Последний день Помпеи». Идёт большая выставка Ивана Шишкина (до ноября). Вторник — выходной, поэтому идём в пятницу.</p>
+          <div class="how"><svg><use href="#i-pin"/></svg> Инженерная, 4 · рядом со Спасом на Крови и Михайловским садом</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">14:00</div>
+          <h4>Михайловский сад + обед</h4>
+          <p>Передышка в саду, обед поблизости. По пути можно заглянуть в Манеж (выставка о мировой анимации).</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">17:00</div>
+          <h4>Новая Голландия <span class="pill free">вход свободный</span> <span class="pill tg">из Telegram</span></h4>
+          <p>Остров-парк: газоны, дизайн-маркеты, еда, летний театр и кинопоказы по выходным. Спектакль «Москва. Петушки» или кино на траве.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">21:00</div>
+          <h4>Опционально · DreamFest <span class="pill pay">~1500 ₽</span></h4>
+          <p>Юсуповский сад (14–16 авг): фонарики, свет, исторический бал — романтичное завершение дня.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="day">
+    <div class="day-img" style="background-image:url('images/kronstadt.webp')"><span class="dno">07</span>
+      <div class="cap"><span class="dow">суббота, 15 августа</span><h3>Кронштадт · море и форты</h3></div>
+    </div>
+    <div class="day-body">
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">7:30</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">авт.&thinsp;50</div><div class="wl">→ Тех.Инст</div></div>
+          <div class="wi"><div class="wn">Старая Деревня</div><div class="wl">5 линия</div></div>
+          <div class="wi"><div class="wn">авт.&thinsp;101</div><div class="wl">→ Кронштадт 40 мин</div></div>
+        </div>
+      </div>
+      <p class="day-theme">Морской день. Кронштадт — другой Петербург: залив, форты, ветер. В эти даты — фестиваль воздушных змеев.</p>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-time">10:30</div>
+          <h4>Дорога в Кронштадт</h4>
+          <p>На «Метеоре» с экскурсией (от ~1650 ₽/чел, по заливу) или автобусом от м. «Старая Деревня» через дамбу. Метеор интереснее.</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">12:00</div>
+          <h4>Морской Никольский собор + Якорная площадь <span class="pill free">вход свободный</span></h4>
+          <p>Грандиозный собор в неовизантийском стиле — главный храм флота. Внутри — мраморный пол с морскими мотивами.</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">14:00</div>
+          <h4>Остров фортов + фестиваль змеев «Фортолет» <span class="pill pay">500 ₽</span> <span class="pill event">15–16 авг</span></h4>
+          <p>Современный парк на берегу залива (вход бесплатный), маяк, аллея героев. На форте «Константин» — сотни воздушных змеев в небе над водой.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">18:00</div>
+          <h4>Возвращение, ужин у воды</h4>
+          <p>Назад в город. Вечер — морепродукты или рыба (например, «Корюшка» с видом на Стрелку).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-img" style="background-image:url('images/bridges.webp')"><span class="dno">08</span>
+      <div class="cap"><span class="dow">воскресенье, 16 августа</span><h3>Петропавловка и ночь мостов</h3></div>
+    </div>
+    <div class="day-body">
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">10:00</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">день</div><div class="wl">свободный режим</div></div>
+          <div class="wi"><div class="wn">23:30</div><div class="wl">теплоход · мосты</div></div>
+          <div class="wi"><div class="wn">ночь</div><div class="wl">такси домой</div></div>
+        </div>
+        <span style="font-size:13px;color:#c4ad7e">Развод Дворцового и Троицкого мостов с 1:10 до 2:50 · теплоход бронировать заранее</span>
+      </div>
+      <p class="day-theme">Кульминация поездки: крепость, виды на Неву и главное — ночная прогулка под разводящиеся мосты. Белые ночи уже прошли, но развод мостов под подсветкой не менее эффектен.</p>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-time">12:00</div>
+          <h4>«Императорский полдень» в Капелле <span class="pill free">бесплатно</span> <span class="pill tg">из Telegram</span></h4>
+          <p>Бесплатный концерт во дворе Капеллы (Мойка, 20) по воскресеньям в 12:00 — 16 августа попадает. Тихий красивый старт дня.</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">14:00</div>
+          <h4>Петропавловская крепость <span class="pill pay">~950 ₽/чел</span></h4>
+          <p>Собор с усыпальницей Романовых, тюрьма Трубецкого бастиона, полуденный выстрел с Нарышкина бастиона (в 12:00 — можно подгадать). Территория бесплатна, летом есть пляж с видом на Зимний.</p>
+          <div class="how"><svg><use href="#i-metro"/></svg> м. «Горьковская», Заячий остров</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">19:00</div>
+          <h4>Ужин и отдых перед ночной программой</h4>
+          <p>Плотно поесть и передохнуть — вечер будет долгим. Развод мостов начинается за полночь.</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">23:30</div>
+          <h4>Ночная прогулка · развод мостов <span class="pill pay">от 980 ₽/чел</span></h4>
+          <p>Садимся на теплоход ~23:30, Дворцовый мост разводят в 01:10. Подсвеченные мосты, Нева, шпиль Петропавловки — главное впечатление августа.</p>
+          <div class="note"><b>Важно:</b> метро в окно развода (~01:00–05:00) не работает — берите тур с возвратом к причалу или такси домой.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="day">
+    <div class="day-img plain"><span class="dno">09</span>
+      <div class="cap"><span class="dow">понедельник, 17 августа</span><h3>Свободный гастро-день и крыши</h3></div>
+    </div>
+    <div class="day-body">
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">9:30</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">свободно</div><div class="wl">без плана</div></div>
+        </div>
+        <span style="font-size:13px;color:#c4ad7e">После ночного теплохода — законный поздний старт</span>
+      </div>
+      <p class="day-theme">Последний полный день — без жёсткого плана. Добираем гастрономию, виды и сувениры. Эрмитаж снова закрыт (пн), но он уже позади.</p>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-time">10:30</div>
+          <h4>Пышечная на Желябова + кофе <span class="pill cheap" style="background:#dbe9f0;color:#2a6a8a">культ</span></h4>
+          <p>Желябова, 25 — пышки с сахарной пудрой с 1958 года, ~100 ₽. Рядом — кофейня Smena для нормального кофе.</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">12:30</div>
+          <h4>Музей Фаберже или Юсуповский дворец <span class="pill pay">~500–800 ₽</span></h4>
+          <p>Фаберже (Фонтанка, 21) — пасхальные яйца императорской семьи, открыт в пн. Либо Юсуповский дворец — интерьеры и место убийства Распутина.</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">15:00</div>
+          <h4>Лахта-Центр (смотровая) или Севкабель Порт <span class="pill pay">2300 ₽ / бесплатно</span></h4>
+          <p>Смотровая Лахта-Центра (83–86 этаж) — самая высокая точка Европы. Бюджетная альтернатива — закат в Севкабель Порту на берегу залива (бесплатно, ~21:00).</p>
+        </div>
+        <div class="tl-item"><div class="tl-time">17:00</div>
+          <h4>Сувениры + Эрарта <span class="pill pay">~1500 ₽/чел</span></h4>
+          <p>Сувениры: Василеостровский рынок / лавки центра. Эрарта (музей современного искусства) работает до 23:00 — спокойный вечерний вариант без очередей.</p>
+        </div>
+        <div class="tl-item star"><div class="tl-time">20:00</div>
+          <h4>Прощальный ужин <span class="pill pay">высокий чек</span></h4>
+          <p>«Корюшка» с видом на Стрелку Васильевского острова или Birch (если удалось забронировать) — главный гастро-ужин поездки.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-img plain"><span class="dno">10</span>
+      <div class="cap"><span class="dow">вторник, 18 августа</span><h3>Дорога домой</h3></div>
+    </div>
+    <div class="day-body">
+      <div class="wake-box">
+        <span style="font-size:28px">⏰</span>
+        <div class="wake-items">
+          <div class="wi"><div class="wn">6:00</div><div class="wl">Подъём</div></div>
+          <div class="wi"><div class="wn">7:00</div><div class="wl">Выезд</div></div>
+          <div class="wi"><div class="wn">~20–21</div><div class="wl">Нижний Новгород</div></div>
+        </div>
+        <span style="font-size:13px;color:#c4ad7e">М-11 → Москва → М-12 «Восток» · обратный путь</span>
+      </div>
+      <p class="day-theme">Обратный перегон в Нижний. Выселяемся, выезжаем утром — и тем же путём через Москву.</p>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-time">9:00</div>
+          <h4>Выселение и выезд</h4>
+          <p>М-11 → Москва → М-12 → Нижний, ~1120 км. Так же разумно разбить дорогу ночёвкой, если не хочется ехать 13 часов подряд.</p>
+          <div class="how"><svg><use href="#i-car"/></svg> Заправка АИ-100 на выезде · платные участки по транспондеру</div>
+        </div>
+        <div class="tl-item"><div class="tl-time">в пути</div>
+          <h4>Остановки на разминку</h4>
+          <p>Заложите паузы на еду и отдых. Дома — поздно вечером (или на следующий день при ночёвке в Москве).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="food">
+  <div class="sec-head"><span class="num">04</span><h2>Еда · меню на выбор</h2></div>
+  <p class="lead">Главный гастрономический раздел: места разбиты по <b>завтраку, обеду и ужину</b> — выбирайте под настроение дня. У каждого места — что именно заказать и нужна ли бронь. Важно: топовые рестораны Петербурга бронируются за 1–4 недели, а некоторые — строго за месяц. Сначала о том, что бронировать прямо сейчас.</p>
+
+  <div class="callout" style="border-left-color:#b3402f;background:#f8e7e0">
+    <strong>⛔ Бронировать заранее (за месяц — сейчас):</strong>
+    <b>Birch</b> — бронь открывается 1-го числа на следующий месяц и разбирается за 15 минут (bookingbirch@gmail.com). <b>El Copitas</b> (бар топ-10 мира) — только чт–сб, по записи за 1–2 недели. Остальное — за 1–2 недели или без брони, см. план в конце раздела.
+  </div>
+
+  <h3 style="font-size:24px;margin:30px 0 4px;color:var(--terra)">☕ Завтрак</h3>
+  <p style="color:var(--muted);margin-bottom:14px;font-size:15.5px">От культовых пышек за 100 ₽ до яиц бенедикт с видом на Спас-на-Крови. Завтракать можно и дома (магазины на Московском), а раз-два выбраться «на завтрак как событие».</p>
+  <div style="height:200px;border-radius:16px;margin-bottom:18px;background:url('images/breakfast.webp') center/cover;box-shadow:var(--shadow)"></div>
+  <div class="grid g3">
+    <div class="card"><h3>Пышечная <span class="pill free">без брони</span></h3><div class="meta">Б. Конюшенная, 25 · м. Невский пр. · 50–150 ₽ <span class="rb ya">Я ★4.5</span></div><p><b>Взять:</b> горячие пышки с сахарной пудрой + кофе с молоком из автомата. Культ с 1958 года, очередь на улице — это и есть аутентичность.</p></div>
+    <div class="card"><h3>Prosa Breakfast Bar <span class="pill pay">вых. за 2–3 дня</span></h3><div class="meta">наб. Грибоедова, 5 · вид на Спас-на-Крови · 1000–2000 ₽ <span class="rb ya">Я ★4.7</span></div><p><b>Взять:</b> яйца бенедикт с лососем, драники с лососем и сметаной, коктейли-завтраки. Лучший видовой завтрак в центре, работает до 23:00.</p></div>
+    <div class="card"><h3>Eggsellent <span class="pill free">без брони</span></h3><div class="meta">наб. Мойки, 102 / Василеостр. рынок · 500–800 ₽ <span class="rb ya">Я ★4.3</span></div><p><b>Взять:</b> «конструктор» — база (пашот/глазунья/скрэмбл) + топинги (авокадо, лосось, халуми). Быстро и вкусно, скандинавский формат.</p></div>
+    <div class="card"><h3>Duo Gastrobar <span class="pill free">завтрак без брони</span></h3><div class="meta">Кирочная, 8А · м. Чернышевская · 1000–2000 ₽ <span class="rb ya">Я ★4.6</span></div><p><b>Взять:</b> гречневые панкейки, авокадо-тост с пашот и вялеными томатами, гребешки с гречей. Первый гастробар города, высокий уровень при демократичности.</p></div>
+    <div class="card"><h3>ТЧК · фильтр-кофе <span class="pill free">без брони</span></h3><div class="meta">наб. Мойки, 6 · м. Гостиный двор · 200–400 ₽</div><p><b>Взять:</b> фильтр-кофе ручного заваривания (без эспрессо-машины принципиально), круассаны. Точка для понимающих кофе перед прогулкой по набережным.</p></div>
+    <div class="card"><h3>Frantsuza / Joli Bistrot <span class="pill pay">бранч за 1–2 дня</span></h3><div class="meta">наб. Лазарева, 22 / Восстания, 45 · 2000–4000 ₽</div><p><b>Взять:</b> скрэмбл с фуагра и трюфелем, французский завтрак, круассан с орехом. Неспешный люкс-бранч в особняке со стеклянной крышей.</p></div>
+  </div>
+  <h3 style="font-size:24px;margin:34px 0 4px;color:var(--terra)">🍲 Обед</h3>
+  <p style="color:var(--muted);margin-bottom:14px;font-size:15.5px">Между прогулками удобнее всего гастромаркеты и бистро — быстро, разнообразно, без брони. Кавказская кухня и сезонные грибы августа — обязательно.</p>
+  <div style="height:200px;border-radius:16px;margin-bottom:18px;background:url('images/food.webp') center/cover;box-shadow:var(--shadow)"></div>
+  <div class="grid g3">
+    <div class="card"><h3>Василеостровский рынок <span class="pill free">без брони</span></h3><div class="meta">Большой пр. В.О., 16 · 600–1500 ₽ <span class="rb ya">Я ★4.8</span></div><p><b>Взять:</b> Fisha (рыба/морепродукты), Georgiani (хачапури, хинкали с лисичками), Bò (фо-бо), дагестанские чуду. 30+ концепций под одной крышей — каждый выберет своё.</p></div>
+    <div class="card"><h3>Хочу Харчо <span class="pill free">обед без брони</span></h3><div class="meta">Садовая, 39/41 · м. Сенная · 1500–2500 ₽ (ланч от 600) <span class="rb ya">Я ★4.5</span></div><p><b>Взять:</b> харчо по-мегрельски с орехом, чкмерули, купаты, хачапури по-аджарски. Кухня западной Грузии, работает 24/7.</p></div>
+    <div class="card"><h3>Harvest <span class="pill pay">за 1–2 дня</span></h3><div class="meta">пр. Добролюбова, 11Е · м. Спортивная · 1500–3000 ₽ <span class="rb ya">Я ★4.6</span></div><p><b>Взять:</b> ньокки с белыми грибами, пирог с цветной капустой и сморчками, вяленая свёкла с сыром. «Всё про овощи» от шефа Блинова, строго сезонно — рядом с Петропавловкой.</p></div>
+    <div class="card"><h3>Никольские ряды <span class="pill free">без брони</span></h3><div class="meta">Садовая, 62 · м. Сенная · 500–1200 ₽</div><p><b>Взять:</b> сезонные фуд-траки, бургеры, азиатское, кофе; летом — гастрофестивали во дворе. Удобно между Сенной и Новой Голландией.</p></div>
+    <div class="card"><h3>Ognivo <span class="pill free">обед без брони</span></h3><div class="meta">Малый пр. В.О., 57 · 1500–2500 ₽</div><p><b>Взять:</b> пасту ручной работы, рыбу дня, десерты шефа. Лофт в старых заводских цехах на Васильевском, работает с 8:30.</p></div>
+    <div class="card"><h3>Кузнечный рынок <span class="pill free">без брони</span></h3><div class="meta">Кузнечный пер., 3 · м. Владимирская · 300–800 ₽</div><p><b>Взять/купить:</b> творог и сметану «как из деревни», копчёную рыбу, августовские ягоды и грибы прямо с лотка. Старейший крытый рынок — для пикника или дегустации.</p></div>
+  </div>
+  <h3 style="font-size:24px;margin:34px 0 4px;color:var(--terra)">🍷 Ужин · рестораны-впечатления</h3>
+  <p style="color:var(--muted);margin-bottom:14px;font-size:15.5px">Сердце гастрономического Петербурга. Здесь и решается, что бронировать заранее — пометки о сроке у каждого. Берите 2–3 таких ужина за поездку, остальные вечера — бары и рюмочные.</p>
+  <div style="height:210px;border-radius:16px;margin-bottom:18px;background:url('images/dinner.webp') center/cover;box-shadow:var(--shadow)"></div>
+  <div class="grid g3">
+    <div class="card"><h3>Birch <span class="pill warn">бронь за месяц!</span></h3><div class="meta">Кирочная, 3 · м. Чернышевская · от 7000 ₽ <span class="rb ya">Я ★5.0</span></div><p><b>Взять:</b> Classic Set или Grand Set (только сеты, опц. винное сопровождение). Лучший ресторан страны (WhereToEat 2023). Бронь 1-го числа на следующий месяц — разбирают за 15 минут.</p></div>
+    <div class="card"><h3>Bobo (Bourgeois Bohemians) <span class="pill pay">за 1–2 нед</span></h3><div class="meta">Виленский пер., 15 · 5000–7000 ₽</div><p><b>Взять:</b> авторский летний сет братьев Гребенщиковых (шеф + отдельный шеф-кондитер — редкость). Тихий переулок, для особого вечера вдвоём.</p></div>
+    <div class="card"><h3>Inner <span class="pill pay">за 1–2 нед</span></h3><div class="meta">Пионерская, 31 · м. Чкаловская · 3500–5000 ₽ <span class="rb ya">Я ★4.9</span></div><p><b>Взять:</b> ньокки с рапанами и белыми, оленя с брусникой, томатное севиче с кимчи, буррату с абрикосами. От шефа года 2025 — тонко, без пафоса.</p></div>
+    <div class="card"><h3>Tartarbar <span class="pill pay">за 3–5 дней</span></h3><div class="meta">Виленский пер., 15 · 2500–4000 ₽ <span class="rb ya">Я ★4.6</span></div><p><b>Взять:</b> тартар из говядины с желтком, карпаччо из осьминога, сашими сибаса, телячьи мозги с пшеницей. Гастробар про «сырое» от Duo Band.</p></div>
+    <div class="card"><h3>Мансарда <span class="pill pay">за 1–2 нед</span></h3><div class="meta">Почтамтская, 3–5, 6 эт. · от 6000 ₽ <span class="rb ya">Я ★4.4</span></div><p><b>Взять:</b> морепродукты + главный «продукт» — вид на Исаакий через стеклянные стены и раздвижную крышу. Столик у окна бронировать сразу.</p></div>
+    <div class="card"><h3>Reborn <span class="pill pay">за 3–5 дней</span></h3><div class="meta">Добролюбова, 11Е · м. Спортивная · 4000–6000 ₽ <span class="rb ya">Я ★5.0</span></div><p><b>Взять:</b> мясо на открытом огне — рибай, томагавк, рыба на гриле, авторские соусы. Тёмный «огненный» интерьер для любителей стейков.</p></div>
+    <div class="card"><h3>Probka <span class="pill pay">за 3–7 дней</span></h3><div class="meta">Зоологический пер., 2/4 · 4000–5000 ₽ <span class="rb ya">Я ★4.8</span></div><p><b>Взять:</b> тальятелле с трюфелем, ризотто, оссобуко, тирамису. 15 лет — проверенная итальянская классика, когда хочется без экспериментов.</p></div>
+    <div class="card"><h3>Nola Jazz Bar <span class="pill pay">за 5–7 дней</span></h3><div class="meta">Волынский пер., 2 · 2500–4000 ₽ <span class="rb ya">Я ★5.0</span></div><p><b>Взять:</b> луизианскую кухню, коктейль «Гром в раю», абсент-фонтан + живой джаз каждый вечер. Бар года 2025, зал маленький.</p></div>
+  </div>
+  <h3 style="font-size:24px;margin:34px 0 4px;color:var(--terra)">🍸 Бары и вечер</h3>
+  <p style="color:var(--muted);margin-bottom:14px;font-size:15.5px">Рубинштейна и Некрасова — барные улицы. Рюмочные с домашними настойками — самый «петербургский» формат, и почти все без брони.</p>
+  <div class="grid g3">
+    <div class="card"><h3>El Copitas <span class="pill warn">за 1–2 нед</span></h3><div class="meta">Колокольная, 2/18 · только чт–сб · 2000–3500 ₽ <span class="rb ya">Я ★5.0</span></div><p><b>Пить:</b> авторские коктейли на мескале/текиле (топ-10 мира), мексиканские тако. Секретный бар без вывески, попасть только по записи.</p></div>
+    <div class="card"><h3>Петровна <span class="pill free">без брони</span></h3><div class="meta">Рубинштейна, 9 · м. Достоевская · 500–1500 ₽</div><p><b>Пить:</b> ~20 видов домашних настоек + чебуреки, сельдь с луком. Культовая рюмочная на главной барной улице, летом столики на улице.</p></div>
+    <div class="card"><h3>Наденька <span class="pill free">без брони</span></h3><div class="meta">Некрасова, 25 · м. Маяковская · 600–1500 ₽</div><p><b>Пить:</b> настойки на инжире, бузине, чёрной смородине + сало, квашеная капуста. Винтажный советский интерьер, тише и богемнее Рубинштейна.</p></div>
+    <div class="card"><h3>У Ларисы <span class="pill free">без брони</span></h3><div class="meta">Рубинштейна, 29/28 · 700–2000 ₽</div><p><b>Пить:</b> настойки на облепихе и гранате, кавказские вина, аджика. Рюмочная с кавказским колоритом и уличными столиками.</p></div>
+    <div class="card"><h3>Orthodox <span class="pill pay">вых. за 2–3 дня</span></h3><div class="meta">Восстания, 4 · до 04:00 пт–сб · 1100–2500 ₽</div><p><b>Пить:</b> коктейли на русском алкоголе (самогон, наливки), кухня до 4 утра. Атмосфера подпольного казино 30-х.</p></div>
+    <div class="card"><h3>Paloma Cantina <span class="pill pay">вых. за пару дней</span></h3><div class="meta">Рубинштейна, 20 · 1000–2000 ₽</div><p><b>Пить:</b> маргариту, мескаль-сауэр, пальому + тако и гуакамоле. Мексиканская кантина с патио — хорошо для старта вечера.</p></div>
+  </div>
+
+  <h3 style="font-size:24px;margin:34px 0 14px;color:var(--terra)">🥢 Обязательно попробовать</h3>
+  <div class="grid g3">
+    <div class="card"><h3>🍩 Пышки</h3><p>Горячие пончики с пудрой. Пышечная, Б. Конюшенная 25. Круглый год, ~35 ₽/шт.</p></div>
+    <div class="card"><h3>🐟 Корюшка</h3><p>Рыбка с запахом огурца — символ города. В августе — копчёная/солёная в рыбных местах («На Волне», Сливочница).</p></div>
+    <div class="card"><h3>🌯 Шаверма петербургская</h3><p>Не «шаурма»: мясо в лаваше с особым соусом. У любой станции метро, 200–300 ₽. Местный стритфуд-ритуал.</p></div>
+    <div class="card"><h3>🍄 Хинкали с лисичками</h3><p>Август — пик грибного сезона. Грузинские места: Хочу Харчо, Georgiani на Васильевском рынке.</p></div>
+    <div class="card"><h3>🥩 Бефстроганов по-петербургски</h3><p>Говядина в сметанном соусе с грибами — рецепт графа Строганова. В традиционных русских ресторанах.</p></div>
+    <div class="card"><h3>🥃 Домашние настойки</h3><p>Облепиха, гранат, бузина, инжир. Рюмочные: Петровна, Наденька, У Ларисы. Самый петербургский напиток.</p></div>
+    <div class="card"><h3>🍰 Ленинградский торт</h3><p>Песочный корж с кремом «Шарлотта». Кондитерская «Север-Метрополь». Ретро-вкус города.</p></div>
+    <div class="card"><h3>🍯 Гречники</h3><p>Котлеты из птицы с гречкой — локальный специалитет. Harvest, рестораны петербургской кухни.</p></div>
+    <div class="card"><h3>🥤 Квас из бочки</h3><p>Летний ритуал — бочки стоят у станций метро. Дёшево и аутентично в жару.</p></div>
+  </div>
+
+  <h3 style="font-size:24px;margin:34px 0 14px;color:var(--terra)">📋 План броней</h3>
+  <table class="budget-table">
+    <thead><tr><th>Когда бронировать</th><th>Куда</th></tr></thead>
+    <tbody>
+      <tr><td><b style="color:#b3402f">Сейчас (за месяц)</b></td><td>Birch (1-го числа!), El Copitas</td></tr>
+      <tr><td>За 1–2 недели</td><td>Bobo, Inner, Мансарда (у окна), Nola Jazz Bar</td></tr>
+      <tr><td>За 3–7 дней</td><td>Tartarbar, Reborn, Probka, Joli Bistrot, Antonio (Севкабель), Orthodox (вых.)</td></tr>
+      <tr><td>Без брони</td><td>Пышечная, Eggsellent, Василеостровский и Кузнечный рынки, Никольские ряды, Хочу Харчо (обед), Duo (завтрак/обед), рюмочные</td></tr>
+    </tbody>
+  </table>
+  <div class="callout">Под бюджет 100к разумно: завтраки в основном дома/в кофейнях, обеды на рынках и в бистро, и <b>2–3 ресторана-впечатления</b> за 10 дней (один — обязательно с видом или сетом). Остальные вечера — рюмочные и бары, это и дешевле, и атмосфернее.</div>
+</section>
+
+<section id="money">
+  <div class="sec-head"><span class="num">05</span><h2>Смета · потолок 100 000 ₽</h2></div>
+  <p class="lead">Два сценария на двоих за 10 дней, оба с дорогой и без жилья. Поездка на машине по платным реально влезает в 100к — главные рычаги экономии это марка бензина и доля ресторанов в питании.</p>
+  <table class="budget-table">
+    <thead><tr><th>Статья</th><th class="num">Базовый</th><th class="num pick">Полный ★</th></tr></thead>
+    <tbody>
+      <tr><td>🚗 Дорога (бензин + платные М-12/М-11)</td><td class="num">31 000 <span style="font-size:12px;color:var(--muted)">(АИ-95)</span></td><td class="num pick">36 000 <span style="font-size:12px;color:var(--muted)">(АИ-100)</span></td></tr>
+      <tr><td>🚇 Транспорт по городу (метро + такси)</td><td class="num">8 000</td><td class="num pick">9 000</td></tr>
+      <tr><td>🏛️ Музеи на двоих (6–7 объектов)</td><td class="num">11 000</td><td class="num pick">12 000</td></tr>
+      <tr><td>🍽️ Еда (10 дней, 2 чел.)</td><td class="num">26 000 <span style="font-size:12px;color:var(--muted)">(кафе/рынки)</span></td><td class="num pick">28 000 <span style="font-size:12px;color:var(--muted)">(+ рестораны)</span></td></tr>
+      <tr><td>⛴️ Прогулки, театр, теплоход, Лахта</td><td class="num">7 000</td><td class="num pick">9 000</td></tr>
+      <tr><td>🎁 Сувениры</td><td class="num">2 500</td><td class="num pick">3 000</td></tr>
+      <tr><td>💼 Резерв</td><td class="num">4 500</td><td class="num pick">2 000</td></tr>
+      <tr class="total"><td>Итого</td><td class="num">≈ 90 000 ₽</td><td class="num pick">≈ 99 000 ₽</td></tr>
+    </tbody>
+  </table>
+  <div class="callout"><strong>Дорога — почти треть бюджета</strong> (фиксированная статья). Платные участки ~15 800 ₽ туда-обратно (с транспондером −1 600 ₽), бензин ~17–21 тыс в зависимости от марки. Если перейти на АИ-95 — экономия ~4 000 ₽ к дороге без потери в комфорте для 1.5 TFSI.</div>
+  <div class="callout"><strong>Музеи на двоих, ориентир 2026:</strong> Эрмитаж 1400 · Русский 1200 · Исаакий+колоннада 1600 · Петропавловка 1900 · Петергоф (парк) 1800 · Царское Село 3200. Платные события (DreamFest, Roof Fest, Фортолет) — по желанию, закладывайте в статью «прогулки».</div>
+</section>
+
+<section id="tips">
+  <div class="sec-head"><span class="num">06</span><h2>Чек-лист</h2></div>
+  <ul class="checklist">
+    <li><svg><use href="#i-check"/></svg>Эрмитаж — билет онлайн за 1–2 недели (иначе очередь 2–4 ч)</li>
+    <li><svg><use href="#i-check"/></svg>Янтарная комната (Царское Село) — бронь за 3–4 недели на tkt.tzar.ru</li>
+    <li><svg><use href="#i-check"/></svg>Большой дворец Петергофа — бронь онлайн по слотам</li>
+    <li><svg><use href="#i-check"/></svg>Репертуар Мариинского — проверить в начале июля, взять билет</li>
+    <li><svg><use href="#i-check"/></svg>Транспондер на платные М-12/М-11 — экономия ~1 600 ₽</li>
+    <li><svg><use href="#i-check"/></svg>«Подорожник» купить в первый день (авт.&thinsp;50 + метро)</li>
+    <li><svg><use href="#i-check"/></svg>⚠ Фрунзенская закрыта до июня 2027 — авт.&thinsp;50 → Технологический институт</li>
+    <li><svg><use href="#i-check"/></svg>Метеор в Петергоф — бронь за 2 дня на nameteor.ru (2700 ₽/чел RT)</li>
+    <li><svg><use href="#i-check"/></svg>Царское Село: брать только маршрут 1 с Витебского вокзала (маршрут 2 закрыт с 18.06.2026)</li>
+    <li><svg><use href="#i-check"/></svg>Ночной развод мостов — тур с возвратом (метро ночью не ходит)</li>
+    <li><svg><use href="#i-check"/></svg>Машину в центр не брать — парковка платная и тесная</li>
+    <li><svg><use href="#i-check"/></svg>Помнить выходные: Эрмитаж — пн, Русский и Царское Село — вт</li>
+    <li><svg><use href="#i-check"/></svg>Ветровка и зонт — август в Питере переменчивый</li>
+    <li><svg><use href="#i-check"/></svg>Наличные на рынки и рюмочные, павербанк на длинные дни</li>
+    <li><svg><use href="#i-check"/></svg>Перед выездом пробежать ТГ-каналы — августовские анонсы выходят в конце июля</li>
+  </ul>
+</section>
+</div>
+
+<footer>
+  <p style="font-family:var(--serif);font-size:21px;color:#fff;margin-bottom:6px">Десять дней у воды — и <em>обратно по платной</em></p>
+  <p>Санкт-Петербург · 9–18 августа 2026 · путеводитель для двоих · потолок 100 000 ₽</p>
+  <p class="src">Цены, адреса, часы и афиши — по данным веб-разведки и местных Telegram-каналов (@sobaka_ru, @kudagospb, @newinspb и др.) на июнь 2026; музеи — hermitagemuseum.org, tkt.tzar.ru, spbmuzei.ru; платные дороги — avtodor-tr.ru. Изображения сгенерированы (kie.ai) для оформления и не являются документальными фото. Репертуары и точные даты событий уточняйте в конце июля перед выездом.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,837 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+      - generic [ref=e6]:
+        - generic [ref=e7] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: Никольские ряды
+            - generic [ref=e13]:
+              - img [ref=e14]
+              - text: 4,9
+          - generic [ref=e17]: Закрыто до сб.
+        - generic [ref=e18] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Vokzal
+          - generic [ref=e22]: "1853"
+        - generic [ref=e23] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: Конюшенный
+          - generic [ref=e27]: флигель
+        - generic [ref=e28] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e31] [cursor=pointer]: Взаперти
+        - generic [ref=e32] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e35] [cursor=pointer]: Керами'Ко
+        - generic [ref=e36] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+    - generic:
+      - generic:
+        - banner:
+          - generic [ref=e40]:
+            - button "Назад" [ref=e41] [cursor=pointer]:
+              - img [ref=e44]
+            - generic [ref=e46]:
+              - textbox "Поиск и выбор мест" [ref=e49]: Никольские ряды Санкт-Петербург
+              - iframe [ref=e50]:
+                
+            - button "Найти" [ref=e52] [cursor=pointer]:
+              - img [ref=e55]
+            - button "Закрыть" [ref=e59] [cursor=pointer]:
+              - img [ref=e62]
+      - generic:
+        - complementary [ref=e64]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - generic [ref=e70]:
+                  - generic [ref=e71]:
+                    - generic [ref=e72]:
+                      - list [ref=e75]:
+                        - listitem [ref=e76]:
+                          - button "Культурный центр Никольские ряды, Санкт‑Петербург, фото" [ref=e78] [cursor=pointer]:
+                            - img "Культурный центр Никольские ряды, Санкт‑Петербург, фото" [ref=e79]
+                        - listitem [ref=e80]:
+                          - button "Никольские ряды (Садовая ул., 62), культурный центр в Санкт‑Петербурге" [ref=e82] [cursor=pointer]:
+                            - generic [ref=e83]:
+                              - img [ref=e85]
+                              - img "Никольские ряды (Садовая ул., 62), культурный центр в Санкт‑Петербурге" [ref=e87]
+                        - listitem [ref=e88]:
+                          - button "Культурный центр Никольские ряды, Санкт‑Петербург, фото" [ref=e90] [cursor=pointer]:
+                            - img "Культурный центр Никольские ряды, Санкт‑Петербург, фото" [ref=e91]
+                        - listitem [ref=e92]:
+                          - button [ref=e94] [cursor=pointer]:
+                            - img [ref=e97]
+                        - listitem [ref=e100]:
+                          - button [ref=e102] [cursor=pointer]:
+                            - img [ref=e105]
+                        - listitem [ref=e108]:
+                          - button [ref=e110] [cursor=pointer]
+                        - listitem [ref=e112]:
+                          - button [ref=e114] [cursor=pointer]:
+                            - img [ref=e117]
+                        - listitem [ref=e120]:
+                          - button [ref=e122] [cursor=pointer]:
+                            - img [ref=e125]
+                        - listitem [ref=e128]:
+                          - button [ref=e130] [cursor=pointer]:
+                            - img [ref=e133]
+                        - listitem [ref=e136]:
+                          - button [ref=e138] [cursor=pointer]:
+                            - img [ref=e141]
+                        - iframe [ref=e144]:
+                          
+                      - generic:
+                        - generic:
+                          - img
+                        - text: "1275"
+                    - generic:
+                      - img "Логотип"
+                  - generic [ref=e146]:
+                    - heading "Никольские ряды" [level=1] [ref=e149]:
+                      - link "Никольские ряды" [ref=e151] [cursor=pointer]:
+                        - /url: /maps/org/nikolskiye_ryady/1436376339/
+                    - generic [ref=e153]:
+                      - generic [ref=e156]:
+                        - link "Входит в категорию Культурный центр, поиск по категории" [ref=e157] [cursor=pointer]:
+                          - /url: /maps/2/saint-petersburg/category/cultural_center/184105880/
+                          - text: Культурный центр,
+                        - link "Входит в категорию достопримечательность, поиск по категории" [ref=e158] [cursor=pointer]:
+                          - /url: /maps/2/saint-petersburg/category/landmark_attraction/89683368508/
+                          - text: достопримечательность
+                      - generic [ref=e161]:
+                        - generic [ref=e162]:
+                          - generic "Оценка 4.9 Из 5" [ref=e163]:
+                            - img [ref=e165]
+                            - img [ref=e168]
+                            - img [ref=e171]
+                            - img [ref=e174]
+                            - img [ref=e177]
+                          - generic [ref=e179]:
+                            - generic [ref=e180]: Рейтинг
+                            - text: 4,9
+                        - button "15122 оценки" [ref=e181] [cursor=pointer]
+                      - button [ref=e183] [cursor=pointer]:
+                        - generic [ref=e184]: Коротко о месте
+                        - generic [ref=e185]: Культурный центр «Никольские ряды» — это уникальное место, где история встречается с современностью. Здесь сохранились исторические элементы, но при этом всё стильно и современно.
+                        - img [ref=e189]
+                      - button "Закрыто до субботы" [ref=e192]:
+                        - button "Закрыто до субботы" [ref=e194] [cursor=pointer]:
+                          - generic [ref=e196]: Закрыто до субботы
+                          - img [ref=e199]
+                      - list [ref=e203]:
+                        - listitem [ref=e204]:
+                          - button "Маршрут" [ref=e206] [cursor=pointer]:
+                            - img [ref=e209]
+                            - generic [ref=e213]: Маршрут
+                        - listitem [ref=e214]:
+                          - button "Сайт" [ref=e216] [cursor=pointer]:
+                            - img [ref=e219]
+                        - listitem [ref=e221]:
+                          - generic [ref=e222]:
+                            - status [ref=e223]: Сохранить
+                            - button "Закладки" [ref=e225] [cursor=pointer]:
+                              - img [ref=e228]
+                        - listitem [ref=e230]:
+                          - button "Поделиться" [ref=e232] [cursor=pointer]:
+                            - img [ref=e235]
+                        - iframe [ref=e238]:
+                          
+                    - generic [ref=e240]:
+                      - generic [ref=e244]:
+                        - tablist [ref=e245]:
+                          - tab "Обзор," [selected] [ref=e247]:
+                            - link:
+                              - /url: /maps/org/nikolskiye_ryady/1436376339/
+                              - text: Обзор
+                          - tab "Фото, 1275" [ref=e249]:
+                            - link:
+                              - /url: /maps/org/nikolskiye_ryady/1436376339/gallery/
+                              - text: Фото
+                            - generic: "1275"
+                          - tab "Отзывы, 4391" [ref=e251]:
+                            - link:
+                              - /url: /maps/org/nikolskiye_ryady/1436376339/reviews/
+                              - text: Отзывы
+                            - generic: "4391"
+                          - tab "Особенности," [ref=e253]:
+                            - link:
+                              - /url: /maps/org/nikolskiye_ryady/1436376339/?tab=features
+                              - text: Особенности
+                          - tab "Похожие места," [ref=e255]:
+                            - link:
+                              - /url: /maps/org/nikolskiye_ryady/1436376339/related/
+                              - text: Похожие места
+                          - iframe [ref=e256]:
+                            
+                        - img [ref=e260] [cursor=pointer]
+                      - generic [ref=e264]:
+                        - generic [ref=e265]:
+                          - generic [ref=e268]:
+                            - button "Панорама — культурный центр Никольские ряды, Санкт‑Петербург" [ref=e269] [cursor=pointer]:
+                              - img "Панорама — культурный центр Никольские ряды, Санкт‑Петербург" [ref=e272]
+                              - generic:
+                                - img
+                              - generic: Панорама
+                            - link "Панорама":
+                              - /url: /maps/org/nikolskiye_ryady/1436376339/panorama/
+                          - generic [ref=e273]:
+                            - generic [ref=e274]:
+                              - generic [ref=e275]:
+                                - img [ref=e278]
+                                - heading "Адрес" [level=3] [ref=e281]
+                              - generic [ref=e287]:
+                                - generic [ref=e288]:
+                                  - link "Садовая ул., 62" [ref=e289]
+                                  - text: • Никольские ряды
+                                - generic [ref=e290]:
+                                  - button "Показать входы" [ref=e291] [cursor=pointer]
+                                  - generic [ref=e292]: "|"
+                                  - button "Маршрут" [ref=e293] [cursor=pointer]
+                            - generic [ref=e294]:
+                              - generic [ref=e295]:
+                                - img [ref=e298]
+                                - heading "Контакты" [level=3] [ref=e301]
+                              - generic [ref=e313]:
+                                - text: +7 (812) 401-62-77
+                                - button "Показать телефон" [ref=e314] [cursor=pointer]:
+                                  - generic [ref=e315]: Показать телефон
+                              - button "sadovaya62.ru" [ref=e319] [cursor=pointer]:
+                                - generic [ref=e320]:
+                                  - link "sadovaya62.ru" [ref=e326]:
+                                    - /url: https://sadovaya62.ru/
+                                  - generic [ref=e327]:
+                                    - generic [ref=e328]: "1"
+                                    - img [ref=e331]
+                              - generic [ref=e338]:
+                                - button "Соцсети, vkontakte" [ref=e340] [cursor=pointer]:
+                                  - img [ref=e343]
+                                - button "Соцсети, telegram" [ref=e346] [cursor=pointer]:
+                                  - img [ref=e349]
+                            - generic [ref=e351]:
+                              - generic [ref=e352]:
+                                - img [ref=e355]
+                                - heading "Время работы" [level=3] [ref=e358]
+                              - button "Закрыто до субботы" [ref=e362] [cursor=pointer]:
+                                - generic [ref=e363]:
+                                  - generic "Закрыто до субботы" [ref=e369]
+                                  - generic [ref=e370]:
+                                    - generic [ref=e371]: График
+                                    - img [ref=e374]
+                            - button "Добавить фото или видео" [ref=e376] [cursor=pointer]:
+                              - generic [ref=e378]:
+                                - img [ref=e381]
+                                - generic [ref=e385]: Добавить фото или видео
+                            - button "Исправить неточность" [ref=e387] [cursor=pointer]:
+                              - img [ref=e390]
+                              - generic [ref=e392]: Исправить неточность
+                          - generic [ref=e394]:
+                            - heading "Входит в подборки" [level=2] [ref=e396]
+                            - generic [ref=e399]:
+                              - list [ref=e400]:
+                                - listitem [ref=e401]:
+                                  - 'button "Подборка · 130 мест Львы, шпили и дворцы: полный чек-лист по достопримечательностям Санкт-Петербурга Журнал Путешествий Журнал Путешествий" [ref=e403]':
+                                    - generic [ref=e404]:
+                                      - button [ref=e405]
+                                      - generic [ref=e408]: Подборка · 130 мест
+                                    - 'link "Львы, шпили и дворцы: полный чек-лист по достопримечательностям Санкт-Петербурга" [ref=e410] [cursor=pointer]':
+                                      - /url: /maps/discovery/travel-polnyy-chek-list-po-dostoprimechatelnostyam-sanktpeterburga/
+                                    - generic [ref=e411]:
+                                      - img "Журнал Путешествий" [ref=e412]
+                                      - generic [ref=e413]: Журнал Путешествий
+                                - listitem [ref=e414]:
+                                  - button "Подборка · 50 мест Парки Санкт‑Петербурга для прогулок с детьми Яндекс Карты Яндекс Карты" [ref=e416]:
+                                    - generic [ref=e417]:
+                                      - button [ref=e418]
+                                      - generic [ref=e421]: Подборка · 50 мест
+                                    - link "Парки Санкт‑Петербурга для прогулок с детьми" [ref=e423] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_dosug_progulki-s-det-mi_sankt-peterburg-2/
+                                    - generic [ref=e424]:
+                                      - img "Яндекс Карты" [ref=e425]
+                                      - generic [ref=e426]: Яндекс Карты
+                                - listitem [ref=e427]:
+                                  - 'button "Подборка · 50 мест Караоке в Санкт‑Петербурге: места для пения и отдыха Яндекс Карты Яндекс Карты" [ref=e429]':
+                                    - generic [ref=e430]:
+                                      - button [ref=e431]
+                                      - generic [ref=e434]: Подборка · 50 мест
+                                    - 'link "Караоке в Санкт‑Петербурге: места для пения и отдыха" [ref=e436] [cursor=pointer]':
+                                      - /url: /maps/discovery/podborka_dosug_karaoke_sankt-peterburg-2/
+                                    - generic [ref=e437]:
+                                      - img "Яндекс Карты" [ref=e438]
+                                      - generic [ref=e439]: Яндекс Карты
+                                - listitem [ref=e440]:
+                                  - 'button "Подборка · 28 мест Активные развлечения в Санкт‑Петербурге: места для досуга и игр Яндекс Карты Яндекс Карты" [ref=e442]':
+                                    - generic [ref=e443]:
+                                      - button [ref=e444]
+                                      - generic [ref=e447]: Подборка · 28 мест
+                                    - 'link "Активные развлечения в Санкт‑Петербурге: места для досуга и игр" [ref=e449] [cursor=pointer]':
+                                      - /url: /maps/discovery/podborka_dosug_aktivnosti_sankt-peterburg-2/
+                                    - generic [ref=e450]:
+                                      - img "Яндекс Карты" [ref=e451]
+                                      - generic [ref=e452]: Яндекс Карты
+                                - listitem [ref=e453]:
+                                  - 'button "Подборка · 50 мест Достопримечательности Санкт‑Петербурга: парки, музеи и культурные пространства Яндекс Карты Яндекс Карты" [ref=e455]':
+                                    - generic [ref=e456]:
+                                      - button [ref=e457]
+                                      - generic [ref=e460]: Подборка · 50 мест
+                                    - 'link "Достопримечательности Санкт‑Петербурга: парки, музеи и культурные пространства" [ref=e462] [cursor=pointer]':
+                                      - /url: /maps/discovery/podborka_dosug_dostoprimechatel-nosti_sankt-peterburg-2/
+                                    - generic [ref=e463]:
+                                      - img "Яндекс Карты" [ref=e464]
+                                      - generic [ref=e465]: Яндекс Карты
+                                - listitem [ref=e466]:
+                                  - button "Подборка · 50 мест Караоке‑клубы в историческом центре Санкт‑Петербурга Яндекс Карты Яндекс Карты" [ref=e468]:
+                                    - generic [ref=e469]:
+                                      - button [ref=e470]
+                                      - generic [ref=e473]: Подборка · 50 мест
+                                    - link "Караоке‑клубы в историческом центре Санкт‑Петербурга" [ref=e475] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_dosug_karaoke_istoricheskij-centr-sankt-peterburga-sankt-peterburg-2/
+                                    - generic [ref=e476]:
+                                      - img "Яндекс Карты" [ref=e477]
+                                      - generic [ref=e478]: Яндекс Карты
+                                - listitem [ref=e479]:
+                                  - button "Подборка · 29 мест Места досуга с уютными двориками в Санкт‑Петербурге Яндекс Карты Яндекс Карты" [ref=e481]:
+                                    - generic [ref=e482]:
+                                      - button [ref=e483]
+                                      - generic [ref=e486]: Подборка · 29 мест
+                                    - link "Места досуга с уютными двориками в Санкт‑Петербурге" [ref=e488] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_dosug_dvorik_sankt-peterburg-2/
+                                    - generic [ref=e489]:
+                                      - img "Яндекс Карты" [ref=e490]
+                                      - generic [ref=e491]: Яндекс Карты
+                                - listitem [ref=e492]:
+                                  - button "Подборка · 50 мест Места для отдыха с детьми в Санкт‑Петербурге Яндекс Карты Яндекс Карты" [ref=e494]:
+                                    - generic [ref=e495]:
+                                      - button [ref=e496]
+                                      - generic [ref=e499]: Подборка · 50 мест
+                                    - link "Места для отдыха с детьми в Санкт‑Петербурге" [ref=e501] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_dosug_otdykh-s-det-mi_sankt-peterburg-2/
+                                    - generic [ref=e502]:
+                                      - img "Яндекс Карты" [ref=e503]
+                                      - generic [ref=e504]: Яндекс Карты
+                                - listitem [ref=e505]:
+                                  - button "Подборка · 50 мест Парки и зоны отдыха Санкт‑Петербурга с детскими площадками Яндекс Карты Яндекс Карты" [ref=e507]:
+                                    - generic [ref=e508]:
+                                      - button [ref=e509]
+                                      - generic [ref=e512]: Подборка · 50 мест
+                                    - link "Парки и зоны отдыха Санкт‑Петербурга с детскими площадками" [ref=e514] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_dosug_detskaya-ploshhadka_sankt-peterburg-2/
+                                    - generic [ref=e515]:
+                                      - img "Яндекс Карты" [ref=e516]
+                                      - generic [ref=e517]: Яндекс Карты
+                                - listitem [ref=e518]:
+                                  - button "Подборка · 9 мест Арт‑пространства исторического центра Санкт‑Петербурга Яндекс Карты Яндекс Карты" [ref=e520]:
+                                    - generic [ref=e521]:
+                                      - button [ref=e522]
+                                      - generic [ref=e525]: Подборка · 9 мест
+                                    - link "Арт‑пространства исторического центра Санкт‑Петербурга" [ref=e527] [cursor=pointer]:
+                                      - /url: /maps/discovery/podborka_dosug_art-prostranstvo_istoricheskij-centr-sankt-peterburga-sankt-peterburg-2/
+                                    - generic [ref=e528]:
+                                      - img "Яндекс Карты" [ref=e529]
+                                      - generic [ref=e530]: Яндекс Карты
+                                - iframe [ref=e531]:
+                                  
+                              - img [ref=e534] [cursor=pointer]
+                          - generic "Как добраться" [ref=e537]:
+                            - heading "Как добраться" [level=2] [ref=e539]
+                            - button "Метро рядом" [ref=e543] [cursor=pointer]:
+                              - generic [ref=e544]:
+                                - generic [ref=e545]:
+                                  - generic "На метро" [ref=e548]:
+                                    - img [ref=e549]
+                                  - generic [ref=e554]:
+                                    - generic [ref=e555]: Садовая
+                                    - button "Садовая Построить маршрут Пешком 1,15 км" [ref=e556]:
+                                      - img [ref=e558]
+                                      - generic [ref=e560]: 1,15 км
+                                - generic [ref=e561]:
+                                  - generic [ref=e562]: "2"
+                                  - img [ref=e565]
+                            - button "Остановки рядом" [ref=e570] [cursor=pointer]:
+                              - generic [ref=e571]:
+                                - generic [ref=e572]:
+                                  - generic "На автобусе" [ref=e575]:
+                                    - img [ref=e576]
+                                  - generic [ref=e583]:
+                                    - generic [ref=e584]: Ново-Никольский мост
+                                    - button "Ново-Никольский мост Построить маршрут Пешком 190 м" [ref=e585]:
+                                      - img [ref=e587]
+                                      - generic [ref=e589]: 190 м
+                                - generic [ref=e590]:
+                                  - generic [ref=e591]: "4"
+                                  - img [ref=e594]
+                            - button [ref=e596] [cursor=pointer]:
+                              - generic [ref=e598]:
+                                - img [ref=e601]
+                                - generic [ref=e605]: Показать парковки
+                          - button "Подробнее об организации" [ref=e608] [cursor=pointer]:
+                            - generic [ref=e610]:
+                              - img [ref=e613]
+                              - link [ref=e617]:
+                                - /url: /maps/org/nikolskiye_ryady/1436376339/?tab=features
+                                - text: Подробнее об организации
+                          - button "Вы владелец этой организации?" [ref=e621] [cursor=pointer]:
+                            - generic [ref=e623]:
+                              - img [ref=e626]
+                              - link "Вы владелец этой организации?" [ref=e631]:
+                                - /url: https://yandex.ru/business/priority-promo/web-maps-company?permalink=1436376339
+                          - generic [ref=e633]:
+                            - heading "Похожие места рядом" [level=2] [ref=e635]:
+                              - generic [ref=e636]: Похожие места рядом
+                            - generic [ref=e637]:
+                              - list [ref=e638]:
+                                - listitem [ref=e639]:
+                                  - link "Vokzal 1853" [ref=e640] [cursor=pointer]:
+                                    - /url: /maps/org/vokzal_1853/1058429273/
+                                    - generic [ref=e641]:
+                                      - button [ref=e643]
+                                      - generic [ref=e646]:
+                                        - generic [ref=e647]:
+                                          - text: Vokzal 1853
+                                          - img [ref=e650]
+                                        - generic [ref=e654]:
+                                          - generic "Оценка 4.8 Из 5" [ref=e655]:
+                                            - img [ref=e657]
+                                            - img [ref=e660]
+                                            - img [ref=e663]
+                                            - img [ref=e666]
+                                            - img [ref=e669]
+                                          - generic [ref=e671]:
+                                            - generic [ref=e672]: Рейтинг
+                                            - text: 4,8
+                                - listitem [ref=e673]:
+                                  - link "Конюшенный флигель" [ref=e674] [cursor=pointer]:
+                                    - /url: /maps/org/konyushenny_fligel_pri_yusupovskom_dvortse/1524623284/
+                                    - generic [ref=e675]:
+                                      - button [ref=e677]
+                                      - generic [ref=e680]:
+                                        - generic [ref=e681]:
+                                          - text: Конюшенный флигель
+                                          - img [ref=e684]
+                                        - generic [ref=e688]:
+                                          - generic "Оценка 5 Из 5" [ref=e689]:
+                                            - img [ref=e691]
+                                            - img [ref=e694]
+                                            - img [ref=e697]
+                                            - img [ref=e700]
+                                            - img [ref=e703]
+                                          - generic [ref=e705]:
+                                            - generic [ref=e706]: Рейтинг
+                                            - text: 5,0
+                                - listitem [ref=e707]:
+                                  - link "MazaPark" [ref=e708] [cursor=pointer]:
+                                    - /url: /maps/org/mazapark/1246255475/
+                                    - generic [ref=e709]:
+                                      - button [ref=e711]
+                                      - generic [ref=e714]:
+                                        - generic [ref=e715]:
+                                          - text: MazaPark
+                                          - img [ref=e718]
+                                        - generic [ref=e722]:
+                                          - generic "Оценка 4.9 Из 5" [ref=e723]:
+                                            - img [ref=e725]
+                                            - img [ref=e728]
+                                            - img [ref=e731]
+                                            - img [ref=e734]
+                                            - img [ref=e737]
+                                          - generic [ref=e739]:
+                                            - generic [ref=e740]: Рейтинг
+                                            - text: 4,9
+                                - listitem [ref=e741]:
+                                  - link "Взаперти" [ref=e742] [cursor=pointer]:
+                                    - /url: /maps/org/vzaperti/129581802867/
+                                    - generic [ref=e743]:
+                                      - button [ref=e745]
+                                      - generic [ref=e748]:
+                                        - generic [ref=e749]:
+                                          - text: Взаперти
+                                          - img [ref=e752]
+                                        - generic [ref=e756]:
+                                          - generic "Оценка 5 Из 5" [ref=e757]:
+                                            - img [ref=e759]
+                                            - img [ref=e762]
+                                            - img [ref=e765]
+                                            - img [ref=e768]
+                                            - img [ref=e771]
+                                          - generic [ref=e773]:
+                                            - generic [ref=e774]: Рейтинг
+                                            - text: 5,0
+                                - listitem [ref=e775]:
+                                  - link "Joki Joya" [ref=e776] [cursor=pointer]:
+                                    - /url: /maps/org/joki_joya/77966171504/
+                                    - generic [ref=e777]:
+                                      - button [ref=e779]
+                                      - generic [ref=e782]:
+                                        - generic [ref=e783]:
+                                          - text: Joki Joya
+                                          - img [ref=e786]
+                                        - generic [ref=e790]:
+                                          - generic "Оценка 5 Из 5" [ref=e791]:
+                                            - img [ref=e793]
+                                            - img [ref=e796]
+                                            - img [ref=e799]
+                                            - img [ref=e802]
+                                            - img [ref=e805]
+                                          - generic [ref=e807]:
+                                            - generic [ref=e808]: Рейтинг
+                                            - text: 5,0
+                                - iframe [ref=e809]:
+                                  
+                              - img [ref=e812] [cursor=pointer]
+                          - generic [ref=e816]:
+                            - generic [ref=e819]:
+                              - generic [ref=e823]:
+                                - generic [ref=e824]:
+                                  - generic [ref=e825]: Рейтинг
+                                  - text: 4,9
+                                - generic [ref=e826]:
+                                  - generic "Оценка 4.9 Из 5" [ref=e828]:
+                                    - img [ref=e830]
+                                    - img [ref=e832]
+                                    - img [ref=e834]
+                                    - img [ref=e836]
+                                    - img [ref=e838]
+                                  - generic [ref=e839]: 15122 оценки
+                              - generic [ref=e845]:
+                                - generic [ref=e846]: Оцените и напишите отзыв
+                                - generic [ref=e847]:
+                                  - button "1 звезда" [ref=e848] [cursor=pointer]:
+                                    - img [ref=e849]
+                                  - button "2 звезды" [ref=e850] [cursor=pointer]:
+                                    - img [ref=e851]
+                                  - button "3 звезды" [ref=e852] [cursor=pointer]:
+                                    - img [ref=e853]
+                                  - button "4 звезды" [ref=e854] [cursor=pointer]:
+                                    - img [ref=e855]
+                                  - button "5 звезд" [ref=e856] [cursor=pointer]:
+                                    - img [ref=e857]
+                            - generic [ref=e859]:
+                              - generic [ref=e860]:
+                                - generic [ref=e862]:
+                                  - heading "4391 отзыв" [level=2] [ref=e863]
+                                  - button "По умолчанию" [ref=e866] [cursor=pointer]:
+                                    - text: По умолчанию
+                                    - img [ref=e868]
+                                - menu [ref=e870]:
+                                  - generic [ref=e871]:
+                                    - list [ref=e872]:
+                                      - listitem [ref=e873]:
+                                        - menuitem "Напитки • 75% положительный 355 отзывов" [ref=e874] [cursor=pointer]:
+                                          - generic [ref=e876]:
+                                            - generic [ref=e877]:
+                                              - text: Напитки •
+                                              - generic [ref=e878]: 75%
+                                              - generic [ref=e879]: положительный
+                                              - img [ref=e881]
+                                            - generic [ref=e882]: 355 отзывов
+                                      - listitem [ref=e883]:
+                                        - menuitem "Интерьер • 91% положительный 341 отзыв" [ref=e884] [cursor=pointer]:
+                                          - generic [ref=e886]:
+                                            - generic [ref=e887]:
+                                              - text: Интерьер •
+                                              - generic [ref=e888]: 91%
+                                              - generic [ref=e889]: положительный
+                                              - img [ref=e891]
+                                            - generic [ref=e892]: 341 отзыв
+                                      - listitem [ref=e893]:
+                                        - menuitem "Кафе • 62% положительный 307 отзывов" [ref=e894] [cursor=pointer]:
+                                          - generic [ref=e896]:
+                                            - generic [ref=e897]:
+                                              - text: Кафе •
+                                              - generic [ref=e898]: 62%
+                                              - generic [ref=e899]: положительный
+                                              - img [ref=e901]
+                                            - generic [ref=e902]: 307 отзывов
+                                      - listitem [ref=e903]:
+                                        - menuitem "Очереди • 15% отрицательный 297 отзывов" [ref=e904] [cursor=pointer]:
+                                          - generic [ref=e906]:
+                                            - generic [ref=e907]:
+                                              - text: Очереди •
+                                              - generic [ref=e908]: 15%
+                                              - generic [ref=e909]: отрицательный
+                                              - img [ref=e911]
+                                            - generic [ref=e912]: 297 отзывов
+                                      - listitem [ref=e913]:
+                                        - menuitem "Персонал • 71% положительный 248 отзывов" [ref=e914] [cursor=pointer]:
+                                          - generic [ref=e916]:
+                                            - generic [ref=e917]:
+                                              - text: Персонал •
+                                              - generic [ref=e918]: 71%
+                                              - generic [ref=e919]: положительный
+                                              - img [ref=e921]
+                                            - generic [ref=e922]: 248 отзывов
+                                      - listitem [ref=e923]:
+                                        - menuitem "Чистота • 92% положительный 178 отзывов" [ref=e924] [cursor=pointer]:
+                                          - generic [ref=e926]:
+                                            - generic [ref=e927]:
+                                              - text: Чистота •
+                                              - generic [ref=e928]: 92%
+                                              - generic [ref=e929]: положительный
+                                              - img [ref=e931]
+                                            - generic [ref=e932]: 178 отзывов
+                                      - listitem [ref=e933]:
+                                        - menuitem "Ремонт • 86% положительный 125 отзывов" [ref=e934] [cursor=pointer]:
+                                          - generic [ref=e936]:
+                                            - generic [ref=e937]:
+                                              - text: Ремонт •
+                                              - generic [ref=e938]: 86%
+                                              - generic [ref=e939]: положительный
+                                              - img [ref=e941]
+                                            - generic [ref=e942]: 125 отзывов
+                                      - listitem [ref=e943]:
+                                        - menuitem "Парковка • 35% отрицательный 91 отзыв" [ref=e944] [cursor=pointer]:
+                                          - generic [ref=e946]:
+                                            - generic [ref=e947]:
+                                              - text: Парковка •
+                                              - generic [ref=e948]: 35%
+                                              - generic [ref=e949]: отрицательный
+                                              - img [ref=e951]
+                                            - generic [ref=e952]: 91 отзыв
+                                      - listitem [ref=e953]:
+                                        - menuitem "Архитектура • 94% положительный 55 отзывов" [ref=e954] [cursor=pointer]:
+                                          - generic [ref=e956]:
+                                            - generic [ref=e957]:
+                                              - text: Архитектура •
+                                              - generic [ref=e958]: 94%
+                                              - generic [ref=e959]: положительный
+                                              - img [ref=e961]
+                                            - generic [ref=e962]: 55 отзывов
+                                      - listitem [ref=e963]:
+                                        - menuitem "Выставка • 90% положительный 36 отзывов" [ref=e964] [cursor=pointer]:
+                                          - generic [ref=e966]:
+                                            - generic [ref=e967]:
+                                              - text: Выставка •
+                                              - generic [ref=e968]: 90%
+                                              - generic [ref=e969]: положительный
+                                              - img [ref=e971]
+                                            - generic [ref=e972]: 36 отзывов
+                                      - listitem [ref=e973]:
+                                        - menuitem "Творчество • 95% положительный 21 отзыв" [ref=e974] [cursor=pointer]:
+                                          - generic [ref=e976]:
+                                            - generic [ref=e977]:
+                                              - text: Творчество •
+                                              - generic [ref=e978]: 95%
+                                              - generic [ref=e979]: положительный
+                                              - img [ref=e981]
+                                            - generic [ref=e982]: 21 отзыв
+                                      - listitem [ref=e983]:
+                                        - menuitem "Интерактив • 95% положительный 20 отзывов" [ref=e984] [cursor=pointer]:
+                                          - generic [ref=e986]:
+                                            - generic [ref=e987]:
+                                              - text: Интерактив •
+                                              - generic [ref=e988]: 95%
+                                              - generic [ref=e989]: положительный
+                                              - img [ref=e991]
+                                            - generic [ref=e992]: 20 отзывов
+                                      - iframe [ref=e993]:
+                                        
+                                    - img [ref=e996] [cursor=pointer]
+                              - list [ref=e997]:
+                                - button "Посмотреть все 4391 отзыв" [ref=e1001] [cursor=pointer]
+                        - generic [ref=e1002]:
+                          - link "Стать владельцем в Яндекс Картах" [ref=e1004] [cursor=pointer]:
+                            - /url: https://yandex.ru/business/priority-promo/web-maps-company?permalink=1436376339&utm_medium=org_card&utm_campaign=owner-button
+                          - link "Разместить рекламу" [ref=e1006] [cursor=pointer]:
+                            - /url: https://yandex.ru/business/priority-promo/web-maps-promo?utm_source=webmaps&utm_medium=org_card_link&utm_campaign=webmaps_org_card&permalink=1436376339
+                          - button "Источники данных" [ref=e1009] [cursor=pointer]:
+                            - generic [ref=e1010]: Источники данных
+                            - img [ref=e1013]
+                - generic "подвал блока" [ref=e1015]:
+                  - generic [ref=e1016]:
+                    - generic [ref=e1017]:
+                      - link "Сообщить об ошибке" [ref=e1019] [cursor=pointer]
+                      - link "Мобильное приложение" [ref=e1021] [cursor=pointer]:
+                        - /url: https://mobile.yandex.ru/apps/maps/
+                    - button "Сервисы" [ref=e1024] [cursor=pointer]:
+                      - generic [ref=e1025]:
+                        - generic [ref=e1028]: Сервисы
+                        - img [ref=e1032]
+                    - button "Персональное" [ref=e1036] [cursor=pointer]:
+                      - generic [ref=e1037]:
+                        - generic [ref=e1040]: Персональное
+                        - img [ref=e1044]
+                    - button "Для бизнеса" [ref=e1048] [cursor=pointer]:
+                      - generic [ref=e1049]:
+                        - generic [ref=e1052]: Для бизнеса
+                        - img [ref=e1056]
+                  - generic [ref=e1059]:
+                    - link "vkontakte" [ref=e1060] [cursor=pointer]:
+                      - /url: https://vk.com/yandex.maps
+                      - img [ref=e1061]
+                    - link "telegram" [ref=e1063] [cursor=pointer]:
+                      - /url: https://t.me/mapsyandex
+                      - img [ref=e1064]
+                    - link "zen" [ref=e1066] [cursor=pointer]:
+                      - /url: https://zen.yandex.ru/yandexmaps
+                      - img [ref=e1067]
+                  - generic [ref=e1069]:
+                    - generic [ref=e1070]: Яндекс Карты — выбирайте, где поесть, куда сходить, чем заняться.
+                    - generic [ref=e1071]: © 2001–2026 ООО «Яндекс»
+                    - generic [ref=e1072]:
+                      - link "Справка" [ref=e1074] [cursor=pointer]:
+                        - /url: //yandex.ru/support/maps/?lang=ru
+                      - generic [ref=e1075]:
+                        - text: "|"
+                        - link "О сервисе" [ref=e1076] [cursor=pointer]:
+                          - /url: //yandex.ru/support/maps/
+                      - generic [ref=e1077]:
+                        - text: "|"
+                        - link "Пользовательское соглашение" [ref=e1078] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+                      - generic [ref=e1079]:
+                        - text: "|"
+                        - link "Правила рекомендаций" [ref=e1080] [cursor=pointer]:
+                          - /url: https://yandex.ru/legal/recommendations/#index__geo
+              - iframe [ref=e1081]:
+                
+            - iframe [ref=e1082]:
+              
+        - img [ref=e1088] [cursor=pointer]
+      - navigation:
+        - generic [ref=e1091]:
+          - button "Пробки в Санкт‑Петербурге" [ref=e1094] [cursor=pointer]:
+            - generic [ref=e1095]:
+              - generic:
+                - img
+          - button "Панорамы улиц и фотографии" [ref=e1099] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Зеркала" [ref=e1102] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Движущийся транспорт" [ref=e1105] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Слои" [ref=e1108] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e1110]:
+          - button "Линейка и планиметр" [ref=e1113] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Детали" [ref=e1116] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - button "Профиль" [ref=e1119] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e1123]:
+                - button "Приблизить" [ref=e1125] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                - button "Отдалить" [ref=e1127] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+              - button "Моё местоположение" [ref=e1131] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+              - button "Наклон карты" [ref=e1138] [cursor=pointer]: 3D
+      - contentinfo:
+        - generic [ref=e1140]:
+          - generic [ref=e1141]: © Яндекс
+          - link "Справка" [ref=e1142] [cursor=pointer]:
+            - /url: //yandex.ru/support/maps/?lang=ru
+          - link "Условия использования" [ref=e1143] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+        - link "Яндекс" [ref=e1146] [cursor=pointer]:
+          - /url: https://ya.ru
+          - img [ref=e1148]
+        - generic:
+          - generic:
+            - generic:
+              - generic: 700 м
+      - iframe [ref=e1149]:
+        
+    - iframe [ref=e1150]:
+      
+  - iframe [ref=e1151]:
+    
+  - generic [ref=e1154]:
+    - generic [ref=e1155]: Ногам
+    - generic [ref=e1156]: дорогу

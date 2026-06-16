@@ -1,0 +1,501 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+        - generic:
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+      - generic [ref=e6]:
+        - generic [ref=e7] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: Исаакиевский собор
+            - generic [ref=e13]:
+              - img [ref=e14]
+              - text: "5"
+          - generic [ref=e17]: Православный храм
+        - generic [ref=e18] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic [ref=e19] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic [ref=e20] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e21] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic [ref=e22] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic [ref=e23] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - img
+        - generic [ref=e26] [cursor=pointer]: M25
+        - generic [ref=e27] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic [ref=e28] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+    - generic:
+      - generic:
+        - banner:
+          - generic [ref=e32]:
+            - img [ref=e35] [cursor=pointer]
+            - generic [ref=e38]:
+              - textbox "Поиск и выбор мест" [ref=e41]: Исаакиевский собор Санкт-Петербург
+              - iframe [ref=e42]:
+                
+            - button "Найти" [ref=e44] [cursor=pointer]:
+              - img [ref=e47]
+            - button "Закрыть" [ref=e51] [cursor=pointer]:
+              - img [ref=e54]
+      - generic:
+        - generic:
+          - complementary [ref=e56]:
+            - generic [ref=e59]:
+              - generic [ref=e60]:
+                - generic [ref=e61]:
+                  - heading "Исаакиевский собор Санкт-Петербург" [level=1] [ref=e63]
+                  - generic [ref=e64]:
+                    - generic [ref=e67]:
+                      - tablist [ref=e69]:
+                        - tab "Места," [selected] [ref=e71]:
+                          - generic: Места
+                        - tab "Подборки," [ref=e73]:
+                          - generic: Подборки
+                        - iframe [ref=e74]:
+                          
+                      - button [ref=e78]:
+                        - button [ref=e79] [cursor=pointer]:
+                          - img [ref=e82]
+                          - generic [ref=e84]: Фильтры
+                    - list [ref=e85]:
+                      - listitem [ref=e86]:
+                        - 'button "Исаакиевский собор Исаакиевский собор Оценка 5 Из 5 Рейтинг 5,0 187377 оценок Открыто до 20:00 · , В подборке : Львы, шпили и дворцы: полный чек-лист по достопримечательностям Санкт-Петербурга" [ref=e87] [cursor=pointer]':
+                          - link "Исаакиевский собор" [ref=e88]:
+                            - /url: /maps/org/isaakiyevskiy_sobor/157776064978/
+                          - generic [ref=e90]:
+                            - generic [ref=e92]: Исаакиевский собор
+                            - link "Оценка 5 Из 5 Рейтинг 5,0 187377 оценок" [ref=e94]:
+                              - /url: /maps/org/isaakiyevskiy_sobor/157776064978/reviews/
+                              - generic [ref=e95]:
+                                - generic [ref=e96]:
+                                  - generic "Оценка 5 Из 5" [ref=e97]:
+                                    - img [ref=e99]
+                                    - img [ref=e102]
+                                    - img [ref=e105]
+                                    - img [ref=e108]
+                                    - img [ref=e111]
+                                  - generic [ref=e113]:
+                                    - generic [ref=e114]: Рейтинг
+                                    - text: 5,0
+                                - generic [ref=e115]: 187377 оценок
+                                - generic [ref=e117]: 187377 оценок
+                            - generic [ref=e118]:
+                              - generic [ref=e120]: Открыто до 20:00
+                              - generic [ref=e121]:
+                                - text: ·
+                                - generic [ref=e122]:
+                                  - link [ref=e123]:
+                                    - /url: /maps/2/saint-petersburg/category/orthodox_church/53436519791/
+                                    - text: Православный храм
+                                  - text: ","
+                                  - link [ref=e124]:
+                                    - /url: /maps/2/saint-petersburg/category/landmark_attraction/89683368508/
+                                    - text: достопримечательность
+                            - generic [ref=e125]:
+                              - link [ref=e127]:
+                                - /url: /maps/org/isaakiyevskiy_sobor/157776064978/gallery/
+                                - text: Фото
+                              - generic [ref=e129]:
+                                - list [ref=e130]:
+                                  - listitem [ref=e131]:
+                                    - img [ref=e133]
+                                  - listitem [ref=e134]:
+                                    - img [ref=e138]
+                                  - listitem [ref=e141]:
+                                    - img [ref=e143]
+                                  - listitem [ref=e144]:
+                                    - img [ref=e148]
+                                  - listitem [ref=e151]:
+                                    - img [ref=e155]
+                                  - listitem [ref=e158]:
+                                    - generic [ref=e161]:
+                                      - img [ref=e163]
+                                      - generic [ref=e166]: Еще 993
+                                  - iframe [ref=e167]:
+                                    
+                                - img [ref=e170]
+                            - generic [ref=e173]:
+                              - img [ref=e174]
+                              - 'link "В подборке : Львы, шпили и дворцы: полный чек-лист по достопримечательностям Санкт-Петербурга" [ref=e175]':
+                                - /url: /maps/discovery/travel-polnyy-chek-list-po-dostoprimechatelnostyam-sanktpeterburga/
+                                - text: В подборке
+                                - generic [ref=e176]: ":"
+                                - text: "Львы, шпили и дворцы: полный чек-лист по достопримечательностям Санкт-Петербурга"
+                      - listitem [ref=e177]:
+                        - 'button "Государственный музей Исаакиевский собор Государственный музей Исаакиевский собор Оценка 5 Из 5 Рейтинг 5,0 15544 оценки Открыто до 18:00 · Исаакиевская площадь, 4 В подборке : Места досуга с аудиогидом в историческом центре Санкт‑Петербурга" [ref=e178] [cursor=pointer]':
+                          - link "Государственный музей Исаакиевский собор" [ref=e179]:
+                            - /url: /maps/org/gosudarstvenny_muzey_isaakiyevskiy_sobor/212324455139/
+                          - generic [ref=e181]:
+                            - generic [ref=e183]: Государственный музей Исаакиевский собор
+                            - link "Оценка 5 Из 5 Рейтинг 5,0 15544 оценки" [ref=e185]:
+                              - /url: /maps/org/gosudarstvenny_muzey_isaakiyevskiy_sobor/212324455139/reviews/
+                              - generic [ref=e186]:
+                                - generic [ref=e187]:
+                                  - generic "Оценка 5 Из 5" [ref=e188]:
+                                    - img [ref=e190]
+                                    - img [ref=e193]
+                                    - img [ref=e196]
+                                    - img [ref=e199]
+                                    - img [ref=e202]
+                                  - generic [ref=e204]:
+                                    - generic [ref=e205]: Рейтинг
+                                    - text: 5,0
+                                - generic [ref=e206]: 15544 оценки
+                                - generic [ref=e208]: 15544 оценки
+                            - generic [ref=e209]:
+                              - generic [ref=e211]: Открыто до 18:00
+                              - generic [ref=e212]:
+                                - text: ·
+                                - link [ref=e214]:
+                                  - /url: /maps/2/saint-petersburg/category/museum/184105894/
+                                  - text: Музей
+                            - link "Исаакиевская площадь, 4" [ref=e217]:
+                              - /url: /maps/2/saint-petersburg/house/Z0kYdQdmS0IDQFtjfXVydXxkZw==/
+                            - generic [ref=e218]:
+                              - link [ref=e220]:
+                                - /url: /maps/org/gosudarstvenny_muzey_isaakiyevskiy_sobor/212324455139/gallery/
+                                - text: Фото
+                              - generic [ref=e222]:
+                                - list [ref=e223]:
+                                  - listitem [ref=e224]:
+                                    - img [ref=e226]
+                                  - listitem [ref=e227]:
+                                    - img [ref=e231]
+                                  - listitem [ref=e234]:
+                                    - img [ref=e236]
+                                  - listitem [ref=e237]:
+                                    - img [ref=e241]
+                                  - listitem [ref=e244]:
+                                    - img [ref=e248]
+                                  - listitem [ref=e251]:
+                                    - generic [ref=e254]:
+                                      - img [ref=e256]
+                                      - generic [ref=e259]: Еще 501
+                                  - iframe [ref=e260]:
+                                    
+                                - img [ref=e263]
+                            - generic [ref=e266]:
+                              - img [ref=e267]
+                              - 'link "В подборке : Места досуга с аудиогидом в историческом центре Санкт‑Петербурга" [ref=e268]':
+                                - /url: /maps/discovery/podborka_dosug_audiogid_istoricheskij-centr-sankt-peterburga-sankt-peterburg-2/
+                                - text: В подборке
+                                - generic [ref=e269]: ":"
+                                - text: Места досуга с аудиогидом в историческом центре Санкт‑Петербурга
+                      - generic [ref=e271]:
+                        - heading "Похожие места рядом" [level=2] [ref=e273]:
+                          - generic [ref=e274]: Похожие места рядом
+                        - generic [ref=e275]:
+                          - list [ref=e276]:
+                            - listitem [ref=e277]:
+                              - link "Росфото" [ref=e278] [cursor=pointer]:
+                                - /url: /maps/org/rosfoto/1106802731/
+                                - generic [ref=e279]:
+                                  - button [ref=e281]:
+                                    - img [ref=e283]
+                                  - generic [ref=e285]:
+                                    - generic [ref=e286]:
+                                      - text: Росфото
+                                      - img [ref=e289]
+                                    - generic [ref=e293]:
+                                      - generic "Оценка 4.5 Из 5" [ref=e294]:
+                                        - img [ref=e296]
+                                        - img [ref=e299]
+                                        - img [ref=e302]
+                                        - img [ref=e305]
+                                        - img [ref=e308]
+                                      - generic [ref=e311]:
+                                        - generic [ref=e312]: Рейтинг
+                                        - text: 4,5
+                            - listitem [ref=e313]:
+                              - link "СПбСХ" [ref=e314] [cursor=pointer]:
+                                - /url: /maps/org/sankt_peterburgskiy_soyuz_khudozhnikov/1066338346/
+                                - generic [ref=e315]:
+                                  - button [ref=e317]:
+                                    - img [ref=e319]
+                                  - generic [ref=e321]:
+                                    - generic [ref=e322]:
+                                      - text: СПбСХ
+                                      - img [ref=e325]
+                                    - generic [ref=e329]:
+                                      - generic "Оценка 5 Из 5" [ref=e330]:
+                                        - img [ref=e332]
+                                        - img [ref=e335]
+                                        - img [ref=e338]
+                                        - img [ref=e341]
+                                        - img [ref=e344]
+                                      - generic [ref=e346]:
+                                        - generic [ref=e347]: Рейтинг
+                                        - text: 5,0
+                            - listitem [ref=e348]:
+                              - link "M25" [ref=e349] [cursor=pointer]:
+                                - /url: /maps/org/maison25/103013386161/
+                                - generic [ref=e350]:
+                                  - button [ref=e352]:
+                                    - img [ref=e354]
+                                  - generic [ref=e356]:
+                                    - generic [ref=e357]:
+                                      - text: M25
+                                      - img [ref=e360]
+                                    - generic [ref=e364]:
+                                      - generic "Оценка 4.3 Из 5" [ref=e365]:
+                                        - img [ref=e367]
+                                        - img [ref=e370]
+                                        - img [ref=e373]
+                                        - img [ref=e376]
+                                        - img [ref=e379]
+                                      - generic [ref=e382]:
+                                        - generic [ref=e383]: Рейтинг
+                                        - text: 4,3
+                            - listitem [ref=e384]:
+                              - link "Музей Фаберже" [ref=e385] [cursor=pointer]:
+                                - /url: /maps/org/muzey_faberzhe/1181267939/
+                                - generic [ref=e386]:
+                                  - button [ref=e388]
+                                  - generic [ref=e391]:
+                                    - generic [ref=e392]:
+                                      - text: Музей Фаберже
+                                      - img [ref=e395]
+                                    - generic [ref=e399]:
+                                      - generic "Оценка 5 Из 5" [ref=e400]:
+                                        - img [ref=e402]
+                                        - img [ref=e405]
+                                        - img [ref=e408]
+                                        - img [ref=e411]
+                                        - img [ref=e414]
+                                      - generic [ref=e416]:
+                                        - generic [ref=e417]: Рейтинг
+                                        - text: 5,0
+                            - listitem [ref=e418]:
+                              - link "Музей советских игровых автоматов" [ref=e419] [cursor=pointer]:
+                                - /url: /maps/org/muzey_sovetskikh_igrovykh_avtomatov/1184371713/
+                                - generic [ref=e420]:
+                                  - button [ref=e422]
+                                  - generic [ref=e425]:
+                                    - generic [ref=e426]:
+                                      - text: Музей советских игровых автоматов
+                                      - img [ref=e429]
+                                    - generic [ref=e433]:
+                                      - generic "Оценка 4.5 Из 5" [ref=e434]:
+                                        - img [ref=e436]
+                                        - img [ref=e439]
+                                        - img [ref=e442]
+                                        - img [ref=e445]
+                                        - img [ref=e448]
+                                      - generic [ref=e451]:
+                                        - generic [ref=e452]: Рейтинг
+                                        - text: 4,5
+                            - iframe [ref=e453]:
+                              
+                          - img [ref=e456] [cursor=pointer]
+                      - listitem [ref=e458]:
+                        - button "Колоннада Исаакиевского собора Колоннада Исаакиевского собора Открыто до 17:30 · Исаакиевская площадь, 4" [ref=e459] [cursor=pointer]:
+                          - link "Колоннада Исаакиевского собора" [ref=e460]:
+                            - /url: /maps/org/kolonnada_isaakiyevskogo_sobora/37007992479/
+                          - generic [ref=e462]:
+                            - generic [ref=e464]: Колоннада Исаакиевского собора
+                            - generic [ref=e465]:
+                              - generic [ref=e467]: Открыто до 17:30
+                              - generic [ref=e468]:
+                                - text: ·
+                                - link [ref=e470]:
+                                  - /url: /maps/2/saint-petersburg/category/observation_deck/89667443116/
+                                  - text: Смотровая площадка
+                            - link "Исаакиевская площадь, 4" [ref=e473]:
+                              - /url: /maps/2/saint-petersburg/house/Z0kYdQdmS0IDQFtjfXVydXxkZw==/
+                            - generic [ref=e474]:
+                              - link [ref=e476]:
+                                - /url: /maps/org/kolonnada_isaakiyevskogo_sobora/37007992479/gallery/
+                                - text: Фото
+                              - generic [ref=e478]:
+                                - list [ref=e479]:
+                                  - listitem [ref=e480]
+                                  - listitem [ref=e483]
+                                  - listitem [ref=e486]
+                                  - listitem [ref=e489]
+                                  - listitem [ref=e492]
+                                  - listitem [ref=e495]:
+                                    - generic [ref=e498]:
+                                      - img [ref=e500]
+                                      - generic [ref=e503]: Еще 494
+                                  - iframe [ref=e504]:
+                                    
+                                - img [ref=e507]
+                      - listitem [ref=e509]:
+                        - button "Государственный музей-памятник Исаакиевский собор Государственный музей-памятник Исаакиевский собор Открыто до 18:15 · Галерная ул., 8" [ref=e510] [cursor=pointer]:
+                          - link "Государственный музей-памятник Исаакиевский собор" [ref=e511]:
+                            - /url: /maps/org/gosudarstvenny_muzey_pamyatnik_isaakiyevskiy_sobor/191742956415/
+                          - generic [ref=e513]:
+                            - generic [ref=e515]: Государственный музей-памятник Исаакиевский собор
+                            - generic [ref=e516]:
+                              - generic [ref=e518]: Открыто до 18:15
+                              - generic [ref=e519]:
+                                - text: ·
+                                - link [ref=e521]:
+                                  - /url: /maps/2/saint-petersburg/category/administration/184105658/
+                                  - text: Администрация
+                            - link "Галерная ул., 8" [ref=e524]:
+                              - /url: /maps/2/saint-petersburg/house/Z0kYdA5pT0wPQFtjfXVydXtgYg==/
+                    - generic [ref=e525]:
+                      - link "Добавьте организацию" [ref=e527] [cursor=pointer]
+                      - text: ", если не нашли её на карте."
+                    - text: "1"
+                    - link [ref=e528] [cursor=pointer]:
+                      - /url: https://yandex.ru/maps/2/saint-petersburg/search/%D0%98%D1%81%D0%B0%D0%B0%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%D1%81%D0%BE%D0%B1%D0%BE%D1%80%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3/?page=2
+                      - text: "2"
+                    - generic [ref=e531]:
+                      - link "Карты" [ref=e532] [cursor=pointer]:
+                        - /url: https://yandex.ru/maps/
+                      - text: ·
+                      - link "Санкт-Петербург" [ref=e533] [cursor=pointer]:
+                        - /url: https://yandex.ru/maps/2/saint-petersburg/
+                - iframe [ref=e534]:
+                  
+              - iframe [ref=e535]:
+                
+          - img [ref=e541] [cursor=pointer]
+      - navigation:
+        - generic [ref=e544]:
+          - button "Пробки в Санкт‑Петербурге" [ref=e547] [cursor=pointer]:
+            - generic [ref=e548]:
+              - generic:
+                - img
+          - button "Панорамы улиц и фотографии" [ref=e552] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Зеркала" [ref=e555] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Движущийся транспорт" [ref=e558] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Слои" [ref=e561] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e563]:
+          - button "Линейка и планиметр" [ref=e566] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+          - button "Детали" [ref=e569] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+        - button "Профиль" [ref=e572] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e576]:
+                - button "Приблизить" [ref=e578] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                - button "Отдалить" [ref=e580] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+              - button "Моё местоположение" [ref=e584] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+              - button "Наклон карты" [ref=e591] [cursor=pointer]: 3D
+      - contentinfo:
+        - generic [ref=e593]:
+          - generic [ref=e594]: © Яндекс
+          - link "Справка" [ref=e595] [cursor=pointer]:
+            - /url: //yandex.ru/support/maps/?lang=ru
+          - link "Условия использования" [ref=e596] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+        - link "Яндекс" [ref=e599] [cursor=pointer]:
+          - /url: https://ya.ru
+          - img [ref=e601]
+        - generic:
+          - generic:
+            - generic:
+              - generic: 200 м
+      - iframe [ref=e602]:
+        
+    - iframe [ref=e603]:
+      
+  - generic [ref=e606]:
+    - generic [ref=e607]: Музей
+    - generic [ref=e608]: советских
+    - generic [ref=e609]: игровых
+    - generic [ref=e610]: автоматов
