@@ -146,6 +146,12 @@
   .rb{font-size:11.5px;font-weight:700;padding:2px 6px;border-radius:7px;margin-left:4px;vertical-align:middle;white-space:nowrap}
   .rb.ya{background:#fc3f1d;color:#fff} .rb.gi{background:#00adef;color:#fff}
   @media(max-width:760px){.g2,.g3,.stats .wrap{grid-template-columns:1fr 1fr}.checklist{columns:1}.stat{border-right:none;border-bottom:1px solid rgba(255,255,255,.1)}.find-card{flex-direction:column;gap:6px}.find-card .when{flex-basis:auto}.tvar-grid{grid-template-columns:1fr}.wake-box .wake-items{gap:14px}}
+  .rest-book{margin:5px 0 9px}
+  .rest-addr{font-size:13px;color:var(--muted);margin:0 0 5px}
+  .rest-price{font-size:15px;font-weight:700;color:var(--green);margin:0 0 6px}
+  .rest-ratings{display:flex;gap:5px;flex-wrap:wrap;align-items:center;margin:0 0 8px}
+  .rest-map{display:inline-block;font-size:12px;color:var(--gold);border:1px solid var(--gold);border-radius:20px;padding:3px 10px;transition:.15s;margin-bottom:10px;text-decoration:none}
+  .rest-map:hover{background:var(--gold);color:#fff}
 </style>
 <svg style="display:none">
   <symbol id="i-cal" viewBox="0 0 24 24"><path d="M7 2v2H5a2 2 0 00-2 2v13a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2h-2V2h-2v2H9V2H7zm12 7v10H5V9h14z"/></symbol>
@@ -687,46 +693,243 @@
   <p style="color:var(--muted);margin-bottom:14px;font-size:15.5px">От культовых пышек за 100 ₽ до яиц бенедикт с видом на Спас-на-Крови. Завтракать можно и дома (магазины на Московском), а раз-два выбраться «на завтрак как событие».</p>
   <div style="height:200px;border-radius:16px;margin-bottom:18px;background:url('images/breakfast.webp') center/cover;box-shadow:var(--shadow)"></div>
   <div class="grid g3">
-    <div class="card"><h3>Пышечная <span class="pill free">без брони</span></h3><div class="meta">Б. Конюшенная, 25 · м. Невский пр. · 50–150 ₽ <span class="rb ya">Я ★4.5</span></div><p><b>Взять:</b> горячие пышки с сахарной пудрой + кофе с молоком из автомата. Культ с 1958 года, очередь на улице — это и есть аутентичность.</p></div>
-    <div class="card"><h3>Prosa Breakfast Bar <span class="pill pay">вых. за 2–3 дня</span></h3><div class="meta">наб. Грибоедова, 5 · вид на Спас-на-Крови · 1000–2000 ₽ <span class="rb ya">Я ★4.7</span></div><p><b>Взять:</b> яйца бенедикт с лососем, драники с лососем и сметаной, коктейли-завтраки. Лучший видовой завтрак в центре, работает до 23:00.</p></div>
-    <div class="card"><h3>Eggsellent <span class="pill free">без брони</span></h3><div class="meta">наб. Мойки, 102 / Василеостр. рынок · 500–800 ₽ <span class="rb ya">Я ★4.3</span></div><p><b>Взять:</b> «конструктор» — база (пашот/глазунья/скрэмбл) + топинги (авокадо, лосось, халуми). Быстро и вкусно, скандинавский формат.</p></div>
-    <div class="card"><h3>Duo Gastrobar <span class="pill free">завтрак без брони</span></h3><div class="meta">Кирочная, 8А · м. Чернышевская · 1000–2000 ₽ <span class="rb ya">Я ★4.6</span></div><p><b>Взять:</b> гречневые панкейки, авокадо-тост с пашот и вялеными томатами, гребешки с гречей. Первый гастробар города, высокий уровень при демократичности.</p></div>
-    <div class="card"><h3>ТЧК · фильтр-кофе <span class="pill free">без брони</span></h3><div class="meta">наб. Мойки, 6 · м. Гостиный двор · 200–400 ₽</div><p><b>Взять:</b> фильтр-кофе ручного заваривания (без эспрессо-машины принципиально), круассаны. Точка для понимающих кофе перед прогулкой по набережным.</p></div>
-    <div class="card"><h3>Frantsuza / Joli Bistrot <span class="pill pay">бранч за 1–2 дня</span></h3><div class="meta">наб. Лазарева, 22 / Восстания, 45 · 2000–4000 ₽</div><p><b>Взять:</b> скрэмбл с фуагра и трюфелем, французский завтрак, круассан с орехом. Неспешный люкс-бранч в особняке со стеклянной крышей.</p></div>
+    <div class="card">
+      <h3>Пышечная</h3>
+      <div class="rest-book"><span class="pill free">без брони</span></div>
+      <div class="rest-addr">📍 Б. Конюшенная, 25 · м. Невский пр.</div>
+      <div class="rest-price">50–150 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★4.5</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Пышечная+Большая+Конюшенная+25" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> горячие пышки с сахарной пудрой + кофе с молоком из автомата. Культ с 1958 года, очередь на улице — это и есть аутентичность.</p>
+    </div>
+    <div class="card">
+      <h3>Prosa Breakfast Bar</h3>
+      <div class="rest-book"><span class="pill pay">бронь за 2–3 дня (вых.)</span></div>
+      <div class="rest-addr">📍 наб. Грибоедова, 5 · вид на Спас-на-Крови</div>
+      <div class="rest-price">1000–2000 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★4.7</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Prosa+Breakfast+Bar" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> яйца бенедикт с лососем, драники с лососем и сметаной, коктейли-завтраки. Лучший видовой завтрак в центре, работает до 23:00.</p>
+    </div>
+    <div class="card">
+      <h3>Eggsellent</h3>
+      <div class="rest-book"><span class="pill free">без брони</span></div>
+      <div class="rest-addr">📍 наб. Мойки, 102 / Василеостровский рынок</div>
+      <div class="rest-price">500–800 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★4.3</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Eggsellent+набережная+Мойки" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> «конструктор» — база (пашот/глазунья/скрэмбл) + топинги (авокадо, лосось, халуми). Быстро и вкусно, скандинавский формат.</p>
+    </div>
+    <div class="card">
+      <h3>Duo Gastrobar</h3>
+      <div class="rest-book"><span class="pill free">завтрак без брони</span></div>
+      <div class="rest-addr">📍 Кирочная, 8А · м. Чернышевская</div>
+      <div class="rest-price">1000–2000 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★4.6</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Duo+Gastrobar+Кирочная+8А" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> гречневые панкейки, авокадо-тост с пашот и вялеными томатами, гребешки с гречей. Первый гастробар города, высокий уровень при демократичности.</p>
+    </div>
+    <div class="card">
+      <h3>ТЧК · фильтр-кофе</h3>
+      <div class="rest-book"><span class="pill free">без брони</span></div>
+      <div class="rest-addr">📍 наб. Мойки, 6 · м. Гостиный двор</div>
+      <div class="rest-price">200–400 ₽/чел</div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=ТЧК+набережная+Мойки+6" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> фильтр-кофе ручного заваривания (без эспрессо-машины принципиально), круассаны. Точка для понимающих кофе перед прогулкой по набережным.</p>
+    </div>
+    <div class="card">
+      <h3>Frantsuza / Joli Bistrot</h3>
+      <div class="rest-book"><span class="pill pay">бронь за 1–2 дня</span></div>
+      <div class="rest-addr">📍 наб. Лазарева, 22 / Восстания, 45</div>
+      <div class="rest-price">2000–4000 ₽/чел</div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Joli+Bistrot+Петербург" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> скрэмбл с фуагра и трюфелем, французский завтрак, круассан с орехом. Неспешный люкс-бранч в особняке со стеклянной крышей.</p>
+    </div>
   </div>
   <h3 style="font-size:24px;margin:34px 0 4px;color:var(--terra)">🍲 Обед</h3>
   <p style="color:var(--muted);margin-bottom:14px;font-size:15.5px">Между прогулками удобнее всего гастромаркеты и бистро — быстро, разнообразно, без брони. Кавказская кухня и сезонные грибы августа — обязательно.</p>
   <div style="height:200px;border-radius:16px;margin-bottom:18px;background:url('images/food.webp') center/cover;box-shadow:var(--shadow)"></div>
   <div class="grid g3">
-    <div class="card"><h3>Василеостровский рынок <span class="pill free">без брони</span></h3><div class="meta">Большой пр. В.О., 16 · 600–1500 ₽ <span class="rb ya">Я ★4.8</span></div><p><b>Взять:</b> Fisha (рыба/морепродукты), Georgiani (хачапури, хинкали с лисичками), Bò (фо-бо), дагестанские чуду. 30+ концепций под одной крышей — каждый выберет своё.</p></div>
-    <div class="card"><h3>Хочу Харчо <span class="pill free">обед без брони</span></h3><div class="meta">Садовая, 39/41 · м. Сенная · 1500–2500 ₽ (ланч от 600) <span class="rb ya">Я ★4.5</span></div><p><b>Взять:</b> харчо по-мегрельски с орехом, чкмерули, купаты, хачапури по-аджарски. Кухня западной Грузии, работает 24/7.</p></div>
-    <div class="card"><h3>Harvest <span class="pill pay">за 1–2 дня</span></h3><div class="meta">пр. Добролюбова, 11Е · м. Спортивная · 1500–3000 ₽ <span class="rb ya">Я ★4.6</span></div><p><b>Взять:</b> ньокки с белыми грибами, пирог с цветной капустой и сморчками, вяленая свёкла с сыром. «Всё про овощи» от шефа Блинова, строго сезонно — рядом с Петропавловкой.</p></div>
-    <div class="card"><h3>Никольские ряды <span class="pill free">без брони</span></h3><div class="meta">Садовая, 62 · м. Сенная · 500–1200 ₽</div><p><b>Взять:</b> сезонные фуд-траки, бургеры, азиатское, кофе; летом — гастрофестивали во дворе. Удобно между Сенной и Новой Голландией.</p></div>
-    <div class="card"><h3>Ognivo <span class="pill free">обед без брони</span></h3><div class="meta">Малый пр. В.О., 57 · 1500–2500 ₽</div><p><b>Взять:</b> пасту ручной работы, рыбу дня, десерты шефа. Лофт в старых заводских цехах на Васильевском, работает с 8:30.</p></div>
-    <div class="card"><h3>Кузнечный рынок <span class="pill free">без брони</span></h3><div class="meta">Кузнечный пер., 3 · м. Владимирская · 300–800 ₽</div><p><b>Взять/купить:</b> творог и сметану «как из деревни», копчёную рыбу, августовские ягоды и грибы прямо с лотка. Старейший крытый рынок — для пикника или дегустации.</p></div>
+    <div class="card">
+      <h3>Василеостровский рынок</h3>
+      <div class="rest-book"><span class="pill free">без брони</span></div>
+      <div class="rest-addr">📍 Большой пр. В.О., 16</div>
+      <div class="rest-price">600–1500 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★4.8</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Василеостровский+рынок" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> Fisha (рыба/морепродукты), Georgiani (хачапури, хинкали с лисичками), Bò (фо-бо), дагестанские чуду. 30+ концепций под одной крышей.</p>
+    </div>
+    <div class="card">
+      <h3>Хочу Харчо</h3>
+      <div class="rest-book"><span class="pill free">обед без брони · работает 24/7</span></div>
+      <div class="rest-addr">📍 Садовая, 39/41 · м. Сенная</div>
+      <div class="rest-price">ланч от 600 ₽/чел · ужин 1500–2500 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★4.5</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Хочу+Харчо+Садовая+39" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> харчо по-мегрельски с орехом, чкмерули, купаты, хачапури по-аджарски. Кухня западной Грузии.</p>
+    </div>
+    <div class="card">
+      <h3>Harvest</h3>
+      <div class="rest-book"><span class="pill pay">бронь за 1–2 дня</span></div>
+      <div class="rest-addr">📍 пр. Добролюбова, 11Е · м. Спортивная</div>
+      <div class="rest-price">1500–3000 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★4.6</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Harvest+Добролюбова+11" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> ньокки с белыми грибами, пирог с цветной капустой и сморчками, вяленая свёкла с сыром. «Всё про овощи» от шефа Блинова, строго сезонно.</p>
+    </div>
+    <div class="card">
+      <h3>Никольские ряды</h3>
+      <div class="rest-book"><span class="pill free">без брони</span></div>
+      <div class="rest-addr">📍 Садовая, 62 · м. Сенная</div>
+      <div class="rest-price">500–1200 ₽/чел</div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Никольские+ряды+Садовая+62" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> сезонные фуд-траки, бургеры, азиатское, кофе; летом — гастрофестивали во дворе. Удобно между Сенной и Новой Голландией.</p>
+    </div>
+    <div class="card">
+      <h3>Ognivo</h3>
+      <div class="rest-book"><span class="pill free">обед без брони · с 8:30</span></div>
+      <div class="rest-addr">📍 Малый пр. В.О., 57</div>
+      <div class="rest-price">1500–2500 ₽/чел</div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Ognivo+Малый+проспект+Васильевский" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> пасту ручной работы, рыбу дня, десерты шефа. Лофт в старых заводских цехах на Васильевском острове.</p>
+    </div>
+    <div class="card">
+      <h3>Кузнечный рынок</h3>
+      <div class="rest-book"><span class="pill free">без брони</span></div>
+      <div class="rest-addr">📍 Кузнечный пер., 3 · м. Владимирская</div>
+      <div class="rest-price">300–800 ₽/чел</div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Кузнечный+рынок+Петербург" target="_blank">🗺 На карте</a>
+      <p><b>Взять/купить:</b> творог и сметану «как из деревни», копчёную рыбу, августовские ягоды и грибы прямо с лотка. Старейший крытый рынок.</p>
+    </div>
   </div>
   <h3 style="font-size:24px;margin:34px 0 4px;color:var(--terra)">🍷 Ужин · рестораны-впечатления</h3>
   <p style="color:var(--muted);margin-bottom:14px;font-size:15.5px">Сердце гастрономического Петербурга. Здесь и решается, что бронировать заранее — пометки о сроке у каждого. Берите 2–3 таких ужина за поездку, остальные вечера — бары и рюмочные.</p>
   <div style="height:210px;border-radius:16px;margin-bottom:18px;background:url('images/dinner.webp') center/cover;box-shadow:var(--shadow)"></div>
   <div class="grid g3">
-    <div class="card"><h3>Birch <span class="pill warn">бронь за месяц!</span></h3><div class="meta">Кирочная, 3 · м. Чернышевская · от 7000 ₽ <span class="rb ya">Я ★5.0</span></div><p><b>Взять:</b> Classic Set или Grand Set (только сеты, опц. винное сопровождение). Лучший ресторан страны (WhereToEat 2023). Бронь 1-го числа на следующий месяц — разбирают за 15 минут.</p></div>
-    <div class="card"><h3>Bobo (Bourgeois Bohemians) <span class="pill pay">за 1–2 нед</span></h3><div class="meta">Виленский пер., 15 · 5000–7000 ₽</div><p><b>Взять:</b> авторский летний сет братьев Гребенщиковых (шеф + отдельный шеф-кондитер — редкость). Тихий переулок, для особого вечера вдвоём.</p></div>
-    <div class="card"><h3>Inner <span class="pill pay">за 1–2 нед</span></h3><div class="meta">Пионерская, 31 · м. Чкаловская · 3500–5000 ₽ <span class="rb ya">Я ★4.9</span></div><p><b>Взять:</b> ньокки с рапанами и белыми, оленя с брусникой, томатное севиче с кимчи, буррату с абрикосами. От шефа года 2025 — тонко, без пафоса.</p></div>
-    <div class="card"><h3>Tartarbar <span class="pill pay">за 3–5 дней</span></h3><div class="meta">Виленский пер., 15 · 2500–4000 ₽ <span class="rb ya">Я ★4.6</span></div><p><b>Взять:</b> тартар из говядины с желтком, карпаччо из осьминога, сашими сибаса, телячьи мозги с пшеницей. Гастробар про «сырое» от Duo Band.</p></div>
-    <div class="card"><h3>Мансарда <span class="pill pay">за 1–2 нед</span></h3><div class="meta">Почтамтская, 3–5, 6 эт. · от 6000 ₽ <span class="rb ya">Я ★4.4</span></div><p><b>Взять:</b> морепродукты + главный «продукт» — вид на Исаакий через стеклянные стены и раздвижную крышу. Столик у окна бронировать сразу.</p></div>
-    <div class="card"><h3>Reborn <span class="pill pay">за 3–5 дней</span></h3><div class="meta">Добролюбова, 11Е · м. Спортивная · 4000–6000 ₽ <span class="rb ya">Я ★5.0</span></div><p><b>Взять:</b> мясо на открытом огне — рибай, томагавк, рыба на гриле, авторские соусы. Тёмный «огненный» интерьер для любителей стейков.</p></div>
-    <div class="card"><h3>Probka <span class="pill pay">за 3–7 дней</span></h3><div class="meta">Зоологический пер., 2/4 · 4000–5000 ₽ <span class="rb ya">Я ★4.8</span></div><p><b>Взять:</b> тальятелле с трюфелем, ризотто, оссобуко, тирамису. 15 лет — проверенная итальянская классика, когда хочется без экспериментов.</p></div>
-    <div class="card"><h3>Nola Jazz Bar <span class="pill pay">за 5–7 дней</span></h3><div class="meta">Волынский пер., 2 · 2500–4000 ₽ <span class="rb ya">Я ★5.0</span></div><p><b>Взять:</b> луизианскую кухню, коктейль «Гром в раю», абсент-фонтан + живой джаз каждый вечер. Бар года 2025, зал маленький.</p></div>
+    <div class="card">
+      <h3>Birch</h3>
+      <div class="rest-book"><span class="pill warn">⚡ бронь 1-го числа на следующий месяц — разбирают за 15 мин!</span></div>
+      <div class="rest-addr">📍 Кирочная, 3 · м. Чернышевская</div>
+      <div class="rest-price">от 7000 ₽/чел (только сеты)</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★5.0</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Birch+ресторан+Кирочная+3" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> Classic Set или Grand Set (опц. винное сопровождение). Лучший ресторан страны (WhereToEat 2023).</p>
+    </div>
+    <div class="card">
+      <h3>Bobo (Bourgeois Bohemians)</h3>
+      <div class="rest-book"><span class="pill pay">бронь за 1–2 недели</span></div>
+      <div class="rest-addr">📍 Виленский пер., 15</div>
+      <div class="rest-price">5000–7000 ₽/чел</div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Bobo+Bourgeois+Bohemians+Петербург" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> авторский летний сет братьев Гребенщиковых (шеф + отдельный шеф-кондитер — редкость). Тихий переулок, для особого вечера вдвоём.</p>
+    </div>
+    <div class="card">
+      <h3>Inner</h3>
+      <div class="rest-book"><span class="pill pay">бронь за 1–2 недели</span></div>
+      <div class="rest-addr">📍 Пионерская, 31 · м. Чкаловская</div>
+      <div class="rest-price">3500–5000 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★4.9</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Inner+ресторан+Пионерская+31" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> ньокки с рапанами и белыми, оленя с брусникой, томатное севиче с кимчи, буррату с абрикосами. Шеф года 2025 — тонко, без пафоса.</p>
+    </div>
+    <div class="card">
+      <h3>Tartarbar</h3>
+      <div class="rest-book"><span class="pill pay">бронь за 3–5 дней</span></div>
+      <div class="rest-addr">📍 Виленский пер., 15</div>
+      <div class="rest-price">2500–4000 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★4.6</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Tartarbar+Петербург" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> тартар из говядины с желтком, карпаччо из осьминога, сашими сибаса, телячьи мозги с пшеницей. Гастробар про «сырое» от Duo Band.</p>
+    </div>
+    <div class="card">
+      <h3>Мансарда</h3>
+      <div class="rest-book"><span class="pill pay">бронь за 1–2 недели · столик у окна сразу</span></div>
+      <div class="rest-addr">📍 Почтамтская, 3–5, 6 этаж</div>
+      <div class="rest-price">от 6000 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★4.4</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Мансарда+ресторан+Почтамтская" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> морепродукты + главный «продукт» — вид на Исаакий через стеклянные стены и раздвижную крышу.</p>
+    </div>
+    <div class="card">
+      <h3>Reborn</h3>
+      <div class="rest-book"><span class="pill pay">бронь за 3–5 дней</span></div>
+      <div class="rest-addr">📍 Добролюбова, 11Е · м. Спортивная</div>
+      <div class="rest-price">4000–6000 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★5.0</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Reborn+ресторан+Добролюбова+11" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> мясо на открытом огне — рибай, томагавк, рыба на гриле, авторские соусы. Тёмный «огненный» интерьер.</p>
+    </div>
+    <div class="card">
+      <h3>Probka</h3>
+      <div class="rest-book"><span class="pill pay">бронь за 3–7 дней</span></div>
+      <div class="rest-addr">📍 Зоологический пер., 2/4</div>
+      <div class="rest-price">4000–5000 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★4.8</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Probka+ресторан+Зоологический+переулок" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> тальятелле с трюфелем, ризотто, оссобуко, тирамису. 15 лет — проверенная итальянская классика.</p>
+    </div>
+    <div class="card">
+      <h3>Nola Jazz Bar</h3>
+      <div class="rest-book"><span class="pill pay">бронь за 5–7 дней · зал маленький</span></div>
+      <div class="rest-addr">📍 Волынский пер., 2</div>
+      <div class="rest-price">2500–4000 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★5.0</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Nola+Jazz+Bar+Петербург" target="_blank">🗺 На карте</a>
+      <p><b>Взять:</b> луизианскую кухню, коктейль «Гром в раю», абсент-фонтан + живой джаз каждый вечер. Бар года 2025.</p>
+    </div>
   </div>
   <h3 style="font-size:24px;margin:34px 0 4px;color:var(--terra)">🍸 Бары и вечер</h3>
   <p style="color:var(--muted);margin-bottom:14px;font-size:15.5px">Рубинштейна и Некрасова — барные улицы. Рюмочные с домашними настойками — самый «петербургский» формат, и почти все без брони.</p>
   <div class="grid g3">
-    <div class="card"><h3>El Copitas <span class="pill warn">за 1–2 нед</span></h3><div class="meta">Колокольная, 2/18 · только чт–сб · 2000–3500 ₽ <span class="rb ya">Я ★5.0</span></div><p><b>Пить:</b> авторские коктейли на мескале/текиле (топ-10 мира), мексиканские тако. Секретный бар без вывески, попасть только по записи.</p></div>
-    <div class="card"><h3>Петровна <span class="pill free">без брони</span></h3><div class="meta">Рубинштейна, 9 · м. Достоевская · 500–1500 ₽</div><p><b>Пить:</b> ~20 видов домашних настоек + чебуреки, сельдь с луком. Культовая рюмочная на главной барной улице, летом столики на улице.</p></div>
-    <div class="card"><h3>Наденька <span class="pill free">без брони</span></h3><div class="meta">Некрасова, 25 · м. Маяковская · 600–1500 ₽</div><p><b>Пить:</b> настойки на инжире, бузине, чёрной смородине + сало, квашеная капуста. Винтажный советский интерьер, тише и богемнее Рубинштейна.</p></div>
-    <div class="card"><h3>У Ларисы <span class="pill free">без брони</span></h3><div class="meta">Рубинштейна, 29/28 · 700–2000 ₽</div><p><b>Пить:</b> настойки на облепихе и гранате, кавказские вина, аджика. Рюмочная с кавказским колоритом и уличными столиками.</p></div>
-    <div class="card"><h3>Orthodox <span class="pill pay">вых. за 2–3 дня</span></h3><div class="meta">Восстания, 4 · до 04:00 пт–сб · 1100–2500 ₽</div><p><b>Пить:</b> коктейли на русском алкоголе (самогон, наливки), кухня до 4 утра. Атмосфера подпольного казино 30-х.</p></div>
-    <div class="card"><h3>Paloma Cantina <span class="pill pay">вых. за пару дней</span></h3><div class="meta">Рубинштейна, 20 · 1000–2000 ₽</div><p><b>Пить:</b> маргариту, мескаль-сауэр, пальому + тако и гуакамоле. Мексиканская кантина с патио — хорошо для старта вечера.</p></div>
+    <div class="card">
+      <h3>El Copitas</h3>
+      <div class="rest-book"><span class="pill warn">бронь за 1–2 недели · только чт–сб</span></div>
+      <div class="rest-addr">📍 Колокольная, 2/18 · без вывески</div>
+      <div class="rest-price">2000–3500 ₽/чел</div>
+      <div class="rest-ratings"><span class="rb ya">Я ★5.0</span></div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=El+Copitas+Колокольная+Петербург" target="_blank">🗺 На карте</a>
+      <p><b>Пить:</b> авторские коктейли на мескале/текиле (топ-10 мира), мексиканские тако. Секретный бар, попасть только по записи.</p>
+    </div>
+    <div class="card">
+      <h3>Петровна</h3>
+      <div class="rest-book"><span class="pill free">без брони</span></div>
+      <div class="rest-addr">📍 Рубинштейна, 9 · м. Достоевская</div>
+      <div class="rest-price">500–1500 ₽/чел</div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Петровна+рюмочная+Рубинштейна+9" target="_blank">🗺 На карте</a>
+      <p><b>Пить:</b> ~20 видов домашних настоек + чебуреки, сельдь с луком. Культовая рюмочная на главной барной улице, летом столики на улице.</p>
+    </div>
+    <div class="card">
+      <h3>Наденька</h3>
+      <div class="rest-book"><span class="pill free">без брони</span></div>
+      <div class="rest-addr">📍 Некрасова, 25 · м. Маяковская</div>
+      <div class="rest-price">600–1500 ₽/чел</div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Наденька+рюмочная+Некрасова+25" target="_blank">🗺 На карте</a>
+      <p><b>Пить:</b> настойки на инжире, бузине, чёрной смородине + сало, квашеная капуста. Тише и богемнее Рубинштейна.</p>
+    </div>
+    <div class="card">
+      <h3>У Ларисы</h3>
+      <div class="rest-book"><span class="pill free">без брони</span></div>
+      <div class="rest-addr">📍 Рубинштейна, 29/28</div>
+      <div class="rest-price">700–2000 ₽/чел</div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=У+Ларисы+рюмочная+Рубинштейна" target="_blank">🗺 На карте</a>
+      <p><b>Пить:</b> настойки на облепихе и гранате, кавказские вина, аджика. Рюмочная с кавказским колоритом и уличными столиками.</p>
+    </div>
+    <div class="card">
+      <h3>Orthodox</h3>
+      <div class="rest-book"><span class="pill pay">бронь за 2–3 дня (вых.) · до 04:00 пт–сб</span></div>
+      <div class="rest-addr">📍 Восстания, 4</div>
+      <div class="rest-price">1100–2500 ₽/чел</div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Orthodox+бар+Восстания+4" target="_blank">🗺 На карте</a>
+      <p><b>Пить:</b> коктейли на русском алкоголе (самогон, наливки), кухня до 4 утра. Атмосфера подпольного казино 30-х.</p>
+    </div>
+    <div class="card">
+      <h3>Paloma Cantina</h3>
+      <div class="rest-book"><span class="pill pay">бронь за пару дней (вых.)</span></div>
+      <div class="rest-addr">📍 Рубинштейна, 20</div>
+      <div class="rest-price">1000–2000 ₽/чел</div>
+      <a class="rest-map" href="https://yandex.ru/maps/2/saint-petersburg/?text=Paloma+Cantina+Рубинштейна" target="_blank">🗺 На карте</a>
+      <p><b>Пить:</b> маргариту, мескаль-сауэр, пальому + тако и гуакамоле. Мексиканская кантина с патио — хорошо для старта вечера.</p>
+    </div>
   </div>
 
   <h3 style="font-size:24px;margin:34px 0 14px;color:var(--terra)">🥢 Обязательно попробовать</h3>
